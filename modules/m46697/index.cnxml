@@ -1,0 +1,3306 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0390: Custom blocks in Scratch 2.0</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46697</md:content-id>
+  <md:title>Scr0390: Custom blocks in Scratch 2.0</md:title>
+  <md:abstract>The purpose of this module is to explain the use of functions, methods, and procedures in other programming languages, and to show you how to accomplish much of that using the new custom block feature of Scratch 2.0.</md:abstract>
+  <md:uuid>6dd4a7b0-8872-4f20-95df-2ba6eba2e04b</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="Introduction">
+
+Introduction
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="Calculate_the_square_root">
+
+Calculate the square root
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+
+
+<item id="li1005">
+<link id="a1005" target-id="Oops_need_to_do_it_all_over_again">
+
+Oops, need to do it all over again
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1006">
+<link id="a1006" target-id="Is_there_a_better_way">
+
+Is there a better way?
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1007">
+<link id="a1007" target-id="A_programming_module_provides_a_better_way_">
+
+A programming module provides a better way
+
+</link>
+
+ 
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Library_functions">
+
+Library functions
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Passing_parameters">
+
+Passing parameters
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+
+
+<item id="li1010">
+<link id="a1010" target-id="Make_the_method_general_">
+
+Make the function general 
+
+</link>
+
+ 
+
+</item>
+
+
+
+
+<item id="li1011">
+<link id="a1011" target-id="Pass_me_the_number_please">
+
+Pass me the number please
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1012">
+<link id="a1012" target-id="Passing_parameters0">
+
+Passing parameters
+
+</link>
+
+
+</item>
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="Returning_values">
+
+Returning values
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+
+
+<item id="li1014">
+<link id="a1014" target-id="Performing_an_action_">
+
+Performing an action 
+
+</link>
+
+ 
+
+</item>
+
+
+
+
+<item id="li1015">
+<link id="a1015" target-id="Sending_back_an_answer_">
+
+Sending back an answer 
+
+</link>
+
+ 
+
+</item>
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="Creating_your_own_custom_blocks">
+
+Creating your own custom blocks
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Sample_programs">
+
+Sample programs
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="CustomBlockTest01">
+
+CustomBlockTest01
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="A_global_variable">
+
+A global variable
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="The_custom_block0">
+
+The custom block
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="The_driver_code0">
+
+The driver script
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="The_program_output0">
+
+The program output
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1023" target-id="CustomBlockTest02">
+
+CustomBlockTest02
+
+</link>
+
+
+<list id="ul1009" list-type="bulleted">
+
+			
+
+<item id="li1024">
+<link id="a1024" target-id="The_custom_block1">
+
+The custom block
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1025">
+<link id="a1025" target-id="The_driver_code1">
+
+The driver script
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1026">
+<link id="a1026" target-id="The_program_output1">
+
+The program output
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1027">
+<link id="a1027" target-id="Run_the_program">
+
+Run the programs
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1028">
+<link id="a1028" target-id="Student_programming_project">
+
+Student programming project
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1029">
+<link id="a1029" target-id="Resources">
+
+Resources
+
+</link>
+
+
+<list id="ul1010" list-type="bulleted">
+
+		
+
+<item id="li1030">
+<link id="a1030" target-id="General_resources">
+
+General resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1031">
+<link id="a1031" target-id="Programs_used_in_this_series">
+
+Programs used in this series
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1032" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+<link id="a1033" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1000" effect="italics">
+(released May 9, 
+	2013)
+
+</emphasis>
+ is the second major version of Scratch to be released during the 
+	life of the product. Among other things, it features a redesigned editor and 
+	website, and allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module 
+
+<emphasis id="em1001" effect="italics">
+(tutorial)
+
+</emphasis>
+ is one in a collection of modules designed to 
+help beginners of all ages 
+
+<emphasis id="em1002" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for 
+computer programs using 
+
+<link id="a1034" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. 
+Information is provided not only for the beginners themselves but also for their 
+parents and teachers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+The purpose of this module is to explain the use of functions, methods, and 
+procedures in other programming languages, and to show you how to accomplish 
+much of that using the new custom block feature of Scratch 2.0.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1033">
+<link id="a1035" target-id="Image_A">
+
+Image A
+
+</link>
+
+. The More Blocks toolbox. 
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1036" target-id="Image_B">
+
+Image B
+
+</link>
+
+. Access to Scratch 2.0 math functions. 
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1037" target-id="Image_C">
+
+Image C
+
+</link>
+
+. Mathematical functions available in Scratch 2.0. 
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1038" target-id="Image_D">
+
+Image D
+
+</link>
+
+. Program code for CustomBlockTest01. 
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1039" target-id="Image_E">
+
+Image E
+
+</link>
+
+. Output from CustomBlockTest01. 
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1040" target-id="Image_F">
+
+Image F
+
+</link>
+
+. Program code for CustomBlockTest02. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Introduction" effect="bold">
+
+Introduction
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+Modular programming code 
+
+<emphasis id="em1003" effect="italics">
+(methods, subroutines, functions, procedures, or 
+whatever you choose to call them)
+
+</emphasis>
+ have been used in computer programming 
+since the early days of programming. Such coding modules are often called by 
+these and various other names. 
+
+</para>
+
+
+
+
+<para id="p1005">
+The new ability in Scratch 2.0 to create custom blocks can be used to provide 
+much of the same modular functionality.
+
+</para>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="Calculate_the_square_root" effect="bold">
+
+Calculate the square root
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+Suppose that your program needs to calculate the square root of a number.
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+	
+
+<emphasis id="em1004" effect="italics">
+In case you don't know what it means to compute the square root of a 
+	number, don't worry about it. Suffice it to say that it is a fairly complex 
+	mathematical process that requires a non-trivial amount of computer program 
+	code to accomplish.
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1007">
+Referring back to your high-school algebra book, you could refresh your 
+memory on how to calculate a square root. Then you could construct the algorithm 
+describing that process. Having the algorithm available, you could write the 
+code to calculate the square root and insert that code into your program code. 
+Then you run your program.
+
+</para>
+
+
+
+
+<para id="p1008">
+If you did it all correctly, your program should calculate the square root.
+
+
+<emphasis id="em1005" effect="italics">
+(For reasons that will become apparent later, I will refer to the code that 
+you inserted as in-line code.)
+
+</emphasis>
+</para>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="Oops_need_to_do_it_all_over_again" effect="bold">
+
+Oops, need to do it all over 
+again
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+Suppose that further on in your program you discover that you need to 
+calculate the square root of another number. And later, you discover that you 
+need to calculate the square root of still another number. Obviously, with a few 
+changes, you could copy your original code and insert it as 
+
+<emphasis id="em1006" effect="italics">
+in-line
+
+</emphasis>
+ code 
+at each location in your program where you need to calculate the square root of 
+a number. 
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Is_there_a_better_way" effect="bold">
+
+Is there a better way?
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1010">
+However, after doing this a few times, you might start asking if there is a 
+better way. The answer is "yes, there is a better way." 
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="A_programming_module_provides_a_better_way_" effect="bold">
+
+A programming module 
+provides a better way 
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+The better way is to create a separate program module that has the ability to 
+calculate the square root and to make that module available for use as a helper 
+to your main program each time your main program needs to calculate a square 
+root. In some programming languages, this separate program module is often 
+called a 
+
+<emphasis id="em1007" effect="italics">
+function
+
+</emphasis>
+ or a 
+
+<emphasis id="em1008" effect="italics">
+method.
+
+</emphasis>
+ In scratch 2.0, it doesn't have a 
+specific name. I will refer to it as a 
+
+<emphasis id="em1009" effect="italics">
+custom block
+
+</emphasis>
+. You create a 
+custom block in Scratch 2.0 by selecting the 
+
+<emphasis id="strong1000" effect="bold">
+More Blocks
+
+</emphasis>
+ 
+toolbox shown in 
+
+<link id="a1041" target-id="Image_A">
+
+Image A
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_A" effect="bold">
+</emphasis>
+Image A. The More Blocks toolbox.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0390-01.jpg" width="463" height="253"/>
+</media>
+
+
+		
+
+<caption>Image A. The More Blocks toolbox.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Library_functions" effect="bold">
+
+Library functions
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1012">
+Most modern programming languages provide a large number of pre-written 
+functions that are already available for your use.
+
+</para>
+
+
+
+
+<para id="p1013">
+In addition to the library functions that are already available, if you need a 
+function to perform some operation and there is no library function already 
+available to perform that operation, you can write your own function. 
+
+</para>
+
+
+
+
+<para id="p1014">
+A similar library for mathematical functions exists in Scratch 2.0. The 
+library is accessed using the bottom block in the 
+
+<emphasis id="strong1001" effect="bold">
+Operators
+
+</emphasis>
+ toolbox with the 
+selection 
+
+<emphasis id="strong1002" effect="bold">
+sqrt
+
+</emphasis>
+ shown in 
+
+<link id="a1042" target-id="Image_B">
+
+Image B
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_B" effect="bold">
+</emphasis>
+Image B. Access to Scratch 2.0  			math functions.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0390-02.jpg" width="211" height="696"/>
+</media>
+
+
+		
+
+<caption>Image B. Access to Scratch 2.0  			math functions.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1015">
+<link id="a1043" target-id="Image_C">
+
+Image C
+
+</link>
+
+ shows the different mathematical function selections that are 
+available in the pull down list of the block. 
+
+<emphasis id="em1010" effect="italics">
+(Note that the fourth one from 
+the top is the 
+
+<emphasis id="strong1003" effect="bold">
+sqrt
+
+</emphasis>
+ function.)
+
+</emphasis>
+</para>
+
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_C" effect="bold">
+</emphasis>
+Image C. Mathematical functions  			available in Scratch 2.0.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1002" alt="Missing image." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/scr0390-03.jpg" width="218" height="346"/>
+</media>
+
+
+		
+
+<caption>Image C. Mathematical functions  			available in Scratch 2.0.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="Passing_parameters" effect="bold">
+
+Passing parameters
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h31004">
+<title>
+<emphasis id="Make_the_method_general_" effect="bold">
+
+Make the function general 
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1016">
+Normally, in the case of designing and writing a function such as one that 
+can calculate the square root of a number, it is desirable to write it in such a 
+way that it can calculate the square root of any number 
+
+<emphasis id="em1011" effect="italics">
+(as opposed to only 
+one specific number)
+
+</emphasis>
+. This is accomplished through the use of something called 
+parameters. 
+
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="Pass_me_the_number_please" effect="bold">
+
+Pass me the number please
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1017">
+The process of causing a function to be executed is commonly referred to as
+
+
+<emphasis id="em1012" effect="italics">
+calling
+
+</emphasis>
+ the function. 
+
+</para>
+
+
+
+
+<para id="p1018">
+When your program calls the square-root function, it will need to tell the 
+function the value of the number for which the square root is needed. In 
+general, many functions will require that you provide certain kinds of 
+information when you call them. The code in the function needs this information 
+to be able to accomplish its purpose. 
+
+</para>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Passing_parameters0" effect="bold">
+
+Passing parameters
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1019">
+This process of providing information to a function when you call it is 
+commonly referred to as 
+
+<emphasis id="em1013" effect="italics">
+passing parameters
+
+</emphasis>
+ to the function. For the 
+square-root function, you need to pass a parameter whose value is the value of 
+the number for which you need the square root. 
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+
+	
+
+<emphasis id="em1014" effect="italics">
+You call the built-in square root function in Scratch 2.0 by dragging the 
+	bottom block shown in 
+
+</emphasis>
+ 
+
+<link id="a1044" target-id="Image_B">
+
+
+<emphasis id="em1015" effect="italics">
+Image B
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1016" effect="italics">
+ into the programming panel and selecting
+	
+
+</emphasis>
+
+	
+
+<emphasis id="strong1004" effect="bold">
+<emphasis id="em1017" effect="italics">
+sqrt
+
+</emphasis>
+</emphasis>
+<emphasis id="em1018" effect="italics">
+ in the pull down list. You pass the parameter by 
+	entering a literal value or dragging a variable block into the white area 
+	that contains the 9 character in 
+
+</emphasis>
+ 
+
+<link id="a1045" target-id="Image_B">
+
+
+<emphasis id="em1019" effect="italics">
+Image B
+
+</emphasis>
+</link>
+
+.
+
+</quote>
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Returning_values" effect="bold">
+
+Returning values
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1020">
+A function or method will usually
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1039">
+Perform an action,
+
+</item>
+
+
+	
+
+<item id="li1040">
+Send back an answer
+
+</item>
+
+
+	
+
+<item id="li1041">
+Some combination of the two
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<section id="h31007">
+<title>
+<emphasis id="Performing_an_action_" effect="bold">
+
+Performing an action 
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1021">
+You might think of 
+
+<emphasis id="em1020" effect="italics">
+performing an action
+
+</emphasis>
+ as something like causing a 
+Scratch sprite to move to the right and change color.
+
+</para>
+
+
+
+
+<para id="p1022">
+None of the Scratch 2.0 mathematical functions shown in 
+
+<link id="a1046" target-id="Image_C">
+
+Image C
+
+</link>
+
+ perform an 
+action. One of the purposes of this module is to teach you how to create custom 
+blocks that do perform an action.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Sending_back_an_answer_" effect="bold">
+
+Sending back an answer 
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1023">
+On the other hand, a function that is designed to calculate the square root 
+of a number needs to be able to send the square-root value back to the program 
+that called the function. After all, it wouldn't be very useful if the function 
+calculated the square root and then kept it a secret. The process of sending 
+back an answer is commonly referred to as 
+
+<emphasis id="em1021" effect="italics">
+returning a value
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1024">
+All of the Scratch mathematical functions shown in 
+
+<link id="a1047" target-id="Image_C">
+
+Image C
+
+</link>
+
+ return a value.
+
+</para>
+
+
+
+
+<para id="p1025">
+It appears that there is no straightforward way for you to cause a custom 
+block that you design to return a value. However, I will show you a workaround 
+for that situation later. 
+
+</para>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Creating_your_own_custom_blocks" effect="bold">
+
+Creating your own custom blocks
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+The best explanation that I have found for the mechanics of creating a custom 
+block is contained in the document titled 
+
+<link id="a1048" url="http://info.scratch.mit.edu/prototype">
+
+How Do I Use the New Blocks?
+
+</link>
+
+ 
+on the MIT website. Go to that webpage and scroll down to the section titled 
+
+<emphasis id="em1022" effect="italics">
+
+Make Your Own Blocks
+
+</emphasis>
+. Follow the instructions that you find there to create 
+your own custom blocks.
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Sample_programs" effect="bold">
+
+Sample programs
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1027">
+With that as an introduction, this section will present and explain two 
+Scratch 2.0 programs built around custom blocks.
+
+</para>
+
+
+
+
+<section id="h21005">
+<title>
+<emphasis id="CustomBlockTest01" effect="bold">
+
+CustomBlockTest01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1028">
+This is the simplest custom block that I could come up with that:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1042">
+Receives an incoming parameter
+
+</item>
+
+
+	
+
+<item id="li1043">
+Uses the value of that parameter to compute and return a value
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1029">
+This program contains the two scripts and a variable shown in 
+
+<link id="a1049" target-id="Image_D">
+
+Image D
+
+</link>
+
+. These 
+scripts are tied to the cat sprite.
+
+</para>
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_D" effect="bold">
+</emphasis>
+Image D. Program code for  			CustomBlockTest01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/scr0390-04.jpg" width="537" height="385"/>
+</media>
+
+
+		
+
+<caption>Image D. Program code for  			CustomBlockTest01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<section id="h31009">
+<title>
+<emphasis id="A_global_variable" effect="bold">
+
+A global variable
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+The variable named 
+
+<emphasis id="strong1005" effect="bold">
+var
+
+</emphasis>
+ shown on the left in 
+
+<link id="a1050" target-id="Image_D">
+
+Image D
+
+</link>
+
+ is a 
+global variable. That means that it is accessible by any code in the program.
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="The_custom_block0" effect="bold">
+
+The custom block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1031">
+The custom block named 
+
+<emphasis id="strong1006" effect="bold">
+test
+
+</emphasis>
+ is shown in the bottom script in 
+
+
+<link id="a1051" target-id="Image_D">
+
+Image D
+
+</link>
+
+. When called, this block receives an incoming numeric parameter known 
+locally as 
+
+<emphasis id="strong1007" effect="bold">
+number1
+
+</emphasis>
+. The code in the block multiplies that value 
+by a factor of 2 and stores the resulting product in the variable named 
+
+<emphasis id="strong1008" effect="bold">
+var
+
+</emphasis>
+, 
+making it available to the code that called the custom block.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="The_driver_code0" effect="bold">
+
+The driver script
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1032">
+The code that calls the custom block is shown in the top script in 
+
+<link id="a1052" target-id="Image_D">
+
+Image D
+
+</link>
+
+. 
+
+
+<emphasis id="em1023" effect="italics">
+(I will refer to this as the driver script.)
+
+</emphasis>
+ When the green flag is clicked, the custom block named 
+
+<emphasis id="strong1009" effect="bold">
+test
+
+</emphasis>
+ is 
+called by the driver, passing a numeric value of 10 as a parameter. When the 
+
+<emphasis id="strong1010" effect="bold">
+test
+
+</emphasis>
+ 
+block terminates, control is returned to the driver. The driver script causes the cat sprite to display the value stored in 
+the variable named 
+
+<emphasis id="strong1011" effect="bold">
+var
+
+</emphasis>
+ for 20 seconds. Then the 
+program terminates.
+
+</para>
+
+
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="The_program_output0" effect="bold">
+
+The program output
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+The program output showing the cat on the stage is shown in 
+
+<link id="a1053" target-id="Image_E">
+
+Image E
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_E" effect="bold">
+</emphasis>
+Image E. Output from  			CustomBlockTest01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/scr0390-05.jpg" width="484" height="463"/>
+</media>
+
+
+		
+
+<caption>Image E. Output from  			CustomBlockTest01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1034">
+A numeric value of 10 is passed to the 
+
+<emphasis id="strong1012" effect="bold">
+test
+
+</emphasis>
+ block by the 
+driver. Code in the 
+
+<emphasis id="strong1013" effect="bold">
+test
+
+</emphasis>
+ block multiplies that value by a 
+factor of 2 storing the product value of 20 in the variable named 
+
+<emphasis id="strong1014" effect="bold">
+var
+
+</emphasis>
+. 
+Code in the driver then causes that value to be displayed by the cat sprite on 
+the stage. Thus, the program displays the value 20 as shown in 
+
+<link id="a1054" target-id="Image_E">
+
+Image E
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21006">
+<title>
+<emphasis id="CustomBlockTest02" effect="bold">
+
+CustomBlockTest02
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1035">
+This program illustrates some of the benefits of custom blocks. The two 
+scripts that comprise the program are shown in 
+
+<link id="a1055" target-id="Image_F">
+
+Image F
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_F" effect="bold">
+</emphasis>
+Image F. Program code for  			CustomBlockTest02.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/scr0390-06.jpg" width="382" height="712"/>
+</media>
+
+
+		
+
+<caption>Image F. Program code for  			CustomBlockTest02.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1036">
+The top script in 
+
+<link id="a1056" target-id="Image_F">
+
+Image F
+
+</link>
+
+ is the driver script. This code calls the custom 
+block 
+
+<emphasis id="em1024" effect="italics">
+(shown in the bottom script)
+
+</emphasis>
+ three times.
+
+</para>
+
+
+
+
+<section id="h31013">
+<title>
+<emphasis id="The_custom_block1" effect="bold">
+
+The custom block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+The purpose of the custom block is to cause the cat to take a walk with the 
+duration of the walk and the initial direction of the walk determined by a pair 
+of incoming parameters.
+
+</para>
+
+
+
+
+<para id="p1038">
+As you will see later, the cat is facing to the right each time the custom 
+block named
+
+<emphasis id="strong1015" effect="bold">
+ walk
+
+</emphasis>
+ is called. The incoming parameter named
+
+
+<emphasis id="strong1016" effect="bold">
+angle
+
+</emphasis>
+ is used to cause the cat to turn and face in a particular 
+direction before beginning the walk. The same parameter is used later in the 
+walk to cause the cat to make a much smaller turn in the same direction at the 
+end of each segment of the walk. Thus, the cat tends to walk in a somewhat 
+circular path unless it collides with the edge of the stage, in which case it 
+bounces off the edge.
+
+</para>
+
+
+
+
+<para id="p1039">
+The incoming parameter named 
+
+<emphasis id="strong1017" effect="bold">
+numberLoops
+
+</emphasis>
+ is used to 
+determine the number of segments in the walk or the duration of the walk.
+
+</para>
+
+
+
+
+<para id="p1040">
+The last two blocks in the custom block cause the cat to return to the center 
+of the stage and face to the right.
+
+</para>
+
+
+
+
+<para id="p1041">
+By now you shouldn't need an 
+explanation for the remaining code in the custom block.
+
+</para>
+
+
+
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="The_driver_code1" effect="bold">
+
+The driver script
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+The driver script initially causes the cat to move to the center of the screen 
+and face to the right.
+
+</para>
+
+
+
+
+<para id="p1043">
+Then it executes three pairs of blocks in sequence. The first block in each 
+pair causes the cat to say "Morning stroll", "Noon stroll", or "Evening 
+stroll".
+
+</para>
+
+
+
+
+<para id="p1044">
+The second block in each pair is a call to the custom block named 
+
+<emphasis id="strong1018" effect="bold">
+walk
+
+</emphasis>
+. 
+Each time the 
+
+<emphasis id="strong1019" effect="bold">
+walk
+
+</emphasis>
+ block is called, it is passed random values 
+for 
+
+<emphasis id="strong1020" effect="bold">
+numberLoops
+
+</emphasis>
+ and 
+
+<emphasis id="strong1021" effect="bold">
+angle
+
+</emphasis>
+. Therefore, the 
+duration and direction of each walk will be different each time you run the 
+program.
+
+</para>
+
+
+
+
+</section>
+<section id="h31015">
+<title>
+<emphasis id="The_program_output1" effect="bold">
+
+The program output
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+Because of the dynamic nature of the program, there is no point in me 
+presenting a static snapshot of the output. Instead, I will simply suggest that 
+you run the program online at
+
+
+<link id="a1057" url="http://scratch.mit.edu/projects/10355723/">
+
+CustomBlockTest02
+
+</link>
+
+ and 
+observe the output.
+
+</para>
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the programs
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1046">
+I encourage you to use the information provided above to write and run these 
+two programs. Experiment with the code, making changes, and observing the 
+results of your changes. Make certain that you can explain why your changes 
+behave as they do.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_project" effect="bold">
+
+Student programming project
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1047">
+It's time for you to be creative. Create a project of your own, or perhaps 
+remix an existing project from the Scratch website. Break the project into a 
+driver script and a custom block.
+
+</para>
+
+
+
+
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="General_resources" effect="bold">
+
+General resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1044">
+<link id="a1058" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1059" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1060" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1061" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1062" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+
+	Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1063" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1064" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1051">
+
+	
+
+<link id="a1065" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+
+	Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1066" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+	TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1067" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1054">
+
+	
+
+<link id="a1068" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+
+	Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1055">
+
+	
+
+<link id="a1069" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+
+	Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1056">
+
+	
+
+<link id="a1070" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+
+	Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1057">
+<link id="a1071" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+
+	Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1058">
+<link id="a1072" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web 
+	site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1059">
+<link id="a1073" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+	Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1060">
+<link id="a1074" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1061">
+<link id="a1075" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+	project Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1062">
+<link id="a1076" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+	project Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1063">
+<link id="a1077" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+	Project Scratch Tutorial
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1064">
+<link id="a1078" url="http://www.allaboutcircuits.com/vol_4/chpt_7/8.html">
+
+DeMorgan's 
+	theorem
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1065">
+<link id="a1079" url="http://info.scratch.mit.edu/prototype">
+
+How Do I Use the New 
+	Blocks?
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Programs_used_in_this_series" effect="bold">
+
+Programs used in this series
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1066">
+<link id="a1080" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1067">
+<link id="a1081" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1068">
+<link id="a1082" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1069">
+<link id="a1083" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1070">
+<link id="a1084" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1071">
+<link id="a1085" url="http://scratch.mit.edu/projects/dbal/156614">
+
+Arithmetic01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1072">
+<link id="a1086" url="http://scratch.mit.edu/projects/dbal/156618">
+
+Arithmetic02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1073">
+<link id="a1087" url="http://scratch.mit.edu/projects/dbal/158029">
+
+Relational01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1074">
+<link id="a1088" url="http://scratch.mit.edu/projects/dbal/158030">
+
+Relational02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1075">
+<link id="a1089" url="http://scratch.mit.edu/projects/dbal/158799">
+
+Logical01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1076">
+<link id="a1090" url="http://scratch.mit.edu/projects/dbal/158800">
+
+Logical02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1077">
+<link id="a1091" url="http://scratch.mit.edu/projects/dbal/158801">
+
+Logical03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1078">
+<link id="a1092" url="http://scratch.mit.edu/projects/dbal/160656">
+
+ForLoop01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1079">
+<link id="a1093" url="http://scratch.mit.edu/projects/dbal/160682">
+
+ForLoop02
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1080">
+<link id="a1094" url="http://scratch.mit.edu/projects/dbal/160713">
+
+ForLoop03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1081">
+<link id="a1095" url="http://scratch.mit.edu/projects/dbal/162534">
+
+ForeverLoop01
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1082">
+<link id="a1096" url="http://scratch.mit.edu/projects/dbal/162536">
+
+ForeverLoop02
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1083">
+<link id="a1097" url="http://scratch.mit.edu/projects/dbal/162538">
+
+RepeatUntil01
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1084">
+<link id="a1098" url="http://scratch.mit.edu/projects/dbal/162539">
+
+ForeverLoop03
+
+</link>
+
+ 
+	- Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1085">
+<link id="a1099" url="http://scratch.mit.edu/projects/10343597/">
+
+CustomBlockTest01
+
+</link>
+
+ - Online version of program
+
+</item>
+
+
+	
+
+<item id="li1086">
+<link id="a1100" url="http://scratch.mit.edu/projects/10355723/">
+
+CustomBlockTest02
+
+</link>
+
+- Online version of program
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11008">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1048">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1022" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+
+				
+
+<list id="ul1016" list-type="bulleted">
+
+					
+
+<item id="li1087">
+Module name: Scr0390: Custom blocks in Scratch 2.0
+
+</item>
+
+
+					
+
+<item id="li1088">
+File: Scr0390.htm
+
+
+</item>
+
+
+					
+
+<item id="li1089">
+Published: 05/27/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1023" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1049">
+<emphasis id="strong1024" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1050">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1051">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1052">
+<emphasis id="strong1025" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1053">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

@@ -1,0 +1,4630 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0360: Logical Operators in Scratch 2.0</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46253</md:content-id>
+  <md:title>Scr0360: Logical Operators in Scratch 2.0</md:title>
+  <md:abstract>The purpose of this module is to teach you about logical operators and truth tables. You will also learn how to write a Scratch program that illustrates the use of the logical and, or, and not operators when used in conjunction with relational operators.</md:abstract>
+  <md:uuid>078ae0df-59c3-4527-960b-ab7174e59da2</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="GeneralBackgroundInformation">
+
+General 
+	background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="Preview">
+
+Preview
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="A_rea-world_example">
+
+A real-world example
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Formulate_this_using_logical_operator_concepts">
+
+Formulate this using logical operator concepts
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="The_not_operator">
+
+The not operator
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="The_reality_logic_in_a_formal_sense">
+
+The reality - logic in a formal sense
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="A_sample_program_named_Logical01">
+
+A sample program named Logical01
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Seven_variables">
+
+A button and seven variables
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="Event_handlers">
+
+Event handlers
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="Program_operation">
+
+Program operation
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="Meaningful_variable_names">
+
+Meaningful variable names
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Insufficient_space">
+
+Insufficient space
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="A_truth_table">
+
+A truth table
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1016">
+<link id="a1016" target-id="What_does_this_mean">
+
+What does this mean?
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1017">
+<link id="a1017" target-id="The_and_operation">
+
+The and operation
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="The_inclusive_or_operation">
+
+The inclusive or operation
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1019">
+<link id="a1019" target-id="A_practical_example">
+
+A practical example
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1020">
+<link id="a1020" target-id="Evaluation_against_trial_values">
+
+Evaluation against trial values
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1021">
+<link id="a1021" target-id="Lets_walk_through_this">
+
+Let's walk through this
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1022" target-id="Can_become_very_complex">
+
+Can become very complex
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1023" target-id="Program_output">
+
+Program output
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1024">
+<link id="a1024" target-id="DiscussionandSamplePrograms">
+
+Discussion and 
+	sample code
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+		
+
+<item id="li1025">
+<link id="a1025" target-id="Compare_Image_G_with_Image_C">
+
+Compare Image G with Image C
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1026">
+<link id="a1026" target-id="No_detailed_explanation_of_the_construction_is_required">
+
+No detailed explanation of the construction is required
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1027">
+<link id="a1027" target-id="Program_behavior_at_runtime">
+
+Program behavior at runtime
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1028">
+<link id="a1028" target-id="Order_of_execution_of_scripts">
+
+Order of execution of scripts
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1029" target-id="Not_important_in_this_program">
+
+Not important in this program
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1030">
+
+		
+
+<link id="a1030" target-id="Evaluate_the_relational">
+
+Evaluate the relational-logical expressions and take appropriate action
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1031">
+<link id="a1031" target-id="An_online_version_of_this_program_is_available">
+
+An online version of this program is available
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1032" target-id="Runtheprogram">
+
+Run the program
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1033" target-id="Student_programming_projects">
+
+Student 
+	programming projects
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+		
+
+<item id="li1034">
+<link id="a1034" target-id="The_program_named_Logical02">
+
+The program 
+		named Logical02
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1035">
+<link id="a1035" target-id="The_program_named_Logical03">
+
+The program 
+		named Logical03
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1036" target-id="Summary">
+
+Summary
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1037" target-id="WhatsNext">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1038" target-id="Resources">
+
+Resources
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1039">
+<link id="a1039" target-id="General_resources">
+
+General resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1040">
+<link id="a1040" target-id="Programs_used_in_this_series">
+
+Programs used in this c
+ollection
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1041" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+	
+
+<para id="p1000">
+<link id="a1042" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1000" effect="italics">
+(released May 9, 
+	2013)
+
+</emphasis>
+ is the second major version of Scratch to be released during the 
+	life of the product. Among other things, it features a redesigned editor and 
+	website, and allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module 
+
+<emphasis id="em1001" effect="italics">
+(tutorial)
+
+</emphasis>
+ is one in a collection of modules designed to 
+help beginners of all ages 
+
+<emphasis id="em1002" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for 
+computer programs using 
+
+<link id="a1043" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. 
+Information is provided not only for the beginners themselves but also for their 
+parents and teachers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+The purpose of this module is to teach you about 
+
+<emphasis id="em1003" effect="italics">
+logical operators
+
+</emphasis>
+ and 
+
+
+<emphasis id="em1004" effect="italics">
+truth tables
+
+</emphasis>
+. You will also learn how to write a Scratch program that illustrates the use of the logical 
+
+
+<emphasis id="strong1000" effect="bold">
+and
+
+</emphasis>
+, 
+
+<emphasis id="strong1001" effect="bold">
+or
+
+</emphasis>
+, and 
+
+<emphasis id="strong1002" effect="bold">
+not
+
+</emphasis>
+ operators when used in conjunction with relational operators.
+
+</para>
+
+
+
+
+<para id="p1003">
+You learned about 
+
+<emphasis id="em1005" effect="italics">
+relational operators
+
+</emphasis>
+ in an earlier module.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+I recommend that you open another copy of this document in a separate browser 
+window and use the following links to easily find and view the images while you 
+are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1042">
+<link id="a1044" target-id="Image_A">
+
+Image A
+
+</link>
+
+. Reduced screen shot of the programmer interface for the program named Logical01.
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1045" target-id="Image_B">
+
+Image B
+
+</link>
+
+. A simple truth table.
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1046" target-id="Image_C">
+
+Image C
+
+</link>
+
+. A truth table for the 
+	logic in the program named Logical01.
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1047" target-id="Image_D">
+
+Image D
+
+</link>
+
+. Program output for row 
+	1 in Image C.
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1048" target-id="Image_E">
+
+Image E
+
+</link>
+
+. Program output for row 
+	2 in Image C.
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1049" target-id="Image_F">
+
+Image F
+
+</link>
+
+. Program output for row 
+	3 in Image C.
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1050" target-id="Image_G">
+
+Image G
+
+</link>
+
+. Programming panel for the 
+	program named Logical01.
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1051" target-id="Image_H">
+
+Image H
+
+</link>
+
+. Program output from 
+	the program named Logical02.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="GeneralBackgroundInformation" effect="bold">
+
+General background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+There are many different kinds of operators. The easiest way to study them is 
+to divide them into categories such as the following
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1050">
+arithmetic
+
+</item>
+
+
+	
+
+<item id="li1051">
+relational
+
+</item>
+
+
+	
+
+<item id="li1052">
+logical
+
+</item>
+
+
+	
+
+<item id="li1053">
+bitwise
+
+</item>
+
+
+	
+
+<item id="li1054">
+assignment
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1006">
+Earlier modules explained arithmetic operators and relational operators. This 
+module will explain logical operators. Future modules will deal with the 
+remaining kinds of operators.
+
+</para>
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+In this module, I will present and explain a Scratch program named 
+
+<emphasis id="strong1003" effect="bold">
+
+Logical01
+
+</emphasis>
+. This program illustrates the use of the 
+
+<emphasis id="strong1004" effect="bold">
+and
+
+</emphasis>
+, 
+
+<emphasis id="strong1005" effect="bold">
+or
+
+</emphasis>
+, 
+and 
+
+<emphasis id="strong1006" effect="bold">
+not
+
+</emphasis>
+ operators in Scratch. These are called 
+
+<emphasis id="em1006" effect="italics">
+logical
+
+</emphasis>
+ operators.
+
+</para>
+
+
+
+
+<para id="p1008">
+In this module, I will provide an explanation of 
+
+<emphasis id="em1007" effect="italics">
+logical
+
+</emphasis>
+ operators and
+
+
+<emphasis id="em1008" effect="italics">
+truth tables
+
+</emphasis>
+. Then I will present and explain a Scratch program that 
+illustrates the use of the logical 
+
+<emphasis id="strong1007" effect="bold">
+and
+
+</emphasis>
+, 
+
+<emphasis id="strong1008" effect="bold">
+or
+
+</emphasis>
+, and 
+
+<emphasis id="strong1009" effect="bold">
+not
+
+</emphasis>
+ 
+operators when used in conjunction with 
+
+<emphasis id="em1009" effect="italics">
+relational
+
+</emphasis>
+ operators. You learned 
+about relational operators in an earlier module.
+
+</para>
+
+
+
+
+<para id="p1009">
+Finally, I will provide the specifications for two programming projects for 
+you to demonstrate your understanding of what you learned from the first program 
+and from earlier modules. One of the programming projects is relatively 
+difficult requiring an understanding of 
+
+
+<link id="a1052" url="http://www.allaboutcircuits.com/vol_4/chpt_7/8.html">
+
+DeMorgan's theorem
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1010">
+Copies of all three programs will be posted online for your review 
+
+<emphasis id="em1010" effect="italics">
+(see
+
+
+<link id="a1053" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If you 
+don't find the program using that URL, search the Scratch site for the user 
+named 
+
+<emphasis id="strong1010" effect="bold">
+dbal
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="A_rea-world_example" effect="bold">
+
+A real-world example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+Logical operators can be confusing at first glance, but perhaps a real world 
+example will help to eliminate some of that confusion. For many years in this 
+country, we have had a movie rating system designed to control the viewing of 
+objectionable content by young people. According to
+
+
+<link id="a1054" url="http://en.wikipedia.org/wiki/Motion_picture_rating_system">
+
+
+Wikipedia
+
+</link>
+
+, the 
+
+<emphasis id="strong1011" effect="bold">
+R
+
+</emphasis>
+ rating means something like the following:
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+	
+
+<para id="p1012">
+<emphasis id="em1011" effect="italics">
+"Restricted - Under 17 requires accompanying parent or adult 17 or 
+	older with photo ID"
+
+</emphasis>
+</para>
+
+
+
+
+</quote>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="Formulate_this_using_logical_operator_concepts" effect="bold">
+
+Formulate this 
+using logical operator concepts
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+In most cases, this means that a person will be allowed entry into the 
+theatre to view the movie if:
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1055">
+The person has the price of admission 
+
+<emphasis id="em1012" effect="italics">
+<emphasis id="strong1012" effect="bold">
+and
+
+</emphasis>
+</emphasis>
+ is older than 
+	16, 
+
+<emphasis id="em1013" effect="italics">
+<emphasis id="strong1013" effect="bold">
+or
+
+</emphasis>
+</emphasis>
+ 
+
+</item>
+
+
+	
+
+<item id="li1056">
+The person has the price of admission 
+
+<emphasis id="em1014" effect="italics">
+<emphasis id="strong1014" effect="bold">
+and
+
+</emphasis>
+</emphasis>
+ is under 17 
+
+<emphasis id="em1015" effect="italics">
+
+	
+
+<emphasis id="strong1015" effect="bold">
+and
+
+</emphasis>
+</emphasis>
+ is accompanied by an adult who also has the price of 
+	admission 
+
+<emphasis id="em1016" effect="italics">
+<emphasis id="strong1016" effect="bold">
+and
+
+</emphasis>
+</emphasis>
+ the adult can show a photo ID.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1014">
+Note the use of the boldface Italicized words 
+
+<emphasis id="em1017" effect="italics">
+<emphasis id="strong1017" effect="bold">
+or
+
+</emphasis>
+</emphasis>
+ and 
+
+<emphasis id="em1018" effect="italics">
+<emphasis id="strong1018" effect="bold">
+and
+
+</emphasis>
+</emphasis>
+ 
+in the above example.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21002">
+<title>
+<emphasis id="The_not_operator" effect="bold">
+
+The 
+
+<emphasis id="em1019" effect="italics">
+not
+
+</emphasis>
+ operator
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+The 
+
+<emphasis id="strong1019" effect="bold">
+not
+
+</emphasis>
+ operator is a little more difficult to explain in terms of 
+real world examples. At this point, suffice it to say that the application of 
+the 
+
+<emphasis id="strong1020" effect="bold">
+not
+
+</emphasis>
+ operator causes something that is true to become false and causes 
+something that is false to become true. For example, if someone is older than 
+16, that person is 
+
+<emphasis id="strong1021" effect="bold">
+not
+
+</emphasis>
+ 16 or younger.
+
+</para>
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="The_reality_logic_in_a_formal_sense" effect="bold">
+
+The reality - logic in a 
+formal sense
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1016">
+The reality is that you have been dealing with this kind of logic most of 
+your life. However, unless you had a specific reason to do so, such as being a 
+computer programmer, a computer engineer, or perhaps an attorney, you may never 
+have thought about it in a formal sense. The time to think about it in a formal 
+sense has arrived.
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="A_sample_program_named_Logical01" effect="bold">
+
+A sample program named Logical01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h31002">
+<title>
+A button and s
+
+<emphasis id="Seven_variables" effect="bold">
+
+even variables
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+This program creates a button along with the following seven variables.
+
+</para>
+
+
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1000" display="block">A (a slider variable)
+B (a slider variable)
+C (a slider variable)
+D (a slider variable)
+A&lt;B and C&lt;D
+not(A&lt;B and C&lt;D)
+A&lt;B or C&lt;D</code>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1018">
+The program displays the button and the variables on the 
+Stage and initializes all of the variables to zero when the user clicks the green flag as 
+shown in 
+
+<link id="a1055" target-id="Image_A">
+
+Image A
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_A" effect="bold">
+</emphasis>
+Image A. Reduced screen shot of the programmer  interface for the program named Logical01.
+</title>
+
+
+
+
+
+<media id="media1000" alt="Missing image" display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0360-01.jpg" width="747" height="582"/>
+</media>
+
+
+
+
+<caption>Image A. Reduced screen shot of the programmer  interface for the program named Logical01.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1019">
+The range of each slider variable is set to -10 to 10.
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Event_handlers" effect="bold">
+
+Event handlers
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1020">
+Three event handlers, shown as the bottom three scripts in the programming 
+panel in 
+
+<link id="a1056" target-id="Image_A">
+
+Image A
+
+</link>
+
+, are written to fire each time the button is clicked.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="Program_operation" effect="bold">
+
+Program operation
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1021">
+At runtime, the user adjusts the value of each of the slider variables.
+
+</para>
+
+
+
+
+<para id="p1022">
+When the user clicks the button, each event handler evaluates a 
+
+<emphasis id="em1020" effect="italics">
+
+relational-logical
+
+</emphasis>
+ expression 
+
+<emphasis id="em1021" effect="italics">
+(an expression containing both relational 
+and logical operators)
+
+</emphasis>
+. If the expression evaluates to true, a value of true 
+is displayed in one of the bottom three variables on the stage in 
+
+<link id="a1057" target-id="Image_A">
+
+Image A
+
+</link>
+
+. If 
+the expression evaluates to false, a value of false is displayed in that 
+variable. 
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Meaningful_variable_names" effect="bold">
+
+Meaningful variable names
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1023">
+In an earlier module, I told you that you should always strive to use 
+meaningful variable names. At this point, you are probably thinking that 
+variables named 
+
+<emphasis id="strong1022" effect="bold">
+A
+
+</emphasis>
+, 
+
+<emphasis id="strong1023" effect="bold">
+B
+
+</emphasis>
+, 
+
+<emphasis id="strong1024" effect="bold">
+C
+
+</emphasis>
+, and 
+
+<emphasis id="strong1025" effect="bold">
+D
+
+</emphasis>
+ aren't very 
+meaningful, and if so, your thinking is correct. However, there is a practical reason that I didn't use meaningful variable names in this case.
+
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Insufficient_space" effect="bold">
+
+Insufficient space
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1024">
+Really meaningful variable names usually require about five or more 
+characters. However, I have limited display width in this presentation format. If I had used longer names for the variables in this program, the 
+expressions containing those variable names would have been quite long, and 
+would have made it difficult for me to fit 
+
+<link id="a1058" target-id="Image_A">
+
+Image A
+
+</link>
+
+ into this presentation format.
+
+</para>
+
+
+
+
+<para id="p1025">
+You will note, however, that the bottom three variable names on the stage in 
+
+
+<link id="a1059" target-id="Image_A">
+
+Image A
+
+</link>
+
+ 
+
+<emphasis id="em1022" effect="italics">
+(also see the variables in the Data toolbox 
+in 
+
+<link id="a1060" target-id="Image_A">
+
+Image A
+
+</link>
+
+)
+
+</emphasis>
+ are 
+meaningful. In fact they are probably more meaningful than would be the 
+case in Java because Java doesn't allow the space character, the 
+
+<emphasis id="em1023" effect="italics">
+left angle 
+bracket
+
+</emphasis>
+ character, or the "(" character to be included in a variable name.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="A_truth_table" effect="bold">
+
+A truth table
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+According to Wikipedia:
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+
+	
+
+<para id="p1027">
+<emphasis id="em1024" effect="italics">
+"A 
+
+</emphasis>
+<link id="a1061" url="http://en.wikipedia.org/wiki/Truth_table">
+
+
+<emphasis id="em1025" effect="italics">
+truth table
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1026" effect="italics">
+ is a mathematical table used in logic 
+	-- specifically in connection with 
+	Boolean algebra, boolean functions, and propositional calculus -- to compute 
+	the functional values of logical expressions on each of their functional 
+	arguments, that is, on each combination of values taken by their logical 
+	variables. In particular, 
+
+</emphasis>
+ 
+
+<emphasis id="strong1026" effect="bold">
+<emphasis id="em1027" effect="italics">
+truth tables
+
+</emphasis>
+</emphasis>
+<emphasis id="em1028" effect="italics">
+ can be used to tell whether a 
+	propositional expression is true for all legitimate input values, that is, 
+	logically valid."
+
+</emphasis>
+</para>
+
+
+
+
+</quote>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="What_does_this_mean" effect="bold">
+
+What does this mean?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1028">
+The concept of a truth table is simpler than the above quotation might suggest. 
+
+
+<link id="a1062" target-id="Image_B">
+
+Image B
+
+</link>
+
+ is a simple truth table that shows the result of evaluating four logical 
+expressions for all combinations of the values of two variables, 
+
+<emphasis id="strong1027" effect="bold">
+A
+
+</emphasis>
+ and 
+
+<emphasis id="strong1028" effect="bold">
+
+B
+
+</emphasis>
+, where each variable can only take on the values of 
+
+<emphasis id="em1029" effect="italics">
+true
+
+</emphasis>
+ and 
+
+<emphasis id="em1030" effect="italics">
+
+false
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_B" effect="bold">
+</emphasis>
+Image B. A simple truth table.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0360-02.jpg" width="514" height="162"/>
+</media>
+
+
+			
+
+<caption>Image B. A simple truth table.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="The_and_operation" effect="bold">
+
+The 
+
+<emphasis id="em1031" effect="italics">
+and
+
+</emphasis>
+ operation
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+If both 
+
+<emphasis id="strong1029" effect="bold">
+A
+
+</emphasis>
+ 
+
+<emphasis id="em1032" effect="italics">
+and
+
+</emphasis>
+ 
+
+<emphasis id="strong1030" effect="bold">
+B
+
+</emphasis>
+ are true, then the expression 
+
+<emphasis id="strong1031" effect="bold">
+(A and 
+B)
+
+</emphasis>
+ evaluates to true. Otherwise, it evaluates to false. Correspondingly, if
+
+
+<emphasis id="strong1032" effect="bold">
+(A and B)
+
+</emphasis>
+ is true, then 
+
+<emphasis id="strong1033" effect="bold">
+not(A and B)
+
+</emphasis>
+ is false. Otherwise, it is 
+true. Applying the 
+
+<emphasis id="strong1034" effect="bold">
+not
+
+</emphasis>
+ operator to a boolean value is often referred to 
+as getting the 
+
+<emphasis id="em1033" effect="italics">
+complement
+
+</emphasis>
+ of that value.
+
+</para>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="The_inclusive_or_operation" effect="bold">
+
+The 
+
+<emphasis id="em1034" effect="italics">
+inclusive or
+
+</emphasis>
+ operation
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+The operation that I am getting ready to discuss in known as an 
+
+<emphasis id="em1035" effect="italics">
+inclusive 
+or
+
+</emphasis>
+ operation. There is also an 
+
+<emphasis id="em1036" effect="italics">
+exclusive or
+
+</emphasis>
+ operation that I won't 
+discuss in this module. That will be a topic for a much more advanced module.
+
+</para>
+
+
+
+
+<para id="p1031">
+If either 
+
+<emphasis id="strong1035" effect="bold">
+A
+
+</emphasis>
+ 
+
+<emphasis id="em1037" effect="italics">
+or
+
+</emphasis>
+ 
+
+<emphasis id="strong1036" effect="bold">
+B
+
+</emphasis>
+ are true, then the expression 
+
+<emphasis id="strong1037" effect="bold">
+(A or 
+B)
+
+</emphasis>
+ evaluates to true. Otherwise, it evaluates to false. Correspondingly, if
+
+
+<emphasis id="strong1038" effect="bold">
+(A or B)
+
+</emphasis>
+ is true, then 
+
+<emphasis id="strong1039" effect="bold">
+not(A or B)
+
+</emphasis>
+ is false. Otherwise it is true.
+
+</para>
+
+
+
+
+</section>
+<section id="h21011">
+<title>
+<emphasis id="A_practical_example" effect="bold">
+
+A practical example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1032">
+<link id="a1063" target-id="Image_C">
+
+Image C
+
+</link>
+
+ is a truth table that shows some of the possible results produced by 
+the logic used in the program named 
+
+<emphasis id="strong1040" effect="bold">
+Logical01
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_C" effect="bold">
+</emphasis>
+Image C. A truth table for the logic in the program named Logical01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1002" alt="Missing image." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/scr0360-03.jpg" width="687" height="148"/>
+</media>
+
+
+			
+
+<caption>Image C. A truth table for the logic in the program named Logical01.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Evaluation_against_trial_values" effect="bold">
+
+Evaluation against trial values
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+On any given row in 
+
+<link id="a1064" target-id="Image_C">
+
+Image C
+
+</link>
+
+, the four columns labeled 
+
+<emphasis id="strong1041" effect="bold">
+A
+
+</emphasis>
+, 
+
+<emphasis id="strong1042" effect="bold">
+B
+
+</emphasis>
+, 
+
+<emphasis id="strong1043" effect="bold">
+
+C
+
+</emphasis>
+, and 
+
+<emphasis id="strong1044" effect="bold">
+D 
+
+</emphasis>
+show trial values that can be assigned to the corresponding 
+variables having the same names in the program. Each of the rightmost three 
+columns on that row shows the result of evaluating the
+
+<emphasis id="em1038" effect="italics">
+ relational-logical
+
+</emphasis>
+ 
+expression at the top of the column.
+
+</para>
+
+
+
+
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Lets_walk_through_this" effect="bold">
+
+Let's walk through this
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1034">
+Let's walk across the row labeled 
+
+<emphasis id="strong1045" effect="bold">
+2
+
+</emphasis>
+. Although the value of 
+
+<emphasis id="strong1046" effect="bold">
+C
+
+</emphasis>
+ is 
+algebraically less than the value of 
+
+<emphasis id="strong1047" effect="bold">
+D
+
+</emphasis>
+, the value of 
+
+<emphasis id="strong1048" effect="bold">
+A
+
+</emphasis>
+ is not less 
+than the value of 
+
+<emphasis id="strong1049" effect="bold">
+B
+
+</emphasis>
+ because the two have equal values. As a result, the 
+expression 
+
+<emphasis id="strong1050" effect="bold">
+((A Lt B)and(C Lt D))
+
+</emphasis>
+ evaluates to false. 
+
+</para>
+
+
+
+
+<quote id="blockquote1002" display="block">
+Note that for publishing reasons that are two complicated to explain 
+here, it is sometimes necessary for me to substitute the letters "Lt" in the 
+text for the left angle bracket.
+
+</quote>
+
+
+
+
+<para id="p1035">
+Both operands of an
+
+
+<emphasis id="strong1051" effect="bold">
+and
+
+</emphasis>
+ operator must be true for the entire expression to be true. 
+Correspondingly, the complement of that value shown in the next column is true.
+
+</para>
+
+
+
+
+<para id="p1036">
+Even though the value of 
+
+<emphasis id="strong1052" effect="bold">
+A
+
+</emphasis>
+ is not less than the value of 
+
+<emphasis id="strong1053" effect="bold">
+B
+
+</emphasis>
+ for 
+row 2, the value of 
+
+<emphasis id="strong1054" effect="bold">
+C
+
+</emphasis>
+ is less than the value of 
+
+<emphasis id="strong1055" effect="bold">
+D
+
+</emphasis>
+. Therefore, the 
+value of 
+
+<emphasis id="strong1056" effect="bold">
+((A Lt B)or(C Lt D))
+
+</emphasis>
+ is true. Only one operand of an inclusive
+
+
+<emphasis id="strong1057" effect="bold">
+or
+
+</emphasis>
+ operator must be true for the entire expression to be true.
+
+</para>
+
+
+
+
+</section>
+<section id="h21014">
+<title>
+<emphasis id="Can_become_very_complex" effect="bold">
+
+Can become very complex
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+Although not illustrated here, extremely complex logical expressions can be 
+constructed by using parentheses for grouping terms and applying a combination 
+of 
+
+<emphasis id="strong1058" effect="bold">
+and
+
+</emphasis>
+  operators, 
+
+<emphasis id="strong1059" effect="bold">
+or
+
+</emphasis>
+ operators, and 
+
+<emphasis id="strong1060" effect="bold">
+not
+
+</emphasis>
+ operators.
+
+</para>
+
+
+
+
+</section>
+<section id="h21015">
+<title>
+<emphasis id="Program_output" effect="bold">
+
+Program output
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1038">
+<link id="a1065" target-id="Image_D">
+
+Image D
+
+</link>
+
+, 
+
+<link id="a1066" target-id="Image_E">
+
+Image E
+
+</link>
+
+, and 
+
+<link id="a1067" target-id="Image_F">
+
+Image F
+
+</link>
+
+  show screen shots of the Stage 
+in 
+
+<link id="a1068" target-id="Image_A">
+
+Image A
+
+</link>
+
+ for different combinations of values for the slider variables 
+
+<emphasis id="strong1061" effect="bold">
+
+A
+
+</emphasis>
+, 
+
+<emphasis id="strong1062" effect="bold">
+B
+
+</emphasis>
+, 
+
+<emphasis id="strong1063" effect="bold">
+C
+
+</emphasis>
+, and 
+
+<emphasis id="strong1064" effect="bold">
+D
+
+</emphasis>
+. The values for the four variables in 
+each of the three images correspond to the values assigned to the corresponding 
+columns in 
+
+<link id="a1069" target-id="Image_C">
+
+Image C
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+<para id="p1039">
+Compare the output values in each image with the values shown in 
+the corresponding columns in 
+
+<link id="a1070" target-id="Image_C">
+
+Image C
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_D" effect="bold">
+</emphasis>
+Image D. Program output for row 1 in Image C.
+</title>
+
+
+
+
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/scr0360-04.jpg" width="486" height="436"/>
+</media>
+
+
+
+
+<caption>Image D. Program output for row 1 in Image C.</caption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_E" effect="bold">
+</emphasis>
+Image E. Program output for row 2 in Image C.
+</title>
+
+
+
+
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/scr0360-05.jpg" width="491" height="443"/>
+</media>
+
+
+
+
+<caption>Image E. Program output for row 2 in Image C.</caption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_F" effect="bold">
+</emphasis>
+Image F. Program output for row 3 in Image C.
+</title>
+
+
+
+
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/scr0360-06.jpg" width="490" height="438"/>
+</media>
+
+
+
+
+<caption>Image F. Program output for row 3 in Image C.</caption>
+</figure>
+
+
+
+
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="DiscussionandSamplePrograms" effect="bold">
+
+
+</emphasis>
+
+Discussion and sample code
+
+</title>
+
+
+
+
+<para id="p1040">
+<link id="a1071" target-id="Image_G">
+
+Image G
+
+</link>
+
+  shows a full size screen shot of the programming panel from 
+
+<link id="a1072" target-id="Image_A">
+
+Image A
+
+</link>
+
+ 
+
+</para>
+
+
+
+
+
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_G" effect="bold">
+</emphasis>
+Image G.  Programming panel for the program  named Logical01.
+</title>
+
+
+
+
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/scr0360-07.jpg" width="342" height="751"/>
+</media>
+
+
+
+
+<caption>Image G.  Programming panel for the program  named Logical01.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1041">
+The top script in 
+
+<link id="a1073" target-id="Image_G">
+
+Image G
+
+</link>
+
+  initializes all of 
+the variables to 0 when the user clicks the green flag. You already know 
+about code like that from what you learned in earlier modules. 
+
+</para>
+
+
+
+
+<quote id="blockquote1003" display="block">
+
+	Note that the 
+
+<emphasis id="strong1065" effect="bold">
+not
+
+</emphasis>
+  
+	operator in the third script is a unary operator because it has only one operand. It also 
+	uses the prefix format because it appears to the left of its operand. If you 
+	can't see that in 
+
+<link id="a1074" target-id="Image_G">
+
+Image G
+
+</link>
+
+, open the green 
+
+<emphasis id="strong1066" effect="bold">
+Operators
+
+</emphasis>
+ toolbox 
+	and take a look at the block for the 
+
+<emphasis id="strong1067" effect="bold">
+not
+
+</emphasis>
+ operator. It 
+	is more obvious there.
+
+</quote>
+
+
+
+
+<section id="h21016">
+<title>
+
+
+
+<emphasis id="Compare_Image_G_with_Image_C" effect="bold">
+
+Compare 
+
+</emphasis>
+
+Image G with Image C
+
+</title>
+
+
+
+
+<para id="p1042">
+If you compare the relational-logical expressions defined by the statements 
+in the green areas of 
+
+<link id="a1075" target-id="Image_G">
+
+Image G
+
+</link>
+
+ with the expressions in the column headers in 
+
+
+<link id="a1076" target-id="Image_C">
+
+Image C
+
+</link>
+
+, you should see a strong resemblance.
+
+</para>
+
+
+
+
+<para id="p1043">
+Parentheses are used to eliminate ambiguity and to clearly identify the 
+operands of each operator in 
+
+<link id="a1077" target-id="Image_C">
+
+Image C
+
+</link>
+
+. A 3D optical illusion is used for the same 
+purpose in 
+
+<link id="a1078" target-id="Image_G">
+
+Image G
+
+</link>
+
+. For example, it appears that everything to the right of the
+
+
+<emphasis id="strong1068" effect="bold">
+not
+
+</emphasis>
+ operator in 
+
+<link id="a1079" target-id="Image_G">
+
+Image G
+
+</link>
+
+ is a little closer to the viewer than the green 
+platform on which the word 
+
+<emphasis id="strong1069" effect="bold">
+not
+
+</emphasis>
+ is printed.
+
+</para>
+
+
+
+
+</section>
+<section id="h21017">
+<title>
+<emphasis id="No_detailed_explanation_of_the_construction_is_required" effect="bold">
+
+No 
+detailed explanation of the construction is required
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+In the past several modules, I have walked you through the detailed drag, 
+drop, insert, and typing steps required to produce scripts similar to those 
+shown in 
+
+<link id="a1080" target-id="Image_G">
+
+Image G
+
+</link>
+
+. Hopefully, you understand the mechanics of that process by now 
+and it should no longer be necessary for me to walk you through the process. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21018">
+<title>
+<emphasis id="Program_behavior_at_runtime" effect="bold">
+
+Program behavior at runtime
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+The user begins by clicking the green flag in the upper right corner of the 
+stage to 
+initialize all of the variables shown in 
+
+<link id="a1081" target-id="Image_D">
+
+Image D
+
+</link>
+
+  to 0. Then the user can 
+change the value in each of the variables 
+
+<emphasis id="strong1070" effect="bold">
+A
+
+</emphasis>
+, 
+
+<emphasis id="strong1071" effect="bold">
+B
+
+</emphasis>
+, 
+
+<emphasis id="strong1072" effect="bold">
+C
+
+</emphasis>
+, and 
+
+
+<emphasis id="strong1073" effect="bold">
+D
+
+</emphasis>
+ 
+by moving the sliders shown in 
+
+<link id="a1082" target-id="Image_D">
+
+Image D
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21019">
+<title>
+<emphasis id="Order_of_execution_of_scripts" effect="bold">
+
+Order of execution of scripts
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1046">
+Following that, when the user clicks the button at the bottom of 
+
+<link id="a1083" target-id="Image_D">
+
+Image D
+
+</link>
+
+, 
+each of the bottom three scripts in 
+
+<link id="a1084" target-id="Image_G">
+
+Image G
+
+</link>
+
+ is executed. Note that they are not 
+all executed simultaneously due to practical limitations in the construction of 
+most computers. However, I can't tell you the exact order in which they are 
+executed because, as far as I know, that is not public information. It might be 
+logical to assume that the individual scripts are executed from top to bottom, 
+but such an assumption may not be correct.
+
+</para>
+
+
+
+
+</section>
+<section id="h21020">
+<title>
+<emphasis id="Not_important_in_this_program" effect="bold">
+
+Not important in this program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1047">
+The order in which the three scripts are executed doesn't really matter in 
+this program because the end result will be the same regardless of the order of 
+execution. However, if two different scripts were to make modifications to the 
+value of the same variable, the order in which those modifications are made 
+could matter a lot. I mention this simply as a word to the wise. Be careful and 
+make certain that you don't write different event handlers that respond to the 
+same event and modify the same data in different ways even if that seems to 
+appeal to your organizational sensibilities. In that case, you should combine 
+the different event handlers into a single event handler because the order of 
+execution of the code within a script is well defined.
+
+</para>
+
+
+
+
+</section>
+<section id="h21021">
+<title>
+
+
+
+<emphasis id="Evaluate_the_relational" effect="bold">
+
+Evaluate the relational-logical expressions and take appropriate action
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1048">
+For each of the bottom three scripts in 
+
+<link id="a1085" target-id="Image_G">
+
+Image G
+
+</link>
+
+, if the relational-logical 
+expression given by the green blocks with the embedded orange blocks evaluates 
+to true, a value of true is set into and displayed by the variable identified by 
+the statement immediately below the word 
+
+<emphasis id="strong1074" effect="bold">
+if
+
+</emphasis>
+. Otherwise, a value of false is 
+set into and displayed by that variable as shown in 
+
+<link id="a1086" target-id="Image_D">
+
+Image D
+
+</link>
+
+ through 
+
+<link id="a1087" target-id="Image_F">
+
+Image F
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21022">
+<title>
+<emphasis id="An_online_version_of_this_program_is_available" effect="bold">
+
+An online version 
+of this program is available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1049">
+A copy of this program has been posted online for your review 
+
+<emphasis id="em1039" effect="italics">
+(see
+
+
+<link id="a1088" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If you 
+don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Runtheprogram" effect="bold">
+
+
+</emphasis>
+
+Run the program
+
+</title>
+
+
+
+
+<para id="p1050">
+I encourage you to use the information provided above to write this program. 
+Experiment with the code, making changes, and observing the results of your 
+changes. Make certain that you can explain why your changes behave as they do.
+
+</para>
+
+
+
+
+<para id="p1051">
+Just for fun, see if you can create a startup screen that displays text 
+similar to the title screen or the credits screen at a movie.
+
+</para>
+
+
+
+
+<para id="p1052">
+I also encourage you to write the programs described below.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_projects" effect="bold">
+
+Student programming projects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1053">
+Copies of these two programs have been posted online for your review 
+
+<emphasis id="em1040" effect="italics">
+(see
+
+
+<link id="a1089" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If you 
+don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+<section id="h21023">
+<title>
+<emphasis id="The_program_named_Logical02" effect="bold">
+
+The program named Logical02
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1054">
+This Scratch program illustrates the use of relational 
+and logical operators to determine if: 
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1057">
+The value of a variable named 
+
+<emphasis id="strong1075" effect="bold">
+LeftOperand
+
+</emphasis>
+ is 
+
+<emphasis id="em1041" effect="italics">
+less than or 
+	equal to
+
+</emphasis>
+ the value of a variable named 
+
+<emphasis id="strong1076" effect="bold">
+RightOperand
+
+</emphasis>
+.
+
+</item>
+
+
+	
+
+<item id="li1058">
+The value of the variable named 
+
+<emphasis id="strong1077" effect="bold">
+LeftOperand
+
+</emphasis>
+ is 
+
+<emphasis id="em1042" effect="italics">
+greater than or 
+	equal to
+
+</emphasis>
+ the value of the variable named 
+
+<emphasis id="strong1078" effect="bold">
+RightOperand
+
+</emphasis>
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1055">
+The following four variables are created, displayed on the Stage, and set to 
+zero when the user clicks the green flag:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1059">
+<emphasis id="strong1079" effect="bold">
+LeftOperand
+
+</emphasis>
+ (a slider 
+	variable)
+
+</item>
+
+
+	
+
+<item id="li1060">
+<emphasis id="strong1080" effect="bold">
+RightOperand
+
+</emphasis>
+  (a slider variable)
+
+</item>
+
+
+	
+
+<item id="li1061">
+<emphasis id="strong1081" effect="bold">
+LessThanOrEqual
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1062">
+<emphasis id="strong1082" effect="bold">
+GreaterThanOrEqual
+
+</emphasis>
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1056">
+A button is also created and displayed on the Stage as shown in 
+
+<link id="a1090" target-id="Image_H">
+
+Image H
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1007" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_H" effect="bold">
+</emphasis>
+Image H. Program output from the program named  Logical02.
+</title>
+
+
+
+
+
+<media id="media1007" alt="Missing image." display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/scr0360-08.jpg" width="487" height="437"/>
+</media>
+
+
+
+
+
+<caption>Image H. Program output from the program named  Logical02.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1057">
+In addition, variables named 
+
+<emphasis id="strong1083" effect="bold">
+Equals
+
+</emphasis>
+, 
+
+<emphasis id="strong1084" effect="bold">
+GreaterThan
+
+</emphasis>
+, 
+and 
+
+<emphasis id="strong1085" effect="bold">
+LessThan
+
+</emphasis>
+ are also created but not initialized or displayed. 
+These variables are used by the code to achieve the desired result when the user 
+clicks the button.
+
+</para>
+
+
+
+
+<para id="p1058">
+The value of each slider variable is set by the user moving the thumb on the 
+slider.
+
+</para>
+
+
+
+
+<para id="p1059">
+When the user clicks the button, if the left operand is 
+
+<emphasis id="em1043" effect="italics">
+less than or equal 
+to
+
+</emphasis>
+ the right operand, the third variable in 
+
+<link id="a1091" target-id="Image_H">
+
+Image H
+
+</link>
+
+ is set to true. Otherwise, that variable is set to 
+false. 
+
+</para>
+
+
+
+
+<para id="p1060">
+If the left operand is 
+
+<emphasis id="em1044" effect="italics">
+greater 
+than or equal to
+
+</emphasis>
+ the right operand, the fourth variable in 
+
+<link id="a1092" target-id="Image_H">
+
+Image H
+
+</link>
+
+ is set to 
+true. Otherwise it is set to false.
+
+</para>
+
+
+
+
+<quote id="blockquote1004" display="block">
+<emphasis id="em1045" effect="italics">
+Note, two of the scripts in my version of the program use variables 
+	named 
+
+</emphasis>
+ 
+
+<emphasis id="strong1086" effect="bold">
+<emphasis id="em1046" effect="italics">
+Equals
+
+</emphasis>
+</emphasis>
+<emphasis id="em1047" effect="italics">
+, 
+
+</emphasis>
+ 
+
+<emphasis id="strong1087" effect="bold">
+<emphasis id="em1048" effect="italics">
+GreaterThan
+
+</emphasis>
+</emphasis>
+<emphasis id="em1049" effect="italics">
+, and
+	
+
+</emphasis>
+
+	
+
+<emphasis id="strong1088" effect="bold">
+<emphasis id="em1050" effect="italics">
+LessThan
+
+</emphasis>
+</emphasis>
+<emphasis id="em1051" effect="italics">
+ 
+whose values are set by the three other scripts. Because I'm unsure as to the order 
+of execution of the scripts, I inserted a delay of 0.1 second at the beginning 
+of each of those two scripts in an attempt to ensure that the execution of the other three 
+scripts will be completed before an attempt is made to use the values of those 
+variables. This is a crude way to deal with this issue, and is not recommended 
+for anything other than demonstration code.
+
+</emphasis>
+</quote>
+
+
+
+
+</section>
+<section id="h21024">
+<title>
+<emphasis id="The_program_named_Logical03" effect="bold">
+
+The program named Logical03
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1061">
+This Scratch program is a modification of the program 
+named Logical02. This is a relatively challenging program to write and 
+requires an understanding of DeMorgan's theorem 
+
+<emphasis id="em1052" effect="italics">
+(see
+
+
+<link id="a1093" target-id="Resources">
+
+Resources
+
+</link>
+
+)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1062">
+The behavior of this program is identical to the behavior of the program 
+named 
+
+<emphasis id="strong1089" effect="bold">
+Logical02
+
+</emphasis>
+. However, it is likely that you used the 
+
+<emphasis id="strong1090" effect="bold">
+or
+
+</emphasis>
+ 
+operator to write that program. This program does not use an 
+
+<emphasis id="strong1091" effect="bold">
+or
+
+</emphasis>
+ operator.
+
+</para>
+
+
+
+
+<para id="p1063">
+Instead, this program uses the 
+
+<emphasis id="strong1092" effect="bold">
+not
+
+</emphasis>
+ operator in conjunction with the 
+
+<emphasis id="strong1093" effect="bold">
+
+and
+
+</emphasis>
+ operator along with DeMorgan's theorem to produce behavior that is 
+identical to the program named 
+
+<emphasis id="strong1094" effect="bold">
+Logical02
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1064">
+I provided an explanation of logical operators and truth tables. Then I 
+presented and explained a Scratch program that illustrates the use of the 
+logical 
+
+<emphasis id="strong1095" effect="bold">
+and
+
+</emphasis>
+, 
+
+<emphasis id="strong1096" effect="bold">
+or
+
+</emphasis>
+, and 
+
+<emphasis id="strong1097" effect="bold">
+not
+
+</emphasis>
+ operators when used in conjunction 
+with relational operators.
+
+</para>
+
+
+
+
+<para id="p1065">
+Finally, I provided the specifications for two student-programming projects 
+for you to demonstrate your understanding of what you learned from the first 
+program and from earlier modules. One of the student-programming projects is 
+relatively difficult requiring an understanding of DeMorgan's theorem 
+
+<emphasis id="em1053" effect="italics">
+(see
+
+
+<link id="a1094" target-id="Resources">
+
+Resources
+
+</link>
+
+)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1066">
+Copies of all three programs have been posted online for your review 
+
+<emphasis id="em1054" effect="italics">
+(see
+
+
+<link id="a1095" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If you 
+don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="WhatsNext" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1067">
+Future modules using the Scratch programming language will continue to deal 
+with 
+
+<emphasis id="em1055" effect="italics">
+selection
+
+</emphasis>
+ and will also deal with 
+
+<emphasis id="em1056" effect="italics">
+loops
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21025">
+<title>
+<emphasis id="General_resources" effect="bold">
+
+General resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1063">
+<link id="a1096" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1064">
+<link id="a1097" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1065">
+<link id="a1098" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1066">
+<link id="a1099" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1067">
+<link id="a1100" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+
+	Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1068">
+<link id="a1101" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1069">
+<link id="a1102" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1070">
+
+	
+
+<link id="a1103" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+
+	Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1071">
+<link id="a1104" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+	TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1072">
+<link id="a1105" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1073">
+
+	
+
+<link id="a1106" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+
+	Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1074">
+
+	
+
+<link id="a1107" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+
+	Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1075">
+
+	
+
+<link id="a1108" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+
+	Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1076">
+<link id="a1109" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+
+	Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1077">
+<link id="a1110" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web 
+	site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1078">
+<link id="a1111" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+	Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1079">
+<link id="a1112" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1080">
+<link id="a1113" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+	project Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1081">
+<link id="a1114" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+	project Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1082">
+<link id="a1115" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+	Project Scratch Tutorial
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1083">
+<link id="a1116" url="http://www.allaboutcircuits.com/vol_4/chpt_7/8.html">
+
+DeMorgan's 
+	theorem
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21026">
+<title>
+<emphasis id="Programs_used_in_this_series" effect="bold">
+
+Programs used in this collection
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1084">
+<link id="a1117" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1085">
+<link id="a1118" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1086">
+<link id="a1119" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1087">
+<link id="a1120" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1088">
+<link id="a1121" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1089">
+<link id="a1122" url="http://scratch.mit.edu/projects/dbal/156614">
+
+Arithmetic01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1090">
+<link id="a1123" url="http://scratch.mit.edu/projects/dbal/156618">
+
+Arithmetic02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1091">
+<link id="a1124" url="http://scratch.mit.edu/projects/dbal/158029">
+
+Relational01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1092">
+<link id="a1125" url="http://scratch.mit.edu/projects/dbal/158030">
+
+Relational02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1093">
+<link id="a1126" url="http://scratch.mit.edu/projects/dbal/158799">
+
+Logical01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1094">
+<link id="a1127" url="http://scratch.mit.edu/projects/dbal/158800">
+
+Logical02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1095">
+<link id="a1128" url="http://scratch.mit.edu/projects/dbal/158801">
+
+Logical03
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1068">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1098" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1015" list-type="bulleted">
+
+					
+
+<item id="li1096">
+Module name: Scr0360: Logical Operators in Scratch 2.0
+
+</item>
+
+
+					
+
+<item id="li1097">
+File: Scr0360.htm
+
+
+</item>
+
+
+					
+
+<item id="li1098">
+Published: 05/16/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1002" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1099" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1069">
+<emphasis id="strong1100" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1070">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1071">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1072">
+<emphasis id="strong1101" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1073">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

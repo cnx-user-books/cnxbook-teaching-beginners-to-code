@@ -1,0 +1,40 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11498</md:content-id>
+    <md:title>Teaching beginners to code</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>b1e4005f-3e92-4f01-bcc3-7453057612b8</md:uuid>
+<md:slug>teaching-beginners-to-code</md:slug>
+</metadata>
+  <col:content>
+    <col:module document="m45876"/>
+    <col:subcollection>
+      <md:title>Scratch v2.0</md:title>
+      <col:content>
+        <col:module document="m46204"/>
+        <col:module document="m46213"/>
+        <col:module document="m46214"/>
+        <col:module document="m46215"/>
+        <col:module document="m46239"/>
+        <col:module document="m46251"/>
+        <col:module document="m46253"/>
+        <col:module document="m46260"/>
+        <col:module document="m46261"/>
+        <col:module document="m46697"/>
+        <col:module document="m46698"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Scratch v1.4</md:title>
+      <col:content>
+        <col:module document="m45875"/>
+        <col:module document="m45877"/>
+        <col:module document="m46072"/>
+        <col:module document="m46076"/>
+        <col:module document="m46083"/>
+        <col:module document="m46086"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

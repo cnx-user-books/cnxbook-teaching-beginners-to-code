@@ -1,0 +1,6099 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0330: Sequence, Selection, and Loop in Scratch 2.0.</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46215</md:content-id>
+  <md:title>Scr0330: Sequence, Selection, and Loop in Scratch 2.0.</md:title>
+  <md:abstract>The purpose of this module is to teach you about structured programming; the sequence structure, the selection structure, and the loop structure. The module will also teach you how to write a Scratch program that illustrates the selection structure, mouse events, and Cartesian coordinates.</md:abstract>
+  <md:uuid>fc05cf76-710f-4dc7-a1a4-8fd7ea283db2</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="GeneralBackgroundInformation">
+
+General background information
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="What_is_structured_programming">
+
+What is structured programming?
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="One_door_in_and_one_door_out">
+
+One door in and one door out
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Nesting_of_structures_is_allowed">
+
+Nesting of structures is allowed
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Pseudocode">
+
+Pseudocode
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="The_sequence_structure">
+
+The sequence structure
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1009">
+<link id="a1009" target-id="The_action_elements_themselves_may_be_structures">
+
+The action elements themselves may be structures
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="The_selection_structure">
+
+The selection structure
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="Test_a_condition_for_true_or_false">
+
+Test a condition for true or false
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="The_action_elements_may_themselves_be_structures">
+
+The action elements themselves 
+			may be structures
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="Sometimes_no_action_is_required_on_false">
+
+Sometimes no action is required on false
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="The_loop_structure">
+
+The loop structure
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Perform_the_test_and_exit_on_false">
+
+Perform the test and exit on false
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Perform_some_actions_and_repeat_the_test_on_true">
+
+Perform some actions and repeat the test on true
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="Each_action_element_may_be_another_structure">
+
+Each action element may be another structure
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="Need_to_avoid_infinite_loops">
+
+Need to avoid infinite loops
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1019">
+<link id="a1019" target-id="Other_possible_structures">
+
+Other possible structures
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1020">
+<link id="a1020" target-id="Preview">
+
+Preview
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1021">
+<link id="a1021" target-id="Screen_output_for_the_program_named_IfSimple01">
+
+
+		Programming interface for the program named IfSimple01
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1022" target-id="Click_the_green_flag_or_the_basketball">
+
+Click the green flag or the basketball
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1023">
+<link id="a1023" target-id="DiscussionAndSamplePrograms">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1009" list-type="bulleted">
+
+		
+
+<item id="li1024">
+<link id="a1024" target-id="Three_sprites">
+
+Three sprites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1025">
+<link id="a1025" target-id="Program_code_for_the_LeftBeachball">
+
+Program code for the LeftBeachball
+
+</link>
+
+
+<list id="ul1010" list-type="bulleted">
+
+			
+
+<item id="li1026">
+<link id="a1026" target-id="Adding_the_blue_go_to_block_to_the_program">
+
+Adding the blue go to block to the program
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1027">
+<link id="a1027" target-id="Coordinate_values_">
+
+Coordinate values 
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1028">
+<link id="a1028" target-id="Behavior_of_the_LeftBeachball">
+
+Behavior of the LeftBeachball
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1029" target-id="Positioning_the_other_beach_ball">
+
+Positioning the other 
+		beachball
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1030">
+<link id="a1030" target-id="The_basketball">
+
+The basketball
+
+</link>
+
+
+<list id="ul1011" list-type="bulleted">
+
+			
+
+<item id="li1031">
+<link id="a1031" target-id="Initializing_the_position_of_the_basketball">
+
+Initializing the position of the basketball
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1032">
+<link id="a1032" target-id="Initializing_the_orientation_of_the_basketball">
+
+Initializing the orientation of the basketball
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1033">
+<link id="a1033" target-id="Handling_mouse_events_on_the_basketball">
+
+Handling mouse events on the basketball
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1034">
+<link id="a1034" target-id="Behavior_of_the_bottom_script">
+
+Behavior of the bottom script
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1035">
+<link id="a1035" target-id="The_selection_block">
+
+The selection block
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1036">
+<link id="a1036" target-id="Two_independent_decisions">
+
+Two independent decisions
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+
+
+<item id="li1037">
+<link id="a1037" target-id="Selection_control_structures_available_in_Scratch">
+
+Control 
+structures available in Scratch
+
+</link>
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1038">
+<link id="a1038" target-id="How_do_the_two_blocks_differ">
+
+How do the two 
+
+<emphasis id="em1000" effect="italics">
+if
+
+</emphasis>
+ blocks differ?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1039" target-id="Specifying_the_condition_on_which_the_decision_will_be_based">
+
+Specifying the condition on which the decision will be based
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1040" target-id="Two_groups_of_programming_blocks_have_the_correct_shape">
+
+Two groups of programming blocks have the correct shape
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1041" target-id="Will_use_the_touching_block">
+
+Will use the touching block
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+		
+
+</item>
+
+
+
+
+<item id="li1042">
+<link id="a1042" target-id="Go_back_and_examine_the_script">
+
+Go back and examine the script
+
+</link>
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1043">
+<link id="a1043" target-id="Conditions_have_been_established_need_actions">
+
+Conditions have been established - need actions
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+		
+
+</item>
+
+
+
+
+<item id="li1044">
+<link id="a1044" target-id="Programming_blocks_belonging_to_the_Motion_group">
+
+Programming blocks belonging to the Motion group
+
+</link>
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1045">
+<link id="a1045" target-id="Turn_around_and_face_the_other_way">
+
+Turn around and face the other way
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+		
+
+</item>
+
+
+
+
+<item id="li1046">
+<link id="a1046" target-id="An_online_version_of_this_program_is_available">
+
+An online version of this program is available
+
+</link>
+
+
+</item>
+
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1047" target-id="RunTheProgram">
+
+Run the program
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1048" target-id="Student_programming_project">
+
+Student programming project
+
+</link>
+
+
+<list id="ul1015" list-type="bulleted">
+
+		
+
+<item id="li1049">
+<link id="a1049" target-id="Orthogonal_axes_in_Cartesian_coordinates">
+
+Orthogonal axes in Cartesian coordinates
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1050">
+
+		
+
+<link id="a1050" target-id="Draw_a_straight_line_to_the_location_of_the_next_mouse_click">
+
+Draw a straight line to the location of the next mouse click
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1051">
+<link id="a1051" target-id="A_sneak_peek_at_the_back_of_the_book">
+
+A sneak peek at the 
+		solution
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1052" target-id="Summary">
+
+Summary
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1053" target-id="WhatsNext">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1054">
+<link id="a1054" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1055">
+<link id="a1055" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+<link id="a1056" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1001" effect="italics">
+(released May 9, 2013)
+
+</emphasis>
+ 
+is the second major version of Scratch to be released during the life of the 
+product. Among other things, it features a redesigned editor and website, and 
+allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module is one in a collection of modules designed to help beginners of 
+all ages 
+
+<emphasis id="em1002" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for computer programs 
+using 
+
+<link id="a1057" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. Information is provided 
+not only for the beginners themselves but also for their parents and teachers 
+where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+The purpose of this module is to teach you about structured programming; the sequence structure, the selection structure, and the loop structure.  
+The module will also teach you how to write a Scratch program that illustrates the selection structure, mouse events, and 
+
+
+<link id="a1058" url="http://en.wikipedia.org/wiki/Cartesian_coordinate_system">
+
+Cartesian coordinates
+
+</link>
+
+.  
+
+
+</para>
+
+
+
+
+<para id="p1003">
+Finally, the module presents a student project by which you can demonstrate your 
+understanding of the concepts learned from studying the module.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1056">
+<link id="a1059" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. The sequence structure 
+	in pseudocode.
+
+</item>
+
+
+	
+
+<item id="li1057">
+<link id="a1060" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. The selection 
+	structure in pseudocode.
+
+</item>
+
+
+	
+
+<item id="li1058">
+<link id="a1061" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. The loop structure in 
+	pseudocode.
+
+</item>
+
+
+	
+
+<item id="li1059">
+<link id="a1062" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. Scratch 2.0 programming interface for 
+	the program named IfSimple01.
+
+</item>
+
+
+	
+
+<item id="li1060">
+<link id="a1063" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. A paraphrased version 
+	of the Scratch code.
+
+</item>
+
+
+	
+
+<item id="li1061">
+<link id="a1064" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Program code for the left beachball
+
+</item>
+
+
+	
+
+<item id="li1062">
+<link id="a1065" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. Initializing the 
+	position and orientation of the basketball.
+
+</item>
+
+
+	
+
+<item id="li1063">
+<link id="a1066" target-id="Image_8">
+
+Image 8
+
+</link>
+
+. All of the code that 
+	applies to the basketball.
+
+</item>
+
+
+	
+
+<item id="li1064">
+<link id="a1067" target-id="Image_9">
+
+Image 9
+
+</link>
+
+. Pseudocode for a 
+	selection structure.
+
+</item>
+
+
+	
+
+<item id="li1065">
+<link id="a1068" target-id="Image_10">
+
+Image 10
+
+</link>
+
+. Two independent 
+	decisions.
+
+</item>
+
+
+	
+
+<item id="li1066">
+<link id="a1069" target-id="Image_11">
+
+Image 11
+
+</link>
+
+. Control structures available in 
+	Scratch.
+
+</item>
+
+
+	
+
+<item id="li1067">
+<link id="a1070" target-id="Image_12">
+
+Image 12
+
+</link>
+
+. Programming blocks 
+	belonging to the Sensing group.
+
+</item>
+
+
+	
+
+<item id="li1068">
+<link id="a1071" target-id="Image_13">
+
+Image 13
+
+</link>
+
+. Initial output from 
+	the program named IfWithVar01.
+
+</item>
+
+
+	
+
+<item id="li1069">
+<link id="a1072" target-id="Image_14">
+
+Image 14
+
+</link>
+
+. Program output after 
+	having clicked twice in the Stage area.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="GeneralBackgroundInformation" effect="bold">
+
+General background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+In this module, I will help you learn about:
+
+</para>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+	
+
+<item id="li1070">
+Structured programming.
+
+</item>
+
+
+	
+
+<item id="li1071">
+The 
+
+<emphasis id="em1003" effect="italics">
+sequence
+
+</emphasis>
+ structure.
+
+</item>
+
+
+	
+
+<item id="li1072">
+The 
+
+<emphasis id="em1004" effect="italics">
+selection
+
+</emphasis>
+ structure.
+
+</item>
+
+
+	
+
+<item id="li1073">
+The 
+
+<emphasis id="em1005" effect="italics">
+loop
+
+</emphasis>
+ structure.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1006">
+In introductory programming courses, you will often hear a lot about 
+something called 
+
+<emphasis id="em1006" effect="italics">
+structured programming.
+
+</emphasis>
+ In comparison with more modern and complex programming 
+concepts such as 
+
+<emphasis id="em1007" effect="italics">
+runtime polymorphism,
+
+</emphasis>
+ structured programming is 
+fairly mundane. However, that's not to say that structured programming isn't 
+important. It is very important. But it is just a small bump in the 
+road of learning that leads to a more complete understanding of computer 
+programming, especially object-oriented programming.
+
+</para>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="What_is_structured_programming" effect="bold">
+
+What is structured programming
+
+</emphasis>
+
+?
+
+</title>
+
+
+
+
+<para id="p1007">
+Basically, the concept of structured programming says that any programming 
+logic problem can be solved using an appropriate combination of only three 
+programming structures, none of which are complicated. The three 
+structures are known generally as:
+
+</para>
+
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+	
+
+<item id="li1074">
+The sequence structure.
+
+</item>
+
+
+	
+
+<item id="li1075">
+The 
+
+<emphasis id="selection_or_decision_structure" effect="bold">
+
+selection or decision 
+	structure
+
+</emphasis>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1076">
+The loop, repetition, or iteration structure.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="One_door_in_and_one_door_out" effect="bold">
+
+One door in and one door out
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+To understand structured programming, you need to think in terms of a section 
+of program code that has only one entry point and one exit point. It is 
+very important that there cannot be multiple entry points or multiple exit 
+points. 
+
+</para>
+
+
+
+
+<para id="p1009">
+There must be only one way into the section of code and one way out of the 
+section of code.
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Nesting_of_structures_is_allowed" effect="bold">
+
+Nesting of structures is allowed
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1010">
+Another important part of the concept is that structures may be nested inside 
+of other structures provided that every structure meets the basic rules for a 
+structure.
+
+</para>
+
+
+
+
+<para id="p1011">
+Thus, by nesting simple structures inside of simple structures, large and 
+complex overall structures can be constructed.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Pseudocode" effect="bold">
+
+Pseudocode
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1012">
+<emphasis id="em1008" effect="italics">
+Computer programming source code
+
+</emphasis>
+ consists generally 
+
+<emphasis id="em1009" effect="italics">
+(but not in 
+Scratch)
+
+</emphasis>
+ of programming instructions written in text form with a very 
+specific format or syntax that is designed to be understood by a computer 
+program. 
+
+<emphasis id="em1010" effect="italics">
+(This is commonly called source code.)
+
+</emphasis>
+ Humans who are not computer programmers might not be expected to 
+understand much of what they see in computer programming source code.
+
+</para>
+
+
+
+
+<para id="p1013">
+According to 
+
+<link id="a1073" url="http://en.wikipedia.org/wiki/Pseudo">
+
+Wikipedia
+
+</link>
+
+,
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+"The prefix 
+
+<emphasis id="strong1000" effect="bold">
+pseudo
+
+</emphasis>
+- (from Greek... "lying, false") is used to mark something as false, fraudulent, or pretending to be something it is not."
+
+</quote>
+
+
+
+
+<para id="p1014">
+Also according to 
+
+<link id="a1074" url="http://en.wikipedia.org/wiki/Pseudocode">
+
+Wikipedia
+
+</link>
+
+,
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+<emphasis id="em1011" effect="italics">
+"Pseudocode is an informal high-level description of the operating principle of a computer program or other algorithm.
+
+It uses the structural conventions of a programming language, but is intended for human reading rather than machine reading. Pseudocode typically omits details that are not essential for human understanding of the algorithm... 
+
+</emphasis>
+</quote>
+
+
+
+
+<quote id="blockquote1002" display="block">
+<emphasis id="em1012" effect="italics">
+The purpose of using pseudocode is that it is easier for people 
+to understand than conventional programming language code, and that it is an 
+efficient and environment-independent description of the key principles of an 
+algorithm."
+
+</emphasis>
+</quote>
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="The_sequence_structure" effect="bold">
+
+The 
+
+<emphasis id="em1013" effect="italics">
+sequence
+
+</emphasis>
+ structure
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+We can 
+describe the 
+
+<emphasis id="em1014" effect="italics">
+sequence
+
+</emphasis>
+ structure using the pseudocode shown in 
+
+<link id="a1075" target-id="Image_1">
+
+Image 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_1" effect="bold">
+</emphasis>
+Image 1.   The sequence structure in pseudocode.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<code id="pre1000" display="block">Enter
+  Perform one or more actions in sequence
+Exit</code>
+
+
+			
+
+<caption>Image 1.   The sequence structure in pseudocode.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1016">
+Thus, the general requirement for the sequence structure is that one or more 
+actions may be performed in sequence after entry and before exit.
+
+</para>
+
+
+
+
+<para id="p1017">
+There may not be any branches or loops between the entry and the exit.
+
+</para>
+
+
+
+
+<para id="p1018">
+All actions must be taken in sequence.
+
+</para>
+
+
+
+
+<section id="h31003">
+<title>
+<emphasis id="The_action_elements_themselves_may_be_structures" effect="bold">
+
+The action elements themselves may be structures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+However, it is important to note that one or more of the action elements may 
+themselves be sequence, selection, or loop structures.
+
+</para>
+
+
+
+
+<para id="p1020">
+If each of the structures that make up the sequence has only one entry point 
+and one exit point, each such structure can be viewed as a single action element 
+in a sequence of actions.
+
+</para>
+
+
+
+
+<para id="p1021">
+The sequence structure is the simplest of the three, and there's not much 
+more that I can say about it.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="The_selection_structure" effect="bold">
+
+The 
+
+<emphasis id="em1015" effect="italics">
+selection
+
+</emphasis>
+ structure
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1022">
+The 
+
+<emphasis id="em1016" effect="italics">
+selection
+
+</emphasis>
+ or 
+
+<emphasis id="em1017" effect="italics">
+decision
+
+</emphasis>
+ structure can be described as shown 
+in the pseudocode in 
+
+<link id="a1076" target-id="Image_2">
+
+Image 2
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_2" effect="bold">
+</emphasis>
+Image 2.   The selection structure in pseudocode.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<code id="pre1001" display="block">Enter
+  Test a condition for true or false
+  On true 
+    Take one or more actions in sequence
+  On false
+    Take none, one, or more actions in sequence
+Exit
+</code>
+
+
+			
+
+<caption>Image 2.   The selection structure in pseudocode.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<section id="h31004">
+<title>
+<emphasis id="Test_a_condition_for_true_or_false" effect="bold">
+
+Test a condition for true or false
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1023">
+Once again, there is only one entry point and one exit point.
+
+</para>
+
+
+
+
+<para id="p1024">
+The first thing that happens following entry is that some condition is tested 
+for 
+
+<emphasis id="em1018" effect="italics">
+true
+
+</emphasis>
+ or 
+
+<emphasis id="em1019" effect="italics">
+false
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1025">
+The concept of something being 
+
+<emphasis id="em1020" effect="italics">
+true
+
+</emphasis>
+ or 
+
+<emphasis id="em1021" effect="italics">
+false
+
+</emphasis>
+ 
+is commonly referred to as a 
+
+<emphasis id="em1022" effect="italics">
+boolean condition
+
+</emphasis>
+ 
+in computer programming 
+
+<emphasis id="em1023" effect="italics">
+(named after George Boole)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1026">
+If the condition is true, one or more actions are taken in sequence and 
+control exits the structure.
+
+</para>
+
+
+
+
+<para id="p1027">
+If the condition is false, 
+
+<emphasis id="strong1001" effect="bold">
+none
+
+</emphasis>
+, one or more different actions are 
+taken in sequence and control exits the structure. 
+
+<emphasis id="em1024" effect="italics">
+(Note the inclusion 
+of the word 
+
+<emphasis id="strong1002" effect="bold">
+none
+
+</emphasis>
+ here.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="The_action_elements_may_themselves_be_structures" effect="bold">
+
+The action elements themselves may be structures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1028">
+Once again, each of the action elements in the sequence may be another 
+sequence, selection, or loop structure.
+
+</para>
+
+
+
+
+<para id="p1029">
+Eventually all of the actions for a chosen branch will be completed in 
+sequence and control will exit the structure.
+
+</para>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Sometimes_no_action_is_required_on_false" effect="bold">
+
+Sometimes no action is required on false
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+It is often the case that no action is required when the test returns false. 
+In that case, control simply exits the structure without performing any actions.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="The_loop_structure" effect="bold">
+
+The 
+
+<emphasis id="em1025" effect="italics">
+loop
+
+</emphasis>
+ structure
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1031">
+The 
+
+<emphasis id="em1026" effect="italics">
+loop
+
+</emphasis>
+ or 
+
+<emphasis id="em1027" effect="italics">
+iteration
+
+</emphasis>
+ structure can be described as shown in 
+the pseudocode in 
+
+<link id="a1077" target-id="Image_3">
+
+Image 3
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_3" effect="bold">
+</emphasis>
+Image 3.   The loop structure in pseudocode.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<code id="pre1002" display="block">Enter
+  Test a condition for true or false
+  Exit on false
+  On true
+    Perform one or more actions in sequence.
+    Go back and test the condition again
+</code>
+
+
+			
+
+<caption>Image 3.   The loop structure in pseudocode.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1032">
+As before, there is only one entry point and one exit point. Note that 
+in this case, the exit point is not at the end of the pseudocode. Instead, 
+it follows the test.
+
+</para>
+
+
+
+
+<section id="h31007">
+<title>
+<emphasis id="Perform_the_test_and_exit_on_false" effect="bold">
+
+Perform the test and exit on false
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+The first thing that happens following entry is that a condition is tested 
+for true or false.
+
+</para>
+
+
+
+
+<para id="p1034">
+If the test returns false, control simply exits the structure without taking 
+any action at all.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Perform_some_actions_and_repeat_the_test_on_true" effect="bold">
+
+Perform some actions and repeat the test on true
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1035">
+If the test returns true:
+
+</para>
+
+
+
+
+<list id="ul1019" list-type="bulleted">
+
+	
+
+<item id="li1077">
+One or more actions are performed in sequence.
+
+</item>
+
+
+	
+
+<item id="li1078">
+The condition is tested again and the process is repeated.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1036">
+During each 
+
+<emphasis id="em1028" effect="italics">
+iteration
+
+</emphasis>
+, if the test returns false, control exits the 
+structure. If the test returns true, the entire process is repeated.
+
+</para>
+
+
+
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Each_action_element_may_be_another_structure" effect="bold">
+
+Each action element may be another structure
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+Each of the action elements may be implemented by another sequence, 
+selection, or loop structure.
+
+</para>
+
+
+
+
+<para id="p1038">
+Eventually all of the actions will be completed and the condition will be 
+tested again.
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="Need_to_avoid_infinite_loops" effect="bold">
+
+Need to avoid infinite loops
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1039">
+Generally speaking, unless something is done in one of the actions to cause 
+the test to eventually return false, control will never exit the loop.
+
+</para>
+
+
+
+
+<para id="p1040">
+In this case, the program will be caught in what is commonly called 
+an 
+
+<emphasis id="em1029" effect="italics">
+infinite loop.
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Other_possible_structures" effect="bold">
+
+Other possible structures
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1041">
+In some programming languages, there are structures other than 
+sequence, selection, and loop that structured-programming experts are willing to 
+accept 
+
+<emphasis id="em1030" effect="italics">
+for convenience
+
+</emphasis>
+ including:
+
+</para>
+
+
+
+
+<list id="ul1020" list-type="bulleted">
+
+	
+
+<item id="li1079">
+The switch-case structure.
+
+</item>
+
+
+	
+
+<item id="li1080">
+The do-until structure.
+
+</item>
+
+
+	
+
+<item id="li1081">
+The for loop
+
+</item>
+
+
+	
+
+<item id="li1082">
+The for-each loop
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1042">
+While sometimes more convenient than the three main structures, these 
+structures are not required for the solution of programming logic problems.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1043">
+In this module, I will present and explain the simplest example of a 
+selection structure that I was able to write in Scratch without using variables 
+and without using relational or logical operators. 
+
+<emphasis id="em1031" effect="italics">
+(I will explain 
+operators, including relational and logical operators in future modules.)
+
+</emphasis>
+</para>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="Screen_output_for_the_program_named_IfSimple01" effect="bold">
+
+Programming 
+interface for the program named IfSimple01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+The program places a basketball and two beachballs on the Stage as shown in 
+
+
+<link id="a1078" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_4" effect="bold">
+</emphasis>
+Image 4.   Scratch 2.0 programming interface for the program named IfSimple01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0330-a.jpg" width="751" height="799"/>
+</media>
+
+
+			
+
+<caption>Image 4.   Scratch 2.0 programming interface for the program named IfSimple01.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<section id="h31011">
+<title>
+<emphasis id="Click_the_green_flag_or_the_basketball" effect="bold">
+
+Click the green flag or the basketball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+When the user clicks the green flag in the upper right corner of the stage, the three 
+balls are placed in a horizontal line with the basketball in the center.
+
+</para>
+
+
+
+
+<para id="p1046">
+Scratch code, which can be paraphrased as shown in 
+
+<link id="a1079" target-id="Image_5">
+
+Image 5
+
+</link>
+
+, is executed each 
+time the user clicks the basketball with the mouse.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_5" effect="bold">
+</emphasis>
+Image 5.   A paraphrased version of the Scratch code.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<code id="pre1003" display="block">when Basketball is clicked{
+  move basketball forward by 90 steps
+  if(Basketball is touching RightBeachball){
+    turn Basketball by 180 degrees
+  }//end if
+  
+  if(Basketball is touching LeftBeachball){
+    turn Basketball by 180 degrees
+  }//end if
+}</code>
+
+
+			
+
+<caption>Image 5.   A paraphrased version of the Scratch code.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1047">
+In other words, if you repetitively click the basketball with the mouse, it 
+will move back and forth from left to right bouncing off of the two beachballs. 
+The basketball will keep bouncing back and forth between the two beachballs for 
+as long as you continue clicking on the basketball.
+
+</para>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="DiscussionAndSamplePrograms" effect="bold">
+
+
+</emphasis>
+
+Discussion and sample code
+
+</title>
+
+
+
+
+<para id="p1048">
+Let's walk through the steps required to develop this program. I will 
+deal first with the code that defines the behavior of the program when the user 
+clicks the green flag in the upper right corner of the stage in 
+
+<link id="a1080" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<quote id="blockquote1003" display="block">
+
+	
+
+<emphasis id="strong1003" effect="bold">
+The Cartesian coordinate system
+
+</emphasis>
+ The position of sprites on the Stage 
+	in the Scratch programming interface is based on a two-dimensional 
+	
+
+<link id="a1081" url="http://en.wikipedia.org/wiki/Cartesian_coordinate_system">
+
+Cartesian 
+	coordinate system
+
+</link>
+
+ 
+	with the origin at the center of the Stage. The x coordinates range from 
+	-240 at the left to +240 at the right. The y coordinates range from +180 at 
+	the top to -180 at the bottom.
+
+</quote>
+
+
+
+
+<section id="h21008">
+<title>
+<emphasis id="Three_sprites" effect="bold">
+
+Three sprites
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1049">
+The area below the stage in 
+
+<link id="a1082" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ shows that this program contains two 
+beachballs and one basketball in addition to the Stage.
+
+<emphasis id="em1032" effect="italics">
+ (The beachballs and the 
+basketball are sprites.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1050">
+You add a sprite to your 
+program by clicking one of the four buttons immediately below the stage. 
+If you hover your mouse over those buttons going from left to right, the 
+following tooltips appear:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1083">
+Choose a sprite from library
+
+</item>
+
+
+	
+
+<item id="li1084">
+Paint new sprite
+
+</item>
+
+
+	
+
+<item id="li1085">
+Upload sprite from file
+
+</item>
+
+
+	
+
+<item id="li1086">
+New sprite from camera 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1051">
+In this program, the beachballs and the basketball were added by selecting 
+the first or leftmost button in the row of four buttons and then selecting the 
+appropriate sprite from the library.
+
+</para>
+
+
+
+
+<para id="p1052">
+Although not visible in the cropped version of the programming interface in 
+
+<link id="a1083" target-id="Image_4">
+
+Image 4
+
+</link>
+
+, 
+when you click on one of the sprites that you have added to the program, that 
+sprite appears at the top of the rightmost pane. 
+
+<emphasis id="em1033" effect="italics">
+(See 
+
+</emphasis>
+ 
+
+
+<link id="a1084" target-id="Image_6">
+
+
+<emphasis id="em1034" effect="italics">
+Image 6
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1035" effect="italics">
+ for example.)
+
+</emphasis>
+ Having done that, you can 
+then drag programming blocks into the rightmost pane that define the behavior of that 
+sprite.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Program_code_for_the_LeftBeachball" effect="bold">
+
+Program code for the 
+LeftBeachball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1053">
+The code that I wrote 
+
+<emphasis id="em1036" effect="italics">
+(by dragging blocks into the rightmost pane in the 
+programming interface)
+
+</emphasis>
+ for the sprite named 
+
+<emphasis id="strong1004" effect="bold">
+LeftBeachball
+
+</emphasis>
+ is shown in 
+
+
+<link id="a1085" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. 
+
+<emphasis id="em1037" effect="italics">
+(Note the image of the beachball in the upper right 
+corner. When this is an image of a beachball, all of the scripts in the rightmost panel apply to 
+that particular beachball sprite.)
+
+</emphasis>
+</para>
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_6" effect="bold">
+</emphasis>
+Image 6.   Program code for the left beachball.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0330-b.jpg" width="507" height="322"/>
+</media>
+
+
+			
+
+<caption>Image 6.   Program code for the left beachball.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1054">
+You are already familiar with the tan block with the green flag shown in 
+
+<link id="a1086" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ because you 
+learned about it in a previous module. However, the 
+blue block in 
+
+<link id="a1087" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ has not been used prior to this module.
+
+</para>
+
+
+
+
+<section id="h31012">
+<title>
+<emphasis id="Adding_the_blue_go_to_block_to_the_program" effect="bold">
+
+Adding the blue 
+
+<emphasis id="em1038" effect="italics">
+go 
+to
+
+</emphasis>
+ block to the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1055">
+The blue block shown in 
+
+<link id="a1088" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ was added to the program module by:
+
+</para>
+
+
+
+
+<list id="ul1021" list-type="bulleted">
+
+	
+
+<item id="li1087">
+Clicking the dark blue button labeled 
+
+<emphasis id="strong1005" effect="bold">
+Motion
+
+</emphasis>
+ in the upper center of 
+	
+
+<link id="a1089" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1088">
+Dragging the blue block shown in 
+
+<link id="a1090" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ from the 
+	toolbox to the 
+	rightmost panel and clicking it into place under the tan block.
+
+</item>
+
+
+	
+
+<item id="li1089">
+Typing the literal values -200 and 0 into the two white boxes on the 
+	blue block.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+	
+
+</section>
+<section id="h31013">
+<title>
+
+	
+
+<emphasis id="Coordinate_values_" effect="bold">
+
+Coordinate values 
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1056">
+
+	If you move the mouse pointer around the stage in the programming interface, the coordinates of the mouse pointer are displayed 
+	immediately below the stage as shown in 
+
+<link id="a1091" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. As 
+	mentioned earlier, the x 
+	coordinates range from -240 at the left to +240 at the right. The y 
+	coordinates range from +180 at the top to -180 at the bottom.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="Behavior_of_the_LeftBeachball" effect="bold">
+
+Behavior of the LeftBeachball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1057">
+The behavior of the script shown in 
+
+<link id="a1092" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ can be interpreted as 
+follows: When the user clicks the green flag, cause the sprite named 
+
+<emphasis id="strong1006" effect="bold">
+LeftBeachball
+
+</emphasis>
+ to move to a location with an x 
+
+
+<emphasis id="em1039" effect="italics">
+(horizontal)
+
+</emphasis>
+ coordinate 
+value of -200 and a y 
+
+<emphasis id="em1040" effect="italics">
+(vertical)
+
+</emphasis>
+ coordinate value of 0. Since the 
+origin is at the center of the Stage, this causes the beachball to move to the 
+left of the origin on the horizontal axis.
+
+</para>
+
+
+
+
+<section id="h41000">
+<title>
+<emphasis id="Some_experimentation_was_required" effect="bold">
+
+Some experimentation was 
+required
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1058">
+Because I didn't know the diameter of the beachball, I had to experiment to 
+determine how far to move it to the left of the origin to locate it at the left 
+side of the Stage as shown in 
+
+<link id="a1093" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. I settled on a value of -200 for 
+the x coordinate and a value of 0 for the y coordinate.
+
+</para>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Positioning_the_other_beach_ball" effect="bold">
+
+Positioning the other beachball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+In the interest of brevity, I won't show the code required to position the 
+beachball on the right side of the Stage. I did exactly the same thing for that 
+beachball 
+except that I specified the value of the x coordinate to be 200 instead of - 
+200. This causes the beachball named 
+
+<emphasis id="strong1007" effect="bold">
+RightBeachball
+
+</emphasis>
+ to move to the 
+right side of the Stage when the user clicks the green flag.
+
+</para>
+
+
+
+
+</section>
+<section id="h21011">
+<title>
+<emphasis id="The_basketball" effect="bold">
+
+The basketball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h31015">
+<title>
+<emphasis id="Initializing_the_position_of_the_basketball" effect="bold">
+
+Initializing the 
+position of the basketball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1060">
+<link id="a1094" target-id="Image_7">
+
+Image 7
+
+</link>
+
+ shows a portion of the rightmost panel after clicking on the sprite named
+
+
+<emphasis id="strong1008" effect="bold">
+Basketball
+
+</emphasis>
+. 
+
+<emphasis id="em1041" effect="italics">
+(Note the image of the basketball in the upper right 
+corner. When this is an image of the basketball, all of the scripts in the rightmost panel apply to the 
+basketball sprite.)
+
+</emphasis>
+</para>
+
+
+
+
+
+
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_7" effect="bold">
+</emphasis>
+Image 7.   Initializing the position and orientation of the basketball.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1002" alt="Missing image." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/scr0330-c.jpg" width="506" height="273"/>
+</media>
+
+
+			
+
+<caption>Image 7.   Initializing the position and orientation of the basketball.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1061">
+You will note that the tan block and the uppermost blue block in 
+
+<link id="a1095" target-id="Image_7">
+
+Image 7
+
+</link>
+
+ 
+are 
+the same as in 
+
+<link id="a1096" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ except that the x coordinate value is set to 0. 
+This causes the basketball to move to the origin when the user clicks the green 
+flag.
+
+</para>
+
+
+
+
+</section>
+<section id="h31016">
+<title>
+<emphasis id="Initializing_the_orientation_of_the_basketball" effect="bold">
+
+Initializing the 
+orientation of the basketball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1062">
+However, 
+
+<link id="a1097" target-id="Image_7">
+
+Image 7
+
+</link>
+
+ contains a block that is not contained in 
+
+<link id="a1098" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. The 
+bottom blue block in 
+
+<link id="a1099" target-id="Image_7">
+
+Image 7
+
+</link>
+
+ is used to set the 
+
+<emphasis id="em1042" effect="italics">
+orientation
+
+</emphasis>
+ of the 
+basketball. 
+
+<emphasis id="em1043" effect="italics">
+(By orientation, I mean the direction that the basketball 
+is facing.)
+
+</emphasis>
+</para>
+
+
+
+
+<quote id="blockquote1004" display="block">
+<emphasis id="em1044" effect="italics">
+It may seem strange to say that a round basketball is facing in one direction 
+or the other. However, every sprite has a front, back, top, and bottom 
+even in those cases where it is not visually obvious. The orientation 
+would be visually obvious if I were to use an animal for the sprite in place of 
+the basketball. You can tell which direction the basketball is facing by 
+observing the curved diagonal lines on the basketball.
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1063">
+After you drag the blue block labeled 
+
+<emphasis id="strong1009" effect="bold">
+point in direction
+
+</emphasis>
+ into the 
+rightmost panel, you can click the arrow in the white box to expose the following 
+four choices:
+
+</para>
+
+
+
+
+<list id="ul1022" list-type="bulleted">
+
+	
+
+<item id="li1090">
+(90) right
+
+</item>
+
+
+	
+
+<item id="li1091">
+(-90) left
+
+</item>
+
+
+	
+
+<item id="li1092">
+(0) up
+
+</item>
+
+
+	
+
+<item id="li1093">
+(180) down
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1064">
+As you can see, I selected the choice that causes the basketball to face to the 
+right. As a result, when the user clicks the green flag, the basketball 
+will move to the origin and turn to face the right.
+
+</para>
+
+
+
+
+</section>
+<section id="h31017">
+<title>
+<emphasis id="Handling_mouse_events_on_the_basketball" effect="bold">
+
+Handling mouse events on 
+the basketball
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1065">
+<link id="a1100" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ shows all of the code in the rightmost panel that applies to the basketball.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1007" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_8" effect="bold">
+</emphasis>
+Image 8.   All of the code that applies to the basketball.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/scr0330-d.jpg" width="508" height="567"/>
+</media>
+
+
+			
+
+<caption>Image 8.   All of the code that applies to the basketball.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1066">
+The top script in 
+
+<link id="a1101" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ is another copy of the script that was 
+shown in 
+
+<link id="a1102" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. At this point, we are interested in the behavior of the 
+bottom script in 
+
+<link id="a1103" target-id="Image_8">
+
+Image 8
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31018">
+<title>
+<emphasis id="Behavior_of_the_bottom_script" effect="bold">
+
+Behavior of the bottom script
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1067">
+The dark tan block labeled 
+
+<emphasis id="strong1010" effect="bold">
+when this sprite clicked
+
+</emphasis>
+ specifies that all of 
+the actions produced by the blocks attached to that block will occur when the user 
+clicks the basketball with the mouse. Furthermore, those actions will 
+occur in top-to-bottom order.
+
+</para>
+
+
+
+
+<para id="p1068">
+The blue block labeled 
+
+<emphasis id="strong1011" effect="bold">
+move 90 steps
+
+</emphasis>
+ causes the basketball to move 90 
+steps forward 
+
+<emphasis id="em1045" effect="italics">
+(in the direction that it is facing)
+
+</emphasis>
+. Each step constitutes one unit in the Cartesian coordinate 
+system. For example, if you were to change this value from 90 to 240, that 
+would cause the basketball to move from the origin to the extreme right edge of 
+the Stage.
+
+</para>
+
+
+
+
+</section>
+<section id="h31019">
+<title>
+<emphasis id="The_selection_block" effect="bold">
+
+The selection block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1069">
+As I indicated 
+
+<link id="a1104" target-id="selection_or_decision_structure">
+
+earlier
+
+</link>
+
+, the 
+
+<emphasis id="em1046" effect="italics">
+selection
+
+</emphasis>
+ structure is sometimes referred to as a 
+
+
+<emphasis id="em1047" effect="italics">
+decision
+
+</emphasis>
+ structure. In other words, this structure causes the program 
+to select or make a decision between two alternatives. The pseudocode in 
+
+
+<link id="a1105" target-id="Image_9">
+
+Image 9
+
+</link>
+
+ describes this process.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1008" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_9" effect="bold">
+</emphasis>
+Image 9.   Pseudocode for a selection structure.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<code id="pre1004" display="block">if a specified condition is true
+ perform a specified action
+otherwise (when the specified condition is not true)
+ perform a different action</code>
+
+
+			
+
+<caption>Image 9.   Pseudocode for a selection structure.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1070">
+Sometimes the second part of the selection process isn't needed. In 
+other words, in some cases, if the specified condition is not true, there is no 
+requirement to do anything at all. That is the case in this program.
+
+</para>
+
+
+
+
+</section>
+<section id="h31020">
+<title>
+<emphasis id="Two_independent_decisions" effect="bold">
+
+Two independent decisions
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1071">
+This program makes two independent decisions shown by the pseudocode in 
+
+
+<link id="a1106" target-id="Image_10">
+
+Image 
+10
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1009" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_10" effect="bold">
+</emphasis>
+Image 10.   Two independent decisions.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<code id="pre1005" display="block">if the basketball is touching the beachball on the right
+ turn around and face to the left
+
+if the basketball is touching the beachball on the left
+ turn around and face to the right
+</code>
+
+
+			
+
+<caption>Image 10.   Two independent decisions.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1072">
+These two decisions are implemented by the two light tan blocks in 
+
+<link id="a1107" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ 
+containing the word 
+
+<emphasis id="strong1012" effect="bold">
+if
+
+</emphasis>
+. 
+
+<emphasis id="em1048" effect="italics">
+(From this point forward, I won't distinguish 
+between dark tan and light tan.)
+
+</emphasis>
+</para>
+
+
+
+
+<quote id="blockquote1005" display="block">
+
+	
+
+<emphasis id="em1049" effect="italics">
+ Clicking the tan 
+
+</emphasis>
+ 
+
+<emphasis id="strong1013" effect="bold">
+<emphasis id="em1050" effect="italics">
+Control
+
+</emphasis>
+</emphasis>
+<emphasis id="em1051" effect="italics">
+ button shown at the 
+	upper center in 
+
+</emphasis>
+ 
+
+<link id="a1108" target-id="Image_4">
+
+
+<emphasis id="em1052" effect="italics">
+Image 4
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1053" effect="italics">
+ exposes a large number of programming blocks. 
+	Two 
+	of them are used to create pure selection structures (if-then and if-then-else) and one is used to 
+	create a combination of a loop structure and a selection structure (repeat-until).
+
+</emphasis>
+</quote>
+
+
+
+
+
+</section>
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Selection_control_structures_available_in_Scratch" effect="bold">
+
+Control 
+structures available in Scratch
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1073">
+Clicking the tan 
+
+<emphasis id="strong1014" effect="bold">
+Control
+
+</emphasis>
+ button shown at the upper center in 
+
+<link id="a1109" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ 
+exposes the blocks shown in 
+
+<link id="a1110" target-id="Image_11">
+
+Image 11
+
+</link>
+
+. As mentioned 
+above, two of the blocks can be used to 
+create pure selection structures and one can be used to create a 
+combination of a loop structure and a selection structure. The other blocks 
+serve other purposes.
+
+</para>
+
+
+
+
+<para id="p1074">
+Selection structures are created by dragging 
+the selection blocks into the rightmost panel in order to apply them to a particular 
+sprite.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1010" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_11" effect="bold">
+</emphasis>
+Image 11.   Control structures available in Scratch.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/scr0330-e.jpg" width="220" height="715"/>
+</media>
+
+
+			
+
+<caption>Image 11.   Control structures available in Scratch.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h31021">
+<title>
+<emphasis id="How_do_the_two_blocks_differ" effect="bold">
+
+How do the two 
+
+<emphasis id="em1054" effect="italics">
+if
+
+</emphasis>
+ blocks differ?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1075">
+The 
+
+<emphasis id="em1055" effect="italics">
+if-then-else
+
+</emphasis>
+ block in 
+
+<link id="a1111" target-id="Image_11">
+
+Image 11
+
+</link>
+
+ is used to select between two specific actions
+
+
+<emphasis id="em1056" effect="italics">
+(or two sequences of actions)
+
+</emphasis>
+. The 
+
+<emphasis id="em1057" effect="italics">
+if-then
+
+</emphasis>
+ block is used when there is only one action 
+
+
+<emphasis id="em1058" effect="italics">
+(or one sequence of actions)
+
+</emphasis>
+ and you need to decide 
+whether to take that action or not. 
+
+</para>
+
+
+
+
+<para id="p1076">
+That latter case describes the situation in this program. 
+If the basketball is touching a beachball, a specific action is required. 
+If the basketball is not touching a beachball, no specific action is required.
+
+</para>
+
+
+
+
+</section>
+<section id="h31022">
+<title>
+<emphasis id="Specifying_the_condition_on_which_the_decision_will_be_based" effect="bold">
+
+Specifying the condition on which the decision will be based
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1077">
+Note the empty darker depressed area in some of the blocks shown in 
+
+<link id="a1112" target-id="Image_11">
+
+Image 11
+
+</link>
+
+ 
+
+<emphasis id="em1059" effect="italics">
+(the 
+rectangles with the pointed ends)
+
+</emphasis>
+. In order to use these 
+blocks, you must drop another block having the same shape into the depressed 
+area. The block that you drop into that area must specify the condition 
+that will be used to make the decision.
+
+</para>
+
+
+
+
+</section>
+<section id="h31023">
+<title>
+<emphasis id="Two_groups_of_programming_blocks_have_the_correct_shape" effect="bold">
+
+Two groups 
+of programming blocks have the correct shape
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1078">
+Unless I missed seeing some others, there are only two buttons at the top 
+center of 
+
+<link id="a1113" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ that expose blocks having the required shape:
+
+</para>
+
+
+
+
+<list id="ul1023" list-type="bulleted">
+
+	
+
+<item id="li1094">
+Sensing (light blue)
+
+</item>
+
+
+	
+
+<item id="li1095">
+Operators (green)
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1079">
+In this case, we will select and use a block from the light blue 
+
+<emphasis id="strong1015" effect="bold">
+Sensing
+
+</emphasis>
+ 
+group. 
+
+<emphasis id="em1060" effect="italics">
+(We will use programming blocks from the green 
+
+<emphasis id="strong1016" effect="bold">
+Operators
+
+</emphasis>
+ group in 
+a future module.)
+
+</emphasis>
+ All of the blocks belonging to the 
+
+<emphasis id="strong1017" effect="bold">
+Sensing
+
+</emphasis>
+ 
+group are shown in 
+
+<link id="a1114" target-id="Image_12">
+
+Image 12
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1011" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_12" effect="bold">
+</emphasis>
+Image 12.   Programming blocks belonging to the Sensing group.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/scr0330-f.jpg" width="224" height="792"/>
+</media>
+
+
+			
+
+<caption>Image 12.   Programming blocks belonging to the Sensing group.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h31024">
+<title>
+<emphasis id="Will_use_the_touching_block" effect="bold">
+
+Will use the 
+
+<emphasis id="em1061" effect="italics">
+touching
+
+</emphasis>
+ block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1080">
+We will use the block labeled 
+
+<emphasis id="strong1018" effect="bold">
+touching
+
+</emphasis>
+ followed by a pull-down list 
+and a question mark. 
+
+</para>
+
+
+
+
+<para id="p1081">
+The items that appear in the pull-down list depend on 
+the sprites that have been added to the program. For 
+this program, that list consists of the following choices when the basketball 
+has been selected for programming:
+
+</para>
+
+
+
+
+<list id="ul1024" list-type="bulleted">
+
+	
+
+<item id="li1096">
+mouse-pointer
+
+</item>
+
+
+	
+
+<item id="li1097">
+edge
+
+</item>
+
+
+	
+
+<item id="li1098">
+LeftBeachball
+
+</item>
+
+
+	
+
+<item id="li1099">
+RightBeachball
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1082">
+The top two choices are always there. The remaining choices depend on 
+the sprites that have been added to the program and the sprite that has been selected for programming.
+
+
+</para>
+
+
+
+
+<quote id="blockquote1006" display="block">
+<emphasis id="em1062" effect="italics">
+(Note that the 
+
+<emphasis id="strong1019" effect="bold">
+Basketball
+
+</emphasis>
+ sprite does not appear in the above list 
+because it was selected for programming when I examined the list. In other 
+words, you can't determine that the basketball is touching itself.)
+
+</emphasis>
+</quote>
+
+
+
+
+</section>
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Go_back_and_examine_the_script" effect="bold">
+
+Go back and examine the script
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1083">
+Going back to the bottom script in 
+
+<link id="a1115" target-id="Image_8">
+
+Image 8
+
+</link>
+
+, you can 
+see that I dragged two copies of the 
+
+<emphasis id="strong1020" effect="bold">
+if
+
+</emphasis>
+ block shown in 
+
+<link id="a1116" target-id="Image_11">
+
+Image 11
+
+</link>
+
+ into the 
+rightmost panel and 
+connected the blocks as shown in 
+
+<link id="a1117" target-id="Image_8">
+
+Image 8
+
+</link>
+
+. Then I dragged two copies of the
+
+
+<emphasis id="strong1021" effect="bold">
+touching
+
+</emphasis>
+ block from the 
+
+<emphasis id="strong1022" effect="bold">
+Sensing
+
+</emphasis>
+ group shown in 
+
+<link id="a1118" target-id="Image_12">
+
+Image 12
+
+</link>
+
+, and 
+dropped each of those blocks into the corresponding locations in the 
+
+<emphasis id="strong1023" effect="bold">
+if
+
+</emphasis>
+ 
+blocks in 
+
+<link id="a1119" target-id="Image_8">
+
+Image 8
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1084">
+Then I selected 
+
+<emphasis id="strong1024" effect="bold">
+RightBeachball
+
+</emphasis>
+ from the pull-down list for one of the
+
+
+<emphasis id="strong1025" effect="bold">
+touching
+
+</emphasis>
+ blocks and selected 
+
+<emphasis id="strong1026" effect="bold">
+LeftBeachball
+
+</emphasis>
+ from the pull-down list 
+for the other 
+
+<emphasis id="strong1027" effect="bold">
+touching
+
+</emphasis>
+ block.
+
+</para>
+
+
+
+
+<section id="h31025">
+<title>
+<emphasis id="Conditions_have_been_established_need_actions" effect="bold">
+
+Conditions have 
+been established - need actions
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1085">
+At this point, I had the conditions for the two selection structures 
+established, but I hadn't yet specified the actions to be taken when one or the 
+other of the conditions is found to be true.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21014">
+<title>
+<emphasis id="Programming_blocks_belonging_to_the_Motion_group" effect="bold">
+
+Programming 
+blocks belonging to the Motion group
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1086">
+<link id="a1120" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ shows all of the programming blocks that are exposed by clicking the 
+
+<emphasis id="strong1028" effect="bold">
+Motion
+
+</emphasis>
+ button at the 
+top center of 
+
+<link id="a1121" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<para id="p1087">
+You saw three of the programming blocks from 
+
+<link id="a1122" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ being used in 
+
+<link id="a1123" target-id="Image_6">
+
+Image 6
+
+</link>
+
+, 
+
+<link id="a1124" target-id="Image_7">
+
+Image 7
+
+</link>
+
+, and 
+immediately below the top tan block in the bottom script in 
+
+<link id="a1125" target-id="Image_8">
+
+Image 8
+
+</link>
+
+. Now 
+we need to use another of the programming blocks from 
+
+<link id="a1126" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<section id="h31026">
+<title>
+<emphasis id="Turn_around_and_face_the_other_way" effect="bold">
+
+Turn around and face the other 
+way
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1088">
+Recall that the blue 
+
+<emphasis id="strong1029" effect="bold">
+point in direction
+
+</emphasis>
+ block in the top script in 
+
+
+<link id="a1127" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ causes the basketball to turn to face to the right when the user clicks 
+the green flag.
+
+</para>
+
+
+
+
+<para id="p1089">
+The two 
+
+<emphasis id="strong1030" effect="bold">
+turn
+
+</emphasis>
+ blocks in the bottom script in 
+
+<link id="a1128" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ cause the 
+basketball to rotate around its center by 180 degrees. This, in turn, 
+causes it to face in the opposite direction from the direction that it was 
+previously facing. 
+
+<emphasis id="em1063" effect="italics">
+(It also turns it upside down, but that doesn't 
+matter for a round basketball.)
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1090">
+This is the action that is required 
+whenever either of the 
+
+<emphasis id="strong1031" effect="bold">
+touching
+
+</emphasis>
+ blocks is true. In other words, 
+whenever the basketball touches either of the beachballs, it must turn to face 
+the opposite direction and be prepared to move 90 steps in that direction the 
+next time the user clicks the basketball.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21015">
+<title>
+<emphasis id="An_online_version_of_this_program_is_available" effect="bold">
+
+An online version 
+of this program is available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1091">
+A copy of this program has been posted online for your review 
+
+<emphasis id="em1064" effect="italics">
+(see
+
+
+<link id="a1129" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="RunTheProgram" effect="bold">
+
+
+</emphasis>
+
+Run the program
+
+</title>
+
+
+
+
+<para id="p1092">
+I encourage you to use the information provided above to write this program. 
+Experiment with the code, making changes, and observing the results of your 
+changes. Make certain that you can explain why your changes behave as they 
+do. 
+
+</para>
+
+
+
+
+<para id="p1093">
+Just for fun, use blocks from the purple 
+
+<emphasis id="strong1032" effect="bold">
+Sound
+
+</emphasis>
+ group and add some 
+sound effects to your program.
+
+</para>
+
+
+
+
+<para id="p1094">
+I also encourage you to write the program described below.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_project" effect="bold">
+
+Student programming project
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1095">
+Write a Scratch program named 
+
+<emphasis id="strong1033" effect="bold">
+IfWithVar01
+
+</emphasis>
+ that produces the output 
+shown in 
+
+<link id="a1130" target-id="Image_13">
+
+Image 13
+
+</link>
+
+ when the user clicks the green flag.
+
+
+<emphasis id="em1065" effect="italics">
+(Don't be concerned about matching the values in the x and y variables in
+
+
+</emphasis>
+ 
+
+<link id="a1131" target-id="Image_13">
+
+
+<emphasis id="em1066" effect="italics">
+Image 13
+
+</emphasis>
+</link>
+
+.
+
+<emphasis id="em1067" effect="italics">
+)
+
+</emphasis>
+</para>
+
+
+
+
+
+
+
+<figure id="figure1012" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_13" effect="bold">
+</emphasis>
+Image 13.   Initial output from the program named IfWithVar01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/scr0330-g.jpg" width="492" height="634"/>
+</media>
+
+
+			
+
+<caption>Image 13.   Initial output from the program named IfWithVar01.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h21016">
+<title>
+<emphasis id="Orthogonal_axes_in_Cartesian_coordinates" effect="bold">
+
+Orthogonal axes in 
+Cartesian coordinates
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1096">
+When the user clicks the green flag, a 
+
+<emphasis id="strong1034" effect="bold">
+DrawingPencil
+
+</emphasis>
+ sprite draws a 
+pair of orthogonal axes that intersect at the origin in the white Stage area. 
+Make the horizontal axis extend from -200 to 200. Make the vertical axis 
+extend from -100 to 100.
+
+</para>
+
+
+
+
+</section>
+<section id="h21017">
+<title>
+<emphasis id="Draw_a_straight_line_to_the_location_of_the_next_mouse_click" effect="bold">
+
+Draw 
+a straight line to the location of the next mouse click
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1097">
+Each time the user clicks the mouse in the white Stage area 
+
+<emphasis id="em1068" effect="italics">
+(after the 
+user has clicked the green flag)
+
+</emphasis>
+, a straight line is drawn from the current 
+location of the 
+
+<emphasis id="strong1035" effect="bold">
+DrawingPencil
+
+</emphasis>
+ to the location where the mouse click 
+occurred. 
+
+<link id="a1132" target-id="Image_14">
+
+Image 14
+
+</link>
+
+ shows an example output after two mouse clicks.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1013" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_14" effect="bold">
+</emphasis>
+Image 14.   Program output after having clicked twice in the Stage area.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1007" alt="Missing image" display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/scr0330-h.jpg" width="491" height="625"/>
+</media>
+
+
+			
+
+<caption>Image 14.   Program output after having clicked twice in the Stage area.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21018">
+<title>
+<emphasis id="A_sneak_peek_at_the_back_of_the_book" effect="bold">
+
+A sneak peek at the solution
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1098">
+In case you need to sneak a peek at the solution to this programming project, a 
+copy of this program has been posted online for your review 
+
+<emphasis id="em1069" effect="italics">
+(see
+
+
+<link id="a1133" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. 
+
+<emphasis id="em1070" effect="italics">
+(If 
+you don't find the program using that URL, search the Scratch website for the user 
+named 
+
+</emphasis>
+<emphasis id="strong1036" effect="bold">
+<emphasis id="em1071" effect="italics">
+dbal
+
+</emphasis>
+</emphasis>
+<emphasis id="em1072" effect="italics">
+.)
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1099">
+Once you locate the project on the Scratch web site, you can execute it 
+online.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1100">
+I began by explaining structured programming, the sequence structure, the 
+selection structure, and the loop structure. Then I presented and 
+explained a Scratch program that illustrates the selection structure. 
+
+<emphasis id="em1073" effect="italics">
+(The sequence structure is so simple that it doesn't require an explanation. 
+The loop structure will be explained in a future module.)
+
+</emphasis>
+ The program 
+also illustrates the handling of mouse events and Cartesian coordinates.
+
+</para>
+
+
+
+
+<para id="p1101">
+Finally, I provided the specifications for a student-programming project for 
+you to write to demonstrate your understanding of what you learned from the 
+first program.
+
+</para>
+
+
+
+
+<para id="p1102">
+Copies of both programs have been posted online for your review 
+
+<emphasis id="em1074" effect="italics">
+(see
+
+
+<link id="a1134" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named 
+
+<emphasis id="strong1037" effect="bold">
+dbal
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="WhatsNext" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1103">
+In the next module, I will teach you about arithmetic operators. In the 
+two modules following that one, I will teach you about relational and logical 
+operators and how to use those operators to write the conditional expressions 
+used in selection and loop structures.
+
+</para>
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1025" list-type="bulleted">
+
+	
+
+<item id="li1100">
+<link id="a1135" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1101">
+<link id="a1136" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1102">
+<link id="a1137" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1103">
+<link id="a1138" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1104">
+<link id="a1139" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1105">
+<link id="a1140" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1106">
+<link id="a1141" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1107">
+
+	
+
+<link id="a1142" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1108">
+<link id="a1143" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+	TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1109">
+<link id="a1144" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1110">
+
+	
+
+<link id="a1145" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1111">
+
+	
+
+<link id="a1146" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1112">
+
+	
+
+<link id="a1147" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1113">
+<link id="a1148" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1114">
+<link id="a1149" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web 
+	site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1115">
+<link id="a1150" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+	Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1116">
+<link id="a1151" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1117">
+<link id="a1152" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+	project Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1118">
+<link id="a1153" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+	project Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1119">
+<link id="a1154" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+	Project Scratch Tutorial
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1120">
+<link id="a1155" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1121">
+<link id="a1156" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1122">
+<link id="a1157" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1123">
+<link id="a1158" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1124">
+<link id="a1159" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1104">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1038" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1026" list-type="bulleted">
+
+					
+
+<item id="li1125">
+Module name: Scr0330: Sequence, Selection, and Loop in 
+					Scratch 2.0.
+
+</item>
+
+
+					
+
+<item id="li1126">
+File: Scr0330.htm
+
+
+</item>
+
+
+					
+
+<item id="li1127">
+Published: 05/11/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1039" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1105">
+<emphasis id="strong1040" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1106">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1107">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1108">
+<emphasis id="strong1041" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1109">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

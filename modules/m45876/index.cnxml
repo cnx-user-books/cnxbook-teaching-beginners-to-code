@@ -1,0 +1,3582 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Tkc0100: Preface</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45876</md:content-id>
+  <md:title>Tkc0100: Preface</md:title>
+  <md:abstract>Preface to a collection of modules designed to help beginners of all ages learn how to create the code for computer programs. Information is provided not only for the beginners themselves but also for their parents and teachers where appropriate.</md:abstract>
+  <md:uuid>98a5c626-3c05-4071-83c4-9d9f88a4b75b</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1001">
+<link id="a1001" target-id="General_background_information">
+
+Background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1002">
+<link id="a1002" target-id="Discussion_and_sample_code">
+
+Discussion
+
+</link>
+
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Many_paths_are_available">
+
+Many paths are available
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="The_recommended_path">
+
+The recommended path
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Programming_knowledge_requirements_in_Texas">
+
+Programming 
+		knowledge requirements
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Wont_cover_the_first_three_items">
+
+Won't cover the first three items
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Text_based_versus_drag_and_drop_versus_popup">
+
+Text based 
+		vs. drag-and-drop vs. popup programming
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Text_based_programming">
+
+Text-based programming
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1009">
+<link id="a1009" target-id="Drag_and_drop_programming">
+
+Drag-and-drop programming
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Popup_programming">
+
+Popup programming
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1011">
+<link id="a1011" target-id="Scratch">
+
+Scratch
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="Links_to_interesting_Scratch_material">
+
+Links to useful 
+			Scratch material
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="New_features_in_Scratch_20">
+
+New features in Scratch 
+			2.0
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1014">
+<link id="a1014" target-id="My_publications_for_Scratch_v2.0">
+
+My publications for Scratch v2.0
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Are_you_too_old_for_scratch">
+
+Are you too old for 
+			scratch?
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Additional_draganddrop_programming_resources">
+
+
+			Additional drag-and-drop programming resources
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1017">
+<link id="a1017" target-id="Text_based_learning_resources">
+
+Text based learning 
+		resources
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="Codecademy_JavaScript">
+
+Codecademy JavaScript
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="Codecademy_Web_Fundamentals">
+
+Codecademy Web Fundamentals
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="Codecademy_Ruby">
+
+Codecademy Ruby
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="Codecademy_PHP_and_Python">
+
+Codecademy PHP and Python
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="UdacityIntroduction_to_Computer_Science">
+
+Udacity - Introduction to Computer Science
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1023">
+<link id="a1023" target-id="Object-Oriented_Programming_OOP_with_Java">
+
+
+			Object-Oriented Programming (OOP) with Java
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1024">
+<link id="a1024" target-id="Other_options">
+
+Other options
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1025">
+<link id="a1025" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1026" target-id="Appendix_A_Programming_knowledge_requirements_in_Texas">
+
+
+	Appendix A: Programming knowledge requirements in Texas
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+		
+
+<item id="li1027">
+<link id="a1027" target-id="A_list_of_requirements0">
+
+A list of requirements
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+
+
+</list>
+
+
+		
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+		
+
+<para id="p1000">
+This module is one in a collection of modules designed to help 
+		beginners of all ages 
+
+<emphasis id="em1000" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for 
+	computer programs. Information is provided not only for the beginners 
+		themselves but also for parents, teachers, and other helpers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1001">
+The purpose of this module is simply to introduce the collection. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h11002">
+<title>
+<emphasis id="General_background_information" effect="bold">
+
+Background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1002">
+In the year 2013, everything from parking meters to cell phones to Mars 
+landing vehicles are controlled by computer code. That code is written by 
+humans.
+
+</para>
+
+
+
+
+<para id="p1003">
+<link id="a1028" url="http://www.youtube.com/watch?v=dU1xS07N-FA">
+
+Bill Gates
+
+</link>
+
+,
+
+
+<link id="a1029" url="http://www.youtube.com/watch?v=EGS96s9saL0">
+
+Mark Zuckerberg
+
+</link>
+
+,
+
+
+<link id="a1030" url="http://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code.html">
+
+
+Mitch Resnick
+
+</link>
+
+, and many other 
+
+<link id="a1031" url="http://www.code.org/">
+
+respected 
+individuals
+
+</link>
+
+ are telling us that 
+
+<emphasis id="em1001" effect="italics">
+"Everybody in this country should learn 
+how to program a computer... because it teaches you how to think."
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1004">
+If you search the web, you will find a maze of web pages containing information 
+for 
+teaching beginners how to create program code. This collection will attempt to pull much of that 
+information together and to provide explanations that will make it easier for 
+beginners to navigate that maze and to get involved in computer programming.
+
+</para>
+
+
+
+	
+
+<para id="p1005">
+As mentioned earlier, the information in this collection is intended not only for the 
+	beginners 
+	themselves, but also for the parents, teachers, and other helpers of those beginners where 
+	appropriate.
+
+</para>
+
+
+
+	
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<section id="h21000">
+<title>
+<emphasis id="Many_paths_are_available" effect="bold">
+
+Many paths are available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+There are many paths that a beginner can take and many tools that a beginner 
+can use in learning to write computer 
+	code -- some good and some not so good. Here is a non-exhaustive list of tools and 
+resources 
+
+<emphasis id="em1002" effect="italics">
+(in no particular order)
+
+</emphasis>
+ that I have 
+	collected 
+
+<emphasis id="from_the_web" effect="bold">
+
+from the web
+
+</emphasis>
+
+:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1028">
+<link id="a1032" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1029">
+<link id="a1033" url="http://www.codecademy.com/#!/exercises/0">
+
+Codecademy
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1030">
+<link id="a1034" url="https://www.udacity.com/course/cs101">
+
+Udacity - Introduction to 
+	Computer Science
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1031">
+<link id="a1035" url="http://www.alice.org">
+
+Alice
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1036" url="http://codehs.com/">
+
+CodeHS
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1037" url="http://www.kodugamelab.com/">
+
+Kodu
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1038" url="http://www.python.org/">
+
+Python
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1039" url="http://www.pygame.org/news.html">
+
+Pygame
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1040" url="http://cs1graphics.org/">
+
+CS1graphics.org
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1041" url="http://wiki.sugarlabs.org/go/Sugar_on_a_Stick">
+
+Sugar on a Stick
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1042" url="http://www.lua.org/">
+
+Lua
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1043" url="http://opensimulator.org/wiki/Main_Page">
+
+OpenSim
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1044" url="http://code.google.com/p/spritely/">
+
+Spritely
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1045" url="http://edubuntu.org/">
+
+Edubuntu
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1046" url="http://appinventor.mit.edu/">
+
+App Inventor
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1047" url="http://mindstorms.lego.com/en-us/Default.aspx">
+
+Lego Mindstorms
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1048" url="http://www.greenfoot.org">
+
+Greenfoot
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1049" url="http://www.bluej.org/">
+
+BlueJ
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1050" url="http://www.java.com">
+
+Java
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1051" url="http://www.play-i.com/">
+
+Play-i
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1052" url="http://marshallbrain.com/kids-programming.htm">
+
+Marshall Brain: 
+	Teaching your kids how to write computer programs
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1053" url="http://www.code.org/">
+
+Code.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1054" url="http://teamtreehouse.com/">
+
+Treehouse
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1051">
+<link id="a1055" url="http://w3schools.com/">
+
+W3schools.com
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1056" url="http://turtleacademy.com/">
+
+TurtleAcademy
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1057" url="http://stackoverflow.com/">
+
+StackOverflow
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1054">
+<link id="a1058" url="http://www.programr.com/">
+
+Programr
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1055">
+<link id="a1059" url="https://thimble.webmaker.org/en-US/">
+
+Mozilla Thimble
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1056">
+<link id="a1060" url="http://ocw.mit.edu/index.htm">
+
+MIT Open Courseware
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1057">
+<link id="a1061" url="http://www.learnstreet.com/">
+
+LearnStreet
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1058">
+<link id="a1062" url="http://learncodethehardway.org/">
+
+LCodeTHW
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1059">
+<link id="a1063" url="http://www.kidsruby.com/">
+
+KidsRuby
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1060">
+<link id="a1064" url="http://www.jsdares.com/">
+
+JSDares
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1061">
+<link id="a1065" url="http://www.html5rocks.com/en/">
+
+HTML5 Rocks
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1062">
+<link id="a1066" url="http://hackety.com/">
+
+Hackety Hack
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1063">
+<link id="a1067" url="http://www.tynker.com/">
+
+Tynker
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1064">
+<link id="a1068" url="http://stencyl.com/">
+
+Stencyl
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1065">
+<link id="a1069" url="http://smallbasic.com/">
+
+Microsoft Small Basic
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1066">
+<link id="a1070" url="http://byob.berkeley.edu/">
+
+Snap! (Build Your Own Blocks)
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1067">
+<link id="a1071" url="http://code.google.com/p/blockly/">
+
+Blockly
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1068">
+<link id="a1072" url="http://www.surfscore.com/">
+
+Kodable
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1069">
+<link id="a1073" url="http://www.gethopscotch.com/">
+
+Hopscotch
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1070">
+ 
+	
+
+<link url="/content/col11441/latest/" id="a1074">
+
+Object-Oriented Programming (OOP) with Java
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1007">
+The many available options can lead to confusion, 
+particularly for beginners, parents, and teachers without a strong technical background. 
+Different items in the above list are best suited to students of different ages 
+with different backgrounds.
+
+</para>
+
+
+
+
+<para id="p1008">
+In 
+this collection, I will attempt to provide the information needed to help 
+beginners, parents, and teachers alike sort through the options in order to 
+navigate a 
+path that makes sense for each particular beginner. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="The_recommended_path" effect="bold">
+
+The recommended path
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+Although my recommendation may change over time as new tools and resources 
+become available, as of May 2013, my recommended path is as follows:
+
+</para>
+
+
+
+
+<list id="ol1001" list-type="enumerated">
+
+	
+
+<item id="li1071">
+Begin with 
+
+<link id="a1075" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. You can 
+	read more about Scratch and some of the other items on my recommended path in the 
+	sections that follow. By the time that you finish with Scratch, you should 
+	be able to create programs to solve the Blockly
+	
+
+<link id="a1076" url="http://blockly-demo.appspot.com/static/apps/maze/index.html">
+
+maze 
+	puzzles
+
+</link>
+
+. They will test your knowledge of certain aspects of programming 
+	logic.
+
+</item>
+
+
+	
+
+<item id="li1072">
+When you are comfortable with Scratch, complete the following free 
+	online course: 
+
+<link id="a1077" url="http://www.codecademy.com/tracks/javascript">
+
+
+	Codecademy JavaScript
+
+</link>
+
+. If you are really ambitious, you might also want 
+	to complete 
+
+<link id="a1078" url="http://www.codecademy.com/tracks/ruby">
+
+Codecademy Ruby
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1073">
+Once you complete the 
+
+<link id="a1079" url="http://www.codecademy.com/tracks/javascript">
+
+
+	Codecademy JavaScript
+
+</link>
+
+ course, take a temporary departure from 
+	programming and learn about another form of coding by completing the following free 
+	online course: 
+
+<link id="a1080" url="http://www.codecademy.com/tracks/web">
+
+Codecademy Web 
+	Fundamentals
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1074">
+At this point, you will need to graduate into the use of a compiled 
+	type-sensitive programming language. My recommendation is to complete all of 
+	the 
+
+<emphasis id="em1003" effect="italics">
+Programming 
+	Fundamentals
+
+</emphasis>
+ modules at 
+	
+
+<link url="/content/col11441/latest/" id="a1081">
+
+Object-Oriented Programming (OOP) with Java
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1075">
+Next you should take a look at the 
+
+<emphasis id="em1004" effect="italics">
+Objects First
+
+</emphasis>
+ module at 
+	
+
+<link url="/content/col11441/latest/" id="a1082">
+
+Object-Oriented Programming (OOP) with Java
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1076">
+Following that, you should study the modules in 
+
+<emphasis id="em1005" effect="italics">
+ITSE 2321
+
+</emphasis>
+, 
+
+<emphasis id="em1006" effect="italics">
+
+	ITSE 2317
+
+</emphasis>
+, 
+
+<emphasis id="em1007" effect="italics">
+GAME 2302
+
+</emphasis>
+, and 
+
+<emphasis id="em1008" effect="italics">
+Anatomy of a Game Engine
+
+</emphasis>
+ at 
+	
+
+<link url="/content/col11441/latest/" id="a1083">
+
+Object-Oriented Programming (OOP) with Java
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1010">
+There are many other resources in the 
+
+<link id="a1084" target-id="from_the_web">
+
+above list
+
+</link>
+
+ 
+that are worth pursuing. However, once you reach the end of this 
+
+
+<link id="a1085" target-id="The_recommended_path">
+
+recommended path
+
+</link>
+
+, you will be sufficiently 
+well 
+informed that you will no longer need my recommendations to help you chart your 
+path forward.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Programming_knowledge_requirements_in_Texas" effect="bold">
+
+Programming knowledge requirements
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+Several years ago, I extracted information from various Texas State documents 
+in an attempt to get a handle on the minimum level of programming knowledge that 
+is required for students to graduate from a Texas high school with one or more 
+courses in computer science. By organizing 
+that material, I came up with the list in
+
+
+<link id="a1086" target-id="Appendix_A_Programming_knowledge_requirements_in_Texas">
+
+Appendix A
+
+</link>
+
+ as the minimum list of items that 
+must be understood by the graduating student.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Wont_cover_the_first_three_items" effect="bold">
+
+Won't cover the first three items
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1012">
+I probably won't attempt to cover the first three items in the 
+list in
+
+
+<link id="a1087" target-id="Appendix_A_Programming_knowledge_requirements_in_Texas">
+
+Appendix A
+
+</link>
+
+. Instead, 
+I will recommend that you go on the web or go to a used bookstore to purchase 
+and then study the first few chapters of any one of hundreds of textbooks on programming fundamentals that 
+have been published in the past twenty years that cover those items. That 
+material hasn't changed much in twenty years so it doesn't need to be a new 
+textbook. Furthermore, that material is generally independent of the programming 
+language being used, so it doesn't even need to be a textbook for a specific 
+programming language.
+
+</para>
+
+
+
+
+<para id="p1013">
+I do plan to cover many of the remaining items in the
+list in
+
+
+<link id="a1088" target-id="Appendix_A_Programming_knowledge_requirements_in_Texas">
+
+Appendix A
+
+</link>
+
+ one or more 
+times in this collection of modules but not necessarily in the order given.
+
+</para>
+
+
+
+
+<para id="p1014">
+This is a work in process, covering a wealth of knowledge, which I will be updating in 
+upcoming months and possibly even years.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+<emphasis id="Text_based_versus_drag_and_drop_versus_popup" effect="bold">
+
+Text based vs. 
+drag-and-drop vs. popup programming
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="Text_based_programming" effect="bold">
+
+Text-based programming
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+Historically, computer programs have been written by typing text on a 
+computer keyboard, and that remains true even today for mainstream programming. 
+That is what I mean when I refer to text-based programming.
+
+</para>
+
+
+
+
+<para id="p1016">
+However, in recent years, two alternative ways to create computer code have become 
+popular:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1077">
+Drag-and-drop programming
+
+</item>
+
+
+	
+
+<item id="li1078">
+Popup programming
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Drag_and_drop_programming" effect="bold">
+
+Drag-and-drop programming
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+As of May 2013, this form of programming is primarily used in environments 
+that are designed for teaching programming concepts. Drag-and-drop programming 
+hasn't yet made its way into mainstream programming. However, that 
+may be about to change 
+
+<emphasis id="em1009" effect="italics">
+(see 
+
+<link id="a1089" url="http://appinventor.mit.edu/">
+
+MIT App 
+Inventor
+
+</link>
+
+ and Google 
+
+<link id="a1090" url="http://code.google.com/p/blockly/">
+
+blockly
+
+</link>
+
+ 
+for example)
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1018">
+The two primary players in the educational drag-and-drop programming field are
+
+
+<link id="a1091" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ and
+
+
+<link id="a1092" url="http://www.alice.org/index.php">
+
+Alice
+
+</link>
+
+, but they are not alone. 
+Several other players are also on the scene 
+
+<emphasis id="em1010" effect="italics">
+(see 
+
+</emphasis>
+
+
+
+<link id="a1093" url="http://byob.berkeley.edu/">
+
+
+<emphasis id="em1011" effect="italics">
+Snap! 
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1012" effect="italics">
+and
+
+
+<link id="a1094" url="http://www.tynker.com/">
+
+Tynker
+
+</link>
+
+ for example)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1019">
+The primary advantage of drag-and-drop programming is that it eliminates the 
+requirement to memorize complex programming syntax and allows the programmer to 
+concentrate on the concepts. Most of the work is done by dragging visual images 
+of blocks 
+
+<emphasis id="em1013" effect="italics">
+(containing program code)
+
+</emphasis>
+ from a tool box and assembling them into a 
+program. Very little keyboard work is required, which in turn greatly reduces 
+the likelihood of spelling and syntax errors.
+
+</para>
+
+
+
+
+<para id="p1020">
+Given the current popularity of touch screens and the disdain for keyboards, 
+I see a bright future for drag-and-drop programming within the next ten years, 
+even for large scale commercial applications.
+
+
+<link id="a1095" url="http://appinventor.mit.edu/">
+
+MIT App Inventor
+
+</link>
+
+ and
+
+
+<link id="a1096" url="http://code.google.com/p/blockly/">
+
+blockly
+
+</link>
+
+ are leading the charge 
+in that regard.
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Popup_programming" effect="bold">
+
+Popup programming
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1021">
+Popup programming is a supplement to text-based programming and is not 
+intended for educational use. Instead, it is intended to make mainstream 
+programmers more productive by reducing the amount of typing required. 
+
+</para>
+
+
+
+
+<para id="p1022">
+Many different forms exist, but they generally take on the form of a popup 
+menu that appears at certain critical times to allow the programmer to select 
+code from a menu as an alternative to typing the code. 
+
+</para>
+
+
+
+
+<para id="p1023">
+One form of popup programming is 
+
+<emphasis id="em1014" effect="italics">
+code completion
+
+</emphasis>
+. With code completion, the 
+Integrated Development Environment 
+
+<emphasis id="em1015" effect="italics">
+(IDE)
+
+</emphasis>
+ examines the first few 
+characters typed by the programmer and makes an educated guess as to the 
+remaining required characters, which the programmer can either accept or reject.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Scratch" effect="bold">
+
+Scratch
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1024">
+I suspect that the all time most successful self-study programming environment for 
+beginners is
+
+
+<link id="a1097" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+. This is probably the result of 
+three factors:
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1079">
+<link id="a1098" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ makes it easy to get 
+	started programming
+
+</item>
+
+
+	
+
+<item id="li1080">
+<link id="a1099" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ is engaging for today's 
+	fast-paced multimedia generation
+
+</item>
+
+
+	
+
+<item id="li1081">
+<link id="a1100" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ provides a monitored 
+	online social network that allows interaction among beginners with a common 
+	interest.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1025">
+In my opinion, the most difficult aspect of teaching coding to beginners is 
+getting their attention and getting them engaged. Therefore, the first 
+group of instructional modules in this collection will be designed to help beginners, their parents, 
+and their teachers get started programming with
+
+
+<link id="a1101" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<section id="h31004">
+<title>
+<emphasis id="Links_to_interesting_Scratch_material" effect="bold">
+
+Links to useful Scratch 
+material
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+Up until May 9, 2013, the latest version of 
+
+<link id="a1102" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ 
+was version 1.4. For several days prior to May 9, the 
+
+<link id="a1103" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ 
+website was shut down to allow the folks at MIT to migrate from version 1.4 to version 2.0. 
+
+</para>
+
+
+
+
+<para id="p1027">
+On 
+May 9, 2013, 
+
+<link id="a1104" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ 
+version 2.0 was officially released and the 
+
+<link id="a1105" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ website was 
+reopened reflecting that change. I will have more to say about the new version 
+of 
+
+<link id="a1106" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ later. In the meantime, some of 
+the following links may take you to information about the old version, some may 
+take you to information about the new version, and unfortunately, some may have 
+become broken during the transition. 
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1082">
+Click 
+
+<link id="a1107" url="http://www.code.org/learn/scratch">
+
+here
+
+</link>
+
+ to watch a short 
+video about 
+
+<link id="a1108" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1083">
+Click
+	
+
+<link id="a1109" url="http://www.ted.com/talks/mitch_resnick_let_s_teach_kids_to_code.html">
+
+here
+
+</link>
+
+ to see what Mitch Resnick, director of the Lifelong Kindergarten group 
+at MIT Media Lab has to say about the need for beginners to learn to code.
+
+</item>
+
+
+	
+
+<item id="li1084">
+Click 
+
+<link id="a1110" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+here
+
+</link>
+
+ to 
+view the online version of an interesting 
+
+
+<link id="a1111" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ project named Day Dream.
+
+</item>
+
+
+	
+
+<item id="li1085">
+Click 
+
+<link id="a1112" url="http://info.scratch.mit.edu/Scratch_Tours">
+
+here
+
+</link>
+
+ to take an 
+online tour of 
+
+<link id="a1113" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1086">
+Click 
+
+<link id="a1114" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+here
+
+</link>
+
+ to view 
+online
+
+
+<link id="a1115" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ tutorial videos from MIT.
+
+</item>
+
+
+	
+
+<item id="li1087">
+Click 
+
+<link id="a1116" url="http://scratch.mit.edu/galleries/browse/newest">
+
+here
+
+</link>
+
+ to 
+view thousands of online scratch projects.
+
+</item>
+
+
+	
+
+<item id="li1088">
+Click 
+
+<link id="a1117" url="http://info.scratch.mit.edu/About_Scratch">
+
+here
+
+</link>
+
+ to learn 
+more about scratch.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="New_features_in_Scratch_20" effect="bold">
+
+New features in Scratch 2.0
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1028">
+There are a number of new features in v2.0, some of which are very nice. I 
+will refer you to this
+
+
+<link id="a1118" url="http://chrisbetcher.com/2013/01/scratch-2-0-beta-whats-new/">
+
+preview 
+article
+
+</link>
+
+ that discusses some of those new features.
+
+</para>
+
+
+
+
+<section id="h41000">
+<title>
+Internet access is required
+
+</title>
+
+
+
+
+<para id="p1029">
+There are a couple of critical aspects of v2.0 that I will mention. Although there was a strong 
+web component that involved sharing projects with Scratch v1.4, that version of 
+
+<link id="a1119" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ was a program that 
+was downloaded, installed on the local machine, and run locally. Once the program was installed on the local 
+machine, Internet access 
+was nice but no longer required.
+
+</para>
+
+
+
+
+<para id="p1030">
+Scratch v2.0 requires Internet access 
+to be of any use. The development 
+program runs online in a browser. Therefore, those without Internet access and 
+those with poor Internet access won't be able to use Scratch v2.0. 
+
+
+</para>
+
+
+
+
+</section>
+<section id="h41001">
+<title>
+Version 1.4 is still available
+
+</title>
+
+
+
+
+<para id="p1031">
+Fortunately, as 
+of May 2013, it is still possible to download and install v1.4 from
+
+
+<link id="a1120" url="http://info.scratch.mit.edu/Scratch_1.4_Download">
+
+
+http://info.scratch.mit.edu/Scratch_1.4_Download
+
+</link>
+
+. Then the program can be 
+run locally without a requirement for Internet access.
+
+</para>
+
+
+
+
+</section>
+<section id="h41002">
+<title>
+The Adobe Flash player is required
+
+</title>
+
+
+
+
+<para id="p1032">
+Another critical aspect v2.0 is that the Adobe Flash player must be installed on 
+the local machine to use v2.0. While this may not be a problem in most cases, it 
+is something that potential users of v2.0 should be aware of.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h31006">
+<title>
+<emphasis id="My_publications_for_Scratch_v2.0" effect="bold">
+
+My publications for Scratch v2.0
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+On the release date for v2.0 
+
+<emphasis id="em1016" effect="italics">
+(May 9, 2013)
+
+</emphasis>
+, I was about two-thirds 
+complete in the publication of a series of modules designed to connect the 
+
+<emphasis id="em1017" effect="italics">
+
+fun
+
+</emphasis>
+ side of Scratch v1.4 to the 
+
+<emphasis id="em1018" effect="italics">
+serious
+
+</emphasis>
+ world of Computer Science. 
+I immediately put that v1.4 series on the back burner and began a new 
+series built around 
+
+<link id="a1121" url="http://scratch.mit.edu/">
+
+Scratch v2.0
+
+</link>
+
+. However, 
+for the benefit of those who still need information about v1.4, I did not delete 
+the modules that I had previously published for that version. You will find 
+those modules in this collection in addition to the modules for v2.0.
+
+</para>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+<emphasis id="Are_you_too_old_for_scratch" effect="bold">
+
+Are you too old for scratch
+
+</emphasis>
+
+??
+
+</title>
+
+
+
+
+<para id="p1034">
+If you are an "older" beginner, don't be put off by the fact that the Scratch 
+forums are primarily attended by younger students. Scratch incorporates a wealth 
+of information that is equally beneficial to both younger and older beginners. 
+The main difference is that the older beginners are more likely to graduate from 
+Scratch into a programming environment that is more commercially viable sooner 
+than the younger students.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Additional_draganddrop_programming_resources" effect="bold">
+
+Additional 
+drag-and-drop programming resources
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1035">
+If you would like to study some more advanced drag-and-drop material after 
+you finish studying the Scratch modules, you might want to take a look at the 
+following:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+
+
+<item id="li1089">
+<link id="a1122" url="http://byob.berkeley.edu/">
+
+Snap! (Build Your Own Blocks)
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1090">
+<link id="a1123" url="http://code.google.com/p/blockly/">
+
+Blockly
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1091">
+<link id="a1124" url="http://appinventor.mit.edu/">
+
+MIT App Inventor
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1036">
+Snap! is an extended re-implementation of Scratch with many advanced features. 
+It is used in computer science coursework at the University of California at 
+Berkeley.
+
+</para>
+
+
+
+
+<para id="p1037">
+Blockly and the MIT App Inventor are products that attempt to bridge the gap 
+between the use of drag-and-drop programming for education and the use of 
+drag-and-drop programming for the development of commercial applications.
+
+</para>
+
+
+
+
+<para id="p1038">
+In addition, there are a number of other educational products available on 
+the web that appear to be based on Scratch.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Text_based_learning_resources" effect="bold">
+
+Text based learning resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1039">
+When you are ready for some text-based programming instruction, I have several 
+recommendations for you in my order of preference:
+
+</para>
+
+
+
+
+<list id="ol1002" list-type="enumerated">
+
+	
+
+<item id="li1092">
+<link id="a1125" url="http://www.codecademy.com/tracks/javascript">
+
+Codecademy JavaScript
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1093">
+<link id="a1126" url="http://www.codecademy.com/tracks/ruby">
+
+Codecademy Ruby
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1094">
+<link id="a1127" url="http://www.codecademy.com/tracks/web">
+
+Codecademy Web 
+	Fundamentals
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1095">
+<link id="a1128" url="https://www.udacity.com/course/cs101">
+
+Udacity - 
+Introduction to Computer Science
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1096">
+<link url="/content/col11441/latest/" id="a1129">
+
+Object-Oriented 
+	Programming (OOP) with Java
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1040">
+These are all free online courses. 
+
+</para>
+
+
+
+
+<para id="p1041">
+It isn't necessary for you to establish an 
+account to take the Codecademy courses, but there are some benefits to 
+establishing an account. For example, with the Codecademy courses, if you establish an account and 
+log in before working on a course, the system will keep 
+track of where you are, what you have completed, etc. and will make it possible 
+for you to resume where you left off the next time you log in.
+
+</para>
+
+
+
+
+<section id="h31009">
+<title>
+<emphasis id="Codecademy_JavaScript" effect="bold">
+
+Codecademy JavaScript
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+The first two items in the above list are 
+almost tied in terms of my order of preference. However, the JavaScript course edges out 
+the Ruby course for several reasons.
+
+</para>
+
+
+
+
+<para id="p1043">
+First, JavaScript is a ubiquitous programming language that is used for 
+almost all interactive web pages. As such, it is a mainstay of the coding world.
+
+</para>
+
+
+
+
+<para id="p1044">
+Next, JavaScript is the most commonly used programming language in the rapid 
+advance of HTML 5. Some of the features of HTML 5 are expected to eventually 
+replace the need for the Adobe Flash player mentioned earlier with regard to 
+Scratch 2.0.
+
+</para>
+
+
+
+
+<para id="p1045">
+Although JavaScript syntax is a little more complicated than Ruby syntax, 
+JavaScript syntax is much closer to the syntax of major 
+programming languages such as C, C++, C#, Java, and possibly others as well. The syntax began 
+with C many years ago and has propagated forward into the newer and more 
+powerful programming 
+languages. Once a student understands this syntax, that student will be well equipped to 
+deal with the syntax of other languages such as Ruby.
+
+</para>
+
+
+
+
+<para id="p1046">
+Finally, another reason that I prefer JavaScript over Ruby for teaching 
+purposes is that JavaScript is very easy to experiment with after completing the course. All 
+that is required is a browser and a text editor. 
+
+</para>
+
+
+
+
+<para id="p1047">
+For example, if you use a text editor to copy the text shown below into a 
+plain text file with an extension of 
+
+<emphasis id="em1019" effect="italics">
+htm
+
+</emphasis>
+ or 
+
+<emphasis id="em1020" effect="italics">
+html
+
+</emphasis>
+, and then open that file in 
+your browser, the JavaScript code between the beginning and ending 
+
+<emphasis id="em1021" effect="italics">
+script
+
+</emphasis>
+ 
+tags will be executed.
+
+</para>
+
+
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+				
+
+<code id="pre1000" display="block">&lt;html&gt;
+&lt;body&gt;
+&lt;script LANGUAGE="Javascript1.8"&gt;
+
+&lt;!-- Comment: put JavaScript code here --&gt;
+document.write("Hello from JavaScript")
+
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1048">
+The text shown above will cause the following text to appear in the browser 
+window:
+
+</para>
+
+
+
+
+<para id="p1049">
+<emphasis id="strong1000" effect="bold">
+Hello from JavaScript
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="Codecademy_Web_Fundamentals" effect="bold">
+
+Codecademy Web Fundamentals
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1050">
+This course will teach you how to code HTML and CSS. HTML and CSS are not programming 
+languages per se, but they do fall in the category of 
+coding. Virtually every web page is based on HTML and web pages are 
+often made more attractive through the use of CSS. Therefore, every coder needs 
+to know how to code using HTML and CSS.
+
+</para>
+
+
+
+
+<para id="p1051">
+Like JavaScript, HTML and CSS are very easy to experiment with after completing the course. All 
+that is required is a browser and a text editor. Simply create your HTML and CSS 
+files using a text editor and then open the HTML file in your browser to see the 
+results.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Codecademy_Ruby" effect="bold">
+
+Codecademy Ruby
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1052">
+While JavaScript is the ubiquitous programming language for interactive web 
+pages, Ruby is fast becoming one of the most popular programming languages for 
+large-scale commercial websites. Those students who plan to go in that direction 
+will do well to learn to program using the Ruby programming language.
+
+</para>
+
+
+
+
+<para id="p1053">
+Unlike JavaScript, some effort is required to get your computer set up to 
+experiment with Ruby after you finish the course. You will probably need to do 
+some web research to learn exactly how to do that.
+
+</para>
+
+
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="Codecademy_PHP_and_Python" effect="bold">
+
+Codecademy PHP and Python
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1054">
+The curious among you may wonder why I didn't include the Codecademy PHP and 
+Python courses in my list of preferences. The answer is simple. As of this 
+writing, I haven't had time available to work through and evaluate those courses.
+
+</para>
+
+
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="UdacityIntroduction_to_Computer_Science" effect="bold">
+
+Udacity - Introduction to Computer Science
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1055">
+The curious among you may also wonder why this is near the bottom of my list 
+of preferred courses. I put it there largely because it is an 
+interactive video course and I don't consider video to be a very effective way to 
+learn how to code.
+
+</para>
+
+
+
+
+<para id="p1056">
+This is a free course in computer science intended for beginners. You must 
+establish an account to take the course, but as of March 2013 the course is 
+free. Having an account is an advantage. If you need to log out and do something 
+else before completing a lesson, the next time you log in, the Udacity system 
+allows you to resume at the point where you left off earlier.
+
+</para>
+
+
+
+
+<section id="h41003">
+<title>
+<emphasis id="Online_video_with_interactive_quizzes" effect="bold">
+
+Online video with 
+interactive quizzes
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1057">
+This course makes an interesting and relatively seamless use of video 
+content with interactive quizzes, but it is not for younger learners. It moves at 
+a fairly rapid pace and I have noticed that sometimes the author includes 
+material on the quizzes that has not yet been discussed in the videos. Don't be 
+too concerned, therefore, if you are unable to answer the questions on the 
+quizzes the first time through. 
+
+</para>
+
+
+
+
+</section>
+<section id="h41004">
+<title>
+<emphasis id="Multiple_lessons" effect="bold">
+
+Multiple lessons
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1058">
+The course is divided into ten lessons plus some additional material. The 
+first couple of lessons could be very useful to beginning programmers because 
+they present some important fundamental programming concepts using the 
+Python programming language. 
+
+</para>
+
+
+
+
+<para id="p1059">
+The first lesson also contains some fairly abstract 
+
+<emphasis id="em1022" effect="italics">
+Backus-Naur
+
+</emphasis>
+ 
+material that seems to be out of place in an introductory lesson. Don't be too concerned if you don't fully understand that material. 
+While critical for "computer science" students, you can go a long way in 
+programming without fully understanding this material. 
+
+<emphasis id="em1023" effect="italics">
+(It is probably more 
+important for people who design programming languages than for people who use 
+programming languages.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1060">
+Beyond the first couple of lessons, the course gets into some fairly advanced 
+material. However, if you understand the material in the first couple of 
+lessons, don't hesitate to continue with the additional lessons.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h31014">
+<title>
+<emphasis id="Object-Oriented_Programming_OOP_with_Java" effect="bold">
+
+Object-Oriented 
+Programming (OOP) with Java
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1061">
+This website is included in the last three items in my
+
+
+<link id="a1130" target-id="The_recommended_path">
+
+recommended path
+
+</link>
+
+. The material on this 
+website ranges from fundamental programming concepts for beginners to more 
+advanced programming concepts for those with programming experience. This 
+material includes the primary learning resources for several courses that I 
+teach at Austin Community College. 
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Other_options" effect="bold">
+
+Other options
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1062">
+Information about other options listed 
+
+<link id="a1131" target-id="from_the_web">
+
+above
+
+</link>
+
+ will be added later.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1063">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1001" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1011" list-type="bulleted">
+
+					
+
+<item id="li1097">
+Module name: Tkc0100: Preface
+
+</item>
+
+
+					
+
+<item id="li1098">
+File: Tkc0100.htm
+
+
+</item>
+
+
+					
+
+<item id="li1099">
+Published: 03/17/13
+
+</item>
+
+
+					
+
+<item id="li1100">
+Revised: 05/30/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+	
+
+<note id="note1002" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1002" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1064">
+<emphasis id="strong1003" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1065">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1066">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1067">
+<emphasis id="strong1004" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Appendix_A_Programming_knowledge_requirements_in_Texas" effect="bold">
+
+Appendix A: 
+Programming knowledge requirements in Texas
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1068">
+Several years ago, I extracted information from various Texas State documents 
+in an attempt to get a handle on the minimum level of programming knowledge that 
+is required for students to graduate from a Texas high school with one or more 
+courses in computer science. 
+
+</para>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="A_list_of_requirements0" effect="bold">
+
+A list of requirements
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1069">
+By organizing 
+that material, I came up with the following as the minimum list of items that 
+must be understood by the graduating student:
+
+</para>
+
+
+
+
+<list id="ol1003" list-type="enumerated">
+
+	
+
+<item id="li1101">
+General knowledge of computer programming such as the ability to 
+	differentiate among the levels of programming languages including machine, 
+	assembly, high-level compiled and interpreted languages.
+
+</item>
+
+
+	
+
+<item id="li1102">
+Problem-solving strategies such as design specifications, modular 
+	top-down design, step-wise refinement, and algorithm development.
+
+</item>
+
+
+	
+
+<item id="li1103">
+Visual organizers to design solutions such as flowcharts or schematic 
+	drawings.
+
+</item>
+
+
+	
+
+<item id="li1104">
+Variables
+
+</item>
+
+
+	
+
+<item id="li1105">
+Expressions and Operators
+
+</item>
+
+
+	
+
+<item id="li1106">
+Sequence, Selection, and Loop Structures
+
+</item>
+
+
+	
+
+<item id="li1107">
+Relational and Logical Operators
+
+</item>
+
+
+	
+
+<item id="li1108">
+Data types
+
+</item>
+
+
+	
+
+<item id="li1109">
+Pretest and post-test loops.
+
+</item>
+
+
+	
+
+<item id="li1110">
+One-Dimensional Arrays
+
+</item>
+
+
+	
+
+<item id="li1111">
+Text files and structures of records.
+
+</item>
+
+
+	
+
+<item id="li1112">
+Sequential search algorithms.
+
+</item>
+
+
+	
+
+<item id="li1113">
+Use of simple data structures such as stacks and queues.
+
+</item>
+
+
+	
+
+<item id="li1114">
+Use of the Java class library.
+
+</item>
+
+
+	
+
+<item id="li1115">
+Command-line user input based on simple menus.
+
+</item>
+
+
+	
+
+<item id="li1116">
+Coding proficiency in Java.
+
+</item>
+
+
+	
+
+<item id="li1117">
+General Programming Syntax, Code Blocks, Comments
+
+</item>
+
+
+	
+
+<item id="li1118">
+Writing and Calling Functions
+
+</item>
+
+
+	
+
+<item id="li1119">
+Passing Function Parameters
+
+</item>
+
+
+	
+
+<item id="li1120">
+Types of Errors (syntax versus logic)
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1070">
+-end-
+
+</para>
+
+
+
+
+</section>
+</section>
+</content>
+
+
+
+
+</document>

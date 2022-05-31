@@ -1,0 +1,6067 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0120: Memory, Variables, and Literals</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46072</md:content-id>
+  <md:title>Scr0120: Memory, Variables, and Literals</md:title>
+  <md:abstract>The purpose of this module is to teach you about memory, variables, literals, and algorithms. You will also learn how to write a Scratch program that illustrates the creation and use of variables, case sensitivity, and the ability to detect and respond to mouse and keyboard events.</md:abstract>
+  <md:uuid>41351401-1e2b-4c3c-b2a9-3a97457acbde</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="studentProject">
+
+Student programming projects
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1003">
+<link id="a1003" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="An_overview_of_computer_programming">
+
+An overview of computer programming
+		
+
+</link>
+
+
+		
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Not_especially_difficult">
+
+Not especially difficult
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1007">
+<link id="a1007" target-id="One_step_at_a_time_">
+
+One step at a time 
+
+</link>
+
+ 
+
+</item>
+
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="The_hard_work_is_often_done_for_us">
+
+The hard work is often done for us
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="What_is_memory">
+
+Memory
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Random_access_versus_sequential_memory_">
+
+Random access versus sequential memory 
+			
+
+</link>
+
+ 
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="Combination_randomsequential_memory">
+
+Combination random/sequential memory
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="Variables">
+
+Variables
+
+</link>
+
+
+		
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="Brief_definition_of_a_variable">
+
+Brief definition of a variable
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1014">
+<link id="a1014" target-id="physical_analogy">
+
+A physical analogy
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Pretend_that_you_are_a_computer_program">
+
+Pretend that you are a computer program
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Names_versus_addresses">
+
+Names versus addresses
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="Execute_an_algorithm">
+
+Execute an algorithm
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="Declaring_a_variable_">
+
+Declaring a variable
+
+</link>
+
+ 
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1019">
+<link id="a1019" target-id="Literals">
+
+Literals
+
+</link>
+
+
+		
+
+<list id="ul1007" list-type="bulleted">
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="does_data_originate">
+
+Where does data originate? 
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="Hard_coded_data">
+
+Hard coded data
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1022">
+<link id="a1022" target-id="A_value_coded_into_the_program">
+
+A value coded into the 
+			program
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1023">
+<link id="a1023" target-id="Preview">
+
+Preview of the Scratch program
+
+</link>
+
+
+	
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1024">
+<link id="a1024" target-id="The_Scratch_program_named_Variable01">
+
+The Scratch program named Variable01.sb
+
+</link>
+
+
+<list id="ul1009" list-type="bulleted">
+
+			
+
+<item id="li1025">
+<link id="a1025" target-id="A_variable_named_Counter">
+
+A variable named Counter
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1026">
+<link id="a1026" target-id="A_variableNamedXcounter">
+
+A variable named counter
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1027">
+<link id="a1027" target-id="DiscussioAndSamplePrograms">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1010" list-type="bulleted">
+
+		
+
+<item id="li1028">
+<link id="a1028" target-id="No_sprites">
+
+No sprites
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1029" target-id="The_toolbox_buttons">
+
+The toolbox buttons
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1030">
+
+		
+
+<link id="a1030" target-id="A_full-size_view_of_the_Variables_area_of_the_Scratch_user_interface">
+
+A full-size view of the Variables area
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1031">
+<link id="a1031" target-id="Create_two_variables">
+
+Create two variables
+
+</link>
+
+
+<list id="ul1011" list-type="bulleted">
+
+			
+
+<item id="li1032">
+<link id="a1032" target-id="Two_allowable_operations_for_variables">
+
+Allowable operations for variables
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1033">
+<link id="a1033" target-id="Specifying_the_values">
+
+Specifying the values
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1034">
+<link id="a1034" target-id="Cause_the_variables_to_be_displayed">
+
+Cause the variables to be displayed
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1035">
+<link id="a1035" target-id="Create_a_new_variable">
+
+Create a new variable
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1036">
+<link id="a1036" target-id="Allowable_variable_names_and_lengths">
+
+Allowable variable names and lengths
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1037">
+<link id="a1037" target-id="Meaningful_variable_names">
+
+Meaningful variable names
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1038">
+<link id="a1038" target-id="Writing_the_program">
+
+Writing the program
+
+</link>
+
+
+<list id="ul1012" list-type="bulleted">
+
+			
+
+<item id="li1039">
+<link id="a1039" target-id="Programming_blocks_in_the_Control_category">
+
+Programming blocks in the Control category
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1040">
+<link id="a1040" target-id="The_finished_program">
+
+The finished program
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1041">
+<link id="a1041" target-id="Behavior_of_the_program">
+
+
+		Behavior of the program
+
+</link>
+
+
+<list id="ul1013" list-type="bulleted">
+
+			
+
+<item id="li1042">
+<link id="a1042" target-id="Click_the_green_flag">
+
+Click the green flag
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1043">
+<link id="a1043" target-id="Press_the_space_bar">
+
+Press the space bar
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1044">
+<link id="a1044" target-id="Click_the_mouse_on_the_Stage">
+
+Click the mouse on the Stage
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1045">
+<link id="a1045" target-id="Event-driven_programming">
+
+Event-driven programming
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1046">
+<link id="a1046" target-id="Example_blocks_with_pointed_ends">
+
+Example blocks with pointed ends
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1047" target-id="Run%20the%20program">
+
+Run the program
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1048" target-id="Student_programming_projects">
+
+Student 
+	programming projects
+
+</link>
+
+
+<list id="ul1014" list-type="bulleted">
+
+		
+
+<item id="li1049">
+<link id="a1049" target-id="Project_1">
+
+Project 1
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1050">
+<link id="a1050" target-id="Project_2">
+
+Project 2
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1051">
+<link id="a1051" target-id="Summary">
+
+Summary
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1052" target-id="WhatsNext">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1053" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1054">
+<link id="a1054" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+	
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1000">
+This module is one in a collection of modules designed to help beginners 
+	of all ages 
+
+<emphasis id="em1000" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for computer 
+	programs. Information is provided not only for the beginners themselves but 
+	also for their parents and teachers where appropriate.
+
+</para>
+
+
+	
+
+<para id="p1001">
+The purpose of this module is to teach you about memory, variables, literals, and algorithms. 
+You will also learn how to write a 
+
+<link id="a1055" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ program that illustrates the creation and use of variables, case sensitivity, and the ability to detect and respond to mouse and keyboard events.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="studentProject" effect="bold">
+
+Student programming projects
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1002">
+In addition to presenting and explaining a Scratch programming project, I will present two student programming projects that are designed to:
+
+</para>
+
+
+	
+
+<list id="ul1015" list-type="bulleted">
+
+		
+
+<item id="li1055">
+Help the student retain the knowledge gained by studying the module.
+
+</item>
+
+
+		
+
+<item id="li1056">
+Require the student to think beyond the material presented in the module 
+	by requiring the student to answer the question "How do I ...?"
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1003">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images 
+	while you are reading about them.
+
+</para>
+
+
+	
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1016" list-type="bulleted">
+
+		
+
+<item id="li1057">
+<link id="a1056" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. A reduced image of the Scratch user interface for the program named Variable01. 
+		
+
+</item>
+
+
+		
+
+<item id="li1058">
+<link id="a1057" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. A view of the Variables area of the Scratch user interface. 
+		
+
+</item>
+
+
+		
+
+<item id="li1059">
+<link id="a1058" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. Dialog for entering a variable name. 
+		
+
+</item>
+
+
+		
+
+<item id="li1060">
+<link id="a1059" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. Programming blocks in the Control category. 
+		
+
+</item>
+
+
+		
+
+<item id="li1061">
+<link id="a1060" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. The finished program. 
+
+</item>
+
+
+		
+
+<item id="li1062">
+<link id="a1061" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Example blocks with pointed ends. 
+		
+
+</item>
+
+
+		
+
+<item id="li1063">
+<link id="a1062" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. Output from Project 1. 
+
+</item>
+
+
+		
+
+<item id="li1064">
+<link id="a1063" target-id="Image_8">
+
+Image 8
+
+</link>
+
+. Output from Project 1. 
+
+</item>
+
+
+		
+
+<item id="li1065">
+<link id="a1064" target-id="Image_9">
+
+Image 9
+
+</link>
+
+. Output from Project 2. 
+
+</item>
+
+
+		
+
+<item id="li1066">
+<link id="a1065" target-id="Image_10">
+
+Image 10
+
+</link>
+
+. Output from Project 2. 
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="General_background_information" effect="bold">
+
+General 
+	background information
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<section id="h21002">
+<title>
+<emphasis id="An_overview_of_computer_programming" effect="bold">
+
+An overview of computer 
+programming
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1004">
+I recognize that some of you may not be ready for the kind of technical 
+detail that I will provide in this section. If so, feel free to skip 
+ahead to the section titled 
+
+<link id="a1066" target-id="Preview">
+
+Preview of the Scratch program
+
+</link>
+
+. 
+Just remember that this material is here waiting for you to come back and study 
+it when you are ready.
+
+</para>
+
+
+	
+
+<section id="h31001">
+<title>
+<emphasis id="Not_especially_difficult" effect="bold">
+
+Not especially difficult
+
+</emphasis>
+
+ 
+
+</title>
+
+
+	
+
+<para id="p1005">
+Computer programming is not especially difficult. However, it does require an 
+aptitude for solving problems. In fact, a computer program is usually a model 
+for a solution to someone's problem. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="One_step_at_a_time_" effect="bold">
+
+One step at a time 
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1006">
+If you can learn to program a Digital Video Recorder (DVR), you can probably also learn to program a 
+computer. Of course, a computer is more complicated than a DVR, so there is more 
+to learn. The important thing is to take the learning process in deliberate 
+steps making certain that you understand each step before moving on to the next 
+one.
+
+</para>
+
+
+	
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="The_hard_work_is_often_done_for_us" effect="bold">
+
+The hard work is often done for 
+us
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1007">
+Fortunately, when we write programs using a high-level programming language 
+such as Scratch, much of the hard work is done for us behind the 
+scenes. For example, we don't have to perform the small incremental steps that 
+are required to divide one number by another number.
+
+</para>
+
+
+	
+
+<para id="p1008">
+As programmers, we are more like conductors than musicians. The various parts 
+of the computer represent the musicians. We tell them what to play, and when to 
+play it, and if we do our job well, we produce a solution to someone's problem.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h21003">
+<title>
+<emphasis id="What_is_memory" effect="bold">
+
+Memory
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1009">
+All computers contain 
+
+<emphasis id="em1001" effect="italics">
+memory
+
+</emphasis>
+ of one type or another. When we speak of 
+human memory, we are usually speaking of the things that the human remembers. 
+However, when we speak of computer memory, we are usually speaking of physical 
+devices where data is stored for later retrieval. Most modern computers contain 
+memory of a type that is often referred to as RAM 
+
+<emphasis id="em1002" effect="italics">
+(more on RAM later)
+
+</emphasis>
+.
+	
+
+</para>
+
+
+	
+
+<para id="p1010">
+All data is stored in a computer as numeric values. Computer programs do what 
+they do by executing a series of 
+
+<emphasis id="em1003" effect="italics">
+operations
+
+</emphasis>
+ on the numeric data.
+
+</para>
+
+
+	
+
+<quote id="blockquote1000" display="block">
+
+		
+
+<emphasis id="strong1000" effect="bold">
+<emphasis id="em1004" effect="italics">
+Numeric data 
+
+</emphasis>
+</emphasis>
+<emphasis id="em1005" effect="italics">
+Even the text in this 
+module is stored as numeric data in your computer. For example, the 
+upper-case character A is commonly represented by the numeric value 65.
+
+</emphasis>
+</quote>
+
+
+	
+
+<para id="p1011">
+The operations that are performed on the numeric data generally consist of calculations and comparisons. It is the 
+order and the pattern of those operations that distinguishes one computer 
+program from another. 
+
+</para>
+
+
+	
+
+<section id="h31004">
+<title>
+<emphasis id="Random_access_versus_sequential_memory_" effect="bold">
+
+Random access versus 
+sequential memory 
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1012">
+The reason the memory in most modern computers is called 
+
+<emphasis id="em1006" effect="italics">
+random access 
+memory (RAM)
+
+</emphasis>
+ is that it can be accessed in any order. Some types of memory, such 
+as a magnetic tape, can only be accessed in sequential order. 
+
+<emphasis id="em1007" effect="italics">
+(Yes, I did use 
+computers with magnetic tape memory in my younger days during the sixties and 
+seventies.)
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1013">
+Sequential access means that to get a piece of data that is stored deep inside the memory, it is necessary to start at the 
+beginning and examine every piece of data until the correct one is found. This 
+is typically a slow process.
+
+</para>
+
+
+	
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="Combination_randomsequential_memory" effect="bold">
+
+Combination random/sequential 
+memory
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1014">
+Other types of memory, such as disks provide a combination of sequential and 
+random access. For example, the data on a disk is stored in tracks that form 
+concentric circles on the disk. The individual tracks can be accessed in random 
+order, but the data within a track must be accessed sequentially starting at a 
+specific point on the track. While faster than magnetic tape, even this process 
+is usually slower than true random access memory.
+
+</para>
+
+
+	
+
+<para id="p1015">
+Sequential memory or combination random/sequential memory isn't very useful 
+for most computer programs at the inner working level because access to each 
+particular piece of data is slow. As a result, most modern computers have random 
+access memory that is used for storage and retrieval of data by programs while 
+they are running and disks that are used for long-term storage and retrieval of 
+data that needs to be saved over longer periods of time.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Variables" effect="bold">
+
+Variables
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1016">
+As the computer program performs its operations in the prescribed order, 
+	it is often necessary for it to store intermediate results somewhere in its 
+	memory and to retrieve those results later for use in subsequent operations. 
+	The intermediate results are often stored in little chunks of memory that we 
+	refer to as 
+
+<emphasis id="em1008" effect="italics">
+variables
+
+</emphasis>
+.
+
+</para>
+
+
+	
+
+<section id="h31006">
+<title>
+<emphasis id="Brief_definition_of_a_variable" effect="bold">
+
+Brief definition of a variable
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1017">
+The following definition is paraphrased from
+	
+
+<link id="a1067" url="http://en.wikipedia.org/wiki/Variable_%2528computer_science%2529">
+
+Wikipedia
+
+</link>
+
+.
+
+</para>
+
+
+	
+
+<quote id="blockquote1001" display="block">
+<emphasis id="em1009" effect="italics">
+In computer programming, a 
+
+<emphasis id="strong1001" effect="bold">
+variable
+
+</emphasis>
+ is a storage location and an associated symbolic name (an identifier) 
+that contains some known or unknown quantity or information -- a value. 
+
+</emphasis>
+
+	
+
+</quote>
+
+
+	
+
+<quote id="blockquote1002" display="block">
+<emphasis id="em1010" effect="italics">
+The variable name is the usual way to reference the stored value; this separation of name and content allows the name to be used independently of the exact information it represents. 
+	
+
+</emphasis>
+</quote>
+
+
+	
+
+<quote id="blockquote1003" display="block">
+<emphasis id="em1011" effect="italics">
+The value stored in the variable may change during program execution. 
+	
+
+</emphasis>
+</quote>
+
+
+	
+
+</section>
+<section id="h31007">
+<title>
+A 
+
+<emphasis id="physical_analogy" effect="bold">
+
+physical analogy
+
+</emphasis>
+
+ 
+
+</title>
+
+
+	
+
+<para id="p1018">
+We can think of random access memory as being analogous to a metal rack 
+containing a large number of compartments. The compartments are all the same 
+size and are arranged in a regular grid of rows and columns. 
+
+</para>
+
+
+	
+
+<para id="p1019">
+Each compartment has a numeric address printed above it. No two compartments 
+have the same numeric address. Each compartment also has a little slot into 
+which you can insert a name or a label for the compartment. No two compartments 
+can have the same name. 
+
+</para>
+
+
+
+
+<para id="p1020">
+Although the analogy is not perfect, we can think of one of those 
+compartments as being analogous to a variable.
+
+</para>
+
+
+	
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Pretend_that_you_are_a_computer_program" effect="bold">
+
+Pretend that you are a 
+computer program
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1021">
+Think of yourself as a computer program. You have the ability to create 
+labels for each compartment 
+
+<emphasis id="em1012" effect="italics">
+(variable)
+
+</emphasis>
+. You have the ability to write values on little 
+slips of paper and to put them into the compartments. You also have the ability 
+to read the values written on the little slips of paper and to use those values 
+for some purpose. However, there are four rules that you must observe: 
+
+</para>
+
+
+	
+
+<list id="ul1017" list-type="bulleted">
+
+		
+
+<item id="li1067">
+You may not remove a slip of paper from a compartment without replacing 
+	it by another slip of paper on which you have written a value.
+
+</item>
+
+
+		
+
+<item id="li1068">
+You may not put a slip of paper in a compartment without removing the 
+	one already there.
+
+</item>
+
+
+		
+
+<item id="li1069">
+You may not give the same label to two or more compartments.
+
+</item>
+
+
+		
+
+<item id="li1070">
+You may not change a label once you have assigned it to a compartment.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Names_versus_addresses" effect="bold">
+
+Names versus addresses
+
+</emphasis>
+
+ 
+
+</title>
+
+
+	
+
+<para id="p1022">
+Although each 
+
+<emphasis id="em1013" effect="italics">
+compartment
+
+</emphasis>
+ in the physical memory in the computer has a 
+numeric address, as a programmer using a 
+
+<emphasis id="em1014" effect="italics">
+high-level 
+
+</emphasis>
+programming
+
+<emphasis id="em1015" effect="italics">
+ 
+
+</emphasis>
+language such as Scratch, you usually don't need to be concerned 
+about the numeric addresses of the compartments. 
+
+<emphasis id="em1016" effect="italics">
+(The compartments are often 
+referred to as locations in memory.)
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1023">
+Instead, you can think about the compartments and refer to them in terms of 
+their names. 
+
+<emphasis id="em1017" effect="italics">
+(Names are easier for most people to remember and understand 
+than numeric addresses.)
+
+</emphasis>
+ Keep in mind, however, that computer memory 
+locations don't really have names. Deep inside the computer program, the names 
+that you use to identify compartments in memory are cross-referenced to memory 
+addresses. At the lowest level, the program works with memory addresses instead 
+of names. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="Execute_an_algorithm" effect="bold">
+
+Execute an algorithm
+
+</emphasis>
+
+ 
+
+</title>
+
+
+	
+
+<para id="p1024">
+A computer program always executes some sort of procedure or algorithm. The 
+algorithm may be very simple 
+
+<emphasis id="em1018" effect="italics">
+(such as how to make a peanut butter sandwich)
+
+</emphasis>
+, 
+or it may be very complex as would be the case for a spreadsheet program. As the 
+program executes the algorithm, it uses the random access memory to store and 
+retrieve the data that is needed to execute the algorithm. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Declaring_a_variable_" effect="bold">
+
+Declaring a variable 
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1025">
+In Scratch, it is necessary to establish the 
+
+<emphasis id="em1019" effect="italics">
+name
+
+</emphasis>
+ of a 
+variable before you can use it. 
+
+<emphasis id="em1020" effect="italics">
+(That is not the case in some programming 
+languages such as Python.)
+
+</emphasis>
+ 
+
+</para>
+
+
+	
+
+<para id="p1026">
+In programmer jargon, this is referred to as 
+
+<emphasis id="em1021" effect="italics">
+declaring a variable
+
+</emphasis>
+. The 
+process of declaring a variable causes memory to be set aside to contain a 
+value, and causes that chunk of memory to be given a name. That name can be used 
+later to refer to the value stored in that chunk of memory. 
+
+</para>
+
+
+
+
+<quote id="blockquote1004" display="block">
+<emphasis id="em1022" effect="italics">
+Some programming languages, (not including Scratch), require 
+that the variable declaration also specify the type of data that will be stored 
+in a variable.
+
+</emphasis>
+</quote>
+
+
+	
+
+<section id="h41000">
+<title>
+<emphasis id="Case_sensitivity_" effect="bold">
+
+Case sensitivity 
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1027">
+The name of a variable is case sensitive in Scratch 
+
+<emphasis id="em1023" effect="italics">
+(but 
+the name may not be case sensitive in other programming languages)
+
+</emphasis>
+. In other 
+words, the name 
+
+<emphasis id="strong1002" effect="bold">
+avariable
+
+</emphasis>
+ is not the same as the name 
+
+<emphasis id="strong1003" effect="bold">
+aVariable
+
+</emphasis>
+ in 
+case-sensitive programming languages. If both names were used in the same 
+program, they would refer to two different variables.
+
+</para>
+
+
+	
+
+</section>
+<section id="h41001">
+<title>
+<emphasis id="Use_names_to_access_values_" effect="bold">
+
+Use names to access values 
+
+</emphasis>
+
+
+	
+
+</title>
+
+
+	
+
+<para id="p1028">
+Variables have names like 
+
+<emphasis id="strong1004" effect="bold">
+price
+
+</emphasis>
+, 
+
+<emphasis id="strong1005" effect="bold">
+cost
+
+</emphasis>
+, and 
+
+<emphasis id="strong1006" effect="bold">
+markup
+
+</emphasis>
+. The 
+names of the variables give us easy access to the values stored in the variables. 
+
+</para>
+
+
+	
+
+<para id="p1029">
+Some operations cause the value of a variable to change while other 
+operations simply access the value without changing it. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h41002">
+<title>
+<emphasis id="Storing_and_retrieving_" effect="bold">
+
+Storing and retrieving 
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1030">
+As the program executes, the values stored in variables can be 
+replaced by other values. In that way, the values of the variables can change as 
+the program executes. 
+
+<emphasis id="em1024" effect="italics">
+(In other words, the value of a variable can vary over time.)
+
+</emphasis>
+ 
+
+</para>
+
+
+	
+
+<para id="p1031">
+It is also possible to retrieve the value stored in a variable without 
+modifying it. In that way, the values of variables can be used to evaluate 
+expressions without modifying those values. 
+
+</para>
+
+
+	
+
+</section>
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Literals" effect="bold">
+
+Literals
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<section id="h31012">
+<title>
+Where 
+
+<emphasis id="does_data_originate" effect="bold">
+
+does data originate
+
+</emphasis>
+
+? 
+
+</title>
+
+
+	
+
+<para id="p1032">
+The data used by a computer program can originate from a variety of sources. 
+For example, it can be entered from the keyboard. It can be read from a disk 
+file. It can be downloaded from a web site, etc. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="Hard_coded_data" effect="bold">
+
+Hard coded data
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1033">
+The data values can also be coded into the program when the program is 
+written. In this case, we would call it a 
+
+<emphasis id="em1025" effect="italics">
+literal
+
+</emphasis>
+ or a 
+
+<emphasis id="em1026" effect="italics">
+literal value
+
+</emphasis>
+. 
+
+</para>
+
+
+	
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="A_value_coded_into_the_program" effect="bold">
+
+A value coded into the program
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1034">
+That is just about all there is to understanding literals. There are some 
+special rules that come into play in certain situations, and I will discuss 
+those rules at the appropriate points in time. For now, just remember that a 
+
+<emphasis id="em1027" effect="italics">
+literal
+
+</emphasis>
+ is a value that is coded into the program when the program is 
+written. 
+
+</para>
+
+
+	
+
+</section>
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview of the Scratch program
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1035">
+Now it's time to write and discuss a Scratch program. You should be able to replicate 
+	this program.
+
+</para>
+
+
+
+
+<para id="p1036">
+Hopefully by now you have installed Scratch on your computer and you have 
+worked through all of the tutorials that you can find on Scratch as recommended 
+in the previous module. 
+If not, you should do that before continuing with this module.
+
+</para>
+
+
+
+
+<para id="p1037">
+In case you skipped the section titled
+
+
+<link id="a1068" target-id="An_overview_of_computer_programming">
+
+An overview of computer 
+programming
+
+</link>
+
+, you still might want to go back and review the section on
+
+
+<link id="a1069" target-id="Variables">
+
+Variables
+
+</link>
+
+.
+
+</para>
+
+
+	
+
+<section id="h21006">
+<title>
+<emphasis id="The_Scratch_program_named_Variable01" effect="bold">
+
+The Scratch program named 
+Variable01
+
+</emphasis>
+
+.sb
+
+</title>
+
+
+	
+
+<para id="p1038">
+This Scratch program illustrates the creation and manipulation of two simple 
+	
+
+<emphasis id="em1028" effect="italics">
+numeric
+
+</emphasis>
+ variables.
+
+</para>
+
+
+	
+
+<quote id="blockquote1005" display="block">
+<emphasis id="em1029" effect="italics">
+Prior to the release of Scratch version 1.4, only numeric variables 
+were allowed in 
+Scratch. However, according to the 	
+
+<link id="a1070" url="http://info.scratch.mit.edu/Scratch_1.4_Release_Notes">
+
+Scratch 1.4 
+Release Notes
+
+</link>
+
+, variables can now contain strings of characters. 
+Experimentation indicates that they can also contain the 
+
+<emphasis id="strong1007" effect="bold">
+boolean
+
+</emphasis>
+ 
+values of 
+
+<emphasis id="strong1008" effect="bold">
+True
+
+</emphasis>
+ and 
+
+<emphasis id="strong1009" effect="bold">
+False
+
+</emphasis>
+ (or possibly strings 
+	that represent 
+
+<emphasis id="strong1010" effect="bold">
+boolean
+
+</emphasis>
+  values). The previous
+
+
+<emphasis id="strong1011" effect="bold">
+Numbers
+
+</emphasis>
+ button has been replaced by an 
+
+<emphasis id="strong1012" effect="bold">
+Operators
+
+</emphasis>
+ 
+button (see 
+
+<link id="a1071" target-id="Image_2">
+
+Image 2
+
+</link>
+
+) because it now contains blocks for manipulating strings.
+
+</emphasis>
+
+	
+
+</quote>
+
+
+	
+
+<para id="p1039">
+This program also illustrates the case sensitivity of variable names along 
+with the ability to detect and respond to events fired by the keyboard and 
+events fired by the mouse.
+
+</para>
+
+
+
+
+<section id="h31015">
+<title>
+<emphasis id="A_variable_named_Counter" effect="bold">
+
+A variable named Counter
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1040">
+A variable named 
+
+<emphasis id="strong1013" effect="bold">
+Counter
+
+</emphasis>
+ 
+
+<emphasis id="em1030" effect="italics">
+(with an upper-case "C")
+
+</emphasis>
+ is created, initialized to 0, and displayed 
+in the upper-left corner of the Stage area in the Scratch user interface 
+
+<emphasis id="em1031" effect="italics">
+(see
+	
+
+<link id="a1072" target-id="Image_1">
+
+Image 1
+
+</link>
+
+)
+
+</emphasis>
+. When the user clicks the 
+green flag in the upper-right corner of 
+
+<link id="a1073" target-id="Image_1">
+
+Image 1
+
+</link>
+
+, the value of the variable is set to zero. Each time the user 
+presses the space bar, the value of the variable is increased by 1. Each time 
+the user clicks the mouse in the blank area of the Stage, the value of the 
+variable is decreased by 1.
+
+</para>
+
+
+
+
+</section>
+<section id="h31016">
+<title>
+<emphasis id="A_variableNamedXcounter" effect="bold">
+
+A variable named counter
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1041">
+Another variable named 
+
+<emphasis id="strong1014" effect="bold">
+counter
+
+</emphasis>
+ 
+
+<emphasis id="em1032" effect="italics">
+(with a lower-case "c")
+
+</emphasis>
+ is 
+created, initialized to 0, and displayed below the 
+
+<emphasis id="strong1015" effect="bold">
+Counter
+
+</emphasis>
+ variable on 
+the Stage. Again, when the user clicks the green flag in the upper-right corner 
+of 
+
+<link id="a1074" target-id="Image_1">
+
+Image 1
+
+</link>
+
+, the value of the variable 
+is set to zero. Each time the user presses the space bar, the value of this 
+variable is increased by 5. Each time the user clicks the mouse in the blank area of the 
+Stage, the value of this variable is decreased by 5.
+
+</para>
+
+
+	
+
+</section>
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="DiscussioAndSamplePrograms" effect="bold">
+
+
+</emphasis>
+
+Discussion and sample code
+
+</title>
+
+
+	
+
+<para id="p1042">
+<link id="a1075" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ shows a greatly reduced image 
+of the Scratch user interface for the program named 
+
+<emphasis id="strong1016" effect="bold">
+Variable01
+
+</emphasis>
+ for Scratch version 1.4.
+
+
+
+
+</para>
+
+
+	
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_1" effect="bold">
+</emphasis>
+Image 1. A reduced image of the Scratch user interface for the program named Variable01.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/hs00102a01.jpg" width="477" height="353"/>
+</media>
+
+
+
+				
+
+<caption>Image 1. A reduced image of the Scratch user interface for the program named Variable01.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1043">
+You probably can't read any of the text in
+	
+
+<link id="a1076" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. The image is presented here solely to provide 
+an overview of the user interface. I will provide additional 
+
+<emphasis id="em1033" effect="italics">
+(more readable)
+
+</emphasis>
+ 
+images later that show and discuss the separate parts of the user interface.
+
+</para>
+
+
+	
+
+<section id="h21007">
+<title>
+<emphasis id="No_sprites" effect="bold">
+
+No sprites
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1044">
+There are a few things that we can deduce by viewing the reduced image in
+	
+
+<link id="a1077" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. First, note that there are no 
+sprites in this program. The program consists solely of 
+
+</para>
+
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+	
+
+<item id="li1071">
+the Stage, shown in 
+white in the upper right, 
+
+</item>
+
+
+	
+
+<item id="li1072">
+a small program consisting of three scripts shown in 
+the middle panel, and 
+
+</item>
+
+
+	
+
+<item id="li1073">
+two variables shown in gray near the top of the lower-left panel and 
+	also shown in the upper-left corner of the Stage.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="The_toolbox_buttons" effect="bold">
+
+The toolbox buttons
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1045">
+If you have worked through the Scratch tutorials, you will recognize that the 
+material in the lower-left panel is always associated with one of the following eight 
+toolbox buttons 
+
+<emphasis id="in_the_upper_left_corner" effect="bold">
+
+in the upper-left panel:
+
+</emphasis>
+
+
+</para>
+
+
+	
+
+<list id="ul1019" list-type="bulleted">
+
+		
+
+<item id="li1074">
+Motion
+
+</item>
+
+
+		
+
+<item id="li1075">
+Looks
+
+</item>
+
+
+		
+
+<item id="li1076">
+Sounds
+
+</item>
+
+
+		
+
+<item id="li1077">
+Pen
+
+</item>
+
+
+		
+
+<item id="li1078">
+Control
+
+</item>
+
+
+		
+
+<item id="li1079">
+Sensing
+
+</item>
+
+
+		
+
+<item id="li1080">
+Operators 
+
+<emphasis id="em1034" effect="italics">
+(previously Numbers)
+
+</emphasis>
+</item>
+
+
+		
+
+<item id="li1081">
+Variables
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+<para id="p1046">
+In other words, when you click on one of the buttons in the upper-left panel, it 
+exposes a set of tools that you can use to write your program. Those tools 
+	appear in the lower-left panel.
+
+</para>
+
+
+	
+
+<para id="p1047">
+When one of those eight buttons is clicked, it becomes completely colored 
+	and the tools associated with that button are displayed below it. The orange 
+	button has been selected in
+	
+
+<link id="a1078" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. Since you can't read the label on that button, I will tell you that 
+the label on the orange button reads 
+
+<emphasis id="strong1017" effect="bold">
+Variables
+
+</emphasis>
+.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21009">
+<title>
+
+	
+
+<emphasis id="A_full-size_view_of_the_Variables_area_of_the_Scratch_user_interface" effect="bold">
+
+A 
+full-size view of the Variables area
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1048">
+<link id="a1079" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ presents a full-size view of 
+the two left-most panels from 
+
+<link id="a1080" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ showing 
+the tools that are exposed by the 
+
+<emphasis id="strong1018" effect="bold">
+Variables
+
+</emphasis>
+ button.
+
+</para>
+
+
+	
+
+<quote id="blockquote1006" display="block">
+
+		
+
+<emphasis id="strong1019" effect="bold">
+<emphasis id="em1035" effect="italics">
+Tools in the Variables toolbox: 
+
+</emphasis>
+</emphasis>
+<emphasis id="em1036" effect="italics">
+When you first click the 
+
+</emphasis>
+<emphasis id="strong1020" effect="bold">
+<emphasis id="em1037" effect="italics">
+Variables
+
+</emphasis>
+</emphasis>
+<emphasis id="em1038" effect="italics">
+ button, only two 
+		gray buttons are exposed in the bottom panel of
+
+
+<link id="a1081" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. One gray button is labeled 
+
+<emphasis id="strong1021" effect="bold">
+Make a 
+		variable
+
+</emphasis>
+ and the other gray button is labeled 
+
+<emphasis id="strong1022" effect="bold">
+Make a 
+		list
+
+</emphasis>
+. The orange 
+material in 
+
+<link id="a1082" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ was produced by 
+clicking twice on the button labeled 
+
+</emphasis>
+<emphasis id="em1039" effect="italics">
+<emphasis id="strong1023" effect="bold">
+Make a variable
+
+</emphasis>
+ and 
+entering a name for each variable.
+
+</emphasis>
+</quote>
+
+
+
+
+	
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_2" effect="bold">
+</emphasis>
+Image 2. A view of the Variables area of the Scratch user interface.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/hs00102a02.jpg" width="229" height="433"/>
+</media>
+
+
+				
+
+<caption>Image 2. A view of the Variables area of the Scratch user interface.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Create_two_variables" effect="bold">
+
+Create two variables
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1049">
+Click 
+
+<link id="a1083" target-id="Create_a_new_variable">
+
+here
+
+</link>
+
+ for instructions on creating 
+variables.
+
+</para>
+
+
+	
+
+<para id="p1050">
+<link id="a1084" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ shows that this Scratch 
+program contains two variables with the following names:
+
+</para>
+
+
+	
+
+<list id="ul1020" list-type="bulleted">
+
+		
+
+<item id="li1082">
+<emphasis id="strong1024" effect="bold">
+Counter
+
+</emphasis>
+</item>
+
+
+		
+
+<item id="li1083">
+<emphasis id="strong1025" effect="bold">
+counter
+
+</emphasis>
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+<para id="p1051">
+I purposely spelled the names of the two variables the same and made them 
+differ only by the case of the first letter to illustrate that Scratch is case 
+sensitive insofar as the names of the variables is concerned. Even though these 
+two variable names contain the same letters, they are two different variables 
+because one name begins with an upper case "C" and the other name begins with a 
+lower-case "c".
+
+</para>
+
+
+	
+
+<section id="h31017">
+<title>
+<emphasis id="Two_allowable_operations_for_variables" effect="bold">
+
+Allowable operations 
+for variables
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1052">
+There are four programming blocks 
+
+<emphasis id="em1040" effect="italics">
+(in the bottom panel of
+	
+
+<link id="a1085" target-id="Image_2">
+
+Image 2
+
+</link>
+
+)
+
+</emphasis>
+ associated with each 
+variable. As you learned from working through the tutorials, you can drag these 
+blocks into the programming area in the center pane in
+
+
+<link id="a1086" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ to actually write the program. 
+Thus, there are four different operations that you can perform on a variable:
+
+</para>
+
+
+	
+
+<list id="ul1021" list-type="bulleted">
+
+		
+
+<item id="li1084">
+You can set the value of the variable to a specified value.
+
+</item>
+
+
+		
+
+<item id="li1085">
+You can change the value of the variable by a specified value.
+
+</item>
+
+
+		
+
+<item id="li1086">
+You can show a variable on the stage.
+
+</item>
+
+
+		
+
+<item id="li1087">
+You can hide a variable.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+<para id="p1053">
+<emphasis id="em1041" effect="italics">
+(You can actually perform the last two operations simply by 
+clicking the block with no requirement to drag it into the center pane. Several 
+operations that required double-clicking prior to v1.4 can now be accomplished 
+with a single click.)
+
+</emphasis>
+</para>
+
+
+	
+
+</section>
+<section id="h31018">
+<title>
+<emphasis id="Specifying_the_values" effect="bold">
+
+Specifying the values
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1054">
+After dragging a programming block from the Variables area into the 
+programming area, you can:
+
+</para>
+
+
+	
+
+<list id="ul1022" list-type="bulleted">
+
+		
+
+<item id="li1088">
+Identify the variable to which that block applies by selecting the 
+		variable name in the pull-down list built into the block.
+
+</item>
+
+
+		
+
+<item id="li1089">
+Enter a literal numeric or string value from the keyboard into the white or 
+		gray area at the right end of 
+	the block, or
+
+</item>
+
+
+		
+
+<item id="li1090">
+Drag some other block and drop it into the white or gray area.
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+
+<para id="p1055">
+In some cases, the area looks white and in other cases it looks gray. I will 
+refer to it as the white area in both cases.
+
+</para>
+
+
+	
+	
+
+<para id="p1056">
+There are at least two 
+different shapes that are eligible for being dropped into such areas:
+
+</para>
+
+
+	
+
+<list id="ol1000" list-type="enumerated">
+
+		
+
+<item id="li1091">
+A horizontal rectangle with 
+
+<emphasis id="rounded_corners_" effect="bold">
+
+rounded corners
+		
+
+</emphasis>
+
+such as the orange block labeled 
+
+<emphasis id="strong1026" effect="bold">
+Counter
+
+</emphasis>
+ in 
+
+<link id="a1087" target-id="Image_2">
+
+Image 2
+
+</link>
+
+.
+		
+
+<emphasis id="em1042" effect="italics">
+(This shape seems to always be associated with a numeric or string 
+		value.)
+
+</emphasis>
+</item>
+
+
+		
+
+<item id="li1092">
+A horizontal rectangle with 
+
+<emphasis id="pointed_ends" effect="bold">
+
+pointed ends
+
+</emphasis>
+
+ as shown by several of the 
+	blocks in 
+
+<link id="a1088" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. 
+
+<emphasis id="em1043" effect="italics">
+(This shape seems to always be 
+		associated with a 
+
+<emphasis id="strong1027" effect="bold">
+boolean
+
+</emphasis>
+ result of true or false.)
+
+</emphasis>
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+<para id="p1057">
+Blocks having the rounded corners are eligible for being dropped into the 
+	white areas with rounded corners of the programming blocks in 
+
+<link id="a1089" target-id="Image_2">
+
+Image 2
+
+</link>
+
+.
+
+</para>
+
+
+	
+
+<para id="p1058">
+Blocks having the pointed ends are eligible for being dropped into the darker 
+orange areas having a similar shape on the blocks near the bottom of 
+
+<link id="a1090" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1059">
+Either shape of block is eligible for being dropped into the white areas with 
+square corners shown in 
+
+<link id="a1091" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. Thus the block in 
+
+<link id="a1092" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ 
+that is used to set a variable to a value can set the value to a numeric value, 
+a string value, or a 
+
+<emphasis id="strong1028" effect="bold">
+boolean
+
+</emphasis>
+ value.
+
+</para>
+
+
+	
+
+<para id="p1060">
+<emphasis id="em1044" effect="italics">
+(Note that the two variable blocks shown in 
+
+</emphasis>
+<link id="a1093" target-id="Image_2">
+
+
+	
+
+<emphasis id="em1045" effect="italics">
+Image 2
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1046" effect="italics">
+ labeled 
+
+<emphasis id="strong1029" effect="bold">
+Counter
+
+</emphasis>
+ and 
+
+
+<emphasis id="strong1030" effect="bold">
+counter
+
+</emphasis>
+ are eligible for being dropped into the white areas of 
+the two programming blocks shown in
+
+
+<link id="a1094" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. 
+This makes it possible to cause the value of one variable to depend on the value 
+of another variable.)
+
+</emphasis>
+</para>
+
+
+	
+
+<quote id="blockquote1007" display="block">
+
+		
+
+<emphasis id="em1047" effect="italics">
+If you click the
+		
+
+</emphasis>
+<emphasis id="strong1031" effect="bold">
+<emphasis id="em1048" effect="italics">
+Operators
+
+</emphasis>
+</emphasis>
+<emphasis id="em1049" effect="italics">
+ button shown in
+
+
+<link id="a1095" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ (see 
+
+<link id="a1096" target-id="Image_6">
+
+Image 6
+
+</link>
+
+) you will expose 
+several different blocks with rounded corners that are eligible for being dropped into the 
+		white 
+areas in
+
+
+<link id="a1097" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ according to the rules described above.
+
+</emphasis>
+</quote>
+
+
+	
+
+</section>
+<section id="h31019">
+<title>
+<emphasis id="Cause_the_variables_to_be_displayed" effect="bold">
+
+Cause the variables to be 
+displayed
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1061">
+Checking the boxes to the left of the variable names in
+	
+
+<link id="a1098" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ causes them to be displayed in 
+the upper-left corner of the large white Stage area shown in
+
+
+<link id="a1099" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. 
+
+<emphasis id="em1050" effect="italics">
+(Clicking the 
+
+<emphasis id="strong1032" effect="bold">
+show
+
+</emphasis>
+ and
+	
+
+<emphasis id="strong1033" effect="bold">
+hide
+
+</emphasis>
+ blocks will also check and uncheck the checkboxes, 
+	which in turn will show or hide the variables on the stage.)
+
+</emphasis>
+</para>
+
+
+	
+
+</section>
+<section id="h31020">
+<title>
+<emphasis id="Create_a_new_variable" effect="bold">
+
+Create a new variable
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1062">
+You create a new variable by clicking the button labeled 
+
+<emphasis id="strong1034" effect="bold">
+Make a variable
+
+</emphasis>
+ 
+shown in 
+
+<link id="a1100" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. When you click that 
+button, the dialog shown in 
+
+<link id="a1101" target-id="Image_3">
+
+Image 3
+
+</link>
+
+ appears on the screen asking you to provide 
+the name for the new variable.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_3" effect="bold">
+</emphasis>
+Image 3. Dialog for entering a variable name.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/hs00102a03.jpg" width="302" height="170"/>
+</media>
+
+
+<caption>Image 3. Dialog for entering a variable name.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1063">
+At that point, you simply type in the name for the new variable and click the 
+	
+
+<emphasis id="strong1035" effect="bold">
+OK
+
+</emphasis>
+ button.
+
+</para>
+
+
+
+
+<para id="p1064">
+The radio buttons on that dialog allow you to specify which sprites have 
+access to the variable.
+
+</para>
+
+
+	
+
+</section>
+<section id="h31021">
+<title>
+<emphasis id="Allowable_variable_names_and_lengths" effect="bold">
+
+Allowable variable names and 
+lengths
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1065">
+Most programming languages have very specific requirements regarding the 
+	allowable characters for variable names. I suspect that this is also true of 
+	Scratch, but I haven't found that specification anywhere. You will probably 
+	be okay as long as you stick with letters, numbers, the underscore character 
+	"_", and the hyphen or minus sign "-". 
+
+</para>
+
+
+	
+
+<para id="p1066">
+It appears experimentally that the allowable length of the variable name is 
+longer than you would ever want to use so length doesn't seem to be a 
+limitation.
+
+</para>
+
+
+	
+
+<para id="p1067">
+Many programming languages won't allow you to use a numeric character for the 
+first character in a variable name, but that restriction doesn't seem to apply 
+to Scratch. However, since you might later move up to more mainstream languages, 
+you might want to avoid getting into the habit of using numeric characters as 
+the first character in variable names.
+
+</para>
+
+
+	
+
+</section>
+<section id="h31022">
+<title>
+<emphasis id="Meaningful_variable_names" effect="bold">
+
+Meaningful variable names
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1068">
+When using Scratch and all other programming languages, you should strive to 
+use variable names that are meaningful. My preference is to begin variable names 
+with a lower-case letter, use multiple words in the name where appropriate, and 
+separate the words using a format commonly called 
+
+<emphasis id="em1051" effect="italics">
+camelCase
+
+</emphasis>
+ to cause the 
+	human eye to separate the words. 
+
+</para>
+
+
+	
+
+<para id="p1069">
+<emphasis id="em1052" effect="italics">
+(The upper-case characters are analogous to the humps on a camel.)
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1070">
+Here is an example:
+
+</para>
+
+
+	
+
+<para id="p1071">
+<emphasis id="strong1036" effect="bold">
+aVariableName
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1072">
+Some people prefer the following format:
+
+</para>
+
+
+	
+
+<para id="p1073">
+<emphasis id="strong1037" effect="bold">
+A_Variable_Name
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1074">
+I prefer the 
+
+<emphasis id="em1053" effect="italics">
+camelCase
+
+</emphasis>
+ version because it is easier to type, 
+requires fewer characters, and in my opinion, is just as effective.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h21011">
+<title>
+<emphasis id="Writing_the_program" effect="bold">
+
+Writing the program
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1075">
+Generally speaking, programs are written in Scratch by:
+
+</para>
+
+
+	
+
+<list id="ol1001" list-type="enumerated">
+
+		
+
+<item id="li1093">
+Selecting buttons in the upper-left of
+	
+
+<link id="a1102" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ to expose the programming 
+	blocks associated with each of the categories listed
+		
+
+<link id="a1103" target-id="in_the_upper_left_corner">
+
+earlier
+
+</link>
+
+.
+
+</item>
+
+
+		
+
+<item id="li1094">
+Dragging programming blocks from the left pane in
+	
+
+<link id="a1104" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ to the center pane in
+	
+
+<link id="a1105" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ and snapping those blocks 
+	together in groups to form program scripts.
+
+</item>
+
+
+		
+
+<item id="li1095">
+Entering literal numeric values or 
+
+<emphasis id="dragging_other_tiles" effect="bold">
+
+dragging other blocks
+
+</emphasis>
+
+ and dropping them into slots with the same shape 
+	to fill out the details of the program.
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+<para id="p1076">
+There are other steps involved in writing a complex program that I didn't 
+include above, but we will get to them later in this collection of modules. 
+Hopefully you already know the physical steps in writing a program as a result 
+of working through the online tutorials.
+
+</para>
+
+
+	
+
+<para id="p1077">
+As you can see in 
+
+<link id="a1106" target-id="Image_1">
+
+Image 1
+
+</link>
+
+, this 
+program consists of three scripts in the center pane. Each script contains one 
+tan block and two orange blocks. We already know that orange blocks have to do 
+with variables. As you can see from the colors on the left ends of the buttons 
+in 
+
+<link id="a1107" target-id="Image_2">
+
+Image 2
+
+</link>
+
+, tan blocks are related to
+
+
+<emphasis id="strong1038" effect="bold">
+Control
+
+</emphasis>
+. 
+
+</para>
+
+
+	
+
+<section id="h31023">
+<title>
+<emphasis id="Programming_blocks_in_the_Control_category" effect="bold">
+
+Programming blocks in 
+the Control category
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1078">
+<link id="a1108" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ shows some of the 
+programming blocks that are available in the 
+
+<emphasis id="strong1039" effect="bold">
+Control
+
+</emphasis>
+ category. Other 
+programming blocks in this category can be exposed using the vertical slider 
+shown in 
+
+<link id="a1109" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_4" effect="bold">
+</emphasis>
+Image 4. Programming blocks in the Control category.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/hs00102a04.jpg" width="227" height="768"/>
+</media>
+
+
+				
+
+<caption>Image 4. Programming blocks in the Control category.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+</section>
+<section id="h31024">
+<title>
+<emphasis id="The_finished_program" effect="bold">
+
+The finished program
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1079">
+<link id="a1110" target-id="Image_5">
+
+Image 5
+
+</link>
+
+ shows a full-size view of 
+the center panel from 
+
+<link id="a1111" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. This 
+image shows the finished program that I created by dragging blocks from the 
+	
+
+<emphasis id="strong1040" effect="bold">
+Variables
+
+</emphasis>
+ area and the 
+
+<emphasis id="strong1041" effect="bold">
+Control
+
+</emphasis>
+ area and snapping them together to form 
+	three separate 
+scripts. Note that I also entered literal values of 0, 1, 5, -1, and -5 into the 
+	white areas in the programming blocks for the variables after dropping them into 
+the programming area.
+
+</para>
+
+
+
+
+<para id="p1080">
+In addition, I used the pull-down list on each of six blocks to select the 
+name of the variable to which each block applies. 
+
+<emphasis id="em1054" effect="italics">
+(Note that each 
+of those six blocks refers either to 
+
+<emphasis id="strong1042" effect="bold">
+Counter
+
+</emphasis>
+ or 
+
+<emphasis id="strong1043" effect="bold">
+counter
+
+</emphasis>
+.)
+
+</emphasis>
+</para>
+
+
+
+
+	
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_5" effect="bold">
+</emphasis>
+Image 5. The finished program.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/hs00102a05.jpg" width="320" height="487"/>
+</media>
+
+
+				
+
+<caption>Image 5. The finished program.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+
+</section>
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Behavior_of_the_program" effect="bold">
+
+Behavior of the 
+program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h31025">
+<title>
+<emphasis id="Click_the_green_flag" effect="bold">
+
+Click the green flag
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1081">
+The program contains three scripts. Each script 
+remains silent until a specific event occurs. As the label on the uppermost 
+block in the top programming script in 
+
+<link id="a1112" target-id="Image_5">
+
+Image 5
+
+</link>
+
+ indicates, the code in the top 
+script in
+
+
+<link id="a1113" target-id="Image_5">
+
+Image 5
+
+</link>
+
+ is executed once each time the 
+user clicks the green flag shown in the upper right of
+
+
+<link id="a1114" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. This code causes the values 
+stored in each of the two variables to be set to zero. This, in turn causes the 
+variable displays in the Stage area to each show a value of 0.
+
+</para>
+
+
+	
+
+</section>
+<section id="h31026">
+<title>
+<emphasis id="Press_the_space_bar" effect="bold">
+
+Press the space bar
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1082">
+Because of the top block in the middle script reads 
+
+<emphasis id="em1055" effect="italics">
+"when space key 
+	pressed"
+
+</emphasis>
+, the code in the middle script is executed once each time the user presses the 
+space bar. 
+
+</para>
+
+
+
+
+<quote id="blockquote1008" display="block">
+<emphasis id="em1056" effect="italics">
+The pull-down list on this block allows you to select among the 
+keys on the keyboard with the space bar being the default.
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1083">
+One of the orange programming blocks in the middle script causes the 
+value of the variable named 
+
+<emphasis id="strong1044" effect="bold">
+Counter
+
+</emphasis>
+ to change by +1 when the space bar is 
+pressed. The other orange 
+programming block causes the value of the variable named 
+
+<emphasis id="strong1045" effect="bold">
+counter
+
+</emphasis>
+ to 
+change by +5 when the space bar is pressed.
+
+</para>
+
+
+	
+
+<para id="p1084">
+In other words, repetitively pressing the space bar causes the 
+
+<emphasis id="strong1046" effect="bold">
+Counter
+
+</emphasis>
+ 
+variable to count up in increments of one and causes the 
+
+<emphasis id="strong1047" effect="bold">
+counter
+
+</emphasis>
+ variable to count up 
+in increments of five.
+
+</para>
+
+
+	
+
+</section>
+<section id="h31027">
+<title>
+<emphasis id="Click_the_mouse_on_the_Stage" effect="bold">
+
+Click the mouse on the Stage
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1085">
+Because of the top block in the bottom script reads 
+
+<emphasis id="em1057" effect="italics">
+"when stage 
+	clicked"
+
+</emphasis>
+, the code in the bottom script in 
+
+<link id="a1115" target-id="Image_5">
+
+Image 5
+
+</link>
+
+ 
+is executed once each time the user clicks the mouse in the large white Stage 
+area shown in 
+
+<link id="a1116" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+<para id="p1086">
+The bottom two blocks in this script are the same as the bottom two blocks in the middle script except that the algebraic signs 
+on the two literal values are minus instead of plus. 
+
+</para>
+
+
+
+
+<quote id="blockquote1009" display="block">
+<emphasis id="em1058" effect="italics">
+The absence of a "-" 
+	character causes a literal value to be positive. A "+" character is not 
+	required for positive literal values.
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1087">
+Repetitively clicking the 
+mouse in the Stage area causes the 
+
+<emphasis id="strong1048" effect="bold">
+Counter
+
+</emphasis>
+ variable to count down in 
+increments of one 
+and causes the 
+
+<emphasis id="strong1049" effect="bold">
+counter
+
+</emphasis>
+ variable to count down in increments of five.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Event-driven_programming" effect="bold">
+
+Event-driven programming
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1088">
+The ability to write programs that cause certain operations to occur in 
+response to events 
+
+<emphasis id="em1059" effect="italics">
+(such as pressing the space bar and clicking the mouse on 
+	the Stage)
+
+</emphasis>
+ 
+is often referred to as 
+
+<emphasis id="em1060" effect="italics">
+event-driven
+
+</emphasis>
+ programming.
+
+</para>
+
+
+	
+
+<para id="p1089">
+It is easy to write event-driven programs in Scratch. On 
+the other hand, writing event-driven programs is not easy in languages such as 
+Java, C#, and C++. You need quite a lot of programming knowledge to write 
+event-driven programs in those languages. 
+
+</para>
+
+
+	
+
+<para id="p1090">
+It is useful to give programming students a 
+taste of event-driven programming early, if for no other reason than the fact 
+that it tends to make programming more interesting.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21014">
+<title>
+<emphasis id="Example_blocks_with_pointed_ends" effect="bold">
+
+Example blocks with pointed ends
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1091">
+The blocks shown in 
+
+<link id="a1117" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ are not used in this 
+program. They are shown in this module to illustrate blocks with pointed ends 
+referred to 
+
+<link id="a1118" target-id="pointed_ends">
+
+earlier
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_6" effect="bold">
+</emphasis>
+Image 6. Example blocks with pointed ends.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/hs00102a06.jpg" width="221" height="464"/>
+</media>
+
+
+				
+
+<caption>Image 6. Example blocks with pointed ends.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="RunTheProgram" effect="bold">
+
+
+</emphasis>
+
+Run the program
+
+</title>
+
+
+	
+
+<para id="p1092">
+I encourage you to use the information provided above along with the 
+	Scratch Programming Environment shown in 
+
+<link id="a1119" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ to write and run this program. 
+Experiment with the code, making changes, and observing the results of your 
+changes. Make certain that you can explain why your changes behave as they do.
+	
+
+</para>
+
+
+	
+
+<para id="p1093">
+A copy of this program has been 
+	
+
+<link id="a1120" url="http://scratch.mit.edu/projects/dbal/154446">
+
+posted online
+
+</link>
+
+ for your review.
+
+</para>
+
+
+	
+
+<para id="p1094">
+I also encourage you to write the programs described below.
+
+</para>
+
+
+	
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_projects" effect="bold">
+
+Student programming projects
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1095">
+The following projects are designed to:
+
+</para>
+
+
+	
+
+<list id="ul1023" list-type="bulleted">
+
+		
+
+<item id="li1096">
+Help the student retain the knowledge gained by studying the module.
+
+</item>
+
+
+		
+
+<item id="li1097">
+Require the student to think beyond the material presented in the module 
+	by requiring the student to answer the question "How do I ...?"
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+<section id="h21015">
+<title>
+<emphasis id="Project_1" effect="bold">
+
+Project 1
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1096">
+Begin with the program named 
+
+<emphasis id="strong1050" effect="bold">
+Variable01
+
+</emphasis>
+ and modify it to create a new 
+program named 
+
+<emphasis id="strong1051" effect="bold">
+Variable02
+
+</emphasis>
+. Modify the original program in such a way that 
+pressing the space bar five times in succession, 
+
+<emphasis id="em1061" effect="italics">
+(after clicking the green 
+flag to set both variables to zero)
+
+</emphasis>
+, will cause the displayed values of the 
+variables named 
+
+<emphasis id="strong1052" effect="bold">
+Counter
+
+</emphasis>
+ and 
+
+<emphasis id="strong1053" effect="bold">
+counter
+
+</emphasis>
+ to be as shown in
+	
+
+<link id="a1121" target-id="Image_7">
+
+Image 7
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_7" effect="bold">
+</emphasis>
+Image 7. Output from Project 1.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/hs00102a07.jpg" width="479" height="162"/>
+</media>
+
+
+				
+
+<caption>Image 7. Output from Project 1.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1097">
+Having reached that point, clicking the mouse five times in succession in the 
+Stage area will cause the displayed values of the variables named 
+
+<emphasis id="strong1054" effect="bold">
+Counter
+
+</emphasis>
+ 
+and 
+
+<emphasis id="strong1055" effect="bold">
+counter
+
+</emphasis>
+ to be as shown in 
+
+<link id="a1122" target-id="Image_8">
+
+Image 8
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1007" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_8" effect="bold">
+</emphasis>
+Image 8. Output from Project 1.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1007" alt="Missing image." display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/hs00102a08.jpg" width="481" height="165"/>
+</media>
+
+
+				
+
+<caption>Image 8. Output from Project 1.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1098">
+A copy of this program is
+	
+
+<link id="a1123" url="http://scratch.mit.edu/projects/dbal/154452">
+
+posted online
+
+</link>
+
+ for your review.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21016">
+<title>
+<emphasis id="Project_2" effect="bold">
+
+Project 2
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1099">
+You should successfully complete 
+
+<link id="a1124" target-id="Project_1">
+
+Project 1
+
+</link>
+
+ before attempting this project. Begin with the program named 
+	
+
+<emphasis id="strong1056" effect="bold">
+Variable01
+
+</emphasis>
+ and modify it to create a new program named 
+
+<emphasis id="strong1057" effect="bold">
+Variable03
+
+</emphasis>
+. 
+Modify the original program in such a way that pressing the space bar five times 
+in succession, 
+
+<emphasis id="em1062" effect="italics">
+(after clicking the green flag to set both variables to zero)
+
+</emphasis>
+, 
+will cause the displayed values of the variables named 
+
+<emphasis id="strong1058" effect="bold">
+Counter
+
+</emphasis>
+ and 
+
+<emphasis id="strong1059" effect="bold">
+counter
+
+</emphasis>
+ to be as shown in 
+	
+
+<link id="a1125" target-id="Image_9">
+
+Image 9
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1008" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_9" effect="bold">
+</emphasis>
+Image 9. Output from Project 2.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1008" alt="Missing image." display="block">
+<image id="img1008" mime-type="image/jpeg" src="../../media/hs00102a09.jpg" width="481" height="163"/>
+</media>
+
+
+				
+
+<caption>Image 9. Output from Project 2.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1100">
+Having reached that point, clicking the mouse five times in succession in the 
+Stage area will cause the displayed values of the variables named 
+
+<emphasis id="strong1060" effect="bold">
+Counter
+
+</emphasis>
+ 
+and 
+
+<emphasis id="strong1061" effect="bold">
+counter
+
+</emphasis>
+ to be as shown in 
+
+<link id="a1126" target-id="Image_10">
+
+Image 10
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1009" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_10" effect="bold">
+</emphasis>
+Image 10. Output from Project 2.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<media id="media1009" alt="Missing image." display="block">
+<image id="img1009" mime-type="image/jpeg" src="../../media/hs00102a10.jpg" width="483" height="163"/>
+</media>
+
+
+				
+
+<caption>Image 10. Output from Project 2.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+<para id="p1101">
+Hint: Compare the values of the variable named 
+
+<emphasis id="strong1062" effect="bold">
+counter
+
+</emphasis>
+ in 
+	
+
+<link id="a1127" target-id="Project_2">
+
+Project 2
+
+</link>
+
+ 
+with the values of the variable named 
+
+<emphasis id="strong1063" effect="bold">
+counter
+
+</emphasis>
+ in 
+
+<link id="a1128" target-id="Project_1">
+
+Project 1
+
+</link>
+
+ to determine 
+what you need to do to successfully write 
+
+<link id="a1129" target-id="Project_2">
+
+Project 2
+
+</link>
+
+.
+
+</para>
+
+
+	
+
+<para id="p1102">
+A copy of this program is
+	
+
+<link id="a1130" url="http://scratch.mit.edu/projects/dbal/154457">
+
+posted online
+
+</link>
+
+ for your review 
+	
+
+<emphasis id="em1063" effect="italics">
+(see
+
+
+<link id="a1131" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. 
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1103">
+I began by providing an overview of computer programming. Then I provided 
+technical explanations for memory, variables, and literals.
+
+</para>
+
+
+	
+
+<para id="p1104">
+I explained the meaning of the term algorithm.
+
+</para>
+
+
+	
+
+<para id="p1105">
+I presented and explained a Scratch program that is designed to illustrate 
+the creation and use of variables in a computer program. The Scratch program 
+also illustrates case sensitivity in variable names along with the ability to 
+detect and respond to events fired by the keyboard and events fired by the 
+mouse.
+
+</para>
+
+
+	
+
+<para id="p1106">
+Finally I presented two student programming projects that are designed to:
+
+</para>
+
+
+	
+
+<list id="ul1024" list-type="bulleted">
+
+		
+
+<item id="li1098">
+Help the student retain the knowledge gained by studying the module.
+
+</item>
+
+
+		
+
+<item id="li1099">
+Require the student to think beyond the material presented in the module 
+	by requiring the student to answer the question "How do I ...?"
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="WhatsNext" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1107">
+In the next module, I will continue the process of helping you to learn about 
+the following computer programming concepts using Scratch:
+
+</para>
+
+
+	
+
+<list id="ul1025" list-type="bulleted">
+
+		
+
+<item id="li1100">
+Variables
+
+</item>
+
+
+		
+
+<item id="li1101">
+Expressions and Operators
+
+</item>
+
+
+		
+
+<item id="li1102">
+Sequence, Selection, and Loop Structures
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1026" list-type="bulleted">
+
+		
+
+<item id="li1103">
+<link id="a1132" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1104">
+<link id="a1133" url="http://scratch.mit.edu/download">
+
+Scratch download page
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1105">
+<link id="a1134" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorial - Dance 
+	Tutorial
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1106">
+<link id="a1135" url="http://scratch.mit.edu/forums/">
+
+Scratch forums
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1107">
+
+
+
+<link id="a1136" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Son of String Art
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1108">
+
+
+
+<link id="a1137" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1109">
+<link id="a1138" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+		
+
+<item id="li1110">
+
+		
+
+<link id="a1139" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1111">
+<link id="a1140" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1112">
+<link id="a1141" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1113">
+
+		
+
+<link id="a1142" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+
+		Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1114">
+<link id="a1143" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+		TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1115">
+<link id="a1144" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1116">
+
+		
+
+<link id="a1145" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+
+		Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1117">
+
+		
+
+<link id="a1146" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+
+		Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1118">
+
+		
+
+<link id="a1147" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+
+		Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1119">
+<link id="a1148" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+
+		Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1120">
+<link id="a1149" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web site
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1121">
+<link id="a1150" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+		Scratch.ie
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1122">
+<link id="a1151" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd 
+		Resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1123">
+<link id="a1152" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+		project Day Dream
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1124">
+
+
+
+<link id="a1153" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch project Son of String Art
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1125">
+<link id="a1154" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+		Project Scratch Tutorial
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1126">
+Online version of program named
+		
+
+<link id="a1155" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1127">
+Online version of student programming project named
+		
+
+<link id="a1156" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1128">
+Online version of student programming project named
+		
+
+<link id="a1157" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1108">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1064" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1027" list-type="bulleted">
+
+					
+
+<item id="li1129">
+Module name: Scr0120: Memory, Variables, and Literals
+
+</item>
+
+
+					
+
+<item id="li1130">
+File: Scr0120.htm
+
+
+</item>
+
+
+					
+
+<item id="li1131">
+Published: 03/24/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1065" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1109">
+<emphasis id="strong1066" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1110">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1111">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1112">
+<emphasis id="strong1067" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+	
+
+<para id="p1113">
+-end- 
+
+</para>
+
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

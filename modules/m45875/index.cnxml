@@ -1,0 +1,3878 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0100: Scratch Overview</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45875</md:content-id>
+  <md:title>Scr0100: Scratch Overview</md:title>
+  <md:abstract>The purpose of this module is to provide a high-level overview of the Scratch programming environment.</md:abstract>
+  <md:uuid>3445d778-4351-4616-8751-380ea794bc85</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="General">
+
+General
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="prediction">
+
+A prediction
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1003">
+<link id="a1003" target-id="Where_are_the_little_leagues_of_computer_science">
+
+Where are the little leagues of computer science?
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Some_statistics">
+
+Some statistics
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="Many_archived_projects_are_readily_available">
+
+Many archived projects are readily available
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Post_review_and_comment">
+
+Post, review, and comment
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1007">
+<link id="a1007" target-id="A_world-wide_phenomenon">
+
+A world-wide phenomenon
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Demographics">
+
+Demographics
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1009">
+<link id="a1009" target-id="Not_in_organized_classes">
+
+Not in organized classes
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="Viewing_tip0">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Programming_from_many_viewpoints">
+
+Programming for many purposes
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="The_Scratch_player_applet">
+
+The Scratch player applet
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Computer_art_by_pandalecteur">
+
+Computer art by pandalecteur
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Click_the_link_to_run_the_applet">
+
+Click the link to run the applet
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Be_sure_to_close_the_pages">
+
+Be sure to close the pages
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="What_if_the_applets_dont_run">
+
+What if the applets don't run?
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="Anime_projects">
+
+Anime projects
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1019">
+<link id="a1019" target-id="Game_projects">
+
+Game projects
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="x3D_games">
+
+3D games
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="A_pseudo-3D_animation">
+
+A pseudo-3D animation
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1022" target-id="An_animated_story">
+
+An animated story
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1023" target-id="The_tip_of_the_iceberg">
+
+The tip of the iceberg
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1024">
+<link id="a1024" target-id="Scratch_development_environment">
+
+Scratch development 
+	environment
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+		
+
+<item id="li1025">
+<link id="a1025" target-id="A_sprite-oriented_programming_environment">
+
+A sprite-oriented programming environment
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1026">
+<link id="a1026" target-id="Costumes">
+
+Costumes
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+			
+
+<item id="li1027">
+<link id="a1027" target-id="Walking-boy_costumes">
+
+Walking-boy costumes
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1028">
+<link id="a1028" target-id="The_stage">
+
+The stage
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1029" target-id="Controlling_the_behavior_of_a_sprite">
+
+Controlling the behavior of a sprite
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1030">
+<link id="a1030" target-id="Drag_and_drop_programming">
+
+Drag and drop programming
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1031">
+<link id="a1031" target-id="Costumes_and_sounds">
+
+Costumes and sounds
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1032" target-id="Discussion_of_the_Scratch_language">
+
+The Scratch programming language
+
+</link>
+
+
+<list id="ul1009" list-type="bulleted">
+
+		
+
+<item id="li1033">
+<link id="a1033" target-id="Music_music_music">
+
+Music, music, music
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1034">
+<link id="a1034" target-id="The_toolbox_buttons_and_toolbox_pane">
+
+The toolbox buttons and toolbox pane
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1035">
+<link id="a1035" target-id="High-level_multimedia_functionality">
+
+High-level multimedia functionality
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1036">
+<link id="a1036" target-id="Program_control">
+
+Program control
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1037" target-id="Summary">
+
+Summary
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1038" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1039" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+	
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+	
+
+<section id="h21000">
+<title>
+ 
+
+<emphasis id="General" effect="bold">
+
+General
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+This module is one in a collection of modules designed to help beginners of 
+all ages 
+
+<emphasis id="em1000" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for computer programs. 
+Information is provided not only for the beginners themselves but also for their 
+parents and teachers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1001">
+The purpose of this module is to provide a high-level overview of the
+
+
+<link id="a1040" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ programming environment. Future 
+modules will provide more detailed information about the programming 
+environment.
+
+</para>
+
+
+
+
+<para id="p1002">
+While this module is not intended to exclude the "older" beginners, much of 
+the information contained in this module may be of more interest to the parents 
+and teachers of younger students who are wondering if they should allow the 
+students in their charge to become involved in Scratch.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+ A 
+
+<emphasis id="prediction" effect="bold">
+
+prediction
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+ It's probably safe to say that a large percentage of the professional 
+athletes in the major leagues of sports are people who became involved in sports 
+in little league when they were quite young. It's probably also safe to 
+say that a large percentage of successful professional musicians were either 
+enrolled in serious musical instruction at an early age, or were involved as 
+members of garage bands by their early teens.
+
+</para>
+
+
+
+
+<para id="p1004">
+ I predict that in ten to fifteen years, computer science professionals and 
+professionals in a variety of computer-related fields will be the people who are 
+currently engaged in the 
+
+<emphasis id="em1001" effect="italics">
+little leagues of computer science
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31001">
+<title>
+ 
+
+<emphasis id="Where_are_the_little_leagues_of_computer_science" effect="bold">
+
+Where are the little leagues of computer science?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+ One of the most important 
+
+<emphasis id="em1002" effect="italics">
+little leagues of computer science
+
+</emphasis>
+ is centered in the 
+
+<link id="a1041" url="http://llk.media.mit.edu/">
+
+Lifelong 
+Kindergarten group 
+
+</link>
+
+at the 
+
+<link id="a1042" url="http://www.media.mit.edu/">
+
+MIT Media Lab
+
+</link>
+
+. 
+This group has developed and is supporting a programming environment for 
+beginners called 
+
+
+<link id="a1043" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+. According to MIT, 
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+	
+
+<para id="p1006">
+<emphasis id="em1003" effect="italics">
+"Scratch is a programming language that makes it easy to create 
+	your own interactive stories, animations, games, music, and art -- and share 
+	your creations on the web.
+
+</emphasis>
+</para>
+
+
+	
+
+<para id="p1007">
+<emphasis id="em1004" effect="italics">
+Scratch is designed to help young people (ages 8 and up) develop 21st 
+	century learning skills. As they create Scratch projects, young people learn 
+	important mathematical and computational ideas, while also gaining a deeper 
+	understanding of the process of design."
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+</quote>
+
+
+
+
+<para id="p1008">
+Scratch is available free of charge and is currently available for Mac OSX, 
+Windows, and Debian / Ubuntu.
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Some_statistics" effect="bold">
+
+Some statistics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+As of March 15, 2013, the Scratch home page indicates that 3,171,004 projects 
+have been created 
+
+<emphasis id="em1005" effect="italics">
+(and that number is increasing by about 230 projects per 
+hour or 4 projects per minute)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1010">
+According to an 
+
+
+<link id="a1044" url="http://mags.acm.org/interactions/20080304/?pg=55#pg55">
+
+article
+
+</link>
+
+ published by MIT personnel
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+
+	
+
+<para id="p1011">
+<emphasis id="em1006" effect="italics">
+"On the morning of May 14, 2007, the (Scratch Online Community) 
+	website was officially launched. Several news outlets and social news 
+	websites featured the Scratch website on their front pages. In a 
+	matter of hours the server and the website could not handle the traffic and 
+	the website went down several times."
+
+</emphasis>
+</para>
+
+
+
+
+</quote>
+
+
+
+
+<para id="p1012">
+If I did the arithmetic correctly, this represents an average of one new 
+project every minute being posted on the website since the inception of the 
+website in 2007. Of course, many other projects have been created but not 
+published on the website.
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+ 
+
+<emphasis id="Many_archived_projects_are_readily_available" effect="bold">
+
+Many archived projects are readily available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+ Thousands of archived projects are available for online execution and/or 
+downloading and examination at the source code level. Thus, the amount of 
+resource material available to budding Scratch programmers is almost limitless.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+ 
+
+<emphasis id="Post_review_and_comment" effect="bold">
+
+Post, review, and comment
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+ MIT makes it possible for every 
+
+<emphasis id="em1007" effect="italics">
+scratcher
+
+</emphasis>
+ 
+
+<emphasis id="em1008" effect="italics">
+(as the members of the 
+Scratch community refer to themselves)
+
+</emphasis>
+ to share his or her projects for 
+online execution and/or downloading and examination by other scratchers. 
+MIT also makes it possible for other scratchers to review and critique the 
+projects shared by others. Registration is free and open to everyone.
+
+</para>
+
+
+
+
+<para id="p1015">
+ MIT seems to make a significant effort to hide the true identities of 
+the registrants and also seems to make a significant effort to ensure that the 
+posted material is age appropriate for middle school students. 
+
+<emphasis id="em1009" effect="italics">
+(See
+
+
+<link id="a1045" url="http://info.scratch.mit.edu/Community_Guidelines">
+
+Community Guidelines
+
+</link>
+
+.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1016">
+ An organized system for peer review and critique is provided. The 
+system is too elaborate for me to describe. If you want to 
+know more about it, simply register 
+
+<emphasis id="em1010" effect="italics">
+(become a scratcher)
+
+</emphasis>
+ and take a 
+look at it for yourself.
+
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+ 
+
+<emphasis id="A_world-wide_phenomenon" effect="bold">
+
+A world-wide phenomenon
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+ This is not just a United States phenomenon. The scratchers
+
+<emphasis id="em1011" effect="italics">
+ 
+
+</emphasis>
+are 
+located in many different countries around the world. A forum is provided 
+for scratchers to exchange information with one another. As of this 
+writing, that forum is available in at least fifteen different languages.
+
+</para>
+
+
+
+
+<para id="p1018">
+ Also, many scratchers whose first language is not English participate in the 
+English version of the forums and provide English-language descriptions of their 
+projects when they publish them.
+
+</para>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Demographics" effect="bold">
+
+Demographics
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+ An article published around 2008 stated that based on the first five months of usage data,
+
+</para>
+
+
+
+
+<quote id="blockquote1002" display="block">
+
+	
+
+<para id="p1020">
+<emphasis id="em1012" effect="italics">
+"...users are primarily age 8 to 17, with a peak at age 12. A 
+	good number of users are adult computer hobbyists and educators that create 
+	projects in Scratch, even though a lot of them know other professional 
+	programming languages. Some members of the community have emerged as 
+	mentors that help the beginners and provide advice."
+
+</emphasis>
+</para>
+
+
+
+
+</quote>
+
+
+
+
+<para id="p1021">
+ The article also stated,
+
+</para>
+
+
+
+
+<quote id="blockquote1003" display="block">
+
+	
+
+<para id="p1022">
+<emphasis id="em1013" effect="italics">
+"While 70 percent of users are male, no correlation was found between 
+	gender and the number of projects... This indicates that even though 
+	the majority of users are male, the females are as engaged in creating 
+	projects as the males."
+
+</emphasis>
+</para>
+
+
+
+
+</quote>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+ 
+
+<emphasis id="Not_in_organized_classes" effect="bold">
+
+Not in organized classes
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1023">
+ By following the discussions in the forums, I have observed that a large 
+percentage of scratchers are not enrolled in any sort of formal programming 
+classes. Rather, this is something that they are doing on their own. 
+In fact, it seems that for many scratchers, creating, sharing, and discussing 
+projects is a form of social networking much like other students might engage in 
+using the better known social networking sites.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21001">
+<title>
+ 
+
+<emphasis id="Viewing_tip0" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1024">
+ I recommend that you open another copy of this document in a separate 
+browser window and use the following links to easily find and view the images 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31008">
+<title>
+ 
+
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1040">
+<link id="a1046" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. Rushes with sun by pandalecteur.
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1047" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. How to draw a head by dialga..
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1048" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. Marble Racer SBE 4000 by jamie.
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1049" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. Perspective03 by dbal.
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1050" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. Day Dream by cremeglace. 
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1051" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Screen shot of the Scratch development 
+	environment.
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1052" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. Costumes for a boy walking.
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1053" target-id="Image_8">
+
+Image 8
+
+</link>
+
+. The toolbox buttons and toolbox pane.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+ 
+
+<emphasis id="Programming_from_many_viewpoints" effect="bold">
+
+Programming for 
+many purposes
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21002">
+<title>
+ 
+
+<emphasis id="The_Scratch_player_applet" effect="bold">
+
+The Scratch player applet
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1025">
+ Scratch projects are normally executed within the Scratch development 
+environment shown in 
+
+<link id="a1054" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. However, you must have the Scratch software 
+installed on your computer to execute and view the projects that way. The 
+animations that you will see in this module are produced by a Java applet that 
+is created by MIT to cause the scratcher's shared projects to be accessible 
+online with no requirement for the viewer to have the Scratch software installed. 
+
+</para>
+
+
+
+
+<para id="p1026">
+ These applets usually start running as soon as the web page that contains them is 
+loaded into the browser. 
+
+<emphasis id="em1014" effect="italics">
+(Sometimes you need to click the green flag 
+in the upper-right corner to cause the applet to start running.)
+
+</emphasis>
+ You can stop the execution of an applet by 
+clicking the red button in the upper-right corner. 
+You can restart the execution of the applet by clicking the green flag.
+
+</para>
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+ 
+
+<emphasis id="Computer_art_by_pandalecteur" effect="bold">
+
+Computer art by pandalecteur
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1027">
+ The scratchers who create and post these projects come at it from many 
+different viewpoints, but they are all programming in order to accomplish their 
+own purposes. My guess is that in many cases, programming is simply a 
+means to an end. For example, I would categorize the scratcher named
+ 
+
+<emphasis id="strong1000" effect="bold">
+pandalecteur
+
+</emphasis>
+, whose work you will see in 
+
+<link id="a1055" target-id="Image_1">
+
+Image 1
+
+</link>
+
+, as a serious artist. 
+You will find a link to more of her creations
+
+
+<link id="a1056" url="http://scratch.mit.edu/users/pandalecteur">
+
+here
+
+</link>
+
+. She combines her programming talent 
+with her artistic talent to produce beautiful animated creations.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_1" effect="bold">
+</emphasis>
+Image 1. Rushes with sun by pandalecteur.
+</title>
+
+
+
+
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/hs10000a04.jpg" width="483" height="389"/>
+</media>
+
+
+
+
+<caption>Image 1. Rushes with sun by pandalecteur.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1028">
+Click 
+
+<link id="a1057" url="Hs10000Fig1.htm">
+
+here
+
+</link>
+
+ to view the applet. Close 
+the applet page when finished viewing.
+
+
+</para>
+
+
+
+
+
+<section id="h31009">
+<title>
+ 
+
+<emphasis id="Click_the_link_to_run_the_applet" effect="bold">
+
+Click the link to run the applet
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+ 
+
+<link id="a1058" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ contains a screen shot from the applet along with a link that you 
+can click to open another page 
+
+<emphasis id="em1015" effect="italics">
+(window)
+
+</emphasis>
+ and cause the applet to run in 
+that page.
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+ 
+
+<emphasis id="Be_sure_to_close_the_pages" effect="bold">
+
+Be sure to close the pages
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+ Be sure to close the pages containing the applets when you finish viewing 
+them 
+
+<emphasis id="em1016" effect="italics">
+(or at least click the red button)
+
+</emphasis>
+ to avoid having multiple applets 
+running at the same time as you read the remainder of this module.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+ 
+
+<emphasis id="What_if_the_applets_dont_run" effect="bold">
+
+What if the applets don't run?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1031">
+ You may find that these applets won't run on your computer. If so, 
+that probably means that the Java runtime environment is not installed on your 
+computer. You can download and install the Java runtime software by clicking
+
+
+<link id="a1059" url="http://java.com/en/download/index.jsp">
+
+here
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+ 
+
+<emphasis id="Anime_projects" effect="bold">
+
+Anime projects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1032">
+ 
+
+<link id="a1060" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ represents another category of Scratch projects commonly seen on 
+the Scratch web site. Many of the scratchers create the characters for 
+what amounts to animated comic strips often referred to as 
+
+<emphasis id="em1017" effect="italics">
+
+anime
+
+</emphasis>
+. Sometimes the characters are used to tell a story and sometimes 
+the programmers/authors/artists are content to simply draw and display the characters. 
+Sometimes I read about two scratchers getting together with one doing the art 
+work and the other doing the animation programming.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_2" effect="bold">
+</emphasis>
+Image 2. How to draw a head by dialga.
+</title>
+
+
+
+
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/hs10000a05.jpg" width="484" height="390"/>
+</media>
+
+
+
+
+<caption>Image 2. How to draw a head by dialga.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1033">
+Click 
+
+<link id="a1061" url="Hs10000Fig2.htm">
+
+here
+
+</link>
+
+ to view the applet. Close 
+the page when finished viewing.
+
+</para>
+
+
+
+
+
+<para id="p1034">
+<link id="a1062" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ shows an educational animation with 
+instructions on how to draw the head of an anime character. If you run the applet and click on the green 
+button labeled 
+
+<emphasis id="strong1001" effect="bold">
+next
+
+</emphasis>
+ in the upper-left corner several times in 
+succession, the program will cycle through the 
+steps involved in drawing a head.
+
+</para>
+
+
+
+
+<para id="p1035">
+I described
+ 
+
+<emphasis id="strong1002" effect="bold">
+pandalecteur
+
+</emphasis>
+ earlier as a 
+
+<emphasis id="em1018" effect="italics">
+serious artist
+
+</emphasis>
+. In the same vein, 
+I would describe 
+
+<emphasis id="strong1003" effect="bold">
+dialga 
+
+</emphasis>
+who created the project shown in 
+
+<link id="a1063" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ as 
+an 
+
+
+<emphasis id="em1019" effect="italics">
+anime artist
+
+</emphasis>
+. I'm not discrediting or indicating a preference for 
+either artist. I am simply recognizing the different viewpoints of the 
+two. Click 
+
+<link id="a1064" url="http://scratch.mit.edu/users/dialga">
+
+here
+
+</link>
+
+ 
+to view more of 
+
+<emphasis id="strong1004" effect="bold">
+dialga's 
+
+</emphasis>
+creations.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Game_projects" effect="bold">
+
+Game projects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1036">
+As you may have guessed, many scratchers like to create games. Most of 
+them are 2D games such as the Marble Racer game by 
+
+<emphasis id="strong1005" effect="bold">
+jamie
+
+</emphasis>
+ shown in 
+
+
+<link id="a1065" target-id="Image_3">
+
+Image 3
+
+</link>
+
+ where the object of the game is to use the 
+arrow keys to cause the marble to roll all the way around the track without 
+being slowed down by rolling onto the grass. Click
+
+
+<link id="a1066" url="http://scratch.mit.edu/users/jamie">
+
+here
+
+</link>
+
+ to see more projects by
+
+
+<emphasis id="strong1006" effect="bold">
+jamie
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1037">
+In this case, you need to click the green flag in the upper-right corner to 
+start or re-start the game. Click the red button to stop the game.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_3" effect="bold">
+</emphasis>
+Image 3. Marble Racer SBE 4000 by jamie.
+</title>
+
+
+
+
+
+<media id="media1002" alt="Missing image." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/hs10000a06.jpg" width="482" height="387"/>
+</media>
+
+
+
+
+<caption>Image 3. Marble Racer SBE 4000 by jamie.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1038">
+Click 
+
+<link id="a1067" url="Hs10000Fig3.htm">
+
+here
+
+</link>
+
+ to view the applet. Close 
+the page when finished viewing.
+
+
+</para>
+
+
+
+
+
+
+<section id="h31012">
+<title>
+<emphasis id="x3D_games" effect="bold">
+
+3D games
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1039">
+Although the mathematics involved are probably too advanced for most 
+scratchers, a few scratchers push the envelope and attempt to make 3D games. My 
+observation so far is that most of the 3D games that they make are so slow as to 
+be extremely boring. Nonetheless, working on a 3D game in Scratch is a 
+very educational process since Scratch doesn't provide any built-in support for 
+doing 3D projections other than providing the necessary trigonometric functions.
+
+</para>
+
+
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="A_pseudo-3D_animation" effect="bold">
+
+A pseudo-3D animation
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1040">
+<link id="a1068" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ shows a pseudo-3D animation of my own design. In this project, 
+the walking sprite follows the mouse pointer. Various tricks were employed 
+to create an illusion of perspective in order to create an illusion of 3D. 
+If the sprite doesn't walk fairly smoothly, make sure that you have stopped the 
+execution of all of the other applets.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_4" effect="bold">
+</emphasis>
+Image 4. Perspective03 by dbal.
+</title>
+
+
+
+
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/hs10000a07.jpg" width="481" height="388"/>
+</media>
+
+
+
+
+<caption>Image 4. Perspective03 by dbal.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1041">
+Click 
+
+<link id="a1069" url="Hs10000Fig4.htm">
+
+here
+
+</link>
+
+ to view the applet. Close 
+the page when finished viewing.
+
+
+</para>
+
+
+
+
+
+
+</section>
+</section>
+<section id="h21006">
+<title>
+<emphasis id="An_animated_story" effect="bold">
+
+An animated story
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+<link id="a1070" target-id="Image_5">
+
+Image 5
+
+</link>
+
+ shows an animated story named 
+
+<emphasis id="strong1007" effect="bold">
+Day 
+Dream
+
+</emphasis>
+ by
+ 
+
+<emphasis id="strong1008" effect="bold">
+cremeglace
+
+</emphasis>
+. In 
+this project, the main character has a dream that goes through several scenes 
+before reaching the end of the dream. 
+The project includes music and dancing sprites.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_5" effect="bold">
+</emphasis>
+Image 5. Day Dream by cremeglace.
+</title>
+
+
+
+
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/hs10000a08.jpg" width="481" height="387"/>
+</media>
+
+
+
+
+<caption>Image 5. Day Dream by cremeglace.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1043">
+Click 
+
+<link id="a1071" url="Hs10000Fig5.htm">
+
+here
+
+</link>
+
+ to view the applet. Close 
+the page when finished viewing.
+
+
+</para>
+
+
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="The_tip_of_the_iceberg" effect="bold">
+
+The tip of the iceberg
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+These five example projects are simply the tip of the iceberg in terms of the 
+different purposes for which scratchers create projects. If you can 
+imagine it in an animated computer program, some scratcher has probably 
+
+
+<link id="a1072" url="http://scratch.mit.edu/galleries/browse/newest">
+
+already 
+tried to do it
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Scratch_development_environment" effect="bold">
+
+Scratch development 
+environment
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+<link id="a1073" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ shows a reduced screen shot of the Scratch development environment. 
+The text in 
+
+<link id="a1074" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ is too small to read in most cases. The main purpose 
+of 
+
+<link id="a1075" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ is to show you the overall layout of the 
+Scratch development 
+environment.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_6" effect="bold">
+</emphasis>
+Image 6. Screen shot of the Scratch development environment.
+</title>
+
+
+
+
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/hs00102a01.jpg" width="477" height="367"/>
+</media>
+
+
+
+
+<caption>Image 6. Screen shot of the Scratch development environment.</caption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+<section id="h21008">
+<title>
+<emphasis id="A_sprite-oriented_programming_environment" effect="bold">
+
+A sprite-oriented programming environment
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1046">
+Scratch is a 
+
+<emphasis id="em1020" effect="italics">
+sprite-oriented
+
+</emphasis>
+ programming environment. Every Scratch 
+project consists of none, one, or more sprites and a stage upon which the 
+sprites perform the behavior for which they are designed.
+
+</para>
+
+
+
+
+<para id="p1047">
+A sprite is an invisible entity to which the programmer can assign numerous 
+behaviors. Each sprite can have one or more costumes. The assignment 
+of a visible costume to an invisible sprite causes the sprite to also become 
+visible.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Costumes" effect="bold">
+
+Costumes
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1048">
+The Scratch development environment provides a large gallery of costumes and 
+you can create your own costumes if you don't find any in the gallery that suit 
+your needs. A costume is nothing more than an image. The background 
+in the image is normally transparent. You can import images from a variety 
+of different file types to create costumes. Probably the most difficult 
+task in creating a costume from an imported image is causing the background to 
+be transparent 
+
+<emphasis id="em1021" effect="italics">
+(if the image didn't originally have a transparent background)
+
+</emphasis>
+. 
+A built-in paint program is provided to assist in this task. You can also 
+use programs such as the free 
+
+<link id="a1076" url="http://www.gimp.org/">
+
+GIMP
+
+</link>
+
+ image editor to deal with the background.
+
+</para>
+
+
+
+
+<section id="h31014">
+<title>
+<emphasis id="Walking-boy_costumes" effect="bold">
+
+Walking-boy costumes
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1049">
+The project shown in 
+
+<link id="a1077" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ uses five costumes from a family of seven 
+costumes that are available in the gallery. Six of the seven costumes are 
+shown in 
+
+<link id="a1078" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. The project shown in 
+
+<link id="a1079" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ uses only the five 
+rightmost costumes shown in 
+
+<link id="a1080" target-id="Image_7">
+
+Image 7
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_7" effect="bold">
+</emphasis>
+Image 7. Costumes for a boy walking.
+</title>
+
+
+
+
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/hs10000a03.jpg" width="459" height="223"/>
+</media>
+
+
+
+
+<caption>Image 7. Costumes for a boy walking.</caption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+<para id="p1050">
+As you can see, the five rightmost costumes describe five stages in a boy 
+walking. The project shown in 
+
+<link id="a1081" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ cycles through the five costumes in 
+such a way as to make it appear that the boy is walking. 
+
+<emphasis id="em1022" effect="italics">
+(This process is 
+often called frame animation and dates back to or before the earliest days of 
+the Disney productions.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21010">
+<title>
+<emphasis id="The_stage" effect="bold">
+
+The stage
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1051">
+The stage is the large white rectangle in 
+
+<link id="a1082" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Different images 
+can be assigned to the stage to serve as backgrounds for the performance of the 
+sprites. The gallery contains a large number of background images, and you 
+can also create your own. Usually for a background image, you don't have 
+the transparency issue discussed earlier so backgrounds for the stage can be 
+easier to create than costumes for sprites.
+
+</para>
+
+
+
+
+<para id="p1052">
+A moonscape background from the gallery was used for the project shown in 
+
+
+<link id="a1083" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21011">
+<title>
+<emphasis id="Controlling_the_behavior_of_a_sprite" effect="bold">
+
+Controlling the behavior of a sprite
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1053">
+You control the behavior of a sprite by writing one or more scripts that 
+belong to the sprite. In reality, each script is an event handler of 
+sorts. Usually you will have one event handler that executes when the user 
+clicks the green flag at the top right in 
+
+<link id="a1084" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. This is particularly 
+true if any special initialization code is required for the sprite, such as 
+setting the current costume to a particular costume, for example.
+
+</para>
+
+
+
+
+<para id="p1054">
+In addition to the green-flag script, you can also write scripts to handle 
+mouse events, key events, and a special type of event that fires when one sprite 
+broadcasts a message to one or more other sprites. Therefore, Scratch 
+projects are not only sprite-based; they are also event-based. These are 
+relatively advanced concepts in most programming environments. However, 
+Scratch was designed in such a way as to make it easy to write event-handler 
+scripts to control the behavior of sprites.
+
+</para>
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Drag_and_drop_programming" effect="bold">
+
+Drag and drop programming
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1055">
+Creating Scratch programs involves very little typing. Instead, scripts 
+are created by constructing stacks of blocks, where each block imparts some 
+specific behavior to a sprite or to the stage. For example, the project 
+being developed in 
+
+<link id="a1085" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ has a stage, 
+
+<emphasis id="em1023" effect="italics">
+(which is always the case)
+
+</emphasis>
+ but 
+doesn't yet have any sprites. The stage is represented by the rectangular 
+thumbnail image in the bottom right area of 
+
+<link id="a1086" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Any sprites that are 
+added to the project would also appear as thumbnail images in that same area. 
+I will refer to this area as the sprite list area.
+
+</para>
+
+
+
+
+<para id="p1056">
+The physical process for writing a script is as follows:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1048">
+Select the stage or a sprite in the sprite list area that is to be 
+	programmed.
+
+</item>
+
+
+	
+
+<item id="li1049">
+Select the Scripts tab in the center pane.
+
+</item>
+
+
+	
+
+<item id="li1050">
+Select one of the color-coded buttons in the toolbox button area at the 
+	top left to expose the blocks contained in a particular toolbox in the 
+	toolbox pane. The toolbox pane is the large pane on the left.
+
+</item>
+
+
+	
+
+<item id="li1051">
+Drag blocks from the toolbox to the scripts 
+
+<emphasis id="em1024" effect="italics">
+(center)
+
+</emphasis>
+ pane. 
+
+<emphasis id="em1025" effect="italics">
+
+	(Several blocks have already been dragged to the scripts pane in 
+
+<link id="a1087" target-id="Image_6">
+
+Image 6
+
+</link>
+
+.)
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1052">
+Go back to 3 and continue this process until you have all of the blocks 
+	that you need in the scripts pane.
+
+</item>
+
+
+	
+
+<item id="li1053">
+Snap the blocks together in the correct arrangement to create a script 
+	that produces the desired behavior.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1057">
+You will learn the details of such operations in future modules.
+
+</para>
+
+
+
+
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Costumes_and_sounds" effect="bold">
+
+Costumes and sounds
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1058">
+Selection of the other two tabs showing at the top of the center pane in 
+
+
+<link id="a1088" target-id="Image_6">
+
+Image 6
+
+</link>
+
+ exposes the controls for importing, editing, and creating costumes and 
+backgrounds, as well as recording and/or importing sound files to be used as 
+music and sound effects.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Discussion_of_the_Scratch_language" effect="bold">
+
+The Scratch 
+programming language
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+Despite the fact that Scratch has amassed a huge following since its Beta 
+release on March 4, 2007, in my opinion, the language isn't a particularly good 
+language from a computer science viewpoint. Of the ten or fifteen 
+programming concepts that most computer science professors consider to be 
+fundamental to good programming, Scratch supports only a few. Those few include:
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1054">
+Variables and literals
+
+</item>
+
+
+	
+
+<item id="li1055">
+Sequence, selection, and loop structures
+
+</item>
+
+
+	
+
+<item id="li1056">
+Arithmetic, relational, and logical operators
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1060">
+These are very important concepts but notably absent is programmer-defined functions or methods.
+
+</para>
+
+
+
+
+
+
+
+<para id="p1061">
+However, what Scratch lacks in the support of fundamental programming 
+concepts, it makes up for in high-level multimedia functionality. In 
+effect, Scratch provides just enough in the way of fundamental programming 
+capability to form a bridge to high-level multimedia functionality.
+
+</para>
+
+
+
+
+<section id="h21014">
+<title>
+<emphasis id="Music_music_music" effect="bold">
+
+Music, music, music
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1062">
+Among other things, 
+
+<emphasis id="em1026" effect="italics">
+(particularly including the availability of a quasi 
+social-networking community)
+
+</emphasis>
+, it is probably this multimedia functionality 
+that has attracted the large following among middle school and high school 
+students.
+
+</para>
+
+
+
+
+<para id="p1063">
+There are a few projects on the website containing original music developed 
+by the scratcher. 
+
+<emphasis id="em1027" effect="italics">
+(I recall seeing one project where the scratcher was 
+offering to compose original music to be used by other scratchers.)
+
+</emphasis>
+ 
+However, that is the exception and not the rule. Most of the music on the 
+website appears to be copyright music for which the scratcher probably doesn't 
+own the copyright.
+
+</para>
+
+
+
+
+<para id="p1064">
+That having been said, Scratch provides the capability for scratchers to 
+compose their own music if they choose to do so.
+
+</para>
+
+
+
+
+</section>
+<section id="h21015">
+<title>
+
+ 
+
+<emphasis id="The_toolbox_buttons_and_toolbox_pane" effect="bold">
+
+The toolbox buttons and toolbox pane
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1065">
+<link id="a1089" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ shows a near normal size screen shot of the leftmost portion of 
+
+
+<link id="a1090" target-id="Image_6">
+
+Image 6
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1007" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_8" effect="bold">
+</emphasis>
+Image 8. The toolbox buttons and toolbox pane.
+</title>
+
+
+
+
+
+<media id="media1007" alt="Missing image." display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/hs00102a02.jpg" width="221" height="436"/>
+</media>
+
+
+
+
+<caption>Image 8. The toolbox buttons and toolbox pane.</caption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+<para id="p1066">
+The small frame at the top of 
+
+<link id="a1091" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ show the eight toolbox buttons that 
+you click to expose a corresponding toolbox of blocks in the lower frame. 
+
+
+<emphasis id="em1028" effect="italics">
+(The 
+
+<emphasis id="strong1009" effect="bold">
+Variables
+
+</emphasis>
+ toolbox was selected before capturing the screenshot 
+shown in 
+
+<link id="a1092" target-id="Image_8">
+
+Image 8
+
+</link>
+
+.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+<section id="h21016">
+<title>
+<emphasis id="High-level_multimedia_functionality" effect="bold">
+
+High-level multimedia functionality
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1067">
+With regard to high-level multimedia functionality, Scratch makes it possible 
+and relatively easy for scratchers to do the things they like to do such as:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1057">
+Create animation using blocks from the 
+
+<emphasis id="strong1010" effect="bold">
+Motion
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1058">
+Deal with costumes, colors, graphics effects and sprite size using 
+	blocks from the 
+
+<emphasis id="strong1011" effect="bold">
+Looks
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1059">
+Play imported music and sound effects and create original music and 
+	sound effects using blocks from the 
+
+<emphasis id="strong1012" effect="bold">
+Sound
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1060">
+Create program-controlled line drawings using blocks from the 
+
+<emphasis id="strong1013" effect="bold">
+Pen
+
+</emphasis>
+ 
+	toolbox.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1068">
+These capabilities, which are often difficult to access using 
+
+
+<emphasis id="em1029" effect="italics">
+"typical CS-approved"
+
+</emphasis>
+ programming languages, provide a great 
+deal of sensory feedback and they are a lot of fun to program. This is a large 
+part of what causes Scratch to engage aspiring programmers.
+
+</para>
+
+
+
+
+</section>
+<section id="h21017">
+<title>
+<emphasis id="Program_control" effect="bold">
+
+Program control
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1069">
+This high-level multimedia functionality is controlled by:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1061">
+Programming event firing and detection, loop structures, and selection 
+	structures using blocks from the 
+
+<emphasis id="strong1014" effect="bold">
+Control
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1062">
+Obtaining a variety of different types of information to be used in 
+	decision structures using blocks from the 
+
+<emphasis id="strong1015" effect="bold">
+Sensing
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1063">
+Performing arithmetic, relational, and logical operations and accessing 
+	a variety of math functions using blocks from the 
+
+<emphasis id="strong1016" effect="bold">
+Operators
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1064">
+Creating and servicing variables using blocks from the 
+
+<emphasis id="strong1017" effect="bold">
+Variables
+
+</emphasis>
+ 
+	toolbox.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1070">
+As a practical matter, the four buttons on the left in 
+
+<link id="a1093" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ are the 
+
+<emphasis id="em1030" effect="italics">
+
+fun
+
+</emphasis>
+ buttons and the four buttons on the right are the 
+
+<emphasis id="em1031" effect="italics">
+control
+
+</emphasis>
+ 
+buttons.
+
+</para>
+
+
+	
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1071">
+In this module, I have provided a high-level overview of the
+
+
+<link id="a1094" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ programming environment. Future 
+modules will provide more detailed information about the programming 
+environment.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1065">
+<link id="a1095" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1066">
+<link id="a1096" url="http://scratch.mit.edu/download">
+
+Scratch download page
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1067">
+<link id="a1097" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorial - Dance 
+	Tutorial
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1068">
+<link id="a1098" url="http://scratch.mit.edu/forums/">
+
+Scratch forums
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1069">
+<link id="a1099" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Son of String 
+	Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1070">
+<link id="a1100" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1071">
+<link id="a1101" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1072">
+<link id="a1102" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+
+	Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1073">
+<link id="a1103" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1074">
+<link id="a1104" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1075">
+
+	
+
+<link id="a1105" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+
+	Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1076">
+<link id="a1106" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+	TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1077">
+<link id="a1107" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1078">
+
+	
+
+<link id="a1108" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+
+	Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1079">
+
+	
+
+<link id="a1109" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+
+	Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1080">
+
+	
+
+<link id="a1110" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+
+	Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1081">
+<link id="a1111" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+
+	Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1082">
+<link id="a1112" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web 
+	site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1083">
+<link id="a1113" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+	Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1084">
+<link id="a1114" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1085">
+<link id="a1115" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+	project Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1086">
+<link id="a1116" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+	project Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1087">
+<link id="a1117" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+	Project Scratch Tutorial
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+	
+
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1072">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1018" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1015" list-type="bulleted">
+
+					
+
+<item id="li1088">
+Module name: Scr0100: Overview
+
+</item>
+
+
+					
+
+<item id="li1089">
+File: Scr0100.htm
+
+
+</item>
+
+
+					
+
+<item id="li1090">
+Published: 03/15/13
+
+</item>
+
+
+					
+
+<item id="li1091">
+Revised: 03/24/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1019" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1073">
+<emphasis id="strong1020" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1074">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1075">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1076">
+<emphasis id="strong1021" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+<para id="p1077">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

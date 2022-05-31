@@ -1,0 +1,1893 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0400: Highlights from Scratch 2.0</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46698</md:content-id>
+  <md:title>Scr0400: Highlights from Scratch 2.0</md:title>
+  <md:abstract>The purpose of this module is to highlight a few Scratch projects.</md:abstract>
+  <md:uuid>4abbd786-8588-4b06-b697-c1cfbb992b6b</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="Discussion_and_sample_code">
+
+Discussion and sample projects
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="Fireworks_by_cloning">
+
+Fireworks by cloning
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="StarDoors01">
+
+StarDoors01
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Perspective03">
+
+Perspective03
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Hundreds_of_available_projects">
+
+Hundreds of available 
+		projects
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1008">
+<link id="a1008" target-id="Resources">
+
+Resources
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="General_resources">
+
+General resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="Programs_used_in_this_series">
+
+Programs used in this series
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+<link id="a1012" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1000" effect="italics">
+(released May 9, 
+	2013)
+
+</emphasis>
+ is the second major version of Scratch to be released during the 
+	life of the product. Among other things, it features a redesigned editor and 
+	website, and allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module 
+
+<emphasis id="em1001" effect="italics">
+(tutorial)
+
+</emphasis>
+ is one in a collection of modules designed to 
+help beginners of all ages 
+
+<emphasis id="em1002" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for 
+computer programs using 
+
+<link id="a1013" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. 
+Information is provided not only for the beginners themselves but also for their 
+parents and teachers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+The purpose of this module is to highlight a few Scratch projects.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1005" list-type="bulleted">
+
+	
+
+<item id="li1012">
+<link id="a1014" target-id="Image_A">
+
+Image A
+
+</link>
+
+. Screen shot from FireWorks .
+
+</item>
+
+
+	
+
+<item id="li1013">
+<link id="a1015" target-id="Image_B">
+
+Image B
+
+</link>
+
+. Screen shot from StarDoors01. 
+
+</item>
+
+
+	
+
+<item id="li1014">
+<link id="a1016" target-id="Image_C">
+
+Image C
+
+</link>
+
+. Screen shot from Perspective03.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion and sample projects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="Fireworks_by_cloning" effect="bold">
+
+Fireworks by cloning
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+One of the very interesting new features of Scratch 2.0 is cloning. You will 
+find some instructions for using this feature at
+
+
+<link id="a1017" url="http://info.scratch.mit.edu/prototype#clone-blocks">
+
+Clone Blocks
+
+</link>
+
+. 
+According to the material on that web page, the use of clone blocks:
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+	
+
+<emphasis id="em1003" effect="italics">
+Creates a clone of the specified sprite. (The clone is a duplicate that only lasts while the project is running.)
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1005">
+<link id="a1018" target-id="Image_A">
+
+Image A
+
+</link>
+
+ shows a screen shot of a project named 
+
+
+<link id="a1019" url="http://scratch.mit.edu/projects/10484905/">
+
+FireWorks
+
+</link>
+
+ by
+
+
+<link id="a1020" url="http://scratch.mit.edu/users/illusionist/">
+
+Illusionist
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_A" effect="bold">
+</emphasis>
+Image A. Screen shot from  			FireWorks.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0400-01.jpg" width="520" height="427"/>
+</media>
+
+
+		
+
+<caption>Image A. Screen shot from  			FireWorks.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1006">
+This screen shot doesn't begin to do justice to this project. Click 
+
+
+<link id="a1021" url="http://scratch.mit.edu/projects/10484905/">
+
+here
+
+</link>
+
+ to run the project 
+online. Press the spacebar to fire a single rocket. Hold the spacebar down for a 
+grand finale.
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+
+	
+
+<emphasis id="em1004" effect="italics">
+You may notice that I remixed this project. However, I made no 
+changes to the original project by
+
+
+</emphasis>
+<link id="a1022" url="http://scratch.mit.edu/users/illusionist/">
+
+
+<emphasis id="em1005" effect="italics">
+Illusionist
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1006" effect="italics">
+. 
+My purpose in remixing the project under my user name was simply to ensure that 
+the project will continue to be available in its current form. In the past, some 
+of the Scratch projects that I have referred to have later been removed from the 
+Scratch website resulting in broken links in my documents.
+
+</emphasis>
+</quote>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="StarDoors01" effect="bold">
+
+StarDoors01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+Click 
+
+<link id="a1023" url="http://scratch.mit.edu/projects/166467/">
+
+here
+
+</link>
+
+ to run the 
+project named 
+
+<link id="a1024" url="http://scratch.mit.edu/projects/166467/">
+
+StarDoors01
+
+</link>
+
+ 
+by 
+
+<link id="a1025" url="http://scratch.mit.edu/users/dbal/">
+
+dbal
+
+</link>
+
+. A screen shot from the project is shown in 
+
+
+<link id="a1026" target-id="Image_B">
+
+Image B
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_B" effect="bold">
+</emphasis>
+Image B. Screen shot from  			StarDoors01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0400-02.jpg" width="523" height="430"/>
+</media>
+
+
+		
+
+<caption>Image B. Screen shot from  			StarDoors01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1008">
+While the screen shot in 
+
+<link id="a1027" target-id="Image_B">
+
+Image B
+
+</link>
+
+ isn't all that impressive, the project 
+illustrates several important Scratch programming concepts including frame 
+animation, scaling, communication among sprites, etc.
+
+</para>
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="Perspective03" effect="bold">
+
+Perspective03
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+Click 
+
+<link id="a1028" url="http://scratch.mit.edu/projects/173385/">
+
+here
+
+</link>
+
+ to run the 
+project named 
+
+<link id="a1029" url="http://scratch.mit.edu/projects/173385/">
+
+Perspective03
+
+</link>
+
+ 
+by 
+
+<link id="a1030" url="http://scratch.mit.edu/users/dbal/">
+
+dbal
+
+</link>
+
+. A screen shot of the project is 
+shown in 
+
+<link id="a1031" target-id="Image_C">
+
+Image C
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_C" effect="bold">
+</emphasis>
+Image C. Screen shot from Perspective03.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1002" alt="Missing image." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/scr0400-03.jpg" width="520" height="430"/>
+</media>
+
+
+		
+
+<caption>Image C. Screen shot from Perspective03.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1010">
+This project continues the theme of frame animation. In this case, however, 
+there is also the illusion of perspective. The animated sprite follows the mouse and 
+appears to move further away from the viewer as it approaches the horizon.
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Hundreds_of_available_projects" effect="bold">
+
+Hundreds of available projects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+There are hundreds, perhaps thousands of projects available on the
+
+
+<link id="a1032" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ website for you to
+
+
+<link id="a1033" url="http://scratch.mit.edu/explore/?date=this_month">
+
+explore
+
+</link>
+
+. Many are outstanding. 
+Some not so good. In any event, you can examine them all for free, so you have 
+nothing to lose. You don't even have to log in to run the projects online in 
+your browser.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21005">
+<title>
+<emphasis id="General_resources" effect="bold">
+
+General resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1015">
+<link id="a1034" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1035" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1036" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1037" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1019">
+<link id="a1038" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1020">
+<link id="a1039" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1021">
+<link id="a1040" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1022">
+
+	
+
+<link id="a1041" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1023">
+<link id="a1042" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+	TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1024">
+<link id="a1043" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1025">
+
+	
+
+<link id="a1044" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+
+	
+
+<link id="a1045" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1027">
+
+	
+
+<link id="a1046" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1028">
+<link id="a1047" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1029">
+<link id="a1048" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web 
+	site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1030">
+<link id="a1049" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+	Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1031">
+<link id="a1050" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1032">
+<link id="a1051" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+	project Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1052" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+	project Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1053" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+	Project Scratch Tutorial
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1054" url="http://www.allaboutcircuits.com/vol_4/chpt_7/8.html">
+
+DeMorgan's 
+	theorem
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1055" url="http://info.scratch.mit.edu/prototype">
+
+How Do I Use the New 
+	Blocks?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1056" url="http://info.scratch.mit.edu/prototype#make-blocks">
+
+Make Your 
+	Own Blocks
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1057" url="http://info.scratch.mit.edu/prototype#clone-blocks">
+
+Clone 
+	Blocks
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1058" url="http://scratch.mit.edu/explore/?date=this_month">
+
+Explore 
+	hundreds of projects
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Programs_used_in_this_series" effect="bold">
+
+Programs used in this series
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1040">
+<link id="a1059" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1060" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1061" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1062" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1063" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1064" url="http://scratch.mit.edu/projects/dbal/156614">
+
+Arithmetic01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1065" url="http://scratch.mit.edu/projects/dbal/156618">
+
+Arithmetic02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1066" url="http://scratch.mit.edu/projects/dbal/158029">
+
+Relational01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1067" url="http://scratch.mit.edu/projects/dbal/158030">
+
+Relational02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1068" url="http://scratch.mit.edu/projects/dbal/158799">
+
+Logical01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1069" url="http://scratch.mit.edu/projects/dbal/158800">
+
+Logical02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1051">
+<link id="a1070" url="http://scratch.mit.edu/projects/dbal/158801">
+
+Logical03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1071" url="http://scratch.mit.edu/projects/dbal/160656">
+
+ForLoop01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1072" url="http://scratch.mit.edu/projects/dbal/160682">
+
+ForLoop02
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1054">
+<link id="a1073" url="http://scratch.mit.edu/projects/dbal/160713">
+
+ForLoop03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1055">
+<link id="a1074" url="http://scratch.mit.edu/projects/dbal/162534">
+
+ForeverLoop01
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1056">
+<link id="a1075" url="http://scratch.mit.edu/projects/dbal/162536">
+
+ForeverLoop02
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1057">
+<link id="a1076" url="http://scratch.mit.edu/projects/dbal/162538">
+
+RepeatUntil01
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1058">
+<link id="a1077" url="http://scratch.mit.edu/projects/dbal/162539">
+
+ForeverLoop03
+
+</link>
+
+ 
+	- Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1059">
+<link id="a1078" url="http://scratch.mit.edu/projects/10343597/">
+
+CustomBlockTest01
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1060">
+<link id="a1079" url="http://scratch.mit.edu/projects/10355723/">
+
+CustomBlockTest02
+
+</link>
+
+- 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1061">
+<link id="a1080" url="http://scratch.mit.edu/projects/10484905/">
+
+Fireworks
+
+</link>
+
+ - by
+	
+
+<link id="a1081" url="http://scratch.mit.edu/users/illusionist/">
+
+Illusionist
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1062">
+<link id="a1082" url="http://scratch.mit.edu/projects/166467/">
+
+StarDoors01
+
+</link>
+
+ - by
+	
+
+<link id="a1083" url="http://scratch.mit.edu/users/dbal/">
+
+dbal
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1063">
+<link id="a1084" url="http://scratch.mit.edu/projects/173385/">
+
+Perspective03
+
+</link>
+
+ - by
+	
+
+<link id="a1085" url="http://scratch.mit.edu/users/dbal/">
+
+dbal
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1012">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1000" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1008" list-type="bulleted">
+
+					
+
+<item id="li1064">
+Module name: Scr0400: Highlights of Scratch 2.0
+
+</item>
+
+
+					
+
+<item id="li1065">
+File: Scr0400.htm
+
+
+</item>
+
+
+					
+
+<item id="li1066">
+Published: 05/27/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1001" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1013">
+<emphasis id="strong1002" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1014">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1015">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1016">
+<emphasis id="strong1003" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1017">
+-end- 
+
+</para>
+
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

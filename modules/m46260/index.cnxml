@@ -1,0 +1,4921 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0370: The repeat loop in Scratch 2.0</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46260</md:content-id>
+  <md:title>Scr0370: The repeat loop in Scratch 2.0</md:title>
+  <md:abstract>In this module, you will Learn the difference between a definite loop and an indefinite loop. I will explain two Scratch programs that approximate the Scratch equivalent of a for loop in other programming languages. In Scratch, it is called a repeat loop. I will provide a brief introduction to the topic of animation. I will also explain the concept of costumes in Scratch. The programs explained in this module will illustrate the use of costumes to implement a crude animation that makes it appear that a cat sprite is walking.</md:abstract>
+  <md:uuid>2893ccab-1a05-4fa5-b21f-0fa69173558b</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="Definite_versus_indefinite_loops">
+
+Definite versus indefinite loops
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1005">
+<link id="a1005" target-id="A_definite_loop_example">
+
+A definite loop example
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1006">
+<link id="a1006" target-id="Explanation_of_the_definite_loop">
+
+Explanation of the definite loop
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1007">
+<link id="a1007" target-id="An_indefinite_loop_example">
+
+An indefinite loop example
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1008">
+<link id="a1008" target-id="Explanation_of_the_indefinite_loop">
+
+Explanation of the indefinite loop
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="The_while_and_for_keywords">
+
+The while and for keywords
+
+</link>
+
+
+</item>
+
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1010">
+<link id="a1010" target-id="Preview">
+
+Preview
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Discussion_and_sample_code">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+		
+
+<item id="li1012">
+<link id="a1012" target-id="The_program_named_ForLoop01">
+
+The program named ForLoop01
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+
+
+<item id="li1013">
+<link id="a1013" target-id="Why_set_count_to_0">
+
+Why set count to 0?
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1014">
+<link id="a1014" target-id="Purpose_of_the_pseudocode">
+
+Purpose of the pseudocode
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1015">
+<link id="a1015" target-id="Whats_new_in_this_Scratch_program">
+
+What's new in this Scratch program?
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1016">
+<link id="a1016" target-id="Animation">
+
+Animation
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1017">
+<link id="a1017" target-id="Costumes">
+
+Costumes
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1018">
+<link id="a1018" target-id="The_cat_sprite_has_two_costumes">
+
+The cat sprite has two costumes
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1019">
+<link id="a1019" target-id="Loop_blocks">
+
+Loop blocks
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1020">
+<link id="a1020" target-id="The_repeat_numeric_value_block">
+
+The repeat (numeric value) block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1021">
+<link id="a1021" target-id="Setting_the_number_of_repeats_iterations">
+
+Setting the number of repeats (iterations)
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1022">
+<link id="a1022" target-id="Can_also_use_a_variable">
+
+Can also use a variable
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1023">
+<link id="a1023" target-id="The_wait_command">
+
+The wait block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1024">
+<link id="a1024" target-id="The_switch_costume_command">
+
+The switch costume block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1025">
+<link id="a1025" target-id="The_program_code">
+
+The program code
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1026">
+<link id="a1026" target-id="Behavior_of_the_program">
+
+Behavior of the program
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1027">
+<link id="a1027" target-id="The_repeat_block">
+
+The repeat block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1028">
+<link id="a1028" target-id="Run_the_online_version">
+
+Run the online version
+
+</link>
+
+
+</item>
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1029" target-id="The_program_named_ForLoop02">
+
+The program named ForLoop02
+
+</link>
+
+
+		
+
+<list id="ul1007" list-type="bulleted">
+
+
+
+<item id="li1030">
+<link id="a1030" target-id="Theprogramcode_2">
+
+The program code
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1031">
+<link id="a1031" target-id="Create_a_variable">
+
+Create a variable
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1032">
+<link id="a1032" target-id="The_initialization_code">
+
+The initialization code
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1033">
+<link id="a1033" target-id="Therepeatblock2">
+
+The repeat block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1034">
+<link id="a1034" target-id="The_operational_difference">
+
+The operational difference
+
+</link>
+
+
+</item>
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1035">
+<link id="a1035" target-id="Online_versions_of_these_programs_are_available">
+
+Online versions of these programs are available
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1036" target-id="Run_the_program">
+
+Run the programs
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1037" target-id="Student_programming_project">
+
+Student programming project
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1038" target-id="Summary">
+
+Summary
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1039" target-id="Whats_next">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1040" target-id="Resources">
+
+Resources
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1041">
+<link id="a1041" target-id="General_resources">
+
+General resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1042">
+<link id="a1042" target-id="Programs_used_in_this_series">
+
+Programs used in this series
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1043" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+<link id="a1044" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1000" effect="italics">
+(released May 9, 
+	2013)
+
+</emphasis>
+ is the second major version of Scratch to be released during the 
+	life of the product. Among other things, it features a redesigned editor and 
+	website, and allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+
+
+<para id="p1001">
+This module 
+
+<emphasis id="em1001" effect="italics">
+(tutorial)
+
+</emphasis>
+ is one in a collection of modules designed to 
+help beginners of all ages 
+
+<emphasis id="em1002" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for 
+computer programs using 
+
+<link id="a1045" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. 
+Information is provided not only for the beginners themselves but also for their 
+parents and teachers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+In this module, you will Learn the difference between a 
+
+<emphasis id="em1003" effect="italics">
+definite loop
+
+</emphasis>
+ and an 
+
+
+<emphasis id="em1004" effect="italics">
+indefinite loop
+
+</emphasis>
+. 
+I will explain two Scratch programs that approximate the Scratch equivalent of a
+
+
+<emphasis id="strong1000" effect="bold">
+for
+
+</emphasis>
+ loop in other programming languages. In Scratch, it is 
+called a 
+
+<emphasis id="strong1001" effect="bold">
+repeat
+
+</emphasis>
+ loop. One of the programs causes a block of code to be 
+executed a fixed number of times when the user clicks the green flag. The 
+other program causes a block of code to be executed a variable number of times 
+when the user clicks a sprite.
+
+</para>
+
+
+
+
+<para id="p1003">
+I will provide a brief introduction to the topic of animation. I will also 
+explain the concept of 
+
+<emphasis id="em1005" effect="italics">
+costumes
+
+</emphasis>
+ in Scratch. Both of the programs 
+mentioned above will illustrate the use of costumes to implement a crude animation 
+that makes it appear that a cat sprite is walking.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1044">
+<link id="a1046" target-id="Image_A">
+
+Image A
+
+</link>
+
+. A definite loop for eating cookies. 
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1047" target-id="Image_B">
+
+Image B
+
+</link>
+
+. An indefinite loop for eating cookies. 
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1048" target-id="Image_C">
+
+Image C
+
+</link>
+
+. Pseudocode for the program named ForLoop01. 
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1049" target-id="Image_D">
+
+Image D
+
+</link>
+
+. The costumes tab for a new Scratch project. 
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1050" target-id="Image_E">
+
+Image E
+
+</link>
+
+. Various Scratch blocks. 
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1051" target-id="Image_F">
+
+Image F
+
+</link>
+
+. Program code for the program named ForLoop01.
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1052" target-id="Image_G">
+
+Image G
+
+</link>
+
+. The cat on the Stage.
+
+</item>
+
+
+	
+
+<item id="li1051">
+<link id="a1053" target-id="Image_H">
+
+Image H
+
+</link>
+
+. Program ForLoop02 output after clicking the green flag. 
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1054" target-id="Image_I">
+
+Image I
+
+</link>
+
+. Program ForLoop02 output after clicking the cat. 
+
+</item>
+
+
+	
+
+<item id="li1053">
+<link id="a1055" target-id="Image_J">
+
+Image J
+
+</link>
+
+. Program code for the program named ForLoop02. 
+
+</item>
+
+
+	
+
+<item id="li1054">
+<link id="a1056" target-id="Image_K">
+
+Image K
+
+</link>
+
+. ForLoop03 output after clicking the green flag. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="General_background_information" effect="bold">
+
+General 
+	background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+In an earlier module 
+
+<emphasis id="em1006" effect="italics">
+(see 
+
+<link id="a1057" target-id="Resources">
+
+Resources
+
+</link>
+
+)
+
+</emphasis>
+, 
+I told you that any programming logic problem could be solved using an 
+appropriate combination of only three programming structures, none of which are 
+complicated. The three structures are known generally as:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1055">
+The sequence structure.
+
+</item>
+
+
+	
+
+<item id="li1056">
+The selection or decision structure.
+
+</item>
+
+
+	
+
+<item id="li1057">
+The loop, repetition, or iteration structure.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1006">
+I explained the sequence and selection structures in earlier modules. I will 
+concentrate on the loop structure in this and the next module.
+
+</para>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="Definite_versus_indefinite_loops" effect="bold">
+
+Definite versus indefinite loops
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+Loop structures in programming fall into two broad categories:
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1058">
+Definite loops
+
+</item>
+
+
+	
+
+<item id="li1059">
+Indefinite loops
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1008">
+There are numerous sub-categories within these broad categories. I will 
+illustrate the difference between a 
+
+<emphasis id="em1007" effect="italics">
+definite
+
+</emphasis>
+ loop and an 
+
+<emphasis id="em1008" effect="italics">
+indefinite
+
+</emphasis>
+ 
+loop with two real-world examples.
+
+</para>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="A_definite_loop_example" effect="bold">
+
+A 
+
+<emphasis id="em1009" effect="italics">
+definite
+
+</emphasis>
+ loop example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+Assume that you are confronted with a full box of cookies. Assume also that 
+you have more self-control than most of us, and that you decide you can eat 
+three cookies, but no more than three, in order to keep your waistline under 
+control. You might eat the three cookies using an algorithm something like that 
+shown in 
+
+<link id="a1058" target-id="Image_A">
+
+Image A
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+	
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_A" effect="bold">
+</emphasis>
+Image A. A definite loop for  				eating cookies.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<code id="pre1000" display="block">for count = 1 to 3
+  Take cookie from box
+  Eat cookie
+  Increase count by one
+  Go back to the test at the top of the loop
+Stop eating cookies
+</code>
+
+
+				
+
+<caption>Image A. A definite loop for  				eating cookies.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="Explanation_of_the_definite_loop" effect="bold">
+
+Explanation of the definite loop
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1010">
+Being the self-controlled individual that you are, you would set your cookie 
+limit to 3 and you would set 
+
+<emphasis id="strong1002" effect="bold">
+count
+
+</emphasis>
+ to 1. You would then test 
+
+<emphasis id="strong1003" effect="bold">
+count
+
+</emphasis>
+ 
+to see if it is within the range from 1 to 3 inclusive. If so, you would take a 
+cookie from the box and eat it. Then you would increase the value of 
+
+<emphasis id="strong1004" effect="bold">
+count
+
+</emphasis>
+ 
+by 1 and go back to the top of the loop.
+
+</para>
+
+
+
+
+<para id="p1011">
+Back at the top of the loop, you would once again test the value of 
+
+<emphasis id="strong1005" effect="bold">
+count
+
+</emphasis>
+ 
+to determine if it is still within the range from 1 to 3 inclusive. If so, you 
+would repeat the process, getting and eating another cookie, increasing the 
+value of 
+
+<emphasis id="strong1006" effect="bold">
+count
+
+</emphasis>
+ by 1, and going back to the top of the loop.
+
+</para>
+
+
+
+
+<para id="p1012">
+When you find that the value of 
+
+<emphasis id="strong1007" effect="bold">
+count
+
+</emphasis>
+ has advanced to 4, you would 
+recognize that this is outside the range of 1 to 3 inclusive. As a result, you 
+would terminate the loop and stop eating cookies. Well done!
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="An_indefinite_loop_example" effect="bold">
+
+An 
+
+<emphasis id="em1010" effect="italics">
+indefinite
+
+</emphasis>
+ loop example
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+Assume once again that you are confronted with the same full box of cookies. 
+However, like many of us, you aren't blessed with a lot of self-control. In that 
+case, you might eat cookies using the algorithm shown in 
+
+<link id="a1059" target-id="Image_B">
+
+Image B
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_B" effect="bold">
+</emphasis>
+Image B. An indefinite loop for eating cookies.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<code id="pre1001" display="block">Set the value of stillHungry to true
+
+while ((stillHungry is true) and (box is not empty))
+  Take cookie from box
+  Eat cookie
+  If I am no longer hungry
+    Set stillHungry to false
+  Go back to the test at the top of the loop
+Stop eating cookies
+</code>
+
+
+				
+
+<caption>Image B. An indefinite loop for eating cookies.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="Explanation_of_the_indefinite_loop" effect="bold">
+
+Explanation of the indefinite loop
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+Unfortunately, for many of us, as soon as we see the full box of cookies, our
+
+
+<emphasis id="strong1008" effect="bold">
+stillHungry
+
+</emphasis>
+ variable gets set to true.
+
+</para>
+
+
+
+
+<para id="p1015">
+We begin the process by performing a test to determine if 
+
+<emphasis id="strong1009" effect="bold">
+stillHungry
+
+</emphasis>
+ 
+is true 
+
+<emphasis id="em1011" effect="italics">
+and
+
+</emphasis>
+ the box of cookies is not empty. If that test returns true, 
+we take a cookie from the box and eat it. Then we perform another test. If we 
+are no longer hungry at that point, we set our 
+
+<emphasis id="strong1010" effect="bold">
+stillHungry
+
+</emphasis>
+ variable to 
+false and go back to test at the top of the loop. Otherwise, we allow our 
+
+<emphasis id="strong1011" effect="bold">
+
+stillHungry
+
+</emphasis>
+ variable to remain true.
+
+</para>
+
+
+
+
+<para id="p1016">
+Back at the top of the loop, we test again to determine if 
+
+<emphasis id="strong1012" effect="bold">
+stillHungry
+
+</emphasis>
+ 
+is true, and the box of cookies is not empty. If the test returns true, we go 
+through the process again, eating another cookie, etc.
+
+</para>
+
+
+
+
+<para id="p1017">
+Eventually, either our 
+
+<emphasis id="strong1013" effect="bold">
+stillHungry
+
+</emphasis>
+ variable will be set to false, or 
+the cookie box will become empty. At that point, the test will return false. We 
+will terminate the loop and will stop eating cookies even though we might still 
+be hungry for more cookies.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21002">
+<title>
+<emphasis id="The_while_and_for_keywords" effect="bold">
+
+The 
+
+<emphasis id="em1012" effect="italics">
+while
+
+</emphasis>
+ and 
+
+<emphasis id="em1013" effect="italics">
+for
+
+</emphasis>
+ keywords
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1018">
+Most modern programming languages use the keywords 
+
+<emphasis id="strong1014" effect="bold">
+while
+
+</emphasis>
+ and 
+
+<emphasis id="strong1015" effect="bold">
+for
+
+</emphasis>
+ 
+to implement loop structures such as this and you will see those keywords in use 
+once you get to Java, C++, C#, etc. 
+
+</para>
+
+
+
+
+<para id="p1019">
+However, Scratch does not use those keywords to implement 
+loops. Regardless, when I present pseudocode examples to explain Scratch 
+programs, I will continue to use 
+
+<emphasis id="strong1016" effect="bold">
+while
+
+</emphasis>
+ and 
+
+<emphasis id="strong1017" effect="bold">
+for
+
+</emphasis>
+ to get you 
+accustomed to that terminology.
+
+</para>
+
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1020">
+In this module, I will present and explain the following two Scratch 
+programs:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1060">
+<emphasis id="strong1018" effect="bold">
+ForLoop01
+
+</emphasis>
+ - This program illustrates the Scratch equivalent of a
+	
+
+<emphasis id="strong1019" effect="bold">
+for
+
+</emphasis>
+ loop 
+
+<emphasis id="em1014" effect="italics">
+(or something similar to a 
+
+<emphasis id="strong1020" effect="bold">
+for
+
+</emphasis>
+ loop)
+
+</emphasis>
+ in other languages. In Scratch, it is called a 
+
+<emphasis id="strong1021" effect="bold">
+repeat
+
+</emphasis>
+ loop.
+
+</item>
+
+
+	
+
+<item id="li1061">
+<emphasis id="strong1022" effect="bold">
+ForLoop02
+
+</emphasis>
+ - This program also illustrates the Scratch equivalent 
+	of a 
+
+<emphasis id="strong1023" effect="bold">
+for
+
+</emphasis>
+ loop in other languages. However, this program takes a 
+	different approach to specifying the number of times that the code in the 
+	loop is executed.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1021">
+In addition, I will provide the specifications for a student-programming 
+project for you to demonstrate your understanding of what you learned from the 
+two programs listed above. In addition, this programming project will require 
+you to do some independent research into the manner in which Scratch sprites can 
+communicate with one another.
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion and sample code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="The_program_named_ForLoop01" effect="bold">
+
+The program named ForLoop01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1022">
+This program illustrates the Scratch equivalent of a 
+
+<emphasis id="strong1024" effect="bold">
+for
+
+</emphasis>
+ loop 
+
+<emphasis id="em1015" effect="italics">
+(or 
+something similar to a 
+
+<emphasis id="strong1025" effect="bold">
+for
+
+</emphasis>
+ loop)
+
+</emphasis>
+ in other 
+programming languages. In Scratch, it is called a 
+
+<emphasis id="strong1026" effect="bold">
+repeat
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+<emphasis id="em1016" effect="italics">
+Why do I keep saying "something similar to a for loop?" The 
+reason is that a for loop in other programming languages has many facets. The 
+repeat loop in Scratch is much more restricted than a for loop in those other 
+languages.
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1023">
+This program places a cat sprite having two costumes on the stage. When the 
+user clicks the green flag, code is executed that is equivalent to the 
+pseudocode shown in 
+
+<link id="a1060" target-id="Image_C">
+
+Image C
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_C" effect="bold">
+</emphasis>
+Image C. Pseudocode for the program named ForLoop01.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<code id="pre1002" display="block">Initialize cat position, orientation, and costume
+
+for(count = 0;count &lt; 24,count = count + 1){
+  Cat moves ten steps forward.
+  Cat waits 0.1 second
+  Cat switches to costume #2
+  Cat turns 15 degrees
+  Cat waits 0.1 second
+  Cat switches back to costume #1
+}//end for loop
+</code>
+
+
+				
+
+<caption>Image C. Pseudocode for the program named ForLoop01.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h31005">
+<title>
+<emphasis id="Why_set_count_to_0" effect="bold">
+
+Why set count to 0
+
+</emphasis>
+
+?
+
+</title>
+
+
+
+
+<para id="p1024">
+Most modern programming languages typically start counting with 0 instead of 
+1, but that is not necessarily the case with Scratch. You will learn more about 
+that when you get into Java, C++, C#, etc.
+
+</para>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Purpose_of_the_pseudocode" effect="bold">
+
+Purpose of the pseudocode
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1025">
+My purpose in providing the pseudocode is to help you better understand the 
+Scratch code that follows. I am also preparing you for the use of other 
+programming languages later. I 
+recommend that you compare the pseudocode with the Scratch code, and compare 
+both of them with what you see when you run the program.
+
+</para>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+<emphasis id="Whats_new_in_this_Scratch_program" effect="bold">
+
+What's new in this Scratch program?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+This program contains several new code blocks that haven't been used in previous 
+modules:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1062">
+The 
+
+<emphasis id="strong1027" effect="bold">
+switch costume
+
+</emphasis>
+ block
+
+</item>
+
+
+	
+
+<item id="li1063">
+The 
+
+<emphasis id="strong1028" effect="bold">
+repeat
+
+</emphasis>
+ block
+
+</item>
+
+
+	
+
+<item id="li1064">
+The 
+
+<emphasis id="strong1029" effect="bold">
+wait
+
+</emphasis>
+ block
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1027">
+The only one of these blocks that I would put in the 
+
+<emphasis id="em1017" effect="italics">
+programming 
+fundamentals
+
+</emphasis>
+ category is the 
+
+<emphasis id="strong1030" effect="bold">
+repeat
+
+</emphasis>
+ block, and even the syntax of 
+that block is quite a bit different from other modern programming languages. 
+However, the other blocks are some of the things that cause Scratch 
+programming to be fun, so I will use and explain such blocks as we go along. 
+My only caution is that you should not expect to find those commands in other 
+programming languages, at least not using the same syntax.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Animation" effect="bold">
+
+Animation
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1028">
+Since the earliest days of animation, two-dimensional 
+
+<emphasis id="em1018" effect="italics">
+
+(2D)
+
+</emphasis>
+ animation has been created by presenting a series of drawings to the 
+viewer in rapid succession where each drawing was similar to but slightly 
+different from the previous drawing. Because of the property of human vision to 
+blur one Image Into the next, if the images are sufficiently similar and they 
+are presented in rapid succession, the human mind perceives the series of images 
+as continuous motion. This is how motion pictures work, and it is also how the 
+cartoons that you see on television work.
+
+</para>
+
+
+
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Costumes" effect="bold">
+
+Costumes
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+Animation can be created in a couple of different ways in Scratch. One way is 
+through the use of something called 
+
+<emphasis id="strong1031" effect="bold">
+costumes
+
+</emphasis>
+. For example, when you 
+create 
+a new project in Scratch, an image of a cat having two costumes is automatically 
+added to the project. 
+
+<link id="a1061" target-id="Image_D">
+
+Image D
+
+</link>
+
+ shows a screen shot of the center panel in the 
+user interface for a new project with the 
+
+<emphasis id="strong1032" effect="bold">
+Costumes
+
+</emphasis>
+ tab selected.
+
+</para>
+
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_D" effect="bold">
+</emphasis>
+Image D. The costumes tab for a new Scratch project.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0370-01.jpg" width="660" height="923"/>
+</media>
+
+
+		
+
+<caption>Image D. The costumes tab for a new Scratch project.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1030">
+<link id="a1062" target-id="Image_D">
+
+Image D
+
+</link>
+
+ shows a lot more than just the current costumes. The current costumes 
+are shown in the upper-left corner of 
+
+<link id="a1063" target-id="Image_D">
+
+Image D
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="The_cat_sprite_has_two_costumes" effect="bold">
+
+The cat sprite has two costumes
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1031">
+As you can see, the cat sprite has two costumes, which are really two 
+different images of the cat. The images are designed to make it look like the 
+cat is walking if the two images are repeated in rapid succession. You can also 
+see that each costume has a name, with the default names in this case being:
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1065">
+costume1
+
+</item>
+
+
+	
+
+<item id="li1066">
+costume2
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1032">
+If you choose to do so, you can click in the boxes containing the names and 
+modify them. Also, if you choose to do so, you can use the built-in drawing program to modify 
+the drawing. However, most of that is beyond the scope of this module so we 
+won't get into it here.
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+<emphasis id="em1019" effect="italics">
+With only two costumes for the cat, the walking motion is not 
+very smooth. Somewhere on the Scratch website, I saw a project that had sixteen 
+different costumes for the cat. When those sixteen different costumes are 
+displayed in succession, the cat appears to walk very smoothly.
+
+</emphasis>
+</quote>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Loop_blocks" effect="bold">
+
+Loop blocks
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1033">
+If you click the tan 
+
+<emphasis id="strong1033" effect="bold">
+Control
+
+</emphasis>
+ button in the Scratch user interface, you will expose a large number of blocks that are generally 
+used to control the flow of the program. The following control blocks that are 
+exposed by that button can be used to construct loops:
+
+</para>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<code id="pre1003" display="block">repeat (numeric value) - (see </code>
+
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="The_repeat_numeric_value_block" effect="bold">
+
+The repeat (numeric value) block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1034">
+The 
+
+<emphasis id="strong1034" effect="bold">
+repeat
+
+</emphasis>
+ 
+
+<emphasis id="strong1035" effect="bold">
+(numeric value)
+
+</emphasis>
+ block 
+
+<emphasis id="em1020" effect="italics">
+(referred to hereafter 
+simply as the repeat block)
+
+</emphasis>
+ provides the mechanism by which you can cause a 
+set of actions to be executed a specified number of times. 
+
+<emphasis id="em1021" effect="italics">
+(See 
+
+<link id="a1064" target-id="Image_E">
+
+Image E
+
+</link>
+
+.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1035">
+You create a 
+
+<emphasis id="strong1036" effect="bold">
+
+repeat
+
+</emphasis>
+ block that will do something useful by inserting programming 
+blocks into the mouth of a 
+
+<emphasis id="strong1037" effect="bold">
+repeat
+
+</emphasis>
+ block. When you drag a raw 
+
+<emphasis id="strong1038" effect="bold">
+
+repeat
+
+</emphasis>
+ block into the center panel, it looks like the tan image shown in 
+
+<link id="a1065" target-id="Image_E">
+
+Image E
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_E" effect="bold">
+</emphasis>
+Image E. Various Scratch blocks.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0370-02.jpg" width="438" height="337"/>
+</media>
+
+
+		
+
+<caption>Image E. Various Scratch blocks.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="Setting_the_number_of_repeats_iterations" effect="bold">
+
+Setting the number of repeats 
+
+<emphasis id="em1022" effect="italics">
+(iterations)
+
+</emphasis>
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1036">
+By default, the white box in the 
+
+<emphasis id="strong1039" effect="bold">
+repeat
+
+</emphasis>
+ block contains a literal 
+numeric value. You can modify that value and specify the number of times that 
+the code in the 
+
+<emphasis id="strong1040" effect="bold">
+repeat
+
+</emphasis>
+ block will be executed. When you use a literal 
+value, the code will be executed the same number of times every time you run the 
+program.
+
+</para>
+
+
+
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="Can_also_use_a_variable" effect="bold">
+
+Can also use a variable
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+Note that I also created a dummy variable in 
+
+<link id="a1066" target-id="Image_E">
+
+Image E
+
+</link>
+
+ for illustration 
+purposes. Because the shape of a variable block is the same as the shape of the 
+white box in the 
+
+<emphasis id="strong1041" effect="bold">
+repeat
+
+</emphasis>
+ block, you can also drop a variable block into 
+the box. When you do this, the value of the variable will be used to determine 
+how many times the code in the block will be executed. That number may be 
+different each time the 
+
+<emphasis id="strong1042" effect="bold">
+repeat
+
+</emphasis>
+ block is executed.
+
+</para>
+
+
+
+
+</section>
+<section id="h31015">
+<title>
+<emphasis id="The_wait_command" effect="bold">
+
+The wait block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1038">
+<link id="a1067" target-id="Image_E">
+
+Image E
+
+</link>
+
+ also shows a 
+
+<emphasis id="strong1043" effect="bold">
+wait
+
+</emphasis>
+ block, which can be dragged into the center 
+panel from the 
+
+<emphasis id="strong1044" effect="bold">
+Control
+
+</emphasis>
+ toolbox. Like the 
+
+<emphasis id="strong1045" effect="bold">
+repeat
+
+</emphasis>
+ block, 
+the 
+
+<emphasis id="strong1046" effect="bold">
+wait
+
+</emphasis>
+ block has a white box into which you can either enter a literal 
+value or drop a variable block. 
+
+</para>
+
+
+
+
+<para id="p1039">
+The program will pause for a specified number of seconds 
+
+<emphasis id="em1023" effect="italics">
+(which may be a 
+decimal fraction)
+
+</emphasis>
+ each time the 
+
+<emphasis id="strong1047" effect="bold">
+wait
+
+</emphasis>
+ block is executed. If you 
+enter a literal value into the box, the program will pause for the same amount 
+of time each time the 
+
+<emphasis id="strong1048" effect="bold">
+wait
+
+</emphasis>
+ block is executed. If you drop a variable 
+block into the box, the length of the pause will be the current value stored in 
+the variable, which may be different each time the block is executed.
+
+</para>
+
+
+
+
+</section>
+<section id="h31016">
+<title>
+<emphasis id="The_switch_costume_command" effect="bold">
+
+The switch costume block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1040">
+Finally, 
+
+<link id="a1068" target-id="Image_E">
+
+Image E
+
+</link>
+
+ shows a purple 
+
+<emphasis id="strong1049" effect="bold">
+switch to costume
+
+</emphasis>
+ block. This block is 
+available in the purple 
+
+<emphasis id="strong1050" effect="bold">
+Looks
+
+</emphasis>
+ toolbox when a sprite icon is selected 
+immediately below the stage. However, when the Stage icon is selected, the 
+block changes to one labeled 
+
+<emphasis id="strong1051" effect="bold">
+switch to backdrop
+
+</emphasis>
+. 
+
+<emphasis id="em1024" effect="italics">
+(A discussion of 
+backdrops will be deferred to a future module.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1041">
+As you can see, the 
+
+<emphasis id="strong1052" effect="bold">
+switch to costume
+
+</emphasis>
+ block has a pull-down list that 
+allows you to select a specific costume for the block when you write the 
+program. The list contains all of the costumes belonging to the selected sprite. In the case of the default cat 
+that appears for new projects, there are two costumes in the pull-down list 
+because the cat has two costumes as shown in 
+
+<link id="a1069" target-id="Image_D">
+
+Image D
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31017">
+<title>
+<emphasis id="The_program_code" effect="bold">
+
+The program code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+The code for this program is shown in 
+
+<link id="a1070" target-id="Image_F">
+
+Image F
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_F" effect="bold">
+</emphasis>
+Image F. Program code for the program named ForLoop01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1002" alt="Missing image." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/scr0370-03.jpg" width="464" height="667"/>
+</media>
+
+
+		
+
+<caption>Image F. Program code for the program named ForLoop01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h31018">
+<title>
+<emphasis id="Behavior_of_the_program" effect="bold">
+
+Behavior of the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1043">
+When the user clicks the green flag, the cat moves to the center of the stage 
+
+<emphasis id="em1025" effect="italics">
+
+(the origin of the Cartesian coordinate system)
+
+</emphasis>
+ and turns to face the 
+viewer's right. In addition, the cat switches to costume1 
+
+<emphasis id="em1026" effect="italics">
+(see 
+
+<link id="a1071" target-id="Image_D">
+
+Image D
+
+</link>
+
+)
+
+</emphasis>
+ 
+even if that isn't necessary at this point. 
+
+<emphasis id="em1027" effect="italics">
+(Except for switching costumes, 
+you have seen code like this in earlier modules.)
+
+</emphasis>
+</para>
+
+
+
+
+
+</section>
+<section id="h31019">
+<title>
+<emphasis id="The_repeat_block" effect="bold">
+
+The repeat block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+Then the code inside the 
+
+<emphasis id="strong1053" effect="bold">
+repeat
+
+</emphasis>
+ block shown in 
+
+<link id="a1072" target-id="Image_F">
+
+Image F
+
+</link>
+
+ is executed 24 
+times in succession.
+
+</para>
+
+
+
+
+<para id="p1045">
+During each execution 
+
+<emphasis id="em1028" effect="italics">
+(iteration)
+
+</emphasis>
+ of the 
+
+<emphasis id="strong1054" effect="bold">
+repeat 
+
+</emphasis>
+block, the cat:
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1067">
+Moves 10 steps forward.
+
+</item>
+
+
+	
+
+<item id="li1068">
+Waits 0.1 second.
+
+</item>
+
+
+	
+
+<item id="li1069">
+Switches to costume2.
+
+</item>
+
+
+	
+
+<item id="li1070">
+Rotates around its own origin by 15 degrees.
+
+</item>
+
+
+	
+
+<item id="li1071">
+Waits an additional 0.1 seconds.
+
+</item>
+
+
+	
+
+<item id="li1072">
+Switches back to costume 1.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1046">
+This causes the cat to appear to walk 
+
+<emphasis id="em1029" effect="italics">
+(in a rather jerky fashion)
+
+</emphasis>
+ in a 
+circle 
+
+<emphasis id="em1030" effect="italics">
+(see 
+
+<link id="a1073" target-id="Image_G">
+
+Image G
+
+</link>
+
+)
+
+</emphasis>
+, ending up very close to where it 
+started.
+
+</para>
+
+
+
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_G" effect="bold">
+</emphasis>
+Image G. The cat on the Stage.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/scr0370-04.jpg" width="448" height="327"/>
+</media>
+
+
+		
+
+<caption>Image G. The cat on the Stage.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h31020">
+<title>
+<emphasis id="Run_the_online_version" effect="bold">
+
+Run the online version
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1047">
+In order to get the full impact of this program, you will either need to 
+create the program yourself or run the online version 
+
+<emphasis id="em1031" effect="italics">
+(see
+
+
+<link id="a1074" target-id="Resources">
+
+Resources
+
+</link>
+
+)
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="The_program_named_ForLoop02" effect="bold">
+
+The program named ForLoop02
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1048">
+This program is an upgrade of the program named 
+
+<emphasis id="strong1055" effect="bold">
+ForLoop01
+
+</emphasis>
+. The 
+behavior of this program is the same as the earlier program with the following 
+exceptions:
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1073">
+A slider variable named 
+
+<emphasis id="strong1056" effect="bold">
+numberLoops
+
+</emphasis>
+ is placed in the upper left 
+	corner of the Stage as shown in 
+
+<link id="a1075" target-id="Image_H">
+
+Image H
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1074">
+When the user clicks the green flag, orthogonal axes are drawn through 
+	the origin of the Stage and the cat is placed at the origin.
+
+</item>
+
+
+	
+
+<item id="li1075">
+When the user clicks the cat, the number of times the code in the 
+
+<emphasis id="strong1057" effect="bold">
+
+	repeat
+
+</emphasis>
+ block is executed is determined by the current value of the 
+	slider variable.
+
+</item>
+
+
+	
+
+<item id="li1076">
+As the code in the 
+
+<emphasis id="strong1058" effect="bold">
+repeat
+
+</emphasis>
+ block is repetitively executed, the 
+	path of the cat is traced out on the Stage as a series of short straight 
+	line segments, producing the circular path shown in 
+
+<link id="a1076" target-id="Image_I">
+
+Image I
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+<figure id="figure1007" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_H" effect="bold">
+</emphasis>
+Image H. Program ForLoop02 output after clicking the green flag.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/scr0370-05.jpg" width="490" height="437"/>
+</media>
+
+
+		
+
+<caption>Image H. Program ForLoop02 output after clicking the green flag.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<figure id="figure1008" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_I" effect="bold">
+</emphasis>
+Image I. Program ForLoop02 output after clicking the cat.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/scr0370-06.jpg" width="489" height="438"/>
+</media>
+
+
+		
+
+<caption>Image I. Program ForLoop02 output after clicking the cat.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<section id="h31021">
+<title>
+<emphasis id="Theprogramcode_2" effect="bold">
+
+The program code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1049">
+The code for this program is shown in 
+
+<link id="a1077" target-id="Image_J">
+
+Image J
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<figure id="figure1009" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_J" effect="bold">
+</emphasis>
+Image J. Program code for the program named ForLoop02.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/scr0370-07.jpg" width="513" height="859"/>
+</media>
+
+
+		
+
+<caption>Image J. Program code for the program named ForLoop02.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h31022">
+<title>
+<emphasis id="Create_a_variable" effect="bold">
+
+Create a variable
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1050">
+The code in the left panel in 
+
+<link id="a1078" target-id="Image_J">
+
+Image J
+
+</link>
+
+ creates a variable with a slider named 
+
+<emphasis id="strong1059" effect="bold">
+
+numberLoops
+
+</emphasis>
+ and causes it to be displayed on the Stage as shown in 
+
+<link id="a1079" target-id="Image_I">
+
+Image I
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31023">
+<title>
+<emphasis id="The_initialization_code" effect="bold">
+
+The initialization code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1051">
+Although there is quite a lot of code that is executed when the green flag is 
+clicked, there is nothing new there. All of that code has been explained in this 
+or earlier modules. For review, the green 
+
+<emphasis id="em1032" effect="italics">
+pen
+
+</emphasis>
+ blocks and the blue 
+
+<emphasis id="em1033" effect="italics">
+
+go to
+
+</emphasis>
+ blocks are used together to draw the Cartesian coordinates. Note that 
+the pen is down when the initialization code finishes executing. As a result, a line will 
+be drawn whenever the cat sprite moves.
+
+</para>
+
+
+
+
+</section>
+<section id="h31024">
+<title>
+<emphasis id="Therepeatblock2" effect="bold">
+
+The repeat block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1052">
+The only thing that is really new to this program is the use of the variable 
+block named 
+
+<emphasis id="strong1060" effect="bold">
+numberLoops
+
+</emphasis>
+ to specify the number of times that the code in 
+the 
+
+<emphasis id="strong1061" effect="bold">
+repeat
+
+</emphasis>
+ block will be executed each time the cat is clicked. Otherwise 
+the code in the 
+
+<emphasis id="strong1062" effect="bold">
+repeat
+
+</emphasis>
+ block in 
+
+<link id="a1080" target-id="Image_J">
+
+Image J
+
+</link>
+
+ is the same as the code in the
+
+
+<emphasis id="strong1063" effect="bold">
+repeat
+
+</emphasis>
+ block shown in 
+
+<link id="a1081" target-id="Image_F">
+
+Image F
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h31025">
+<title>
+<emphasis id="The_operational_difference" effect="bold">
+
+The operational difference
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1053">
+The operational difference is that each time the repeat block in 
+
+<link id="a1082" target-id="Image_F">
+
+Image F
+
+</link>
+
+ is 
+executed, the code inside the 
+
+<emphasis id="strong1064" effect="bold">
+repeat
+
+</emphasis>
+ block will be executed 24 times. 
+Each time the
+
+<emphasis id="strong1065" effect="bold">
+ repeat 
+
+</emphasis>
+block in 
+
+<link id="a1083" target-id="Image_J">
+
+Image J
+
+</link>
+
+ is executed, the number of times 
+that the code inside the repeat block will be executed is specified by the 
+current position of the slider in 
+
+<link id="a1084" target-id="Image_I">
+
+Image I
+
+</link>
+
+. This, in effect converts the static 
+program named 
+
+<emphasis id="strong1066" effect="bold">
+ForLoop01
+
+</emphasis>
+ into an interactive program in which the user has 
+some control over the program behavior at runtime.
+
+</para>
+
+
+
+
+<para id="p1054">
+As mentioned earlier, because the pen is down, a line is drawn each time the 
+cat sprite moves. That is what draws the circular path shown in 
+
+<link id="a1085" target-id="Image_I">
+
+Image I
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Online_versions_of_these_programs_are_available" effect="bold">
+
+Online versions of these programs are available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1055">
+Copies of these two programs have been posted online for your review 
+
+<emphasis id="em1034" effect="italics">
+(see
+
+
+<link id="a1086" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If you 
+don't find the programs using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the programs
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1056">
+I encourage you to use the information provided above to write and run these 
+two programs. Experiment with the code, making changes, and observing the 
+results of your changes. Make certain that you can explain why your changes 
+behave as they do.
+
+</para>
+
+
+
+
+<para id="p1057">
+Just for fun, see if you can add a drumbeat that keeps time as the cat walks.
+
+</para>
+
+
+
+
+<para id="p1058">
+I also encourage you to write the program described below.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_project" effect="bold">
+
+Student programming project
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+Write a Scratch program named 
+
+<emphasis id="strong1067" effect="bold">
+ForLoop03
+
+</emphasis>
+. This program places a cat 
+sprite, a slider variable, and a button on the stage as shown in 
+
+<link id="a1087" target-id="Image_K">
+
+Image K
+
+</link>
+
+. The 
+cat sprite has two costumes.
+
+</para>
+
+
+
+
+
+<figure id="figure1010" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_K" effect="bold">
+</emphasis>
+Image K. ForLoop03 output after clicking the green flag.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1007" alt="Missing image." display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/scr0370-08.jpg" width="527" height="449"/>
+</media>
+
+
+		
+
+<caption>Image K. ForLoop03 output after clicking the green flag.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1060">
+This program is an upgrade of the program named 
+
+<emphasis id="strong1068" effect="bold">
+ForLoop02
+
+</emphasis>
+, but is more 
+complex than that program. In particular, this program uses the ability of one 
+sprite 
+
+<emphasis id="em1035" effect="italics">
+(the button)
+
+</emphasis>
+ to communicate with another sprite 
+
+<emphasis id="em1036" effect="italics">
+(the cat)
+
+</emphasis>
+ 
+by broadcasting and receiving messages.
+
+</para>
+
+
+
+
+<quote id="blockquote1002" display="block">
+
+	
+
+<emphasis id="em1037" effect="italics">
+You may have to do some online research to learn how to fire and handle 
+	broadcast events. Hint: See the bottom three blocks in the Events toolbox.
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1061">
+When the user clicks the button, this program behaves just like the program 
+named 
+
+<emphasis id="strong1069" effect="bold">
+ForLoop02
+
+</emphasis>
+ behaves when the user clicks the cat in that program. 
+
+<emphasis id="em1038" effect="italics">
+
+(Note, however, that the drawing of axes and lines was omitted from this program 
+for simplicity.)
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1062">
+As in the previous program, this program executes its animation using a 
+
+<emphasis id="strong1070" effect="bold">
+
+repeat
+
+</emphasis>
+ block. Also as in the previous program, the number of times that the 
+code in the 
+
+<emphasis id="strong1071" effect="bold">
+repeat
+
+</emphasis>
+ block is executed is specified by the current position 
+of the slider.
+
+</para>
+
+
+
+
+<section id="h21006">
+<title>
+<emphasis id="Online_version_is_available" effect="bold">
+
+Online version is available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1063">
+A copy of this program has been posted online for your review 
+
+<emphasis id="em1039" effect="italics">
+(see
+
+
+<link id="a1088" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If you 
+don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1064">
+I began by providing a real-world example of the difference between a 
+
+<emphasis id="em1040" effect="italics">
+
+definite
+
+</emphasis>
+ loop and an 
+
+<emphasis id="em1041" effect="italics">
+indefinite
+
+</emphasis>
+ loop.
+
+</para>
+
+
+
+
+<para id="p1065">
+Then I presented and explained two Scratch programs that illustrate the 
+Scratch equivalent of 
+
+<emphasis id="em1042" effect="italics">
+(or something similar to)
+
+</emphasis>
+ a 
+
+<emphasis id="strong1072" effect="bold">
+for
+
+</emphasis>
+ loop in other programming languages. In 
+Scratch, it is called a 
+
+<emphasis id="strong1073" effect="bold">
+repeat
+
+</emphasis>
+ loop. One of the programs caused a block of 
+code to be executed a fixed number of times when the user clicked the green 
+flag. The other program caused a block of code to be executed a variable number 
+of times when the user clicked a sprite.
+
+</para>
+
+
+
+
+<para id="p1066">
+I provided a brief introduction to the topic of animation and I explained the 
+concept of 
+
+<emphasis id="em1043" effect="italics">
+costumes
+
+</emphasis>
+ in Scratch. Both programs illustrate the use of 
+costumes to implement crude animation that makes it appear that a cat sprite is 
+walking.
+
+</para>
+
+
+
+
+<para id="p1067">
+I also provided a student programming project.
+
+</para>
+
+
+
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="Whats_next" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1068">
+The next module will concentrate on other variations of Scratch loops.
+
+</para>
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21007">
+<title>
+<emphasis id="General_resources" effect="bold">
+
+General resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+
+	
+
+<item id="li1077">
+<link id="a1089" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1078">
+<link id="a1090" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1079">
+<link id="a1091" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1080">
+<link id="a1092" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1081">
+<link id="a1093" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+
+	Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1082">
+<link id="a1094" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1083">
+<link id="a1095" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1084">
+
+	
+
+<link id="a1096" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+
+	Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1085">
+<link id="a1097" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+	TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1086">
+<link id="a1098" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1087">
+
+	
+
+<link id="a1099" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+
+	Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1088">
+
+	
+
+<link id="a1100" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+
+	Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1089">
+
+	
+
+<link id="a1101" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+
+	Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1090">
+<link id="a1102" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+
+	Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1091">
+<link id="a1103" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web 
+	site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1092">
+<link id="a1104" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+	Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1093">
+<link id="a1105" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1094">
+<link id="a1106" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+	project Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1095">
+<link id="a1107" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+	project Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1096">
+<link id="a1108" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+	Project Scratch Tutorial
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1097">
+<link id="a1109" url="http://www.allaboutcircuits.com/vol_4/chpt_7/8.html">
+
+DeMorgan's 
+	theorem
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Programs_used_in_this_series" effect="bold">
+
+Programs used in this series
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+	
+
+<item id="li1098">
+<link id="a1110" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1099">
+<link id="a1111" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1100">
+<link id="a1112" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1101">
+<link id="a1113" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1102">
+<link id="a1114" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1103">
+<link id="a1115" url="http://scratch.mit.edu/projects/dbal/156614">
+
+Arithmetic01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1104">
+<link id="a1116" url="http://scratch.mit.edu/projects/dbal/156618">
+
+Arithmetic02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1105">
+<link id="a1117" url="http://scratch.mit.edu/projects/dbal/158029">
+
+Relational01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1106">
+<link id="a1118" url="http://scratch.mit.edu/projects/dbal/158030">
+
+Relational02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1107">
+<link id="a1119" url="http://scratch.mit.edu/projects/dbal/158799">
+
+Logical01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1108">
+<link id="a1120" url="http://scratch.mit.edu/projects/dbal/158800">
+
+Logical02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1109">
+<link id="a1121" url="http://scratch.mit.edu/projects/dbal/158801">
+
+Logical03
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1110">
+<link id="a1122" url="http://scratch.mit.edu/projects/dbal/160656">
+
+ForLoop01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1111">
+<link id="a1123" url="http://scratch.mit.edu/projects/dbal/160682">
+
+ForLoop02
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1112">
+<link id="a1124" url="http://scratch.mit.edu/projects/dbal/160713">
+
+ForLoop03
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1069">
+This section contains a variety of miscellaneous information. 
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1074" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1019" list-type="bulleted">
+
+					
+
+<item id="li1113">
+Module name: Scr0370: The repeat loop in Scratch 2.0
+
+</item>
+
+
+					
+
+<item id="li1114">
+File: Scr0370.htm
+
+
+</item>
+
+
+					
+
+<item id="li1115">
+Published: 05/18/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1002" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1075" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1070">
+<emphasis id="strong1076" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1071">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1072">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1073">
+<emphasis id="strong1077" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1074">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

@@ -1,0 +1,4719 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0140: Arithmetic Operators</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46083</md:content-id>
+  <md:title>Scr0140: Arithmetic Operators</md:title>
+  <md:abstract>The purpose of this module is to teach you about operators and operands in general and arithmetic operators in particular. You will also learn about expressions and statements, and you will learn how to write a Scratch program that illustrates the use of arithmetic operators in Scratch.</md:abstract>
+  <md:uuid>9e56a7be-d1fd-4fc5-b1bc-041e1efa9b7d</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+		
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="GeneralBackgroundInformation">
+
+General 
+	background information
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="Operators_">
+
+Operators
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1005">
+<link id="a1005" target-id="Operands_">
+
+Operands
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Expressions">
+
+Expressions
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1007">
+<link id="a1007" target-id="Statements_">
+
+Statements
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="A_brief_word_about_type">
+
+A brief word about type
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Unary_binary_and_ternary_operators">
+
+Unary, binary, and ternary operators
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Some_operators_can_be_either_unary_or_binary">
+
+Some operators can be either unary or binary
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="The_minus_character_as_a_unary_operator">
+
+The minus character as a unary operator
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="Binary_operators_use_infix_notation">
+
+Binary operators use infix notation
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="General_behavior_of_an_operator">
+
+General behavior of an operator
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Operator_categories">
+
+Operator categories
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1015">
+<link id="a1015" target-id="Preview">
+
+Preview
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="DiscussionandSamplePrograms">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+		
+
+<item id="li1017">
+<link id="a1017" target-id="Four_variables">
+
+Four variables
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1018">
+<link id="a1018" target-id="A_button">
+
+A button
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1019">
+<link id="a1019" target-id="Two_scripts_in_the_center_panel">
+
+Two scripts in the center panel
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1020">
+<link id="a1020" target-id="Variables_with_sliders">
+
+Variables with sliders
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="How_to_create_a_slider">
+
+How to create a slider
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1022" target-id="Full-size_view_of_the_center_panel">
+
+Full-size view of the center panel
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1023" target-id="Initialize_the_variable_values_to_zero">
+
+Initialize the variable values to zero
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1024">
+<link id="a1024" target-id="Define_the_behavior_of_the_button">
+
+Define the behavior of the button
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+			
+
+<item id="li1025">
+<link id="a1025" target-id="Constructing_the_script">
+
+Constructing the script
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1026">
+<link id="a1026" target-id="Not_exactly_what_we_want_to_happen">
+
+Not exactly what we want to happen
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1027">
+<link id="a1027" target-id="The_Operators_panel">
+
+The Operators panel
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+			
+
+<item id="li1028">
+<link id="a1028" target-id="Four_arithmetic_operators">
+
+Four arithmetic operators
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1029">
+<link id="a1029" target-id="Use_an_asterisk_for_multiplication">
+
+Use an asterisk for multiplication
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1030">
+<link id="a1030" target-id="Use_a_forward_slash_for_division">
+
+Use a forward slash for division
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1031">
+<link id="a1031" target-id="Four_more_blocks_of_the_correct_shape">
+
+More blocks of the correct shape
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1032">
+<link id="a1032" target-id="Random_numbers">
+
+Random numbers
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1033">
+<link id="a1033" target-id="The_modulus">
+
+The modulus
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1034">
+<link id="a1034" target-id="Various_numeric_representations">
+
+Various numeric representations
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1035">
+<link id="a1035" target-id="Rounding_a_number">
+
+Rounding a number
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1036">
+<link id="a1036" target-id="Drag_and_drop_the_plus_and_minus_operators">
+
+Drag and drop the plus and minus operators
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1037">
+<link id="a1037" target-id="A_couple_more_steps_are_required">
+
+A few more steps are required
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1038">
+<link id="a1038" target-id="Operation_of_the_program">
+
+Operation of the program
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1039">
+<link id="a1039" target-id="An_online_version_of_this_program_is_available">
+
+An online version of this program is available
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1040" target-id="Runtheprogram">
+
+Run the program
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1041" target-id="Student_programming_project">
+
+Student 
+	programming project
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1042" target-id="Summary">
+
+Summary
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1043" target-id="WhatsNext">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1044" target-id="Resources">
+
+Resources
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1045" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+This module is one in a collection of modules designed to help beginners 
+	of all ages 
+
+<emphasis id="em1000" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for computer 
+	programs. Information is provided not only for the beginners themselves but 
+	also for their parents and teachers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1001">
+The purpose of this module is to teach you about operators and operands in general and arithmetic operators in particular.  
+You will also learn about expressions and statements, and you will learn how to write a 
+
+
+<link id="a1046" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ program that 
+illustrates the use of arithmetic operators in Scratch.
+
+</para>
+
+
+
+
+<para id="p1002">
+I will also provide the specifications for a student-programming project for 
+you to complete in order to demonstrate your understanding of what you learned 
+from the first program.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1046">
+<link id="a1047" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. Reduced screen shot of 
+	Arithmetic01 in operation.
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1048" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. Full-size view of the 
+	center panel.
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1049" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. Preparing to use the 
+	arithmetic operators.
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1050" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. Result of dropping 
+	addition and subtraction operators into variable blocks.
+
+</item>
+
+
+	
+
+<item id="li1050">
+<link id="a1051" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. Stage area of the 
+	finished program.
+
+</item>
+
+
+	
+
+<item id="li1051">
+<link id="a1052" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Making the button say 
+	ouch.
+
+</item>
+
+
+	
+
+<item id="li1052">
+<link id="a1053" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. Output from student 
+	project program named Arithmetic02.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="GeneralBackgroundInformation" effect="bold">
+
+General background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="Operators_" effect="bold">
+
+Operators
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+Operators are the action elements of a computer program. They perform 
+actions such as adding two variables, dividing one variable by another variable, 
+comparing one variable to another variable, etc. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Operands_" effect="bold">
+
+Operands
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1005">
+According to the current jargon, 
+
+<emphasis id="em1001" effect="italics">
+operators
+
+</emphasis>
+ operate on 
+
+<emphasis id="em1002" effect="italics">
+operands
+
+</emphasis>
+.
+
+
+</para>
+
+
+
+
+<para id="p1006">
+For example, in the following expression, the plus character is an operator 
+while 
+
+<emphasis id="strong1000" effect="bold">
+x
+
+</emphasis>
+ and 
+
+<emphasis id="strong1001" effect="bold">
+y
+
+</emphasis>
+ are operands.
+
+</para>
+
+
+
+
+<para id="p1007">
+<emphasis id="strong1002" effect="bold">
+x + y
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1008">
+Assuming that 
+
+<emphasis id="strong1003" effect="bold">
+x
+
+</emphasis>
+ and 
+
+<emphasis id="strong1004" effect="bold">
+y
+
+</emphasis>
+ are numeric variables, this expression 
+produces the sum of the values stored in the variables named 
+
+<emphasis id="strong1005" effect="bold">
+x
+
+</emphasis>
+ 
+and 
+
+<emphasis id="strong1006" effect="bold">
+y
+
+</emphasis>
+. The variable
+
+
+<emphasis id="strong1007" effect="bold">
+x
+
+</emphasis>
+ would be called the 
+
+<emphasis id="em1003" effect="italics">
+left operand
+
+</emphasis>
+ and the variable 
+
+<emphasis id="strong1008" effect="bold">
+y
+
+</emphasis>
+ would 
+be called the 
+
+<emphasis id="em1004" effect="italics">
+right operand
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21003">
+<title>
+<emphasis id="Expressions" effect="bold">
+
+Expressions
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1009">
+Computer programs in many languages consist of 
+statements, which in turn, consist of expressions. 
+
+<emphasis id="em1005" effect="italics">
+(Programming blocks 
+substitute for statements in Scratch.)
+
+</emphasis>
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+
+	
+
+<emphasis id="strong1009" effect="bold">
+Expressions
+
+</emphasis>
+ An expression is a specific combination of operators and 
+	operands that evaluates to a particular result. The operands can be 
+	variables, literals, or method calls.
+
+<emphasis id="em1006" effect="italics">
+(Note that Scratch doesn't 
+	support methods.)
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1010">
+In your past experience, you may have referred to expressions by the names 
+
+<emphasis id="em1007" effect="italics">
+formulas
+
+</emphasis>
+ or 
+
+
+<emphasis id="em1008" effect="italics">
+equations
+
+</emphasis>
+. Although formulas and equations are not 
+exactly the same thing as expressions, they are close enough to help you 
+understand what expressions are and how they are used. 
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Statements_" effect="bold">
+
+Statements
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1011">
+A statement is a specific combination of expressions. The following is an example of a 
+statement comprised of expressions in a text-based language such as Java, C++, 
+or C#.
+
+</para>
+
+
+
+
+<para id="p1012">
+<emphasis id="strong1010" effect="bold">
+z = x + y;
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1013">
+Operationally, values are retrieved from the variables named 
+
+<emphasis id="strong1011" effect="bold">
+x
+
+</emphasis>
+ and 
+
+<emphasis id="strong1012" effect="bold">
+y 
+
+
+</emphasis>
+in the above statement. These two values are added together. 
+The result is stored in 
+
+<emphasis id="em1009" effect="italics">
+(assigned to)
+
+</emphasis>
+ the variable named 
+
+<emphasis id="strong1013" effect="bold">
+z
+
+</emphasis>
+, 
+replacing whatever value may previously have been contained in that variable.
+
+</para>
+
+
+
+
+<para id="p1014">
+The plus character (+) would commonly be referred to as the addition operator 
+or the concatenation operator, depending on the 
+
+<emphasis id="em1010" effect="italics">
+type
+
+</emphasis>
+ of data stored in 
+the variables named 
+
+<emphasis id="strong1014" effect="bold">
+x
+
+</emphasis>
+ and 
+
+<emphasis id="strong1015" effect="bold">
+y
+
+</emphasis>
+. The equal character (=) would 
+commonly be called the assignment operator in Java, Alice, C#, and C++, but we 
+will see in a future module that it is also used as a 
+
+<emphasis id="em1011" effect="italics">
+relational
+
+</emphasis>
+ operator 
+in Scratch.
+
+</para>
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="A_brief_word_about_type" effect="bold">
+
+A brief word about type
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+As a very crude analogy, you can 
+think of 
+
+<emphasis id="em1012" effect="italics">
+variables
+
+</emphasis>
+ as the pens at the animal shelter and think of 
+
+<emphasis id="em1013" effect="italics">
+type
+
+</emphasis>
+ 
+as the kinds of animals that reside in those pens. Dogs and cats are 
+different types of animals that usually don't coexist very well in the same pen. 
+Therefore, they are normally put in different pens.
+
+</para>
+
+
+
+
+<para id="p1016">
+Similarly, different types of data don't coexist well in the same variable in
+
+
+<emphasis id="em1014" effect="italics">
+type-sensitive
+
+</emphasis>
+ languages. Therefore, in type-sensitive languages, there are very stringent rules as to the types of data 
+that can be stored in each variable. 
+
+</para>
+
+
+
+
+<para id="p1017">
+Scratch has two types of 
+data that can be stored in a variable 
+
+<emphasis id="em1015" effect="italics">
+(numeric and string)
+
+</emphasis>
+. However, 
+Scratch is not a 
+
+<emphasis id="em1016" effect="italics">
+type-sensitive
+
+</emphasis>
+ language so type is not an issue in Scratch.
+
+
+<emphasis id="em1017" effect="italics">
+(Scratch also has a semblance of a boolean type but it tends to take care of 
+itself.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Unary_binary_and_ternary_operators" effect="bold">
+
+Unary, binary, and ternary 
+operators
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1018">
+Many programming languages provide operators that can be used to perform an action on 
+one, two, or three operands. I believe that operators in Scratch 
+are confined to only one or two operands.
+
+</para>
+
+
+
+
+<para id="p1019">
+An operator that operates on one operand is called a 
+
+<emphasis id="strong1016" effect="bold">
+unary
+
+</emphasis>
+ operator. 
+An operator that operates on two operands is called a 
+
+<emphasis id="strong1017" effect="bold">
+binary
+
+</emphasis>
+ operator. An 
+operator that operates on three operands is called a 
+
+<emphasis id="strong1018" effect="bold">
+ternary
+
+</emphasis>
+ operator.
+
+
+</para>
+
+
+
+
+<section id="h31001">
+<title>
+<emphasis id="Some_operators_can_be_either_unary_or_binary" effect="bold">
+
+Some operators can be 
+either unary or binary
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1020">
+Some operators can behave either as a unary or as a binary operator in 
+languages such as Java and C#. However, I don't believe that this is the case in Scratch. 
+The best-known operator that can behave either way in those other languages is the minus character (-).
+
+</para>
+
+
+
+
+<para id="p1021">
+As a binary operator, the minus character causes its right operand to be 
+subtracted from its left operand. For example, the third statement below 
+subtracts the variable 
+
+<emphasis id="strong1019" effect="bold">
+y
+
+</emphasis>
+ from the variable 
+
+<emphasis id="strong1020" effect="bold">
+x
+
+</emphasis>
+ and assigns the 
+result of the subtraction to the variable 
+
+<emphasis id="strong1021" effect="bold">
+z
+
+</emphasis>
+. After the third 
+statement is executed, the variable 
+
+<emphasis id="strong1022" effect="bold">
+z
+
+</emphasis>
+ contains the value 1. 
+
+</para>
+
+
+
+
+<para id="p1022">
+<emphasis id="strong1023" effect="bold">
+int x = 6;
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1023">
+<emphasis id="strong1024" effect="bold">
+int y = 5;
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1024">
+<emphasis id="strong1025" effect="bold">
+int z = x - y;
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+<emphasis id="The_minus_character_as_a_unary_operator" effect="bold">
+
+The minus character as a 
+unary operator
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1025">
+As a unary operator, the minus character causes the algebraic sign of the 
+right operand to be changed. For example, the second statement below 
+causes a value of -5 to be assigned to 
+
+<emphasis id="em1018" effect="italics">
+(stored in)
+
+</emphasis>
+ the variable 
+
+<emphasis id="strong1026" effect="bold">
+x
+
+</emphasis>
+.
+
+
+</para>
+
+
+
+
+<para id="p1026">
+<emphasis id="strong1027" effect="bold">
+int y = 5;
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+<para id="p1027">
+<emphasis id="strong1028" effect="bold">
+int x = -y;
+
+</emphasis>
+ 
+
+</para>
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="Binary_operators_use_infix_notation" effect="bold">
+
+Binary operators use infix 
+notation
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1028">
+To keep you abreast of the current jargon,
+
+<emphasis id="strong1029" effect="bold">
+ binary
+
+</emphasis>
+ operators in 
+Scratch always use 
+
+<emphasis id="em1019" effect="italics">
+infix
+
+</emphasis>
+ notation. This means that 
+the operator appears between its operands. 
+
+</para>
+
+
+
+
+<para id="p1029">
+Some other programming languages have 
+
+<emphasis id="strong1030" effect="bold">
+unary
+
+</emphasis>
+ operators that use 
+
+<emphasis id="em1020" effect="italics">
+prefix
+
+</emphasis>
+ notation and 
+
+<emphasis id="em1021" effect="italics">
+postfix
+
+</emphasis>
+ notation. 
+For prefix notation, the operator appears before 
+
+<emphasis id="em1022" effect="italics">
+(to the left of)
+
+</emphasis>
+ its 
+operand. For postfix notation, the operator appears after 
+
+<emphasis id="em1023" effect="italics">
+(to the right 
+of)
+
+</emphasis>
+ its operand. 
+
+</para>
+
+
+
+
+
+</section>
+</section>
+<section id="h21007">
+<title>
+<emphasis id="General_behavior_of_an_operator" effect="bold">
+
+General behavior of an operator
+
+</emphasis>
+
+
+
+
+</title>
+
+
+
+
+<para id="p1030">
+As a result of performing the specified action, an operator can be said to 
+return a value 
+
+<emphasis id="em1024" effect="italics">
+(or evaluate to a value)
+
+</emphasis>
+ of a given type. The type of 
+value returned depends on the operator and the type of the operands.
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+
+	
+
+<emphasis id="strong1031" effect="bold">
+To evaluate to a value:
+
+</emphasis>
+ To evaluate to a value means that after the 
+	action is performed, the operator and its operands are effectively replaced 
+	in the expression by the value that is returned. 
+
+</quote>
+
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Operator_categories" effect="bold">
+
+Operator categories
+
+</emphasis>
+
+ 
+
+</title>
+
+
+
+
+<para id="p1031">
+There are many different kinds of operators. Therefore, the easiest way 
+to study them is to divide them into categories such as the following
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1053">
+arithmetic
+
+</item>
+
+
+	
+
+<item id="li1054">
+relational
+
+</item>
+
+
+	
+
+<item id="li1055">
+logical
+
+</item>
+
+
+	
+
+<item id="li1056">
+bitwise
+
+</item>
+
+
+	
+
+<item id="li1057">
+assignment
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1032">
+This module will concentrate on arithmetic operators. Future modules 
+will deal with other kinds of operators.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+In this module, I will present and explain a Scratch program named 
+
+<emphasis id="strong1032" effect="bold">
+Arithmetic01
+
+</emphasis>
+. This program illustrates the use of the following 
+arithmetic operators 
+
+<emphasis id="em1025" effect="italics">
+(see 
+
+</emphasis>
+<link id="a1054" target-id="Image_4">
+
+
+<emphasis id="em1026" effect="italics">
+Image 4
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1027" effect="italics">
+):
+
+</emphasis>
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1058">
++ (addition)
+
+</item>
+
+
+	
+
+<item id="li1059">
+- (subtraction)
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1034">
+Variables with the following names are created and displayed on the screen
+
+
+<emphasis id="em1028" effect="italics">
+(see 
+
+</emphasis>
+<link id="a1055" target-id="Image_5">
+
+
+<emphasis id="em1029" effect="italics">
+Image 5
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1030" effect="italics">
+):
+
+</emphasis>
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1060">
+<emphasis id="strong1033" effect="bold">
+LeftOperand
+
+</emphasis>
+ - has a slider
+
+</item>
+
+
+	
+
+<item id="li1061">
+<emphasis id="strong1034" effect="bold">
+RightOperand
+
+</emphasis>
+ - has a slider
+
+</item>
+
+
+	
+
+<item id="li1062">
+<emphasis id="strong1035" effect="bold">
+Sum 
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1063">
+<emphasis id="strong1036" effect="bold">
+Diff
+
+</emphasis>
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1035">
+In addition, a button is displayed on the screen.
+
+</para>
+
+
+
+
+<para id="p1036">
+The user adjusts the values of the 
+
+<emphasis id="strong1037" effect="bold">
+LeftOperand
+
+</emphasis>
+ and 
+
+<emphasis id="strong1038" effect="bold">
+RightOperand
+
+</emphasis>
+ variables 
+with a pair of sliders. When the user clicks the button, the variable 
+named 
+
+<emphasis id="strong1039" effect="bold">
+Sum
+
+</emphasis>
+ displays the sum of the values of the left and right operands. 
+The variable named 
+
+<emphasis id="strong1040" effect="bold">
+Diff
+
+</emphasis>
+ displays the result of subtracting the right 
+operand from the left operand.
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="DiscussionandSamplePrograms" effect="bold">
+
+
+</emphasis>
+
+Discussion and sample code
+
+</title>
+
+
+
+
+<para id="p1037">
+I'm going to walk you through the steps required to develop this program, 
+being brief on those things that you already know about and being more verbose 
+on the new material.
+
+</para>
+
+
+
+
+<para id="p1038">
+To begin with, 
+
+<link id="a1056" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ shows a reduced screen shot of the user interface. 
+
+</para>
+
+
+
+
+	
+
+
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_1" effect="bold">
+</emphasis>
+Image 1.  Reduced screen shot  			of Arithmetic01 in operation.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/s00106a01.jpg" width="477" height="374"/>
+</media>
+
+
+			
+
+<caption>Image 1.  Reduced screen shot  			of Arithmetic01 in operation.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1039">
+I realize that 
+
+<link id="a1057" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ lacks detail due to the requirement to reduce the size 
+of the screen shot for publication in this format, but there are some 
+aspects of 
+
+<link id="a1058" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ that are worth noting. I will go from left to right in 
+
+
+<link id="a1059" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ making comments.
+
+</para>
+
+
+
+
+<section id="h21009">
+<title>
+<emphasis id="Four_variables" effect="bold">
+
+Four variables
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1040">
+The leftmost panel shows that four variables have been created. Because 
+you can't read the names of those variables, I will list them here:
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1064">
+<emphasis id="strong1041" effect="bold">
+LeftOperand
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1065">
+<emphasis id="strong1042" effect="bold">
+RightOperand
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1066">
+<emphasis id="strong1043" effect="bold">
+Sum
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1067">
+<emphasis id="strong1044" effect="bold">
+Diff
+
+</emphasis>
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1041">
+You can barely see that the checkboxes next to all four variables have been 
+checked. As you learned in an earlier module, checking this box causes a 
+variable to be displayed in the white Stage area on the right. Thus you 
+can see all four variables being displayed in the upper left corner of the 
+Stage.
+
+</para>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="A_button" effect="bold">
+
+A button
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+Skipping to the area immediately below the Stage, you can 
+
+<emphasis id="em1031" effect="italics">
+(almost)
+
+</emphasis>
+ see that a button 
+has been added to the program. That button has been selected in 
+
+<link id="a1060" target-id="Image_1">
+
+Image 1
+
+</link>
+
+, 
+making it possible to drag blocks into the center panel that controls the 
+behavior of the button.
+
+</para>
+
+
+
+
+</section>
+<section id="h21011">
+<title>
+<emphasis id="Two_scripts_in_the_center_panel" effect="bold">
+
+Two scripts in the center panel
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1043">
+Although you can't read the details in 
+
+<link id="a1061" target-id="Image_1">
+
+Image 1
+
+</link>
+
+, you can see that there are 
+two scripts showing in the center panel. 
+
+<emphasis id="em1032" effect="italics">
+(I will show you a full-size 
+screen shot of the center panel later in 
+
+</emphasis>
+ 
+
+<link id="a1062" target-id="Image_2">
+
+
+<emphasis id="em1033" effect="italics">
+Image 2
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1034" effect="italics">
+.)
+
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1044">
+For now, suffice it to say 
+that the top script initializes the values stored in all four variables when the 
+user clicks the green flag in the upper right of 
+
+<link id="a1063" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. The bottom 
+script in the center panel defines the behavior of the program when the user 
+clicks the button in the Stage area.
+
+</para>
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Variables_with_sliders" effect="bold">
+
+Variables with sliders
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+If you look carefully, you can tell that the top two variables that are 
+displayed in the Stage area look different from the bottom two variables. 
+This is because a slider has been assigned to each of the top two variables 
+
+<emphasis id="em1035" effect="italics">
+(see 
+
+
+<link id="a1064" target-id="Image_5">
+
+Image 5
+
+</link>
+
+)
+
+</emphasis>
+. This makes it possible for the user to manually set the 
+values stored in each of these two variables.
+
+</para>
+
+
+
+
+<section id="h31004">
+<title>
+<emphasis id="How_to_create_a_slider" effect="bold">
+
+How to create a slider
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1046">
+To create a slider for a variable, right click on the display of the variable 
+in the Stage area and select 
+
+<emphasis id="strong1045" effect="bold">
+<emphasis id="em1036" effect="italics">
+slider
+
+</emphasis>
+</emphasis>
+ in the popup menu that appears. 
+
+
+</para>
+
+
+
+
+<para id="p1047">
+Once you have caused a slider to appear with the variable display, you can 
+right-click on the variable display again and select 
+
+<emphasis id="strong1046" effect="bold">
+<emphasis id="em1037" effect="italics">
+set slider min and max
+
+</emphasis>
+</emphasis>
+ 
+in the popup menu to specify the range of the slider. This will cause a 
+simple dialog box to appear into which you can enter the minimum value and the 
+maximum value and then click an OK button. In this program, I have both 
+sliders set to a minimum value of -10 and a maximum value of +10.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Full-size_view_of_the_center_panel" effect="bold">
+
+Full-size view of the center 
+panel
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1048">
+<link id="a1065" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ shows a full-size view of the center panel after having selected the 
+button icon in the area immediately below the Stage in 
+
+<link id="a1066" target-id="Image_1">
+
+Image 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_2" effect="bold">
+</emphasis>
+Image 2. Full-size view of the center panel.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/s00106a02.jpg" width="325" height="404"/>
+</media>
+
+
+			
+
+<caption>Image 2. Full-size view of the center panel.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21014">
+<title>
+<emphasis id="Initialize_the_variable_values_to_zero" effect="bold">
+
+Initialize the variable 
+values to zero
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1049">
+As I mentioned earlier, the top script in 
+
+<link id="a1067" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ sets the value of each of 
+the four variables to zero when the user clicks the green flag. The code 
+in that script should be completely familiar to you by now and no explanation 
+should be necessary.
+
+</para>
+
+
+
+
+</section>
+<section id="h21015">
+<title>
+<emphasis id="Define_the_behavior_of_the_button" effect="bold">
+
+Define the behavior of the 
+button
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1050">
+The bottom script in 
+
+<link id="a1068" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ defines the behavior of the program when the 
+button is clicked. Basically, that code says to set the value of the 
+variable named 
+
+<emphasis id="strong1047" effect="bold">
+Sum
+
+</emphasis>
+ to the sum of the contents of the two variables named
+
+
+<emphasis id="strong1048" effect="bold">
+LeftOperand
+
+</emphasis>
+ and 
+
+<emphasis id="strong1049" effect="bold">
+RightOperand
+
+</emphasis>
+ and to set the value of the variable 
+named 
+
+<emphasis id="strong1050" effect="bold">
+Diff
+
+</emphasis>
+ to the value of the left operand minus the value of the right 
+operand.
+
+</para>
+
+
+
+
+<section id="h31005">
+<title>
+<emphasis id="Constructing_the_script" effect="bold">
+
+Constructing the script
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1051">
+That seems straightforward enough. However, the process of constructing 
+that script contains some new material, so I will walk you through the process.
+
+</para>
+
+
+
+
+<para id="p1052">
+<link id="a1069" target-id="Image_3">
+
+Image 3
+
+</link>
+
+ shows the state of the development process immediately after the 
+blocks for the variables named 
+
+<emphasis id="strong1051" effect="bold">
+Sum
+
+</emphasis>
+ and 
+
+<emphasis id="strong1052" effect="bold">
+Diff
+
+</emphasis>
+ have been dragged from 
+the 
+
+<emphasis id="strong1053" effect="bold">
+Variables
+
+</emphasis>
+ panel to the center panel and connected to the block that 
+reads 
+
+<emphasis id="strong1054" effect="bold">
+when button clicked
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_3" effect="bold">
+</emphasis>
+Image 3. Preparing to use the arithmetic operators.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/s00106a03.jpg" width="410" height="660"/>
+</media>
+
+
+<caption>Image 3. Preparing to use the arithmetic operators.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="Not_exactly_what_we_want_to_happen" effect="bold">
+
+Not exactly what we want to 
+happen
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1053">
+In 
+
+<link id="a1070" target-id="Image_3">
+
+Image 3
+
+</link>
+
+, as it stands now, the variables named 
+
+<emphasis id="strong1055" effect="bold">
+Sum
+
+</emphasis>
+ and 
+
+<emphasis id="strong1056" effect="bold">
+Diff
+
+</emphasis>
+ 
+will be set to a value of zero when the user clicks the button. That isn't 
+what we want, so we have some more programming to do.
+
+</para>
+
+
+
+
+<para id="p1054">
+The desired behavior is for the value of the variable named 
+
+<emphasis id="strong1057" effect="bold">
+Sum
+
+</emphasis>
+ to be 
+set to the sum of the variables named 
+
+<emphasis id="strong1058" effect="bold">
+LeftOperand
+
+</emphasis>
+ and 
+
+<emphasis id="strong1059" effect="bold">
+RightOperand
+
+</emphasis>
+ 
+when the user clicks the button. Similarly, we want the value of the 
+variable named 
+
+<emphasis id="strong1060" effect="bold">
+Diff
+
+</emphasis>
+ to be set to the difference between those two 
+variables.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21016">
+<title>
+<emphasis id="The_Operators_panel" effect="bold">
+
+The 
+
+<emphasis id="em1038" effect="italics">
+Operators
+
+</emphasis>
+ panel
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1055">
+The left panel in 
+
+<link id="a1071" target-id="Image_3">
+
+Image 3
+
+</link>
+
+ shows the blocks that are exposed when the green 
+button labeled 
+
+<emphasis id="strong1061" effect="bold">
+Operators
+
+</emphasis>
+ is clicked. 
+
+</para>
+
+
+
+
+<para id="p1056">
+Eleven of those blocks are of 
+the correct shape to fit into the white boxes in the two bottom orange blocks in 
+the center panel. This means that we could drag any one of those eleven 
+blocks and drop them into those white boxes.
+
+</para>
+
+
+
+
+<section id="h31007">
+<title>
+<emphasis id="Four_arithmetic_operators" effect="bold">
+
+Four arithmetic operators
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1057">
+The top four green blocks in the left panel of 
+
+<link id="a1072" target-id="Image_3">
+
+Image 3
+
+</link>
+
+ are particularly interesting. 
+They contain the following arithmetic symbols as part of their labels:
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1068">
++
+
+</item>
+
+
+	
+
+<item id="li1069">
+-
+
+</item>
+
+
+	
+
+<item id="li1070">
+*
+
+</item>
+
+
+	
+
+<item id="li1071">
+/
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1058">
+These are the symbols that are commonly used for addition, subtraction, 
+multiplication, and division in computer programming. The top two match 
+what you are accustomed to seeing on your hand calculator, but the bottom two 
+probably don't match.
+
+</para>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="Use_an_asterisk_for_multiplication" effect="bold">
+
+Use an asterisk for 
+multiplication
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+Most programming languages use the 
+
+<emphasis id="strong1062" effect="bold">
+*
+
+</emphasis>
+ character instead of the 
+
+<emphasis id="strong1063" effect="bold">
+X
+
+</emphasis>
+ 
+character for multiplication in order to keep the multiplication operator from 
+being confused with the letter that uses the 
+
+<emphasis id="strong1064" effect="bold">
+X
+
+</emphasis>
+ symbol.
+
+</para>
+
+
+
+
+</section>
+<section id="h31009">
+<title>
+<emphasis id="Use_a_forward_slash_for_division" effect="bold">
+
+Use a forward slash for division
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1060">
+Insofar as division is concerned, most computer keyboards don't have a symbol 
+that matches the symbol commonly used for division on hand calculators, so the / 
+character is used instead.
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="Four_more_blocks_of_the_correct_shape" effect="bold">
+
+More blocks of the 
+correct shape
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1061">
+Before leaving the discussion of the left panel in 
+
+<link id="a1073" target-id="Image_3">
+
+Image 3
+
+</link>
+
+, I will explain 
+the behavior of four additional blocks that are of the correct shape for 
+being dropped into the white boxes in the variable blocks in the center panel.
+
+
+<emphasis id="em1039" effect="italics">
+(The remaining blocks beyond those four deal with strings, which I will 
+ignore for now.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="Random_numbers" effect="bold">
+
+Random numbers
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1062">
+The block labeled 
+
+<emphasis id="strong1065" effect="bold">
+pick random 1 to 10
+
+</emphasis>
+ lets you enter other values in 
+place of 1 and 10. Then this block will deliver a random number within 
+that range when it is called upon to do so. Random numbers are often used 
+in game programs to simulate the throwing of dice or the spinning of a wheel of 
+fortune.
+
+</para>
+
+
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="The_modulus" effect="bold">
+
+The modulus
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1063">
+The block labeled 
+
+<emphasis id="strong1066" effect="bold">
+mod
+
+</emphasis>
+ will produce the modulus of two values when 
+called upon to do so. The modulus of two numbers is the remainder that 
+results from dividing one number by another number. You may remember the 
+remainder from when you learned to do long division in elementary school but 
+before you learned about decimals.
+
+</para>
+
+
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="Various_numeric_representations" effect="bold">
+
+Various numeric representations
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1064">
+The block labeled 
+
+<emphasis id="strong1067" effect="bold">
+sqrt
+
+</emphasis>
+ will deliver about a dozen different 
+representations of numeric values, depending on what is selected from the 
+pull-down list. This includes the square root, trigonometric functions, absolute 
+value, etc.
+
+</para>
+
+
+
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="Rounding_a_number" effect="bold">
+
+Rounding a number
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1065">
+Finally, the block labeled 
+
+<emphasis id="strong1068" effect="bold">
+round
+
+</emphasis>
+ will round a decimal number to the 
+nearest whole number.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21017">
+<title>
+<emphasis id="Drag_and_drop_the_plus_and_minus_operators" effect="bold">
+
+Drag and drop the plus 
+and minus operators
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1066">
+<link id="a1074" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ shows the result of dragging the top two green 
+blocks from the left panel and dropping them into the white boxes in the bottom 
+two orange variable blocks in the center panel of 
+
+<link id="a1075" target-id="Image_3">
+
+Image 3
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_4" effect="bold">
+</emphasis>
+Image 4. Result of dropping addition and subtraction operators into variable blocks.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/s00106a04.jpg" width="532" height="652"/>
+</media>
+
+
+			
+
+<caption>Image 4. Result of dropping addition and subtraction operators into variable blocks.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21018">
+<title>
+<emphasis id="A_couple_more_steps_are_required" effect="bold">
+
+A few more steps are required
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1067">
+If you compare 
+
+<link id="a1076" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ with 
+
+<link id="a1077" target-id="Image_2">
+
+Image 2
+
+</link>
+
+, you will see that 
+
+<link id="a1078" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ is close to 
+what we need but we aren't quite there yet. In order to cause 
+the bottom two blocks in the center panel in 
+
+<link id="a1079" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ to match the bottom two 
+blocks in 
+
+<link id="a1080" target-id="Image_2">
+
+Image 2
+
+</link>
+
+, we need to do the following:
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1072">
+Click the orange 
+
+<emphasis id="strong1069" effect="bold">
+Variables
+
+</emphasis>
+ button in the upper left of 
+
+<link id="a1081" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ to 
+	expose the variables as shown in 
+
+<link id="a1082" target-id="Image_1">
+
+Image 1
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1073">
+Drag the blocks for the variables named 
+
+<emphasis id="strong1070" effect="bold">
+LeftOperand
+
+</emphasis>
+ and 
+
+<emphasis id="strong1071" effect="bold">
+RightOperand
+
+</emphasis>
+ from the left panel and drop them into the white boxes in 
+	the bottom two blocks in 
+
+<link id="a1083" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ to make them match the bottom two blocks in 
+	
+
+<link id="a1084" target-id="Image_2">
+
+Image 2
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1068">
+That's the solution. The upper left portion of your Stage area should 
+now look similar to 
+
+<link id="a1085" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. Note however that you may need to use the 
+mouse to arrange the four variables and the button to get your Stage arranged 
+like 
+
+<link id="a1086" target-id="Image_5">
+
+Image 5
+
+</link>
+
+
+<emphasis id="em1040" effect="italics">
+.
+
+</emphasis>
+</para>
+
+
+
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_5" effect="bold">
+</emphasis>
+Image 5. Stage area of the finished program.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/s00106a05.jpg" width="173" height="304"/>
+</media>
+
+
+			
+
+<caption>Image 5. Stage area of the finished program.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21019">
+<title>
+<emphasis id="Operation_of_the_program" effect="bold">
+
+Operation of the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1069">
+Once you reach this point, you can click the green flag to initialize all 
+four variables to zero. 
+
+</para>
+
+
+
+
+<para id="p1070">
+Then you can move the sliders back and forth to 
+manually set the values for the variables named 
+
+<emphasis id="strong1072" effect="bold">
+LeftOperand
+
+</emphasis>
+ and 
+
+<emphasis id="strong1073" effect="bold">
+RightOperand
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1071">
+Then when you click the button at the bottom of 
+
+<link id="a1087" target-id="Image_5">
+
+Image 5
+
+</link>
+
+, 
+the variable named 
+
+<emphasis id="strong1074" effect="bold">
+Sum
+
+</emphasis>
+ will display the sum of the values of the top two 
+variables, and the variable named 
+
+<emphasis id="strong1075" effect="bold">
+Diff
+
+</emphasis>
+ will display the value of 
+
+<emphasis id="strong1076" effect="bold">
+LeftOperand
+
+</emphasis>
+ minus the value of 
+
+
+<emphasis id="strong1077" effect="bold">
+RightOperand
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21020">
+<title>
+<emphasis id="An_online_version_of_this_program_is_available" effect="bold">
+
+An online version 
+of this program is available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1072">
+A copy of this program has been posted online for your review 
+
+<emphasis id="em1041" effect="italics">
+(see
+
+
+<link id="a1088" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Runtheprogram" effect="bold">
+
+
+</emphasis>
+
+Run the program
+
+</title>
+
+
+
+
+<para id="p1073">
+I encourage you to use the information provided above to write this program. 
+Experiment with the code, making changes, and observing the results of your 
+changes. Make certain that you can explain why your changes behave as they 
+do. 
+
+</para>
+
+
+
+
+<para id="p1074">
+Just for fun, move the button a little to the right and cause it to say 
+
+<emphasis id="strong1078" effect="bold">
+Ouch
+
+</emphasis>
+ for about five seconds each time you click it as shown in 
+
+
+<link id="a1089" target-id="Image_6">
+
+Image 6
+
+</link>
+
+.
+
+
+<emphasis id="em1042" effect="italics">
+Hint: See the purple button labeled Looks in 
+
+<link id="a1090" target-id="Image_3">
+
+Image 3
+
+</link>
+
+.
+
+</emphasis>
+</para>
+
+
+
+
+
+
+
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_6" effect="bold">
+</emphasis>
+Image 6. Making the button say ouch.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/s00106a06.jpg" width="297" height="283"/>
+</media>
+
+
+			
+
+<caption>Image 6. Making the button say ouch.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1075">
+I also encourage you to write the program described below.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_project" effect="bold">
+
+Student programming project
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1076">
+Write a Scratch program named 
+
+<emphasis id="strong1079" effect="bold">
+Arithmetic02
+
+</emphasis>
+ that produces the output 
+shown in 
+
+<link id="a1091" target-id="Image_7">
+
+Image 7
+
+</link>
+
+ when the user adjusts the sliders to the values shown and 
+clicks the button. Make the word 
+
+<emphasis id="strong1080" effect="bold">
+Ouch!
+
+</emphasis>
+ appear and then go away 
+after about five seconds. 
+
+</para>
+
+
+
+
+
+
+
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_7" effect="bold">
+</emphasis>
+Image 7. Output from student project program named Arithmetic02.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/s00106a07.jpg" width="281" height="425"/>
+</media>
+
+
+			
+
+<caption>Image 7. Output from student project program named Arithmetic02.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1077">
+A copy of this program has been posted online for your review 
+
+<emphasis id="em1043" effect="italics">
+(see
+
+
+<link id="a1092" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named 
+
+<emphasis id="strong1081" effect="bold">
+dbal
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1078">
+I began by teaching you about operators and operands in general. I also 
+taught you about expressions and statements. I gave a very brief 
+introduction to type. 
+
+</para>
+
+
+
+
+<para id="p1079">
+I presented and explained a sample 
+Scratch program that illustrates how to use arithmetic operators in Scratch.
+
+</para>
+
+
+
+
+<para id="p1080">
+Finally, I provided the specifications for a student-programming project for 
+you to write in order to demonstrate your understanding of what you learned from 
+the first program.
+
+</para>
+
+
+
+
+<para id="p1081">
+Copies of both programs have been posted online for your review 
+
+<emphasis id="em1044" effect="italics">
+(see
+
+
+<link id="a1093" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="WhatsNext" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1082">
+This module concentrated on arithmetic operators. The next few modules 
+will deal with relational and logical operators as well as selection and loops.
+
+</para>
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1074">
+<link id="a1094" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1075">
+<link id="a1095" url="http://scratch.mit.edu/download">
+
+Scratch download page
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1076">
+<link id="a1096" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorial - Dance 
+	Tutorial
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1077">
+<link id="a1097" url="http://scratch.mit.edu/forums/">
+
+Scratch forums
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1078">
+<link id="a1098" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Son of String 
+	Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1079">
+<link id="a1099" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1080">
+<link id="a1100" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials 
+	from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1081">
+<link id="a1101" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1082">
+<link id="a1102" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+	Computer Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1083">
+<link id="a1103" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1084">
+
+	
+
+<link id="a1104" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1085">
+<link id="a1105" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+	TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1086">
+<link id="a1106" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1087">
+
+	
+
+<link id="a1107" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1088">
+
+	
+
+<link id="a1108" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1089">
+
+	
+
+<link id="a1109" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1090">
+<link id="a1110" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1091">
+<link id="a1111" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web 
+	site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1092">
+<link id="a1112" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+	Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1093">
+<link id="a1113" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1094">
+<link id="a1114" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+	project Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1095">
+<link id="a1115" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+	project Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1096">
+<link id="a1116" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+	Project Scratch Tutorial
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1097">
+<link id="a1117" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1098">
+<link id="a1118" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1099">
+<link id="a1119" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1100">
+<link id="a1120" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1101">
+<link id="a1121" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1102">
+<link id="a1122" url="http://scratch.mit.edu/projects/dbal/156614">
+
+Arithmetic01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1103">
+<link id="a1123" url="http://scratch.mit.edu/projects/dbal/156618">
+
+Arithmetic02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1083">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1082" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1017" list-type="bulleted">
+
+					
+
+<item id="li1104">
+Module name: Scr0140: Arithmetic Operators
+
+</item>
+
+
+					
+
+<item id="li1105">
+File: Scr0140.htm
+
+
+</item>
+
+
+					
+
+<item id="li1106">
+Published: 03/28/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1083" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1084">
+<emphasis id="strong1084" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1085">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1086">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1087">
+<emphasis id="strong1085" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1088">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

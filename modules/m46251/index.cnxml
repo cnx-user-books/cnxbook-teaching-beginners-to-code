@@ -1,0 +1,4733 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0350: Relational Operators in Scratch 2.0</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46251</md:content-id>
+  <md:title>Scr0350: Relational Operators in Scratch 2.0</md:title>
+  <md:abstract>The purpose of this module is to teach you how to write a Scratch program that uses the following relational operators: less than, equal to, and greater than.</md:abstract>
+  <md:uuid>b1f708fc-e4be-4920-b4c5-32e737d099b6</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="GeneralBackgroundInformation">
+
+General 
+	background information
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1004">
+<link id="a1004" target-id="Operator_categories_">
+
+Operator categories
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Preview">
+
+Preview
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="Program_operation">
+
+Program operation
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="DiscussionandSamplePrograms">
+
+Discussion and 
+	sample code
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="A_button_and_five_variables">
+
+A button and five variables
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="The_program_code">
+
+The program code
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+			
+
+<item id="li1010">
+<link id="a1010" target-id="Initialize_the_variables">
+
+Initialize the variables
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1011">
+<link id="a1011" target-id="When_the_button_is_clicked">
+
+When the button is clicked...
+
+</link>
+
+ 
+
+</item>
+
+
+			
+
+<item id="li1012">
+<link id="a1012" target-id="An_if-else_block">
+
+An if-else block
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1013">
+<link id="a1013" target-id="Need_to_put_a_conditional_clause_in_the_pocket">
+
+Need to put a conditional clause in the pocket
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1014">
+<link id="a1014" target-id="Where_are_the_blocks_with_the_correct_shape">
+
+Where are the blocks with the correct shape?
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1015">
+<link id="a1015" target-id="Will_use_blocks_from_the_Operators_group">
+
+Will use blocks from the Operators group
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1016">
+<link id="a1016" target-id="Six_blocks_have_the_correct_shape">
+
+Six blocks have the correct shape
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1017">
+<link id="a1017" target-id="Relational_operators_in_other_languages">
+
+Relational operators in other languages
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1018">
+<link id="a1018" target-id="Three_steps_at_once">
+
+Three steps at once
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1019">
+<link id="a1019" target-id="Still_need_to_complete_the_conditional_clause">
+
+Still need to complete the conditional clause
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1020">
+<link id="a1020" target-id="Complete_the_relational_expression">
+
+Complete the relational expression
+
+</link>
+
+
+</item>
+
+
+			
+
+<item id="li1021">
+<link id="a1021" target-id="Completing_the_program">
+
+Completing the program
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1022">
+<link id="a1022" target-id="A_screen_shot_of_the_program_output">
+
+A screen shot of the program output
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1023">
+<link id="a1023" target-id="Interpretation_of_the_results">
+
+Interpretation of the results
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1024">
+<link id="a1024" target-id="An_online_version_of_this_program_is_available">
+
+An online 
+		version of this program is available
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1025">
+<link id="a1025" target-id="Runtheprogram">
+
+Run the program
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1026">
+<link id="a1026" target-id="Student_programming_project">
+
+Student 
+	programming project
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+		
+
+<item id="li1027">
+<link id="a1027" target-id="Operation_of_the_program">
+
+Operation of the program
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1028">
+<link id="a1028" target-id="Summary">
+
+Summary
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1029">
+<link id="a1029" target-id="WhatsNext">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1030">
+<link id="a1030" target-id="Resources">
+
+Resources
+
+</link>
+
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1031">
+<link id="a1031" target-id="General_resources">
+
+General resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1032">
+<link id="a1032" target-id="Programs_used_in_this_series">
+
+Programs 
+		used in this collection
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1033" target-id="Miscellaneous">
+
+Miscellaneous
+	
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+<link id="a1034" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1000" effect="italics">
+(released May 9, 2013)
+
+</emphasis>
+ 
+is the second major version of Scratch to be released during the life of the 
+product. Among other things, it features a redesigned editor and website, and 
+allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module 
+
+<emphasis id="em1001" effect="italics">
+(tutorial)
+
+</emphasis>
+ is one in a collection of modules designed to help beginners of 
+all ages 
+
+<emphasis id="em1002" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for computer programs 
+using 
+
+<link id="a1035" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. Information is provided 
+not only for the beginners themselves but also for their parents and teachers 
+where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+The purpose of this module is to teach you how to write a Scratch program that uses the relational operators 
+shown below:
+
+</para>
+
+
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<code id="pre1000" display="block">&lt; (less than)
+= (equal to)
+&gt; (greater than)
+</code>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1034">
+<link id="a1036" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. Project Relational01 at startup. 
+
+</item>
+
+
+	
+
+<item id="li1035">
+<link id="a1037" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. Project Relational01 output. 
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1038" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. Reduced screen shot of program 
+	Relational01 programming interface.
+
+</item>
+
+
+	
+
+<item id="li1037">
+<link id="a1039" target-id="Image_4">
+
+Image 4
+
+</link>
+
+. Full size view of the programming panel for Relational01.
+
+</item>
+
+
+	
+
+<item id="li1038">
+<link id="a1040" target-id="Image_5">
+
+Image 5
+
+</link>
+
+. Starting to use an 
+	if-else block.
+
+</item>
+
+
+	
+
+<item id="li1039">
+<link id="a1041" target-id="Image_6">
+
+Image 6
+
+</link>
+
+. Green blocks exposed 
+	by clicking the Operators button.
+
+</item>
+
+
+	
+
+<item id="li1040">
+<link id="a1042" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. Intermediate stage in 
+	construction of if-else script.
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1043" target-id="Image_8">
+
+Image 8
+
+</link>
+
+. Screen shot of the output from the program named Relational01. 
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1044" target-id="Image_9">
+
+Image 9
+
+</link>
+
+. Screen shot of the 
+	output from the program named Relational02.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="GeneralBackgroundInformation" effect="bold">
+
+General background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1004">
+First, a quick review of material from earlier modules: 
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1043">
+<emphasis id="strong1000" effect="bold">
+Operators
+
+</emphasis>
+ are the action elements of a computer program. They 
+	perform actions such as adding two variables. 
+
+</item>
+
+
+	
+
+<item id="li1044">
+<emphasis id="strong1001" effect="bold">
+Operands
+
+</emphasis>
+ are the things that are operated on by operators. For 
+	example, variables are often the operands that are operated on by operators.
+
+</item>
+
+
+	
+
+<item id="li1045">
+An 
+
+<emphasis id="strong1002" effect="bold">
+expression
+
+</emphasis>
+ is a specific combination of operators and 
+	operands that evaluates to a particular result.
+
+</item>
+
+
+	
+
+<item id="li1046">
+A 
+
+<emphasis id="strong1003" effect="bold">
+statement
+
+</emphasis>
+ is a specific combination of expressions.
+
+</item>
+
+
+	
+
+<item id="li1047">
+The equal character (=) would commonly be called the 
+
+<emphasis id="strong1004" effect="bold">
+assignment
+
+</emphasis>
+ 
+	operator in programming languages such as Java but we will see later that it is used as a 
+
+<emphasis id="em1003" effect="italics">
+
+	relational
+
+</emphasis>
+ operator in Scratch.
+
+</item>
+
+
+	
+
+<item id="li1048">
+Scratch has two types of data 
+
+<emphasis id="em1004" effect="italics">
+(numeric and string).
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1049">
+An operator that operates on one operand is called a 
+
+<emphasis id="strong1005" effect="bold">
+unary
+
+</emphasis>
+ 
+	operator.
+
+</item>
+
+
+	
+
+<item id="li1050">
+An operator that operates on two operands is called a 
+
+<emphasis id="strong1006" effect="bold">
+binary
+
+</emphasis>
+ 
+	operator.
+
+</item>
+
+
+	
+
+<item id="li1051">
+An operator that operates on three operands is called a 
+
+<emphasis id="strong1007" effect="bold">
+ternary
+
+</emphasis>
+ 
+	operator. Scratch doesn't have any ternary operators.
+
+</item>
+
+
+	
+
+<item id="li1052">
+<emphasis id="strong1008" effect="bold">
+Binary
+
+</emphasis>
+ operators in Scratch use 
+
+<emphasis id="em1005" effect="italics">
+infix
+
+</emphasis>
+ 
+	notation. This means that the operator appears between its operands.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="Operator_categories_" effect="bold">
+
+Operator categories 
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1005">
+There are several different kinds of operators. The easiest way to study 
+them is to divide them into categories such as the following
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1053">
+arithmetic
+
+</item>
+
+
+	
+
+<item id="li1054">
+relational
+
+</item>
+
+
+	
+
+<item id="li1055">
+logical
+
+</item>
+
+
+	
+
+<item id="li1056">
+bitwise
+
+</item>
+
+
+	
+
+<item id="li1057">
+assignment
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1006">
+An earlier module explained 
+
+<emphasis id="em1006" effect="italics">
+arithmetic
+
+</emphasis>
+ operators. This module will 
+explain 
+
+<emphasis id="em1007" effect="italics">
+relational
+
+</emphasis>
+ operators. Future modules will explain the other 
+kinds of operators.
+
+</para>
+
+
+
+
+<para id="p1007">
+A previous module introduced you to the 
+
+<emphasis id="em1008" effect="italics">
+selection
+
+</emphasis>
+ structure. This 
+module will expand on that concept. 
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+In this module, I will present and explain a Scratch program named 
+
+<emphasis id="strong1009" effect="bold">
+
+Relational01
+
+</emphasis>
+. This program illustrates the use of the following 
+
+
+<emphasis id="relational_operators" effect="bold">
+
+relational operators
+
+</emphasis>
+
+:
+
+</para>
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1001" display="block">
+&lt; (less than)
+= (equal to)
+&gt; (greater than)
+</code>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+<para id="p1009">
+The program creates five variables with the names listed below along with a button and displays 
+them on the Stage 
+
+<emphasis id="as_shown" effect="bold">
+
+as shown
+
+</emphasis>
+
+ in 
+
+<link id="a1045" target-id="Image_1">
+
+Image 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1058">
+LeftOperand - a slider
+
+</item>
+
+
+	
+
+<item id="li1059">
+RightOperand - a slider
+
+</item>
+
+
+	
+
+<item id="li1060">
+LessThan
+
+</item>
+
+
+	
+
+<item id="li1061">
+Equals
+
+</item>
+
+
+	
+
+<item id="li1062">
+GreaterThan
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_1" effect="bold">
+</emphasis>
+Image 1. Project Relational01 at startup.
+</title>
+
+
+
+
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0350-a.jpg" width="527" height="436"/>
+</media>
+
+
+
+
+<caption>Image 1. Project Relational01 at startup.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1010">
+<link id="a1046" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ is what you should see on the left side of your screen when you 
+navigate to the project 
+
+<emphasis id="em1009" effect="italics">
+(see 
+
+<link id="a1047" target-id="Resources">
+
+Resources
+
+</link>
+
+)
+
+</emphasis>
+ and 
+click the large green flag. Note the values showing in each of the orange boxes. 
+I will have more to say about them later.
+
+</para>
+
+
+
+
+<para id="p1011">
+<link id="a1048" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ shows the result of moving the thumb on the top slider one click to 
+the left 
+
+<emphasis id="em1010" effect="italics">
+(move to -1)
+
+</emphasis>
+ and then clicking the button at the bottom. Once 
+again, note the values showing in the orange boxes, which I will have more to 
+say about later.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_2" effect="bold">
+</emphasis>
+Image 2. Project Relational01 output.
+</title>
+
+
+
+
+
+<media id="media1001" alt="Missing image" display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0350-b.jpg" width="528" height="437"/>
+</media>
+
+
+<caption>Image 2. Project Relational01 output.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<para id="p1012">
+<link id="a1049" target-id="Image_3">
+
+Image 3
+
+</link>
+
+ shows a reduced view of the programming interface immediately 
+after having clicked the green flag. Although it is not easy to see, the 
+variables on the stage match 
+
+<link id="a1050" target-id="Image_1">
+
+Image 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_3" effect="bold">
+</emphasis>
+Image 3.   Reduced screen shot of program Relational01 programming interface.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1002" alt="Missing image" display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/scr0350-c.jpg" width="772" height="601"/>
+</media>
+
+
+			
+
+<caption>Image 3.   Reduced screen shot of program Relational01 programming interface.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+<section id="h21002">
+<title>
+<emphasis id="Program_operation" effect="bold">
+
+Program operation
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+When the user clicks the green flag, the values of the slider variables shown in
+
+
+<link id="a1051" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ are set to 0. Expressions containing relational 
+operators are evaluated to set the values of the bottom three variables to the 
+boolean values of true or false.
+
+</para>
+
+
+
+
+<para id="p1014">
+The user slides the two sliders to change the values of 
+
+<emphasis id="strong1010" effect="bold">
+LeftOperand
+
+</emphasis>
+ and
+
+
+<emphasis id="strong1011" effect="bold">
+RightOperand
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1015">
+When the user clicks the button at the bottom of 
+
+<link id="a1052" target-id="Image_1">
+
+Image 1
+
+</link>
+
+, three separate event handlers on the button 
+test the left operand against the right operand for 
+
+<emphasis id="em1011" effect="italics">
+less than
+
+</emphasis>
+, 
+
+<emphasis id="em1012" effect="italics">
+equal 
+to
+
+</emphasis>
+, and 
+
+<emphasis id="em1013" effect="italics">
+greater than
+
+</emphasis>
+ and display string values describing the results in the three variables 
+having the corresponding names in 
+
+<link id="a1053" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ and 
+
+
+<link id="a1054" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. Those three event handlers are 
+shown as the bottom three scripts in the programming panel of
+
+
+<link id="a1055" target-id="Image_3">
+
+Image 3
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11004">
+<title>
+<emphasis id="DiscussionandSamplePrograms" effect="bold">
+
+
+</emphasis>
+
+Discussion and sample code
+
+</title>
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="A_button_and_five_variables" effect="bold">
+
+A button and five variables
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1016">
+As you can immediately below the stage in 
+
+<link id="a1056" target-id="Image_3">
+
+
+Image 3
+
+</link>
+
+, a button was added to this program. If you examine the toolbox 
+and the stage in 
+
+<link id="a1057" target-id="Image_3">
+
+Image 3
+
+</link>
+
+, 
+you will see that five variables were created for the program and that all five 
+of the variables were displayed in the Stage. 
+
+<emphasis id="em1014" effect="italics">
+
+(The checkboxes for all five variables were checked causing them to appear in 
+the Stage.) 
+
+</emphasis>
+A better view of the Stage is provided in
+
+
+<link id="a1058" target-id="Image_1">
+
+Image 1
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1017">
+The names of the five variables were listed
+
+
+<link id="a1059" target-id="as_shown">
+
+above
+
+</link>
+
+. By this point, 
+you should have no difficulty creating variables and causing them to be 
+displayed in the Stage, so no further explanation of this aspect of the project should be necessary.
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="The_program_code" effect="bold">
+
+The program code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1018">
+<link id="a1060" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ shows a full-size view of 
+the programming panel in 
+
+<link id="a1061" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. This 
+panel contains the program code associated with the button.
+
+</para>
+
+
+
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_4" effect="bold">
+</emphasis>
+Image 4. Full size view of the programming panel for Relational01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/scr0350-d.jpg" width="418" height="754"/>
+</media>
+
+
+			
+
+<caption>Image 4. Full size view of the programming panel for Relational01.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="Initialize_the_variables" effect="bold">
+
+Initialize the variables
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+The top script in 
+
+<link id="a1062" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ 
+initializes the values of the variables named 
+
+<emphasis id="strong1012" effect="bold">
+LeftOperand
+
+</emphasis>
+ and
+
+
+<emphasis id="strong1013" effect="bold">
+RightOperand
+
+</emphasis>
+ to zero.
+
+</para>
+
+
+
+
+<para id="p1020">
+Then it uses relational operators to evaluate three relational expressions in 
+sequence. The results of evaluating those expressions are 
+
+<emphasis id="strong1014" effect="bold">
+boolean
+
+</emphasis>
+ 
+values 
+
+<emphasis id="em1015" effect="italics">
+(true or false). 
+
+</emphasis>
+Those values are used to initialize the values 
+of the variables named 
+
+<emphasis id="strong1015" effect="bold">
+Equals
+
+</emphasis>
+, 
+
+<emphasis id="strong1016" effect="bold">
+GreaterThan
+
+</emphasis>
+, 
+and 
+
+<emphasis id="strong1017" effect="bold">
+LessThan
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1021">
+The relational expressions are constructed by dropping the orange variable 
+names on either side of the 
+
+<link id="a1063" target-id="relational_operators">
+
+relational operators
+
+</link>
+
+ 
+in the green blocks with the pointed ends.
+
+</para>
+
+
+
+
+<para id="p1022">
+<link id="a1064" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ shows the results of evaluating those expressions. When both operands 
+have a value of zero, the results are: 
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1063">
+LessThan = false
+
+</item>
+
+
+	
+
+<item id="li1064">
+Equals = true
+
+</item>
+
+
+	
+
+<item id="li1065">
+GreaterThan = false
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="When_the_button_is_clicked" effect="bold">
+
+When the button is clicked
+
+</emphasis>
+
+...
+
+</title>
+
+
+
+
+<para id="p1023">
+Each of the bottom three scripts in 
+
+<link id="a1065" target-id="Image_4">
+
+
+Image 4
+
+</link>
+
+ are executed when the user clicks the button in the Stage area in
+
+
+<link id="a1066" target-id="Image_3">
+
+Image 3
+
+</link>
+
+. These three scripts are 
+very similar. However, they use three different 
+
+<emphasis id="em1016" effect="italics">
+relational operators
+
+</emphasis>
+ to 
+compare the values of the left and right operands and they set the values in 
+three different output variables accordingly.
+
+</para>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="An_if-else_block" effect="bold">
+
+An if-else block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1024">
+I will walk you through the construction of one of the bottom three scripts 
+shown in 
+
+<link id="a1067" target-id="Image_4">
+
+Image 4
+
+</link>
+
+ with a 
+detailed explanation of each step in the process. You should be able to 
+extend that explanation to the other two scripts.
+
+</para>
+
+
+
+
+<para id="p1025">
+<link id="a1068" target-id="Image_5">
+
+Image 5
+
+</link>
+
+ shows the result of 
+
+</para>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1066">
+Selecting the 
+
+<emphasis id="strong1018" effect="bold">
+button
+
+</emphasis>
+ sprite immediately below the stage 
+	in
+	
+
+<link id="a1069" target-id="Image_3">
+
+Image 3
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1067">
+Selecting the 
+
+<emphasis id="strong1019" effect="bold">
+Events
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1068">
+Dragging the block labeled 
+
+<emphasis id="strong1020" effect="bold">
+when this sprite clicked
+
+</emphasis>
+ into the 
+	programming panel.
+
+</item>
+
+
+	
+
+<item id="li1069">
+Selecting the 
+
+<emphasis id="strong1021" effect="bold">
+Control
+
+</emphasis>
+ toolbox.
+
+</item>
+
+
+	
+
+<item id="li1070">
+Dragging an 
+
+<emphasis id="strong1022" effect="bold">
+if-else
+
+</emphasis>
+ block from the toolbox into the programming 
+	panel.
+
+</item>
+
+
+	
+
+<item id="li1071">
+Connecting the 
+
+<emphasis id="strong1023" effect="bold">
+if-else
+
+</emphasis>
+ block to the block that is labeled
+	
+
+<emphasis id="strong1024" effect="bold">
+when this sprite clicked
+
+</emphasis>
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<quote id="blockquote1000" display="block">
+<emphasis id="em1017" effect="italics">
+By the way, in case I forgot to tell you before, you can set the 
+name of the sprite to 
+
+</emphasis>
+ 
+
+<emphasis id="strong1025" effect="bold">
+<emphasis id="em1018" effect="italics">
+button
+
+</emphasis>
+</emphasis>
+<emphasis id="em1019" effect="italics">
+ by selecting the 
+	
+
+</emphasis>
+ 
+
+<emphasis id="strong1026" effect="bold">
+<emphasis id="em1020" effect="italics">
+Costumes
+
+</emphasis>
+</emphasis>
+<emphasis id="em1021" effect="italics">
+ tab 
+	above the toolbox selector panel and entering the name in the text field.
+
+</emphasis>
+
+
+
+</quote>
+
+
+
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_5" effect="bold">
+</emphasis>
+Image 5. Starting to use an if-else block.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/scr0350-e.jpg" width="439" height="719"/>
+</media>
+
+
+			
+
+<caption>Image 5. Starting to use an if-else block.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21008">
+<title>
+<emphasis id="Need_to_put_a_conditional_clause_in_the_pocket" effect="bold">
+
+Need to put a 
+conditional clause in the pocket
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+Note the depressed pocket immediately to the right of the word 
+
+<emphasis id="strong1027" effect="bold">
+if
+
+</emphasis>
+ on 
+the 
+
+<emphasis id="strong1028" effect="bold">
+if-else
+
+</emphasis>
+ block. We must drop another block of the correct shape 
+into this pocket. The code in that block must evaluate to either true or 
+false. 
+
+</para>
+
+
+
+
+<para id="p1027">
+If that code evaluates to true, the code that we will insert into 
+the mouth of the block immediately below the word 
+
+<emphasis id="strong1029" effect="bold">
+if
+
+</emphasis>
+ will be executed. 
+
+
+</para>
+
+
+
+
+<para id="p1028">
+If the code that we drop into the pocket evaluates to false, the code that we 
+insert into the mouth of the block immediately below the word 
+
+<emphasis id="strong1030" effect="bold">
+else
+
+</emphasis>
+ will 
+be executed.
+
+</para>
+
+
+
+
+</section>
+<section id="h21009">
+<title>
+<emphasis id="Where_are_the_blocks_with_the_correct_shape" effect="bold">
+
+Where are the blocks 
+with the correct shape?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+There are two buttons 
+
+<emphasis id="em1022" effect="italics">
+(possibly more)
+
+</emphasis>
+ that we can click in the upper left in
+
+
+<link id="a1070" target-id="Image_5">
+
+Image 5
+
+</link>
+
+ that will expose blocks with 
+shapes matching the pocket immediately to the right of the word 
+
+<emphasis id="strong1031" effect="bold">
+if
+
+</emphasis>
+ in
+
+
+<link id="a1071" target-id="Image_5">
+
+Image 5
+
+</link>
+
+:
+
+</para>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1072">
+Sensing
+
+</item>
+
+
+	
+
+<item id="li1073">
+Operators
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21010">
+<title>
+<emphasis id="Will_use_blocks_from_the_Operators_group" effect="bold">
+
+Will use blocks from the 
+Operators group
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1030">
+In this module, we will use three of the blocks that are exposed by clicking 
+the green 
+
+<emphasis id="strong1032" effect="bold">
+Operators
+
+</emphasis>
+ button as shown in
+
+
+<link id="a1072" target-id="Image_6">
+
+Image 6
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_6" effect="bold">
+</emphasis>
+Image 6. Green blocks exposed by clicking the Operators button.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/scr0350-f.jpg" width="443" height="690"/>
+</media>
+
+
+			
+
+<caption>Image 6. Green blocks exposed by clicking the Operators button.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21011">
+<title>
+<emphasis id="Six_blocks_have_the_correct_shape" effect="bold">
+
+Six blocks have the correct 
+shape
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1031">
+As you can see in 
+
+<link id="a1073" target-id="Image_6">
+
+Image 6
+
+</link>
+
+, there are 
+six blocks of the correct shape exposed by clicking the 
+
+<emphasis id="strong1033" effect="bold">
+Operators
+
+</emphasis>
+ button. 
+Those blocks are identified as follows:
+
+</para>
+
+
+
+
+
+
+
+	
+
+<note id="note1002" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1002" display="block">
+&lt; (less than)
+= (equal to)
+&gt; (greater than)
+and
+or
+not
+</code>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+<para id="p1032">
+We will refer to the first three blocks above as 
+
+<emphasis id="strong1034" effect="bold">
+
+
+
+<emphasis id="em1023" effect="italics">
+relational 
+operators
+
+</emphasis>
+</emphasis>
+. 
+
+<emphasis id="em1024" effect="italics">
+(They are used to evaluate the relationship between two 
+values.)
+
+</emphasis>
+ We will refer to the other three blocks in the above list as 
+
+
+<emphasis id="strong1035" effect="bold">
+<emphasis id="em1025" effect="italics">
+logical operators
+
+</emphasis>
+</emphasis>
+, and will deal with them in a future module.
+
+</para>
+
+
+
+
+</section>
+<section id="h21012">
+<title>
+<emphasis id="Relational_operators_in_other_languages" effect="bold">
+
+Relational operators in 
+other languages
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+Many other modern 
+programming languages also include the following three relational operators:
+
+</para>
+
+
+
+
+
+
+
+
+	
+
+<note id="note1003" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1003" display="block">&gt;= (greater than or equal)
+&lt;= (less than or equal)
+!= (not equal)</code>
+
+
+
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+<para id="p1034">
+Although these operators are a great convenience, they are not 
+essential. We can get by with only the three that are provided by Scratch.
+
+</para>
+
+
+
+
+<para id="p1035">
+Also, in many other programming languages, a pair of equal characters (==) is used for the 
+
+<emphasis id="em1026" effect="italics">
+
+"equal to"
+
+</emphasis>
+ 
+operator instead of the single equal character (=) used in Scratch.
+
+</para>
+
+
+
+
+</section>
+<section id="h21013">
+<title>
+<emphasis id="Three_steps_at_once" effect="bold">
+
+Three steps at once
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1036">
+<link id="a1074" target-id="Image_7">
+
+Image 7
+
+</link>
+
+ shows the result of three more steps in the development of the program:
+
+</para>
+
+
+
+
+<list id="ol1000" list-type="enumerated">
+
+	
+
+<item id="li1074">
+Dragging the green 
+
+<emphasis id="strong1036" effect="bold">
+less than
+
+</emphasis>
+ 
+
+<emphasis id="em1027" effect="italics">
+(indicated by a left angle 
+	bracket)
+
+</emphasis>
+ block and dropping it into the 
+	pocket immediately to the right of the word 
+
+<emphasis id="strong1037" effect="bold">
+if
+
+</emphasis>
+.
+
+</item>
+
+
+	
+
+<item id="li1075">
+Dragging the orange block labeled 
+
+<emphasis id="strong1038" effect="bold">
+set...to
+
+</emphasis>
+ for the variable named 
+
+<emphasis id="strong1039" effect="bold">
+LessThan
+
+</emphasis>
+ and 
+	inserting it immediately below the word 
+
+<emphasis id="strong1040" effect="bold">
+if
+
+</emphasis>
+. I also set its literal 
+	value to "Less than is true".
+
+</item>
+
+
+	
+
+<item id="li1076">
+Dragging another copy of the orange block labeled 
+
+<emphasis id="strong1041" effect="bold">
+set...to
+
+</emphasis>
+ for the variable named 
+
+<emphasis id="strong1042" effect="bold">
+LessThan
+
+</emphasis>
+ and 
+	inserting it immediately below the word 
+	
+
+<emphasis id="strong1043" effect="bold">
+else
+
+</emphasis>
+. 
+
+<emphasis id="em1028" effect="italics">
+I also set its literal value to "Less than is false".
+
+</emphasis>
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_7" effect="bold">
+</emphasis>
+Image 7. Intermediate stage in construction of if-else script.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1006" alt="Missing image" display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/scr0350-g.jpg" width="477" height="681"/>
+</media>
+
+
+<caption>Image 7. Intermediate stage in construction of if-else script.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21014">
+<title>
+<emphasis id="Still_need_to_complete_the_conditional_clause" effect="bold">
+
+Still need to 
+complete the conditional clause
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+The script in 
+
+<link id="a1075" target-id="Image_7">
+
+Image 7
+
+</link>
+
+ includes the 
+action to be taken if the relational expression following the word 
+
+<emphasis id="strong1044" effect="bold">
+if
+
+</emphasis>
+ 
+evaluates to true. It also includes the action to be taken if the 
+relational expression evaluates to false. 
+
+<emphasis id="em1029" effect="italics">
+(This relational expression 
+is often referred to as a conditional clause.)
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1038">
+However, we still 
+haven't completed the conditional clause in 
+
+<link id="a1076" target-id="Image_7">
+
+
+Image 7
+
+</link>
+
+. We don't want to test for the relationship between the 
+literal values blank and blank as shown in 
+
+<link id="a1077" target-id="Image_7">
+
+Image 7
+
+</link>
+
+. 
+Instead we want to test the relationship between the values of the variables 
+named 
+
+<emphasis id="strong1045" effect="bold">
+LeftOperand
+
+</emphasis>
+ and 
+
+<emphasis id="strong1046" effect="bold">
+RightOperand
+
+</emphasis>
+ as shown in the corresponding 
+script in 
+
+<link id="a1078" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21015">
+<title>
+<emphasis id="Complete_the_relational_expression" effect="bold">
+
+Complete the relational 
+expression
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1039">
+The next and final step for constructing this script is to:
+
+</para>
+
+
+
+
+<list id="ul1016" list-type="bulleted">
+
+	
+
+<item id="li1077">
+Click the 
+
+<emphasis id="strong1047" effect="bold">
+Data
+
+</emphasis>
+ button to expose the variables as shown in
+	
+
+<link id="a1079" target-id="Image_3">
+
+Image 3
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1078">
+Drag the block for the variable named 
+
+<emphasis id="strong1048" effect="bold">
+LeftOperand
+
+</emphasis>
+ and drop it in 
+	the white box immediately to the left of the left angle bracket operator in
+	
+
+<link id="a1080" target-id="Image_7">
+
+Image 7
+
+</link>
+
+.
+
+</item>
+
+
+	
+
+<item id="li1079">
+Drag the block for the variable named 
+
+<emphasis id="strong1049" effect="bold">
+RightOperand
+
+</emphasis>
+ and drop it in 
+	the white box immediately to the right of the left angle bracket operator in
+	
+
+<link id="a1081" target-id="Image_7">
+
+Image 7
+
+</link>
+
+.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1040">
+Once we do that, we will have finished the construction of the second script 
+from the top in 
+
+<link id="a1082" target-id="Image_4">
+
+Image 4
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21016">
+<title>
+<emphasis id="Completing_the_program" effect="bold">
+
+Completing the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1041">
+Following that, we need to go through essentially the same process to 
+construct the bottom two scripts in 
+
+<link id="a1083" target-id="Image_4">
+
+Image 4
+
+</link>
+
+, 
+using the other two relational operators in 
+
+<link id="a1084" target-id="Image_6">
+
+
+Image 6
+
+</link>
+
+ along with the variables named 
+
+<emphasis id="strong1050" effect="bold">
+LeftOperand
+
+</emphasis>
+ and
+
+
+<emphasis id="strong1051" effect="bold">
+RightOperand
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h21017">
+<title>
+<emphasis id="A_screen_shot_of_the_program_output" effect="bold">
+
+A screen shot of the program 
+output
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+<link id="a1085" target-id="Image_8">
+
+Image 8
+
+</link>
+
+ shows a screen shot of the 
+Stage for a given set of values for the variables 
+named 
+
+<emphasis id="strong1052" effect="bold">
+LeftOperand
+
+</emphasis>
+ and 
+
+<emphasis id="strong1053" effect="bold">
+RightOperand
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+
+
+<figure id="figure1007" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_8" effect="bold">
+</emphasis>
+Image 8. Screen shot of the output from the program named Relational01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1007" alt="Missing image." display="block">
+<image id="img1007" mime-type="image/jpeg" src="../../media/scr0350-h.jpg" width="485" height="438"/>
+</media>
+
+
+			
+
+<caption>Image 8. Screen shot of the output from the program named Relational01.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h21018">
+<title>
+<emphasis id="Interpretation_of_the_results" effect="bold">
+
+Interpretation of the results
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1043">
+The text showing in the bottom three variables tells us that for these 
+values, the relationships among the values are as follows:
+
+</para>
+
+
+
+
+<para id="p1044">
+The value of the left operand (-4) is less than the value of the right operand (2).
+
+</para>
+
+
+
+
+<para id="p1045">
+The value of the left operand (-4) is not equal to the value of the right operand (2).
+
+</para>
+
+
+
+
+<para id="p1046">
+The value of the left operand (-4) is not greater than the value of the right operand (2).
+
+</para>
+
+
+
+
+<para id="p1047">
+If you move the sliders to change the values in the left and right operand 
+variables and then click the button, you are likely to get different results.
+
+</para>
+
+
+
+
+</section>
+<section id="h21019">
+<title>
+<emphasis id="An_online_version_of_this_program_is_available" effect="bold">
+
+An online version 
+of this program is available
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1048">
+A copy of this program has been posted online for your review 
+
+<emphasis id="em1030" effect="italics">
+(see
+
+
+<link id="a1086" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named 
+
+<emphasis id="strong1054" effect="bold">
+dbal
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Runtheprogram" effect="bold">
+
+
+</emphasis>
+
+Run the program
+
+</title>
+
+
+
+
+<para id="p1049">
+I encourage you to use the information provided above to write this program. 
+Experiment with the code, making changes, and observing the results of your 
+changes. Make certain that you can explain why your changes behave as they 
+do.
+
+</para>
+
+
+
+
+<para id="p1050">
+Just for fun, see if you cause a short drum roll to be produced by your 
+computer speakers each time the button is clicked. 
+
+</para>
+
+
+
+
+<para id="p1051">
+I also encourage you to write the program described below.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_project" effect="bold">
+
+Student programming project
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1052">
+Write a project named 
+
+<emphasis id="em1031" effect="italics">
+<emphasis id="strong1055" effect="bold">
+Relational02
+
+</emphasis>
+ 
+
+</emphasis>
+that meets the following specifications:
+
+</para>
+
+
+
+
+<para id="p1053">
+This program illustrates the use of the following 
+
+
+<emphasis id="em1032" effect="italics">
+relational operators
+
+</emphasis>
+ in addition to arithmetic operators:
+
+</para>
+
+
+
+
+
+
+
+	
+
+<note id="note1004" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1004" display="block">
+&lt; (less than)
+= (equal to)
+&gt; (greater than)
+</code>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+<para id="p1054">
+This is an upgrade to the program named 
+
+<emphasis id="strong1056" effect="bold">
+Relational01
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1055">
+The program creates the following six variables and a button and displays 
+them on the stage as shown in 
+
+<link id="a1087" target-id="Image_9">
+
+Image 9
+
+</link>
+
+:
+
+</para>
+
+
+
+
+<list id="ul1017" list-type="bulleted">
+
+	
+
+<item id="li1080">
+LeftOperand - a slider
+
+</item>
+
+
+	
+
+<item id="li1081">
+RightOperand - a slider
+
+</item>
+
+
+	
+
+<item id="li1082">
+Offset - a slider
+
+</item>
+
+
+	
+
+<item id="li1083">
+LessThan
+
+</item>
+
+
+	
+
+<item id="li1084">
+Equals
+
+</item>
+
+
+	
+
+<item id="li1085">
+GreaterThan
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+
+<figure id="figure1008" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_9" effect="bold">
+</emphasis>
+Image 9. Screen shot of the output from the program named Relational02.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+			
+
+
+			
+
+<media id="media1008" alt="Missing image." display="block">
+<image id="img1008" mime-type="image/jpeg" src="../../media/scr0350-i.jpg" width="548" height="580"/>
+</media>
+
+
+			
+
+<caption>Image 9. Screen shot of the output from the program named Relational02.</caption>
+</figure>
+
+		
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h21020">
+<title>
+<emphasis id="Operation_of_the_program" effect="bold">
+
+Operation of the program
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1056">
+When the user clicks the green flag, the values of all six variables shown in
+
+
+<link id="a1088" target-id="Image_9">
+
+Image 9
+
+</link>
+
+ are 
+set to 0.
+
+</para>
+
+
+
+
+<para id="p1057">
+The user slides the three sliders to set the values of 
+
+<emphasis id="strong1057" effect="bold">
+LeftOperand
+
+</emphasis>
+, 
+
+<emphasis id="strong1058" effect="bold">
+
+RightOperand
+
+</emphasis>
+, and 
+
+<emphasis id="strong1059" effect="bold">
+Offset
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+<para id="p1058">
+When the user clicks the button, three separate event handlers on the button 
+test the 
+
+<emphasis id="em1033" effect="italics">
+sum of the left operand and the offset
+
+</emphasis>
+ against the right operand 
+for 
+
+<emphasis id="em1034" effect="italics">
+less than
+
+</emphasis>
+, 
+
+<emphasis id="em1035" effect="italics">
+equal to
+
+</emphasis>
+, and 
+
+<emphasis id="em1036" effect="italics">
+greater than
+
+</emphasis>
+ and display the results in the three 
+variables having the corresponding names as either true or false. 
+
+</para>
+
+
+
+
+<para id="p1059">
+Make sure that your output matches the output shown in
+
+
+<link id="a1089" target-id="Image_9">
+
+Image 9
+
+</link>
+
+ for the slider values shown in
+
+
+<link id="a1090" target-id="Image_9">
+
+Image 9
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1060">
+A copy of this program has been posted online for your review 
+
+<emphasis id="em1037" effect="italics">
+(see
+
+
+<link id="a1091" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1061">
+I began by providing a brief review of material from previous modules.
+
+</para>
+
+
+
+
+<para id="p1062">
+Then I presented and explained the detailed steps required to write a Scratch 
+program that uses the following relational operators: 
+
+</para>
+
+
+
+
+
+
+
+
+	
+
+<note id="note1005" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+
+
+
+<code id="pre1005" display="block">
+&lt; (less than)
+= (equal to)
+&gt; (greater than)
+</code>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+	
+
+
+
+
+
+<para id="p1063">
+Finally, I provided the specifications for a student-programming project for 
+you to demonstrate your understanding of what you learned from the first program 
+and from earlier modules.
+
+</para>
+
+
+
+
+<para id="p1064">
+Copies of both programs have been posted online for your review 
+
+<emphasis id="em1038" effect="italics">
+(see
+
+
+<link id="a1092" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the URL)
+
+</emphasis>
+. If 
+you don't find the program using that URL, search the Scratch site for the user 
+named dbal.
+
+</para>
+
+
+
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="WhatsNext" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1065">
+The previous module concentrated on 
+
+<emphasis id="em1039" effect="italics">
+arithmetic
+
+</emphasis>
+ operators. This 
+module explained the use of 
+
+<emphasis id="em1040" effect="italics">
+relational
+
+</emphasis>
+ operators. The next module 
+will explain the use of 
+
+<emphasis id="em1041" effect="italics">
+logical
+
+</emphasis>
+ operators. Future modules using the 
+Scratch programming language will continue to deal with 
+
+<emphasis id="em1042" effect="italics">
+selection
+
+</emphasis>
+ and 
+will also deal with 
+
+<emphasis id="em1043" effect="italics">
+loops
+
+</emphasis>
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21021">
+<title>
+<emphasis id="General_resources" effect="bold">
+
+General resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1018" list-type="bulleted">
+
+	
+
+<item id="li1086">
+<link id="a1093" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1087">
+<link id="a1094" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1088">
+<link id="a1095" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1089">
+<link id="a1096" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials from 
+MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1090">
+<link id="a1097" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+Scratch 
+tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1091">
+<link id="a1098" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding Computer 
+Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1092">
+<link id="a1099" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1093">
+
+	
+
+<link id="a1100" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1094">
+<link id="a1101" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1095">
+<link id="a1102" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1096">
+
+	
+
+<link id="a1103" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1097">
+
+	
+
+<link id="a1104" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1098">
+
+	
+
+<link id="a1105" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1099">
+<link id="a1106" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+Tutorial 
+about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1100">
+<link id="a1107" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1101">
+<link id="a1108" url="http://www.scratch.ie/resources">
+
+Scratch resources at Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1102">
+<link id="a1109" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1103">
+<link id="a1110" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch project 
+Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1104">
+<link id="a1111" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch project 
+Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1105">
+<link id="a1112" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch Project 
+Scratch Tutorial
+
+</link>
+
+ 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21022">
+<title>
+<emphasis id="Programs_used_in_this_series" effect="bold">
+
+Programs used in this collection
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1019" list-type="bulleted">
+
+	
+
+<item id="li1106">
+<link id="a1113" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - Online 
+version of program
+
+</item>
+
+
+	
+
+<item id="li1107">
+<link id="a1114" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - Online 
+version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1108">
+<link id="a1115" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - Online 
+version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1109">
+<link id="a1116" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - Online 
+version of program
+
+</item>
+
+
+	
+
+<item id="li1110">
+<link id="a1117" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1111">
+<link id="a1118" url="http://scratch.mit.edu/projects/dbal/156614">
+
+Arithmetic01
+
+</link>
+
+ - 
+Online version of program
+
+</item>
+
+
+	
+
+<item id="li1112">
+<link id="a1119" url="http://scratch.mit.edu/projects/dbal/156618">
+
+Arithmetic02
+
+</link>
+
+ - 
+Online version of student programming project
+
+</item>
+
+
+	
+
+<item id="li1113">
+<link id="a1120" url="http://scratch.mit.edu/projects/dbal/158029">
+
+Relational01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1114">
+<link id="a1121" url="http://scratch.mit.edu/projects/dbal/158030">
+
+Relational02
+
+</link>
+
+ - 
+	Online version of student programming project
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1066">
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1067">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1006" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1060" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1020" list-type="bulleted">
+
+					
+
+<item id="li1115">
+Module name: Scr0350: Relational Operators in Scratch 
+					2.0
+
+</item>
+
+
+					
+
+<item id="li1116">
+File: Scr0350.htm
+
+
+</item>
+
+
+					
+
+<item id="li1117">
+Published:05/16/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1007" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1061" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1068">
+<emphasis id="strong1062" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1069">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1070">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1071">
+<emphasis id="strong1063" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1072">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

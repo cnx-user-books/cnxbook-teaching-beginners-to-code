@@ -1,0 +1,2133 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0310: Getting Started with Scratch 2.0</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46213</md:content-id>
+  <md:title>Scr0310: Getting Started with Scratch 2.0</md:title>
+  <md:abstract>The purpose of this module is to get you started programming in Scratch 2.0.</md:abstract>
+  <md:uuid>644024c4-abb9-4f63-890f-380cd3a29ebc</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Lets_have_some_fun_in_the_process_of_learning">
+
+Let's have some fun in the process of learning
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1002">
+<link id="a1002" target-id="Fully_interactive_operating_mode">
+
+Fully interactive operating mode
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1003">
+<link id="a1003" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1004">
+<link id="a1004" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="No_computer_setup_required">
+
+No computer setup required
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1006">
+<link id="a1006" target-id="Screen_size_requirements">
+
+Screen size requirements
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1007">
+<link id="a1007" target-id="Create_a_new_project">
+
+Create a new project
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1008">
+<link id="a1008" target-id="Follow_the_steps">
+
+Follow the steps
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1009">
+<link id="a1009" target-id="Examine_the_Tips">
+
+Examine the Tips
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1010">
+<link id="a1010" target-id="View_the_tutorials">
+
+View the tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1011">
+<link id="a1011" target-id="Will_concentrate_on_the_fundamentals">
+
+Will concentrate on the fundamentals
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1012">
+<link id="a1012" target-id="Drag_and_drop_programming">
+
+Drag and drop programming
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+		
+
+<item id="li1013">
+<link id="a1013" target-id="Mechanics_are_difficult_to_explain">
+
+Mechanics are difficult to explain
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1014">
+<link id="a1014" target-id="Advantages_and_disadvantages">
+
+Advantages and disadvantages
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+	
+
+<item id="li1015">
+<link id="a1015" target-id="Run_some_student_projects">
+
+Run some student projects
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1016">
+<link id="a1016" target-id="Open_the_Help_page">
+
+Open the Help page
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1017">
+<link id="a1017" target-id="Whats_Next">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1018">
+<link id="a1018" target-id="Resources">
+
+Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1019">
+<link id="a1019" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+<link id="a1020" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1000" effect="italics">
+(released May 9, 2013)
+
+</emphasis>
+ 
+is the second major version of Scratch to be released during the life of the 
+product. Among other things, it features a redesigned editor and website, and 
+allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module is one in a collection of modules designed to help beginners of 
+all ages 
+
+<emphasis id="em1001" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for computer programs 
+using 
+
+<link id="a1021" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. Information is provided 
+not only for the beginners themselves but also for their parents and teachers 
+where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+The purpose of this module is to get you started programming in
+
+
+<link id="a1022" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Lets_have_some_fun_in_the_process_of_learning" effect="bold">
+
+Let's have some fun 
+in the process of learning
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1003">
+Scratch was originally designed to be a good learning resource. It was also 
+designed to help students learn to program and to have fun at the same time. After all, if you and/or your students 
+are going to invest the time to learn how to write computer programs, you might as well have a 
+little fun along the way. 
+
+</para>
+
+
+
+
+<para id="p1004">
+I suggest that you go to the
+
+
+<link id="a1023" url="http://scratch.mit.edu/">
+
+Scratch home page
+
+</link>
+
+ and the
+
+
+<link id="a1024" url="http://scratch.mit.edu/explore/?date=ever">
+
+Explore page
+
+</link>
+
+ and click on a few 
+projects to see what I mean. Just keep in mind that many of the projects 
+that you will find there were written by youngsters and may or may not work 
+as advertised.
+
+</para>
+
+
+
+
+<para id="p1005">
+One of my favorite Scratch projects is named
+
+
+<link id="a1025" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Son of String Art
+
+</link>
+
+
+
+
+<emphasis id="em1002" effect="italics">
+(hopefully it is still there).
+
+</emphasis>
+ You should be able 
+to click on the little yellow shapes in the green buttons at the top of the 
+viewing area and see your shape constructed with strings resembling the string 
+art of the sixties.
+
+</para>
+
+
+
+
+</section>
+<section id="h21001">
+<title>
+<emphasis id="Fully_interactive_operating_mode" effect="bold">
+
+Fully interactive operating mode
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1006">
+Note the use of the word 
+
+<emphasis id="em1003" effect="italics">
+interactive
+
+</emphasis>
+ in the above header. What you 
+will see when you select a Scratch project on the MIT website isn't simply a 
+passive embedded video like you might see at
+
+
+<link id="a1026" url="http://www.youtube.com/watch?v=4YoGkwV7D9c">
+
+YouTube
+
+</link>
+
+ or
+
+
+<link id="a1027" url="http://vimeo.com/57551765">
+
+Vimeo
+
+</link>
+
+. Instead it is a fully 
+interactive program that allows you to control the program by clicking buttons, 
+etc., provided of course that the program was written to be used in an 
+interactive mode.
+
+</para>
+
+
+	
+
+</section>
+<section id="h21002">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<para id="p1007">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images 
+and listings while you are reading about them.
+
+</para>
+
+
+	
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+	
+
+<list id="ul1005" list-type="bulleted">
+
+		
+
+<item id="li1020">
+<link id="a1028" target-id="Image_1">
+
+Image 1
+
+</link>
+
+. Step-by-Step Intro.
+
+</item>
+
+
+		
+
+<item id="li1021">
+<link id="a1029" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. The Tips pane.
+
+</item>
+
+
+
+
+	
+
+</list>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="No_computer_setup_required" effect="bold">
+
+No computer setup required
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+I 
+explained quite a bit about Scratch in the earlier module titled
+
+
+<link url="/content/m46204/latest/?collection=col11498/latest" id="a1030">
+
+Scr0300: Scratch 
+2.0 Overview
+
+</link>
+
+
+<emphasis id="em1004" effect="italics">
+.
+
+</emphasis>
+</para>
+
+
+
+
+<para id="p1009">
+Assuming that you are able to access the 
+
+<link id="a1031" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ 
+website and run some of the projects, there is nothing more that you need to do to 
+get your computer set up to create new projects in 
+
+<link id="a1032" url="http://scratch.mit.edu/">
+
+Scratch 
+2.0
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<para id="p1010">
+However, if you can access the 
+
+<link id="a1033" url="http://scratch.mit.edu/">
+
+Scratch
+
+</link>
+
+ website 
+but you are unable to run any of the projects, you may need to download and 
+install the 
+
+<link id="a1034" url="http://get.adobe.com/flashplayer/?no_ab=1">
+
+Adobe Flash 
+Player
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Screen_size_requirements" effect="bold">
+
+Screen size requirements
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1011">
+Quite a lot of space is needed for all of the items in the
+
+
+<link url="/content/m46204/latest/#Image_6" id="a1035">
+
+project development 
+screen
+
+</link>
+
+. You probably need to have your browser set to full screen on a 1024 
+x 768 monitor in order to see everything without the requirement to deal with 
+horizontal and vertical scroll bars on the edges of the browser window. 
+
+</para>
+
+
+
+
+<para id="p1012">
+For a 1024 x 768 monitor, you also need to click the little triangle 
+immediately below and to the right of the stage to reduce the size of the stage 
+and free up more space for other items.
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Create_a_new_project" effect="bold">
+
+Create a new project
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1013">
+Click the 
+
+<emphasis id="strong1000" effect="bold">
+Create
+
+</emphasis>
+ link at the top of the main Scratch web 
+page to begin creating a new project. When you do, the 
+
+<emphasis id="strong1001" effect="bold">
+Step-by-Step 
+Intro 
+
+</emphasis>
+pane shown in 
+
+<link id="a1036" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ will probably appear on the right side of your 
+browser window. 
+
+</para>
+
+
+
+
+<para id="p1014">
+<emphasis id="em1005" effect="italics">
+(If the 
+
+</emphasis>
+<emphasis id="strong1002" effect="bold">
+<emphasis id="em1006" effect="italics">
+Step-by-Step Intro 
+
+</emphasis>
+</emphasis>
+<emphasis id="em1007" effect="italics">
+pane 
+doesn't appear automatically, click the question mark on the far right side of 
+the browser window to cause it or the 
+
+<emphasis id="strong1003" effect="bold">
+Tips
+
+</emphasis>
+ pane shown in
+
+
+<link id="a1037" target-id="Image_2">
+
+Image 2
+
+</link>
+
+ to appear. If the 
+
+<emphasis id="strong1004" effect="bold">
+Tips
+
+</emphasis>
+ pane 
+appears, select the 
+
+<emphasis id="strong1005" effect="bold">
+Step-by-Step Intro
+
+</emphasis>
+ link beneath the 
+
+<emphasis id="strong1006" effect="bold">
+
+Getting Started
+
+</emphasis>
+ label to get back to the pane shown in 
+
+</emphasis>
+
+
+
+<link id="a1038" target-id="Image_1">
+
+
+<emphasis id="em1008" effect="italics">
+Image 1
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1009" effect="italics">
+.)
+
+</emphasis>
+</para>
+
+
+
+
+
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_1" effect="bold">
+</emphasis>
+Image 1. Step-by-Step Intro.
+</title>
+
+
+
+
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0310image1.jpg" width="393" height="688"/>
+</media>
+
+
+
+
+<caption>Image 1. Step-by-Step Intro.</caption>
+</figure>
+
+
+
+
+
+
+
+
+<section id="h21003">
+<title>
+<emphasis id="Follow_the_steps" effect="bold">
+
+Follow the steps
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1015">
+Follow the steps provided on the Step-by-Step Intro pane to create your first 
+Scratch 2.0 project.
+
+</para>
+
+
+
+
+</section>
+<section id="h21004">
+<title>
+<emphasis id="Examine_the_Tips" effect="bold">
+
+Examine the Tips
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1016">
+When you have completed your first project, click the 
+
+<emphasis id="strong1007" effect="bold">
+Tips
+
+</emphasis>
+ link at the top 
+left of
+
+
+<link id="a1039" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ to expose the 
+
+<emphasis id="strong1008" effect="bold">
+Tips
+
+</emphasis>
+ pane shown in
+
+
+<link id="a1040" target-id="Image_2">
+
+Image 2
+
+</link>
+
+. The links on the 
+
+<emphasis id="strong1009" effect="bold">
+Tips
+
+</emphasis>
+ pane will take you to a 
+wealth of information regarding the use of Scratch 2.0.
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+<emphasis id="em1010" effect="italics">
+When you are finished with the Tips pane, click the X-button in 
+the upper-right corner of 
+
+</emphasis>
+
+
+
+<link id="a1041" target-id="Image_2">
+
+
+<emphasis id="em1011" effect="italics">
+Image 2
+
+</emphasis>
+</link>
+
+
+<emphasis id="em1012" effect="italics">
+ to dismiss it. You can get it back 
+by clicking the question mark that will appear on the right edge of the browser 
+window.
+
+</emphasis>
+</quote>
+
+
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+<title>
+<emphasis id="Image_2" effect="bold">
+</emphasis>
+Image 2. The Tips pane.
+</title>
+
+
+
+
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0310image2.jpg" width="392" height="726"/>
+</media>
+
+
+
+
+<caption>Image 2. The Tips pane.</caption>
+</figure>
+
+
+
+
+
+
+
+
+</section>
+<section id="h21005">
+<title>
+<emphasis id="View_the_tutorials" effect="bold">
+
+View the tutorials
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+There are many tutorials scattered throughout the web explaining various 
+aspects of programming with Scratch v1.4. Those tutorials are still useful 
+because most of what you do to create Scratch projects hasn't changed with the 
+release of Scratch 2.0.
+
+</para>
+
+
+
+
+<para id="p1018">
+Once you are comfortable with the material that you can reach from the links 
+shown in 
+
+<link id="a1042" target-id="Image_1">
+
+Image 1
+
+</link>
+
+ and 
+
+<link id="a1043" target-id="Image_2">
+
+Image 2
+
+</link>
+
+, I recommend that you 
+view 
+every Scratch tutorial that you can find beginning with the tutorials at
+
+
+<link id="a1044" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+
+http://info.scratch.mit.edu/Video_Tutorials
+
+</link>
+
+. 
+
+</para>
+
+
+
+
+<para id="p1019">
+I have listed several tutorials in
+
+
+<link id="a1045" target-id="Resources">
+
+Resources
+
+</link>
+
+. Some are pretty good and 
+some are not so good, but regardless, it would probably be useful for you to 
+work through them all if you have the time available. 
+
+</para>
+
+
+
+
+<para id="p1020">
+I also recommend that you run and pay particular attention to the
+
+
+<link id="a1046" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+ from MIT.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Will_concentrate_on_the_fundamentals" effect="bold">
+
+Will concentrate on the 
+fundamentals
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1021">
+I doubt that you will find many 
+
+<emphasis id="em1013" effect="italics">
+(or any)
+
+</emphasis>
+ Scratch tutorials that cover the fundamental programming concepts that I plan to cover in these modules. Most of the 
+available Scratch tutorials tend to ignore the fundamentals and jump immediately 
+into the higher-level features of Scratch such as playing music or viewing an 
+image through a fisheye lens. That's not all bad. It is those 
+features that are most likely to keep today's students engaged long enough 
+for them to learn 
+the fundamentals and go on to bigger and better things.
+
+</para>
+
+
+
+
+<para id="p1022">
+The modules in this collection will concentrate on the 
+fundamental concepts of computer programming as identified in the earlier module 
+titled
+
+
+<link url="/content/m45876/latest/#Programming_knowledge_requirements_in_Texas" id="a1047">
+
+
+Tkc0100: Preface.
+
+</link>
+
+ I view these modules as helping to build a bridge 
+between the 
+
+<emphasis id="em1014" effect="italics">
+fun
+
+</emphasis>
+ side of Scratch and the 
+
+<emphasis id="em1015" effect="italics">
+serious
+
+</emphasis>
+ side of Computer Science.
+
+</para>
+
+
+
+
+<para id="p1023">
+Those fundamental concepts are transferable from 
+one programming language to the next, and are required for learning the more 
+advanced aspects of computer science. 
+
+</para>
+
+
+
+
+<para id="p1024">
+The higher-level features of Scratch are 
+not necessarily transferable to other languages. What I mean by that is that 
+just because you know how to compose and play music in Scratch doesn't mean that 
+you know how to compose and play music in some other programming language such 
+as C++ or Java. 
+However, if you understand the fundamental programming concepts embodied in 
+Scratch, you should be able to transfer that understanding to other programming 
+languages.
+
+</para>
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Drag_and_drop_programming" effect="bold">
+
+Drag and drop programming
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1025">
+One of the reasons that it will be useful for you to work through the 
+tutorials is to help you gain proficiency in the 
+
+<emphasis id="em1016" effect="italics">
+drag and drop
+
+</emphasis>
+ programming 
+paradigm used with Scratch. This is a relatively new programming paradigm, and 
+it is very different from the paradigm used for 
+
+<emphasis id="em1017" effect="italics">
+old school
+
+</emphasis>
+  languages such 
+as C, C++, C#, and Java.
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+<emphasis id="em1018" effect="italics">
+"It seems strange to speak of Java as an old school 
+programming language, but it has been a viable programming language for a little 
+more than fifteen years now. In today's fast paced technology world, that 
+probably makes it old school."
+
+</emphasis>
+</quote>
+
+
+
+
+<section id="h21006">
+<title>
+<emphasis id="Mechanics_are_difficult_to_explain" effect="bold">
+
+Mechanics are difficult to 
+explain
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+Although drag and drop programming has some major advantages over the old paradigm 
+for the beginning programming student, the mechanics involved are much more 
+difficult to explain in a written tutorial than the mechanics of programming 
+with Java, for example.
+
+</para>
+
+
+
+
+<para id="p1027">
+With the old school paradigm, all that is necessary to create a program is 
+to:
+
+</para>
+
+
+
+
+<list id="ul1006" list-type="bulleted">
+
+	
+
+<item id="li1022">
+Open a text editor and type in the program.
+
+</item>
+
+
+	
+
+<item id="li1023">
+Open a compiler and compile the program.
+
+</item>
+
+
+	
+
+<item id="li1024">
+Execute the program.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21007">
+<title>
+<emphasis id="Advantages_and_disadvantages" effect="bold">
+
+Advantages and disadvantages
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1028">
+Because everything in old school programming is based on text, it is easy to 
+explain it in a text-based written tutorial. The disadvantage of old school programming 
+insofar as the student is concerned is that the student is required to memorize 
+difficult and sometimes arcane programming syntax. This requirement is the downfall 
+of many aspiring programming students.
+
+</para>
+
+
+
+
+<para id="p1029">
+The advantage of drag and drop programming is that the student is not 
+required to memorize programming syntax; at least not in the beginning. That 
+leaves the student free to concentrate on concepts. 
+
+</para>
+
+
+
+
+<para id="p1030">
+One disadvantage of drag and drop programming is that the mechanics are very 
+difficult to explain in a written tutorial. It is sort of like trying to explain 
+to someone how to tie their shoes in a written tutorial. You almost need to see it 
+done in order to learn how to do it yourself. 
+
+</para>
+
+
+
+
+<para id="p1031">
+The best way to explain many aspects of drag and drop programming is through
+
+
+<emphasis id="em1019" effect="italics">
+"show me"
+
+</emphasis>
+ videos.
+
+</para>
+
+
+
+
+<para id="p1032">
+Many of the available tutorials are video tutorials, which make it possible 
+for you to see how others accomplish drag and drop programming using Scratch. 
+Once you see how it is done, you should have no difficulty doing it yourself.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Run_some_student_projects" effect="bold">
+
+Run some student projects
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1033">
+As I mentioned earlier, I also recommend that you run some of the 
+
+
+<link id="a1048" url="http://scratch.mit.edu/explore/?date=ever">
+
+student 
+projects
+
+</link>
+
+ just to see what students are doing with Scratch. If you encounter problems running 
+the student projects, you might consider seeking help on the Scratch 
+
+
+<link id="a1049" url="http://scratch.mit.edu/discuss/">
+
+forums
+
+</link>
+
+.
+
+</para>
+
+
+
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="Open_the_Help_page" effect="bold">
+
+Open the Help page
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1034">
+Once you have opened the Scratch web page in your browser, you should take a look at the 
+
+<emphasis id="strong1010" effect="bold">
+Help
+
+</emphasis>
+ 
+material that is available by clicking the 
+
+<emphasis id="strong1011" effect="bold">
+Help
+
+</emphasis>
+ link at the top of the 
+page. You will find links there to a variety of useful resources.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Whats_Next" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<para id="p1035">
+In the next module, I will begin the process of helping you to learn about 
+the following computer programming concepts using Scratch:
+
+</para>
+
+
+
+
+<list id="ul1007" list-type="bulleted">
+
+	
+
+<item id="li1025">
+Memory
+
+</item>
+
+
+	
+
+<item id="li1026">
+Variables
+
+</item>
+
+
+	
+
+<item id="li1027">
+Literals
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1036">
+Please be aware that many of the following links may take you to information 
+about Scratch v1.4.
+
+</para>
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+		
+
+<item id="li1028">
+<link id="a1050" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1029">
+<link id="a1051" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorial
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1030">
+<link id="a1052" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory 
+		video
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1031">
+<link id="a1053" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch 
+		tutorials from MIT
+
+</link>
+
+ 
+
+</item>
+
+
+		
+
+<item id="li1032">
+
+		
+
+<link id="a1054" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+
+		Scratch tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1033">
+<link id="a1055" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding 
+		Computer Scientists
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1034">
+<link id="a1056" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1035">
+
+		
+
+<link id="a1057" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+
+		Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1036">
+<link id="a1058" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH 
+		TUTORIALS ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1037">
+<link id="a1059" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1038">
+
+		
+
+<link id="a1060" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+
+		Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1039">
+
+		
+
+<link id="a1061" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+
+		Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1040">
+
+		
+
+<link id="a1062" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+
+		Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1041">
+<link id="a1063" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+
+		Tutorial about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1042">
+<link id="a1064" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT 
+		web site
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1043">
+<link id="a1065" url="http://www.scratch.ie/resources">
+
+Scratch resources at 
+		Scratch.ie
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1044">
+<link id="a1066" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd 
+		Resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1045">
+<link id="a1067" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch 
+		project Day Dream
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1046">
+<link id="a1068" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch 
+		project Son of String Art
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1047">
+<link id="a1069" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch 
+		Project Scratch Tutorial
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1048">
+<link id="a1070" url="http://scratch.mit.edu/discuss/">
+
+Discuss Scratch
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+
+
+</section>
+<section id="h11011">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1012" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1009" list-type="bulleted">
+
+					
+
+<item id="li1049">
+Module name: Scr0310: Getting Started with Scratch 2.0
+
+</item>
+
+
+					
+
+<item id="li1050">
+File: Scr0310.htm
+
+
+</item>
+
+
+					
+
+<item id="li1051">
+Published: 05/10/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1013" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1038">
+<emphasis id="strong1014" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1039">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1040">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1041">
+<emphasis id="strong1015" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1042">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>

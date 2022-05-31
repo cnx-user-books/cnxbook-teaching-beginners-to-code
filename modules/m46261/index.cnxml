@@ -1,0 +1,4659 @@
+<document xmlns="http://cnx.rice.edu/cnxml"> 
+<title>Scr0380: The forever and repeat until loops in Scratch 2.0</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m46261</md:content-id>
+  <md:title>Scr0380: The forever and repeat until loops in Scratch 2.0</md:title>
+  <md:abstract>The purpose of this module is to teach you how to use the forever block and the repeat until block to create loop structures in Scratch 2.0.</md:abstract>
+  <md:uuid>0a3b8037-9422-4c20-9d61-51f1d70fdba9</md:uuid>
+</metadata>
+
+<content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="h11000">
+<title>
+Table of Contents
+
+</title>
+
+
+
+
+<list id="ul1000" list-type="bulleted">
+
+	
+
+<item id="li1000">
+<link id="a1000" target-id="Preface">
+
+Preface
+
+</link>
+
+
+	
+
+<list id="ul1001" list-type="bulleted">
+
+		
+
+<item id="li1001">
+<link id="a1001" target-id="Viewing_tip">
+
+Viewing tip
+
+</link>
+
+
+<list id="ul1002" list-type="bulleted">
+
+			
+
+<item id="li1002">
+<link id="a1002" target-id="Images">
+
+Images
+
+</link>
+
+
+</item>
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+	
+
+<item id="li1003">
+<link id="a1003" target-id="General_background_information">
+
+General background information
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1004">
+<link id="a1004" target-id="Preview">
+
+Preview
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1005">
+<link id="a1005" target-id="Discussion_and_sample_code">
+
+Discussion and sample code
+
+</link>
+
+
+<list id="ul1003" list-type="bulleted">
+
+		
+
+<item id="li1006">
+<link id="a1006" target-id="The_program_named_ForeverLoop01">
+
+The program named 
+	ForeverLoop01
+
+</link>
+
+
+<list id="ul1004" list-type="bulleted">
+
+
+
+<item id="li1007">
+
+
+
+<link id="a1007" target-id="Program_code_for_the_Scratch_v14_version_of_the_program_named_ForeverLoop01">
+
+Program code for the Scratch v1.4 version of the program named ForeverLoop01
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1008">
+
+
+
+<link id="a1008" target-id="Program_code_for_the_Scratch_v20_version_of_the_program_named_ForeverLoop01">
+
+Program code for the Scratch v2.0 version of the program named ForeverLoop01
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1009">
+<link id="a1009" target-id="The_last_block_in_the_script">
+
+The last block in the script
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1010">
+<link id="a1010" target-id="The_next_costume_block">
+
+The next costume block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1011">
+<link id="a1011" target-id="The_forever_if_block">
+
+The forever block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1012">
+<link id="a1012" target-id="An_if_block">
+
+An if block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1013">
+<link id="a1013" target-id="When_the_condition_is_true">
+
+When the condition is true
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1014">
+<link id="a1014" target-id="No_screen_shot_of_the_output">
+
+No screen shot of the output
+
+</link>
+
+
+</item>
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1015">
+<link id="a1015" target-id="The_program_named_ForeverLoop02_">
+
+The program named 
+	ForeverLoop02
+
+</link>
+
+
+<list id="ul1005" list-type="bulleted">
+
+
+
+<item id="li1016">
+<link id="a1016" target-id="Comparison_between_repeat_and_forever_blocks">
+
+Comparison between repeat and forever/if blocks
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1017">
+<link id="a1017" target-id="No_dropin_required_for_a_repeat_block">
+
+No drop-in required for a repeat block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1018">
+<link id="a1018" target-id="A_dropin_is_required_for_the_if_block">
+
+A drop-in is required for the if block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1019">
+<link id="a1019" target-id="The_forever_block_is_more_versatile_than_the_repeat_block">
+
+The forever block is more versatile than the repeat block
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1020">
+<link id="a1020" target-id="Cant_connect_to_the_bottom">
+
+Can't connect to the bottom
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1021">
+<link id="a1021" target-id="Program_code_for_the_program_named_ForeverLoop02">
+
+Program code for the program named ForeverLoop02
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1022">
+<link id="a1022" target-id="Pseudocode_for_the_program_named_ForeverLoop02">
+
+Pseudocode for the program named ForeverLoop02
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1023">
+<link id="a1023" target-id="A_counter_variable">
+
+A counter variable
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1024">
+<link id="a1024" target-id="Noscreenshotoftheoutput2">
+
+No screen shot of the output
+
+</link>
+
+
+</item>
+
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1025">
+<link id="a1025" target-id="The_program_named_RepeatUntil01">
+
+The program named 
+	RepeatUntil01
+
+</link>
+
+
+<list id="ul1006" list-type="bulleted">
+
+
+
+<item id="li1026">
+<link id="a1026" target-id="Program_behavior">
+
+Program behavior
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1027">
+<link id="a1027" target-id="Program_code_for_the_program_named_RepeatUntil01">
+
+Program code for the program named RepeatUntil01
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1028">
+<link id="a1028" target-id="What_does_the_cat_do">
+
+What does the cat do?
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1029">
+<link id="a1029" target-id="Doesnt_have_to_be_the_last_block_in_the_script">
+
+Doesn't have to be the last block in the script
+
+</link>
+
+
+</item>
+
+
+
+
+<item id="li1030">
+<link id="a1030" target-id="Available_online">
+
+Available online
+
+</link>
+
+
+</item>
+
+
+
+		
+
+</list>
+
+
+		
+
+</item>
+
+
+		
+
+<item id="li1031">
+<link id="a1031" target-id="The_loop_blocks">
+
+The loop blocks
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+	
+
+</item>
+
+
+
+	
+
+<item id="li1032">
+<link id="a1032" target-id="Run_the_program">
+
+Run the programs
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1033">
+<link id="a1033" target-id="Student_programming_project">
+
+Student-programming project
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1034">
+<link id="a1034" target-id="Summary">
+
+Summary
+
+</link>
+
+ 
+
+</item>
+
+
+
+	
+
+<item id="li1035">
+<link id="a1035" target-id="Whats_next">
+
+What's next?
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1036">
+<link id="a1036" target-id="Resources">
+
+Resources
+
+</link>
+
+
+<list id="ul1007" list-type="bulleted">
+
+		
+
+<item id="li1037">
+<link id="a1037" target-id="General_resources">
+
+General resources
+
+</link>
+
+
+</item>
+
+
+		
+
+<item id="li1038">
+<link id="a1038" target-id="Programs_used_in_this_series">
+
+Programs used in this series
+
+</link>
+
+
+</item>
+
+
+	
+
+</list>
+
+
+</item>
+
+
+
+	
+
+<item id="li1039">
+<link id="a1039" target-id="Miscellaneous">
+
+Miscellaneous
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h11001">
+<title>
+<emphasis id="Preface" effect="bold">
+
+Preface
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1000">
+<link id="a1040" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+ 
+
+<emphasis id="em1000" effect="italics">
+(released May 9, 
+	2013)
+
+</emphasis>
+ is the second major version of Scratch to be released during the 
+	life of the product. Among other things, it features a redesigned editor and 
+	website, and allows you to edit projects directly from your web browser. 
+
+</para>
+
+
+
+
+<para id="p1001">
+This module 
+
+<emphasis id="em1001" effect="italics">
+(tutorial)
+
+</emphasis>
+ is one in a collection of modules designed to 
+help beginners of all ages 
+
+<emphasis id="em1002" effect="italics">
+(8 and up)
+
+</emphasis>
+ learn how to create the code for 
+computer programs using 
+
+<link id="a1041" url="http://scratch.mit.edu/">
+
+Scratch 2.0
+
+</link>
+
+. 
+Information is provided not only for the beginners themselves but also for their 
+parents and teachers where appropriate.
+
+</para>
+
+
+
+
+<para id="p1002">
+The purpose of this module is to teach you how to use the 
+
+<emphasis id="strong1000" effect="bold">
+forever
+
+</emphasis>
+ block and the 
+
+
+<emphasis id="strong1001" effect="bold">
+repeat until
+
+</emphasis>
+ block to create loop structures in Scratch.
+
+</para>
+
+
+
+
+<para id="p1003">
+In this module, I will present and explain three Scratch programs. One 
+program uses a 
+
+<emphasis id="strong1002" effect="bold">
+forever
+
+</emphasis>
+ block along with an 
+
+<emphasis id="strong1003" effect="bold">
+if
+
+</emphasis>
+ block to 
+cause a sprite to move in a small circle while the space bar is pressed. You 
+will learn that it is not possible to connect another block to the bottom of a
+
+
+<emphasis id="strong1004" effect="bold">
+forever
+
+</emphasis>
+ block. Therefore, if you use a 
+
+<emphasis id="strong1005" effect="bold">
+forever 
+
+</emphasis>
+block, it must be 
+the last block in the script in which it is contained.
+
+</para>
+
+
+
+
+<para id="p1004">
+The second program uses a 
+
+<emphasis id="strong1006" effect="bold">
+forever 
+
+</emphasis>
+block along with an 
+
+<emphasis id="strong1007" effect="bold">
+if
+
+</emphasis>
+ 
+block to create a counter loop. That program will be used as the jumping-off 
+point for a discussion of the similarities and differences between a 
+
+<emphasis id="strong1008" effect="bold">
+forever
+
+
+</emphasis>
+block and a 
+
+<emphasis id="strong1009" effect="bold">
+repeat
+
+</emphasis>
+ 
+block.
+
+</para>
+
+
+
+
+<para id="p1005">
+The third program uses a 
+
+<emphasis id="strong1010" effect="bold">
+repeat until
+
+</emphasis>
+ block to cause a sprite to run 
+in a small circle until the user presses the space bar. Unlike the 
+
+<emphasis id="strong1011" effect="bold">
+forever
+
+
+</emphasis>
+block, it is possible to connect another block to the bottom of a 
+
+<emphasis id="strong1012" effect="bold">
+repeat 
+until
+
+</emphasis>
+ block. Therefore, it is not necessary for a 
+
+<emphasis id="strong1013" effect="bold">
+repeat until
+
+</emphasis>
+ block 
+to be the last block in a script.
+
+</para>
+
+
+
+
+<para id="p1006">
+Finally, I will provide the specifications for a student-programming project 
+for you to demonstrate your understanding of what you learned from the three 
+programs listed above and from earlier modules.
+
+</para>
+
+
+
+
+<section id="h21000">
+<title>
+<emphasis id="Viewing_tip" effect="bold">
+
+Viewing tip
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1007">
+I recommend that you open another copy of this module in a separate 
+browser window and use the following links to easily find and view the images 
+while you are reading about them.
+
+</para>
+
+
+
+
+<section id="h31000">
+<title>
+<emphasis id="Images" effect="bold">
+
+Images
+
+</emphasis>
+
+
+</title>
+
+
+
+
+
+<list id="ul1008" list-type="bulleted">
+
+	
+
+<item id="li1040">
+<link id="a1042" target-id="Image_A">
+
+Image A
+
+</link>
+
+. Pseudocode for the program named ForeverLoop01. 
+
+</item>
+
+
+	
+
+<item id="li1041">
+<link id="a1043" target-id="Image_B">
+
+Image B
+
+</link>
+
+. Program code for the Scratch v1.4 version of the program named ForeverLoop01.
+
+</item>
+
+
+	
+
+<item id="li1042">
+<link id="a1044" target-id="Image_C">
+
+Image C
+
+</link>
+
+. Program code for the Scratch v2.0 version of the program named ForeverLoop01.
+
+</item>
+
+
+	
+
+<item id="li1043">
+<link id="a1045" target-id="Image_D">
+
+Image D
+
+</link>
+
+. Comparison between repeat and forever/if blocks.
+
+</item>
+
+
+	
+
+<item id="li1044">
+<link id="a1046" target-id="Image_E">
+
+Image E
+
+</link>
+
+. Program code for the program named ForeverLoop02.
+
+</item>
+
+
+	
+
+<item id="li1045">
+<link id="a1047" target-id="Image_F">
+
+Image F
+
+</link>
+
+. Pseudocode for the program named ForeverLoop02.
+
+</item>
+
+
+	
+
+<item id="li1046">
+<link id="a1048" target-id="Image_G">
+
+Image G
+
+</link>
+
+. Pseudocode for the program named RepeatUntil01.
+
+</item>
+
+
+	
+
+<item id="li1047">
+<link id="a1049" target-id="Image_H">
+
+Image H
+
+</link>
+
+. Program code for the program named RepeatUntil01.
+
+</item>
+
+
+	
+
+<item id="li1048">
+<link id="a1050" target-id="Image_I">
+
+Image I
+
+</link>
+
+. Final screen output from the program named RepeatUntil01. 
+
+</item>
+
+
+	
+
+<item id="li1049">
+<link id="a1051" target-id="Image_J">
+
+Image J
+
+</link>
+
+. Blocks that can be used to create loop structures in v2.0.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+</section>
+</section>
+<section id="h11002">
+<title>
+<emphasis id="General_background_information" effect="bold">
+
+General 
+	background information
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1008">
+In an earlier module, I told you that any programming logic problem could be 
+solved using an appropriate combination of only three programming structures, 
+none of which are complicated. The three structures are known generally as:
+
+</para>
+
+
+
+
+<list id="ul1009" list-type="bulleted">
+
+	
+
+<item id="li1050">
+The sequence structure.
+
+</item>
+
+
+	
+
+<item id="li1051">
+The selection or decision structure.
+
+</item>
+
+
+	
+
+<item id="li1052">
+The loop, repetition, or iteration structure.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1009">
+I have explained the sequence and selection structures and some of the loop 
+structures in earlier modules. I will continue to concentrate on the loop 
+structure in this module.
+
+</para>
+
+
+
+
+</section>
+<section id="h11003">
+<title>
+<emphasis id="Preview" effect="bold">
+
+Preview
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1010">
+In this module, I will present and explain the following three Scratch 
+programs:
+
+</para>
+
+
+
+
+<list id="ul1010" list-type="bulleted">
+
+	
+
+<item id="li1053">
+<emphasis id="strong1014" effect="bold">
+ForeverLoop01
+
+</emphasis>
+ - This program uses a 
+
+<emphasis id="strong1015" effect="bold">
+forever 
+
+</emphasis>
+block in 
+	conjunction with an if 
+
+<emphasis id="strong1016" effect="bold">
+block
+
+</emphasis>
+ to 
+	cause a sprite to move in a small circle while the space bar is pressed.
+
+</item>
+
+
+	
+
+<item id="li1054">
+<emphasis id="strong1017" effect="bold">
+ForeverLoop02
+
+</emphasis>
+ - This program illustrates the creation of a 
+	counter loop using a 
+
+<emphasis id="strong1018" effect="bold">
+forever 
+
+</emphasis>
+block in conjunction with an 
+
+<emphasis id="strong1019" effect="bold">
+if
+
+</emphasis>
+ 
+	block.
+
+</item>
+
+
+	
+
+<item id="li1055">
+<emphasis id="strong1020" effect="bold">
+RepeatUntil01
+
+</emphasis>
+ - This program uses a 
+
+<emphasis id="strong1021" effect="bold">
+repeat until
+
+</emphasis>
+ block to 
+	cause a sprite to run in a small circle until the user presses the space 
+	bar.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1011">
+In addition, I will provide the specifications for a student-programming 
+project for you to demonstrate your understanding of what you learned from the 
+three programs listed above and from earlier modules.
+
+</para>
+
+
+
+
+</section>
+<section id="h11004">
+<title>
+<emphasis id="Discussion_and_sample_code" effect="bold">
+
+Discussion and sample code
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21001">
+<title>
+<emphasis id="The_program_named_ForeverLoop01" effect="bold">
+
+The program named ForeverLoop01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1012">
+This program illustrates the use of a 
+
+<emphasis id="strong1022" effect="bold">
+forever 
+
+</emphasis>
+block in conjunction 
+with an 
+
+<emphasis id="strong1023" effect="bold">
+if
+
+</emphasis>
+ block. When the user 
+clicks the green flag, the program implements the pseudocode shown in 
+
+<link id="a1052" target-id="Image_A">
+
+Image A
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+	
+
+<figure id="figure1000" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_A" effect="bold">
+</emphasis>
+Image A. Pseudocode for the program named ForeverLoop01.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<code id="pre1000" display="block">Move the cat to the center of the stage.
+Turn the cat to face to the right.
+
+while(true){//infinite loop
+  if(space bar is pressed){
+    Change cat to next costume image
+    Move cat forward 10 steps.
+    Wait 0.1 seconds.
+    Turn cat clockwise 15 degrees.
+  }//end if statement
+}//end infinite while loop
+</code>
+
+
+				
+
+<caption>Image A. Pseudocode for the program named ForeverLoop01.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<para id="p1013">
+If the space bar is pressed, the cat moves around the circumference of a 
+small circle, appearing to walk due to the visual effect produced by switching 
+between two images 
+
+<emphasis id="em1003" effect="italics">
+(known in Scratch as costumes)
+
+</emphasis>
+. As explained in a 
+previous module, 
+the two costumes were designed to produce the illusion of walking.
+
+</para>
+
+
+
+
+<section id="h31001">
+<title>
+
+
+
+<emphasis id="Program_code_for_the_Scratch_v14_version_of_the_program_named_ForeverLoop01" effect="bold">
+
+
+Program code for 
+the Scratch v1.4 version of the program named ForeverLoop01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1014">
+The code for the older Scratch v1.4 version of this program is shown in 
+
+<link id="a1053" target-id="Image_B">
+
+Image B
+
+</link>
+
+.
+
+</para>
+
+
+
+
+<figure id="figure1001" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_B" effect="bold">
+</emphasis>
+Image B. Program code for the  			Scratch v1.4 version of the program named ForeverLoop01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1000" alt="Missing image." display="block">
+<image id="img1000" mime-type="image/jpeg" src="../../media/scr0380-01.jpg" width="452" height="350"/>
+</media>
+
+
+		
+
+<caption>Image B. Program code for the  			Scratch v1.4 version of the program named ForeverLoop01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1015">
+I am showing you the code in 
+
+<link id="a1054" target-id="Image_B">
+
+Image B
+
+</link>
+
+ for one purpose and one purpose only. 
+The orange block with the label 
+
+<emphasis id="strong1024" effect="bold">
+<emphasis id="em1004" effect="italics">
+"forever if"
+
+</emphasis>
+</emphasis>
+ no longer exists in Scratch v2.0.
+
+</para>
+
+
+
+
+<para id="p1016">
+Older programs that were written in v1.4 and published on the 
+Scratch website were automatically converted to the Scratch v2.0 version, as 
+shown in 
+
+<link id="a1055" target-id="Image_C">
+
+Image C
+
+</link>
+
+ when the website made the transition from v1.4 to v2.0.
+
+</para>
+
+
+
+
+</section>
+<section id="h31002">
+<title>
+
+
+
+<emphasis id="Program_code_for_the_Scratch_v20_version_of_the_program_named_ForeverLoop01" effect="bold">
+
+
+Program code for the Scratch v2.0 version of the program named ForeverLoop01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1017">
+The code for the Scratch v2.0 version of this program is shown in 
+
+<link id="a1056" target-id="Image_C">
+
+Image C
+
+</link>
+
+. 
+Note that this version replaces the 
+
+<emphasis id="strong1025" effect="bold">
+forever if
+
+</emphasis>
+ block with a
+
+
+<emphasis id="strong1026" effect="bold">
+forever
+
+</emphasis>
+ block and embeds an 
+
+<emphasis id="strong1027" effect="bold">
+if
+
+</emphasis>
+ block in the
+
+
+<emphasis id="strong1028" effect="bold">
+forever
+
+</emphasis>
+ block.
+
+</para>
+
+
+
+
+<para id="p1018">
+Except for the 
+
+<emphasis id="strong1029" effect="bold">
+forever 
+
+</emphasis>
+and 
+
+<emphasis id="strong1030" effect="bold">
+next costume
+
+</emphasis>
+ blocks, none of the 
+blocks in 
+
+<link id="a1057" target-id="Image_C">
+
+Image C
+
+</link>
+
+ are new to this module.
+
+</para>
+
+
+
+
+<figure id="figure1002" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_C" effect="bold">
+</emphasis>
+Image C. Program code for the  			Scratch v2.0 version of the program named ForeverLoop01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1001" alt="Missing image." display="block">
+<image id="img1001" mime-type="image/jpeg" src="../../media/scr0380-02.jpg" width="352" height="468"/>
+</media>
+
+
+		
+
+<caption>Image C. Program code for the  			Scratch v2.0 version of the program named ForeverLoop01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h31003">
+<title>
+<emphasis id="The_last_block_in_the_script" effect="bold">
+
+The last block in the script
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1019">
+The bottom of the 
+
+<emphasis id="strong1031" effect="bold">
+forever
+
+</emphasis>
+ block is smooth. Nothing can be connected to the bottom of the block. Therefore, it must be the 
+last block in the script that contains it.
+
+</para>
+
+
+
+
+</section>
+<section id="h31004">
+<title>
+<emphasis id="The_next_costume_block" effect="bold">
+
+The 
+
+<emphasis id="em1005" effect="italics">
+next costume
+
+</emphasis>
+ block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1020">
+An earlier module used a 
+
+<emphasis id="strong1032" effect="bold">
+switch to costume
+
+</emphasis>
+ block to cause the 
+existing image of a sprite to be replaced by a different image. That block 
+requires the programmer to specify the new costume by name each time a change in 
+costume is needed.
+
+</para>
+
+
+
+
+<para id="p1021">
+The 
+
+<emphasis id="strong1033" effect="bold">
+next costume
+
+</emphasis>
+ block used in 
+
+<link id="a1058" target-id="Image_C">
+
+Image C
+
+</link>
+
+ is easier to use from a 
+programming standpoint. As explained in the previous module, there is a list of 
+one or more costumes associated with each sprite. The 
+
+<emphasis id="strong1034" effect="bold">
+next costume
+
+</emphasis>
+ block causes the sprite to switch from the current costume to the next costume 
+in the list. If the current costume is the last costume in the list, the block 
+causes the sprite to switch back up to the first costume in the list.
+
+</para>
+
+
+
+
+</section>
+<section id="h31005">
+<title>
+<emphasis id="The_forever_if_block" effect="bold">
+
+The 
+
+<emphasis id="em1006" effect="italics">
+forever
+
+</emphasis>
+ block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1022">
+Code inside a 
+
+<emphasis id="strong1035" effect="bold">
+forever
+
+</emphasis>
+ block will run forever unless 
+
+</para>
+
+
+
+
+<list id="ul1011" list-type="bulleted">
+
+	
+
+<item id="li1056">
+some code inside the block causes it to stop running, 
+
+</item>
+
+
+	
+
+<item id="li1057">
+the user clicks the red stop button on the stage, or 
+
+</item>
+
+
+	
+
+<item id="li1058">
+the user shuts down the web page. 
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1023">
+This is commonly referred to as an 
+
+<emphasis id="em1007" effect="italics">
+infinite loop
+
+</emphasis>
+. 
+
+</para>
+
+
+
+
+<para id="p1024">
+An infinite loop is not always a bad thing. For example, many games run 
+inside an infinite loop and that is also the case with this program. However, 
+even though the program is running 
+
+<emphasis id="em1008" effect="italics">
+(after you click the green flag)
+
+</emphasis>
+, 
+you don't see anything happening unless you press the space bar. Pressing the 
+space bar causes the cat to run around in a small circle.
+
+</para>
+
+
+
+
+<quote id="blockquote1000" display="block">
+Be careful and don't leave this program running in your browser 
+unless that is your plan. You may find that while it is running, everything else 
+on your computer runs much more slowly than normal.
+
+</quote>
+
+
+
+
+</section>
+<section id="h31006">
+<title>
+<emphasis id="An_if_block" effect="bold">
+
+An if block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1025">
+As you can see in 
+
+<link id="a1059" target-id="Image_C">
+
+Image C
+
+</link>
+
+, an 
+
+<emphasis id="strong1036" effect="bold">
+if
+
+</emphasis>
+ block is embedded inside 
+the 
+
+<emphasis id="strong1037" effect="bold">
+forever
+
+</emphasis>
+ block. During each iteration of the loop, a test is 
+made to determine if the space key is pressed. Each time it performs the test and finds 
+the condition to be true, the code inside the 
+
+<emphasis id="strong1038" effect="bold">
+if
+
+</emphasis>
+ block is executed. 
+If the condition is false, the code inside the 
+
+<emphasis id="strong1039" effect="bold">
+if
+
+</emphasis>
+ block is not 
+executed.
+
+</para>
+
+
+
+
+</section>
+<section id="h31007">
+<title>
+<emphasis id="When_the_condition_is_true" effect="bold">
+
+When the condition is true
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1026">
+The condition is true if the space bar is pressed when the test is made. When the 
+condition is found to be true, the sprite:
+
+</para>
+
+
+
+
+<list id="ul1012" list-type="bulleted">
+
+	
+
+<item id="li1059">
+Changes to the next costume in the list. 
+
+<emphasis id="em1009" effect="italics">
+(In this program the list 
+	contains two costumes.)
+
+</emphasis>
+</item>
+
+
+	
+
+<item id="li1060">
+Moves ten steps forward relative to its own orientation.
+
+</item>
+
+
+	
+
+<item id="li1061">
+Pauses for 0.1 seconds.
+
+</item>
+
+
+	
+
+<item id="li1062">
+Turns fifteen degrees counter-clockwise around its own center of 
+	rotation.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h31008">
+<title>
+<emphasis id="No_screen_shot_of_the_output" effect="bold">
+
+No screen shot of the output
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1027">
+Because this program is animated, a screen shot of the Stage wouldn't impart 
+much information so I won't show you one. Basically, it would look very similar 
+to 
+
+<link id="a1060" target-id="Image_I">
+
+Image I
+
+</link>
+
+ without the thought bubble. You can copy the code from 
+
+<link id="a1061" target-id="Image_C">
+
+Image C
+
+</link>
+
+ and 
+insert it into your own program. Also, the program has been posted online so that you 
+can run it from there. 
+
+<emphasis id="em1010" effect="italics">
+(See the link to the online version in 
+
+<link id="a1062" target-id="Resources">
+
+Resources
+
+</link>
+
+.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21002">
+<title>
+<emphasis id="The_program_named_ForeverLoop02_" effect="bold">
+
+The program named ForeverLoop02
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1028">
+This program illustrates another usage of a
+
+<emphasis id="strong1040" effect="bold">
+ forever
+
+</emphasis>
+ block with an 
+embedded 
+
+<emphasis id="strong1041" effect="bold">
+if
+
+</emphasis>
+ block. The 
+behavior of this program is very similar to a program that I explained in an 
+earlier module 
+using the 
+
+<emphasis id="strong1042" effect="bold">
+repeat
+
+</emphasis>
+ block. However, there are major differences between the
+
+
+<emphasis id="strong1043" effect="bold">
+forever/if
+
+</emphasis>
+ combination of blocks and the 
+
+<emphasis id="strong1044" effect="bold">
+repeat
+
+</emphasis>
+ block. Some of those differences 
+are illustrated in 
+
+<link id="a1063" target-id="Image_D">
+
+Image D
+
+</link>
+
+, which shows a 
+
+<emphasis id="strong1045" effect="bold">
+repeat
+
+</emphasis>
+ block at the 
+top and a 
+
+<emphasis id="strong1046" effect="bold">
+forever
+
+</emphasis>
+ block with an embedded 
+
+<emphasis id="strong1047" effect="bold">
+if
+
+</emphasis>
+ 
+block near the center.
+
+</para>
+
+
+
+
+
+<figure id="figure1003" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_D" effect="bold">
+</emphasis>
+Image D. Comparison between repeat and forever/if blocks.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1002" alt="Missing image." display="block">
+<image id="img1002" mime-type="image/jpeg" src="../../media/scr0380-03.jpg" width="321" height="740"/>
+</media>
+
+
+		
+
+<caption>Image D. Comparison between repeat and forever/if blocks.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+
+<section id="h31009">
+<title>
+<emphasis id="Comparison_between_repeat_and_forever_blocks" effect="bold">
+
+Comparison between 
+
+<emphasis id="em1011" effect="italics">
+repeat
+
+</emphasis>
+ and 
+
+<emphasis id="em1012" effect="italics">
+forever/if
+
+</emphasis>
+ blocks
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1029">
+One of the major differences is the shape of the blocks 
+that can be dropped into the pockets on the
+
+<emphasis id="strong1048" effect="bold">
+ repeat
+
+</emphasis>
+ block and 
+the
+
+<emphasis id="strong1049" effect="bold">
+ if
+
+</emphasis>
+ block.
+
+</para>
+
+
+
+
+<para id="p1030">
+The blocks with the rounded ends in the upper half of 
+
+<link id="a1064" target-id="Image_D">
+
+Image D
+
+</link>
+
+, which 
+generally produce numeric results, cannot be dropped 
+into the pocket with the pointed ends on the 
+
+<emphasis id="strong1050" effect="bold">
+if
+
+</emphasis>
+ block. The
+
+
+<emphasis id="strong1051" effect="bold">
+if
+
+</emphasis>
+ block requires a boolean value of true or false. 
+
+</para>
+
+
+
+
+<para id="p1031">
+However, 
+the blocks with the rounded ends can be dropped into the pocket with rounded ends on the 
+
+<emphasis id="strong1052" effect="bold">
+repeat
+
+</emphasis>
+ 
+block, which requires a numeric value.
+
+</para>
+
+
+
+
+<para id="p1032">
+The blocks with the pointed ends in the lower half of 
+
+<link id="a1065" target-id="Image_D">
+
+Image D
+
+</link>
+
+ can be dropped 
+into the pocket on the 
+
+<emphasis id="strong1053" effect="bold">
+if
+
+</emphasis>
+ block. Generally speaking, those 
+blocks produce a boolean result of true or false.
+
+</para>
+
+
+
+
+<para id="p1033">
+Curiously, the blocks with the pointed ends can also be dropped into the 
+pocket with the rounded ends on the 
+
+<emphasis id="strong1054" effect="bold">
+repeat
+
+</emphasis>
+ block. That pocket 
+needs a numeric value to specify how many times its embedded code will be 
+executed. My unconfirmed guess is that when one of the boolean blocks with the 
+pointed ends is dropped into a 
+
+<emphasis id="strong1055" effect="bold">
+repeat
+
+</emphasis>
+ block, a false value is 
+treated as 0 and a true value is treated as 1.
+
+</para>
+
+
+
+
+</section>
+<section id="h31010">
+<title>
+<emphasis id="No_dropin_required_for_a_repeat_block" effect="bold">
+
+No drop-in required for a 
+
+<emphasis id="em1013" effect="italics">
+repeat
+
+</emphasis>
+ block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1034">
+The 
+
+<emphasis id="strong1056" effect="bold">
+repeat
+
+</emphasis>
+ block doesn't require that any other block 
+be dropped into the pocket to make it fully functional. All that is required is 
+that a literal value be entered into the pocket, or that the default literal 
+value be accepted. Used in this way, the 
+
+<emphasis id="strong1057" effect="bold">
+repeat
+
+</emphasis>
+ block will cause the code 
+inside the block to be executed a number of times matching the literal value.
+
+</para>
+
+
+
+
+</section>
+<section id="h31011">
+<title>
+<emphasis id="A_dropin_is_required_for_the_if_block" effect="bold">
+
+A drop-in is required for 
+the if block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1035">
+On the other hand, the 
+
+<emphasis id="strong1058" effect="bold">
+if
+
+</emphasis>
+ block requires that another block, 
+which evaluates to either true or false, be 
+dropped into the pocket to make it functional.
+
+</para>
+
+
+
+
+</section>
+<section id="h31012">
+<title>
+<emphasis id="The_forever_block_is_more_versatile_than_the_repeat_block" effect="bold">
+
+The 
+
+<emphasis id="em1014" effect="italics">
+forever
+
+</emphasis>
+ block is more versatile than the 
+
+<emphasis id="em1015" effect="italics">
+repeat
+
+</emphasis>
+ block
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1036">
+In this program, I used a counter variable in conjunction with a 
+
+<emphasis id="strong1059" effect="bold">
+less 
+than
+
+</emphasis>
+ block to produce a boolean result, 
+thus causing the behavior of the 
+
+<emphasis id="strong1060" effect="bold">
+forever/if
+
+</emphasis>
+ block combination to be similar to the 
+behavior of a 
+
+<emphasis id="strong1061" effect="bold">
+repeat
+
+</emphasis>
+ block. However, the 
+
+<emphasis id="strong1062" effect="bold">
+forever
+
+</emphasis>
+ block is much more 
+versatile. The 
+
+<emphasis id="strong1063" effect="bold">
+forever/if
+
+</emphasis>
+ combination can be used to execute a 
+series of code blocks on the basis of any block 
+that you can construct that will evaluate to true or false.
+
+</para>
+
+
+
+
+</section>
+<section id="h31013">
+<title>
+<emphasis id="Cant_connect_to_the_bottom" effect="bold">
+
+Can't connect to the bottom
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1037">
+There is one important stipulation, which I mentioned earlier. The bottom of 
+the 
+
+<emphasis id="strong1064" effect="bold">
+forever
+
+</emphasis>
+ block is smooth and it is not possible to connect another 
+block to the bottom of the 
+
+<emphasis id="strong1065" effect="bold">
+forever
+
+</emphasis>
+ block. Therefore, it must always be 
+the last block in a script. Also, a script that ends with a 
+
+<emphasis id="strong1066" effect="bold">
+forever
+
+</emphasis>
+ 
+block will continue to execute 
+
+<emphasis id="em1016" effect="italics">
+forever
+
+</emphasis>
+ unless the program is manually 
+terminated. That may or may not be a good thing.
+
+</para>
+
+
+
+
+</section>
+<section id="h31014">
+<title>
+<emphasis id="Program_code_for_the_program_named_ForeverLoop02" effect="bold">
+
+Program code for the program named ForeverLoop02
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1038">
+The code for this program is shown in 
+
+<link id="a1066" target-id="Image_E">
+
+Image E
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<figure id="figure1004" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_E" effect="bold">
+</emphasis>
+Image E. Program code for the program named ForeverLoop02.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1003" alt="Missing image." display="block">
+<image id="img1003" mime-type="image/jpeg" src="../../media/scr0380-04.jpg" width="547" height="552"/>
+</media>
+
+
+		
+
+<caption>Image E. Program code for the program named ForeverLoop02.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h31015">
+<title>
+<emphasis id="Pseudocode_for_the_program_named_ForeverLoop02" effect="bold">
+
+Pseudocode for the program named ForeverLoop02
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1039">
+When the user clicks the green flag, the program implements the pseudocode 
+shown in 
+
+<link id="a1067" target-id="Image_F">
+
+Image F
+
+</link>
+
+.
+
+</para>
+
+
+
+
+	
+
+<figure id="figure1005" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_F" effect="bold">
+</emphasis>
+Image F. Pseudocode for the program named ForeverLoop02.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<code id="pre1001" display="block">Move the cat to the center of the stage.
+Turn the cat to face to the right.
+Set counter to 0.
+
+while(true){//infinite loop
+  if(counter &lt; 20){
+    Increment counter by 1.
+    Change to next costume image
+    Move cat forward 10 steps.
+    Wait 0.1 seconds.
+    Turn cat clockwise 15 degrees.
+  }//end if statement
+}//end infinite while loop
+</code>
+
+
+				
+
+<caption>Image F. Pseudocode for the program named ForeverLoop02.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h31016">
+<title>
+<emphasis id="A_counter_variable" effect="bold">
+
+A counter variable
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1040">
+The program creates a variable named 
+
+<emphasis id="strong1067" effect="bold">
+counter
+
+</emphasis>
+ and initializes its value 
+to zero. The code in the 
+
+<emphasis id="strong1068" effect="bold">
+if
+
+</emphasis>
+ block increments the counter by one 
+during each iteration. For a counter limit value of 20, the code inside the
+
+
+<emphasis id="strong1069" effect="bold">
+if
+
+</emphasis>
+ block is executed 20 times.
+
+</para>
+
+
+
+
+<para id="p1041">
+When the user clicks the green flag, the first 20 iterations of the 
+
+<emphasis id="strong1070" effect="bold">
+
+forever
+
+</emphasis>
+ loop cause the cat to walk about 80-percent of the way around the 
+circumference of a small circle.
+
+</para>
+
+
+
+
+<quote id="blockquote1001" display="block">
+<emphasis id="em1017" effect="italics">
+Note that the 
+
+<emphasis id="strong1071" effect="bold">
+forever
+
+</emphasis>
+ loop continues to iterate 
+even after the conditional clause in the 
+
+<emphasis id="strong1072" effect="bold">
+if
+
+</emphasis>
+ block goes to false. Be 
+sure to click the red stop button in the upper-right corner of the stage to 
+terminate the 
+
+<emphasis id="strong1073" effect="bold">
+forever
+
+</emphasis>
+ loop. Otherwise, you may find other 
+applications on your computer running very slowly.
+
+</emphasis>
+</quote>
+
+
+
+
+</section>
+<section id="h31017">
+<title>
+<emphasis id="Noscreenshotoftheoutput2" effect="bold">
+
+No screen shot of the output
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1042">
+Again, because this program is animated, a screen shot of the Stage wouldn't 
+impart much information so I won't show you one. You can copy the code from 
+
+
+<link id="a1068" target-id="Image_E">
+
+Image E
+
+</link>
+
+ and run the program yourself. Also, the program has been posted online so 
+that you can run it from there. 
+
+<emphasis id="em1018" effect="italics">
+(See the link to the online version in
+
+
+<link id="a1069" target-id="Resources">
+
+Resources
+
+</link>
+
+.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21003">
+<title>
+<emphasis id="The_program_named_RepeatUntil01" effect="bold">
+
+The program named RepeatUntil01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1043">
+This program uses a 
+
+<emphasis id="strong1074" effect="bold">
+repeat until
+
+</emphasis>
+ block to construct a loop structure. 
+This block makes it possible to create a loop that is similar, but different 
+from a 
+
+<emphasis id="strong1075" effect="bold">
+do-while
+
+</emphasis>
+ loop in Java.
+
+</para>
+
+
+
+
+<section id="h31018">
+<title>
+<emphasis id="Program_behavior" effect="bold">
+
+Program behavior
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1044">
+When the user clicks the green flag, the program implements the pseudocode 
+shown in 
+
+<link id="a1070" target-id="Image_G">
+
+Image G
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+	
+
+<figure id="figure1006" type="figure">
+<label>Figure</label>
+
+
+		
+
+
+			
+
+
+				
+
+<title>
+<emphasis id="Image_G" effect="bold">
+</emphasis>
+Image G. Pseudocode for the program named RepeatUntil01.
+</title>
+
+			
+
+
+		
+
+
+
+		
+
+
+			
+
+
+				
+
+
+				
+
+<code id="pre1002" display="block">Move the cat to the center of the stage.
+Turn the cat to face to the right.
+
+repeat until user presses space bar{
+  Change to next costume image
+  Move cat forward 10 steps.
+  Wait 0.1 seconds.
+  Turn cat clockwise 15 degrees.
+}//end repeat until block
+
+Move the cat to the center of the stage.
+Turn the cat to face to the right.
+Cause the cat to think (Hmm...)
+</code>
+
+
+				
+
+<caption>Image G. Pseudocode for the program named RepeatUntil01.</caption>
+</figure>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<section id="h31019">
+<title>
+<emphasis id="Program_code_for_the_program_named_RepeatUntil01" effect="bold">
+
+Program code for the program named RepeatUntil01
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1045">
+The code for this program is shown in 
+
+<link id="a1071" target-id="Image_H">
+
+Image H
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<figure id="figure1007" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_H" effect="bold">
+</emphasis>
+Image H. Program code for the program named RepeatUntil01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1004" alt="Missing image." display="block">
+<image id="img1004" mime-type="image/jpeg" src="../../media/scr0380-05.jpg" width="542" height="470"/>
+</media>
+
+
+		
+
+<caption>Image H. Program code for the program named RepeatUntil01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h31020">
+<title>
+<emphasis id="What_does_the_cat_do" effect="bold">
+
+What does the cat do?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1046">
+When the user clicks the green flag, the cat 
+
+</para>
+
+
+
+
+<list id="ul1013" list-type="bulleted">
+
+	
+
+<item id="li1063">
+Goes to the center of the screen.
+
+</item>
+
+
+	
+
+<item id="li1064">
+Turns to fact to the right.
+
+</item>
+
+
+	
+
+<item id="li1065">
+Starts running in a circle.
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+<para id="p1047">
+The cat continues to run in the circle until the user presses the space bar, 
+at which point the 
+
+<emphasis id="strong1076" effect="bold">
+repeat until
+
+</emphasis>
+ loop terminates.
+
+</para>
+
+
+
+
+<quote id="blockquote1002" display="block">
+<emphasis id="em1019" effect="italics">
+On my computer, you must hold the space bar down for a short 
+period of time. Simply tapping the space bar doesn't work.
+
+</emphasis>
+</quote>
+
+
+
+
+<para id="p1048">
+Then the cat moves back to the center facing to the right where it executes a
+
+
+<emphasis id="strong1077" effect="bold">
+think
+
+</emphasis>
+ block, producing the output shown in 
+
+<link id="a1072" target-id="Image_I">
+
+Image I
+
+</link>
+
+.
+
+</para>
+
+
+
+
+
+<figure id="figure1008" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_I" effect="bold">
+</emphasis>
+Image I. Final screen output from the program named RepeatUntil01.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1005" alt="Missing image." display="block">
+<image id="img1005" mime-type="image/jpeg" src="../../media/scr0380-06.jpg" width="428" height="321"/>
+</media>
+
+
+		
+
+<caption>Image I. Final screen output from the program named RepeatUntil01.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+</section>
+<section id="h31021">
+<title>
+<emphasis id="Doesnt_have_to_be_the_last_block_in_the_script" effect="bold">
+
+Doesn't have to be the last block in the script
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1049">
+Unlike the 
+
+<emphasis id="strong1078" effect="bold">
+forever
+
+</emphasis>
+ block, it is 
+possible to connect another block to the bottom of a 
+
+<emphasis id="strong1079" effect="bold">
+repeat until
+
+</emphasis>
+ block. 
+Therefore, it is not necessary for a 
+
+<emphasis id="strong1080" effect="bold">
+repeat until
+
+</emphasis>
+ block to be the last 
+block in a script. This means that a program can continue to execute a 
+
+<emphasis id="strong1081" effect="bold">
+repeat 
+until
+
+</emphasis>
+ block until a specified condition becomes true, and then move on to 
+execute additional code.
+
+</para>
+
+
+
+
+<para id="p1050">
+This structure is more similar to the structures typically found in modern 
+programming languages than are the structures required by the 
+
+<emphasis id="strong1082" effect="bold">
+forever
+
+</emphasis>
+ 
+block. However, most modern programming structures repeat something 
+
+<emphasis id="strong1083" effect="bold">
+while
+
+</emphasis>
+ 
+a condition is true instead of repeating it 
+
+<emphasis id="strong1084" effect="bold">
+until
+
+</emphasis>
+ a condition becomes 
+true.
+
+</para>
+
+
+
+
+</section>
+<section id="h31022">
+<title>
+<emphasis id="Available_online" effect="bold">
+
+Available online
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1051">
+At the real risk of becoming really boring, I will tell you again that you 
+can copy the code from 
+
+<link id="a1073" target-id="Image_H">
+
+Image H
+
+</link>
+
+ and run your own copy of the program. Also, the program 
+has been posted online so that you can run it from there. 
+
+<emphasis id="em1020" effect="italics">
+(See the link to 
+the online version in 
+
+<link id="a1074" target-id="Resources">
+
+Resources
+
+</link>
+
+.)
+
+</emphasis>
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h21004">
+<title>
+<emphasis id="The_loop_blocks" effect="bold">
+
+The loop blocks
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1052">
+The three blocks shown in 
+
+<link id="a1075" target-id="Image_J">
+
+Image J
+
+</link>
+
+ are the only blocks available to create loop structures in Scratch version 2.0.
+
+<emphasis id="em1021" effect="italics">
+ 
+
+
+</emphasis>
+</para>
+
+
+
+
+<quote id="blockquote1003" display="block">
+<emphasis id="em1022" effect="italics">
+ (The
+
+
+</emphasis>
+<emphasis id="strong1085" effect="bold">
+<emphasis id="em1023" effect="italics">
+forever if
+
+</emphasis>
+</emphasis>
+<emphasis id="em1024" effect="italics">
+ block that was available in v1.4 
+is no longer available in v2.0. However, its functionality can approximated by embedding an 
+
+<emphasis id="strong1086" effect="bold">
+if
+
+</emphasis>
+ block in a 
+
+<emphasis id="strong1087" effect="bold">
+forever
+
+</emphasis>
+ 
+block.)
+
+</emphasis>
+</quote>
+
+
+
+
+
+<figure id="figure1009" type="figure">
+<label>Figure</label>
+
+
+	
+
+
+		
+
+
+			
+
+<title>
+<emphasis id="Image_J" effect="bold">
+</emphasis>
+Image J. Blocks that can be used to create loop structures  			in v2.0.
+</title>
+
+		
+
+
+	
+
+
+
+	
+
+
+		
+
+
+		
+
+<media id="media1006" alt="Missing image." display="block">
+<image id="img1006" mime-type="image/jpeg" src="../../media/scr0380-07.jpg" width="329" height="442"/>
+</media>
+
+
+		
+
+<caption>Image J. Blocks that can be used to create loop structures  			in v2.0.</caption>
+</figure>
+
+	
+
+
+
+
+
+
+
+
+<para id="p1053">
+In this and the previous program, I have provided discussions and sample 
+programs using the three blocks in 
+
+<link id="a1076" target-id="Image_J">
+
+Image J
+
+</link>
+
+ as well as a discussion and sample 
+program for a 
+
+<emphasis id="strong1088" effect="bold">
+forever
+
+</emphasis>
+ block with an embedded 
+
+<emphasis id="strong1089" effect="bold">
+if
+
+</emphasis>
+ 
+block.
+
+</para>
+
+
+
+
+</section>
+</section>
+<section id="h11005">
+<title>
+<emphasis id="Run_the_program" effect="bold">
+
+Run the programs
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1054">
+I encourage you to use the information provided above to write and run these 
+three programs. Experiment with the code, making changes, and observing the 
+results of your changes. Make certain that you can explain why your changes 
+behave as they do.
+
+</para>
+
+
+
+
+<para id="p1055">
+Just for fun, see if you can cause the cat to change color as it marches 
+around in the circle.
+
+</para>
+
+
+
+
+<para id="p1056">
+I also encourage you to write the program described below.
+
+</para>
+
+
+
+
+
+</section>
+<section id="h11006">
+<title>
+<emphasis id="Student_programming_project" effect="bold">
+
+Student programming project
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1057">
+Write a program named 
+
+<emphasis id="strong1090" effect="bold">
+ForeverLoop03
+
+</emphasis>
+ that is very similar to the 
+program named 
+
+<emphasis id="strong1091" effect="bold">
+ForeverLoop01
+
+</emphasis>
+. Once again, the cat marches in a circle when 
+the user holds down the space bar 
+
+<emphasis id="em1025" effect="italics">
+(after first clicking the green flag)
+
+</emphasis>
+. 
+However, this program also produces an audio output that is a nice drumbeat and 
+the cat marches in synchronism with the drumbeat.
+
+</para>
+
+
+
+
+<para id="p1058">
+My version of this program has been posted online so that you can run it from 
+there. 
+
+<emphasis id="em1026" effect="italics">
+(See 
+
+<link id="a1077" target-id="Resources">
+
+Resources
+
+</link>
+
+ for the link 
+to the online version.)
+
+</emphasis>
+</para>
+
+
+
+
+<quote id="blockquote1004" display="block">
+Because of the speed of my computer and the speed of my Internet 
+connection, the synchronization of the drumbeat and the animation in v2.0 is not 
+as good as it was when running the program locally under v1.4. Losing the 
+ability to run Scratch programs locally is one disadvantage of the changes that 
+were made in v2.0.
+
+</quote>
+
+
+
+
+</section>
+<section id="h11007">
+<title>
+<emphasis id="Summary" effect="bold">
+
+Summary
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1059">
+In this module, I presented and explained three Scratch programs. One program 
+uses a 
+
+<emphasis id="strong1092" effect="bold">
+forever
+
+</emphasis>
+ block in conjunction with an embedded 
+
+<emphasis id="strong1093" effect="bold">
+if
+
+</emphasis>
+ 
+block to cause a sprite to move in a small circle while 
+the space bar is pressed. I explained that it is not possible to connect another 
+block to the bottom of a 
+
+<emphasis id="strong1094" effect="bold">
+forever
+
+</emphasis>
+ block. Therefore, if you use a 
+
+<emphasis id="strong1095" effect="bold">
+
+forever
+
+</emphasis>
+ block, it must be the last 
+block in the script in which it is contained.
+
+</para>
+
+
+
+
+<para id="p1060">
+The second program uses a 
+
+<emphasis id="strong1096" effect="bold">
+forever
+
+</emphasis>
+ block in conjunction with an 
+embedded 
+
+<emphasis id="strong1097" effect="bold">
+if
+
+</emphasis>
+ block and a counter variable to create a counter loop. 
+That program was used as the jumping-off point for a discussion of the 
+similarities and differences between a 
+
+<emphasis id="strong1098" effect="bold">
+forever/if
+
+</emphasis>
+ block combination and a 
+
+<emphasis id="strong1099" effect="bold">
+repeat
+
+</emphasis>
+ 
+block.
+
+</para>
+
+
+
+
+<para id="p1061">
+The third program uses a 
+
+<emphasis id="strong1100" effect="bold">
+repeat until
+
+</emphasis>
+ block to cause a sprite to run 
+in a small circle until the user presses the space bar. I pointed out that 
+unlike the 
+
+<emphasis id="strong1101" effect="bold">
+forever
+
+</emphasis>
+ block, it is possible to connect another block to 
+the bottom of a 
+
+<emphasis id="strong1102" effect="bold">
+repeat until
+
+</emphasis>
+ block. Therefore, it is not necessary for a
+
+
+<emphasis id="strong1103" effect="bold">
+repeat until
+
+</emphasis>
+ block to be the last block in a script.
+
+</para>
+
+
+
+
+<para id="p1062">
+Finally, I provided the specifications for a student-programming project for 
+you to demonstrate your understanding of what you learned from the three 
+programs listed above and from earlier modules.
+
+</para>
+
+
+
+
+</section>
+<section id="h11008">
+<title>
+<emphasis id="Whats_next" effect="bold">
+
+What's next?
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1063">
+One of the new features of Scratch v2.0 is the ability for you to create your 
+own blocks. The next module will discuss that feature.
+
+</para>
+
+
+
+
+</section>
+<section id="h11009">
+<title>
+<emphasis id="Resources" effect="bold">
+
+Resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<section id="h21005">
+<title>
+<emphasis id="General_resources" effect="bold">
+
+General resources
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1014" list-type="bulleted">
+
+	
+
+<item id="li1066">
+<link id="a1078" url="http://scratch.mit.edu/">
+
+Scratch home
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1067">
+<link id="a1079" url="http://mit.edu/~sil/www/scratch/">
+
+Scratch tutorials
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1068">
+<link id="a1080" url="http://www.code.org/learn/scratch">
+
+Scratch explanatory video
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1069">
+<link id="a1081" url="http://info.scratch.mit.edu/Video_Tutorials">
+
+Scratch tutorials from 
+MIT
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1070">
+<link id="a1082" url="http://www.digitalartforall.com/category/scratchtutorials/">
+
+Scratch 
+tutorial - Digital Art for All
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1071">
+<link id="a1083" url="http://cs.harvard.edu/malan/scratch/">
+
+Scratch for Budding Computer 
+Scientists
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1072">
+<link id="a1084" url="http://learnscratch.org/">
+
+Learn Scratch at learnscratch.org
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1073">
+
+	
+
+<link id="a1085" url="http://scratched.media.mit.edu/resources/scratch-tutorial-space-shuttle-mission-sts-2020">
+
+Scratch Tutorial - Space Shuttle Mission STS-2020
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1074">
+<link id="a1086" url="http://ictinprimary.webnode.es/scracth-tutorials/">
+
+SCRATCH TUTORIALS 
+ICT In Primary Education 2012-2013
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1075">
+<link id="a1087" url="http://wiki.scratch.mit.edu/wiki/Main_Page">
+
+Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1076">
+
+	
+
+<link id="a1088" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Website">
+
+Scratch WikiTable of ContentsWebsite - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1077">
+
+	
+
+<link id="a1089" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Tutorials">
+
+Scratch WikiTable of ContentsTutorials - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1078">
+
+	
+
+<link id="a1090" url="http://wiki.scratch.mit.edu/wiki/Scratch_Wiki:Table_of_Contents/Program">
+
+Scratch WikiTable of ContentsProgram - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1079">
+<link id="a1091" url="http://wiki.scratch.mit.edu/wiki/Tutorial_about_Variables">
+
+Tutorial 
+about Variables - Scratch Wiki
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1080">
+<link id="a1092" url="http://info.scratch.mit.edu/Support">
+
+Scratch support MIT web site
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1081">
+<link id="a1093" url="http://www.scratch.ie/resources">
+
+Scratch resources at Scratch.ie
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1082">
+<link id="a1094" url="http://scratched.media.mit.edu/resources">
+
+ScratchEd Resources
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1083">
+<link id="a1095" url="http://scratch.mit.edu/projects/cremeglace/40150">
+
+Scratch project 
+Day Dream
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1084">
+<link id="a1096" url="http://scratch.mit.edu/projects/Paddle2See/89023">
+
+Scratch project 
+Son of String Art
+
+</link>
+
+
+</item>
+
+
+	
+
+<item id="li1085">
+<link id="a1097" url="http://scratch.mit.edu/projects/turkey3/2576871">
+
+Scratch Project 
+Scratch Tutorial
+
+</link>
+
+ 
+
+</item>
+
+
+	
+
+<item id="li1086">
+<link id="a1098" url="http://www.allaboutcircuits.com/vol_4/chpt_7/8.html">
+
+DeMorgan's 
+theorem
+
+</link>
+
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+</section>
+<section id="h21006">
+<title>
+<emphasis id="Programs_used_in_this_series" effect="bold">
+
+Programs used in this series
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<list id="ul1015" list-type="bulleted">
+
+	
+
+<item id="li1087">
+<link id="a1099" url="http://scratch.mit.edu/projects/dbal/154446">
+
+Variable01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1088">
+<link id="a1100" url="http://scratch.mit.edu/projects/dbal/154452">
+
+Variable02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1089">
+<link id="a1101" url="http://scratch.mit.edu/projects/dbal/154457">
+
+Variable03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1090">
+<link id="a1102" url="http://scratch.mit.edu/projects/dbal/155966">
+
+IfSimple01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1091">
+<link id="a1103" url="http://scratch.mit.edu/projects/dbal/155971">
+
+IfWithVar01
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1092">
+<link id="a1104" url="http://scratch.mit.edu/projects/dbal/156614">
+
+Arithmetic01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1093">
+<link id="a1105" url="http://scratch.mit.edu/projects/dbal/156618">
+
+Arithmetic02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1094">
+<link id="a1106" url="http://scratch.mit.edu/projects/dbal/158029">
+
+Relational01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1095">
+<link id="a1107" url="http://scratch.mit.edu/projects/dbal/158030">
+
+Relational02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1096">
+<link id="a1108" url="http://scratch.mit.edu/projects/dbal/158799">
+
+Logical01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1097">
+<link id="a1109" url="http://scratch.mit.edu/projects/dbal/158800">
+
+Logical02
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1098">
+<link id="a1110" url="http://scratch.mit.edu/projects/dbal/158801">
+
+Logical03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1099">
+<link id="a1111" url="http://scratch.mit.edu/projects/dbal/160656">
+
+ForLoop01
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1100">
+<link id="a1112" url="http://scratch.mit.edu/projects/dbal/160682">
+
+ForLoop02
+
+</link>
+
+ - 
+	Online version of program
+
+</item>
+
+
+	
+
+<item id="li1101">
+<link id="a1113" url="http://scratch.mit.edu/projects/dbal/160713">
+
+ForLoop03
+
+</link>
+
+ - 
+	Online version of student-programming project
+
+</item>
+
+
+	
+
+<item id="li1102">
+<link id="a1114" url="http://scratch.mit.edu/projects/dbal/162534">
+
+ForeverLoop01
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1103">
+<link id="a1115" url="http://scratch.mit.edu/projects/dbal/162536">
+
+ForeverLoop02
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1104">
+<link id="a1116" url="http://scratch.mit.edu/projects/dbal/162538">
+
+RepeatUntil01
+
+</link>
+
+ 
+	- Online version of program
+
+</item>
+
+
+	
+
+<item id="li1105">
+<link id="a1117" url="http://scratch.mit.edu/projects/dbal/162539">
+
+ForeverLoop03
+
+</link>
+
+ 
+	- Online version of student-programming project
+
+</item>
+
+
+
+
+</list>
+
+
+
+
+
+</section>
+</section>
+<section id="h11010">
+<title>
+<emphasis id="Miscellaneous" effect="bold">
+
+Miscellaneous
+
+</emphasis>
+
+
+</title>
+
+
+
+
+<para id="p1064">
+This section contains a variety of miscellaneous information.
+
+</para>
+
+
+
+
+
+	
+
+<note id="note1000" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1104" effect="bold">
+Housekeeping material
+
+</emphasis>
+
+				
+
+<list id="ul1016" list-type="bulleted">
+
+					
+
+<item id="li1106">
+Module name: Scr0380: The forever and repeat until loops 
+					in Scratch 2.0
+
+</item>
+
+
+					
+
+<item id="li1107">
+File: Scr0380.htm
+
+
+</item>
+
+
+					
+
+<item id="li1108">
+Published: 05/19/13
+
+</item>
+
+
+				
+
+</list>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+
+	
+
+<note id="note1001" type="miscellaneous">
+
+
+		
+
+
+			
+
+
+				
+
+<emphasis id="strong1105" effect="bold">
+Disclaimers:
+
+</emphasis>
+<para id="p1065">
+<emphasis id="strong1106" effect="bold">
+Financial
+
+</emphasis>
+: Although the Connexions
+site makes it possible for you to download a PDF file for this
+module at no charge, and also makes it possible for you to
+purchase a pre-printed version of the PDF file, you should be
+aware that some of the HTML elements in this module may not translate well into
+PDF.
+
+</para>
+
+
+				
+
+<para id="p1066">
+I also want you to know that, I receive no financial compensation from the Connexions website even if you purchase 
+	the PDF version of the module.
+
+</para>
+
+
+				
+
+<para id="p1067">
+In the past, unknown individuals have copied my modules from cnx.org, converted them to Kindle books, and 
+				placed them for sale on Amazon.com showing me as the author. I 
+				neither receive compensation for those sales nor do I know who does 
+				receive compensation. If you purchase such a book, please be 
+				aware that it is a copy of a module that is freely 
+				available on cnx.org and that it was made and published without 
+				my prior knowledge.
+
+</para>
+
+
+				
+
+<para id="p1068">
+<emphasis id="strong1107" effect="bold">
+Affiliation
+
+</emphasis>
+: I am a professor of Computer Information 
+	Technology at Austin Community College in Austin, TX.
+	
+
+</para>
+
+
+				
+
+</note>
+
+			
+
+
+		
+
+
+
+
+
+
+
+
+
+<para id="p1069">
+-end- 
+
+</para>
+
+
+
+
+
+
+</section>
+</content>
+
+
+
+
+</document>
