@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="Richard Baldwin">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col11498</md:content-id>
     <md:title>Teaching beginners to code</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</md:license>
     <md:uuid>b1e4005f-3e92-4f01-bcc3-7453057612b8</md:uuid>
-<md:slug>teaching-beginners-to-code</md:slug>
-</metadata>
+    <md:slug>teaching-beginners-to-code</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m45876"/>
     <col:subcollection>
